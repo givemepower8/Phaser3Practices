@@ -1,0 +1,28 @@
+{
+  "name": "phaser3practices",
+  "version": "1.0.0",
+  "description": "Phaser 3 Practices",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/givemepower8/Phaser3Practices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/givemepower8/Phaser3Practices/issues"
+  },
+  "homepage": "https://github.com/givemepower8/Phaser3Practices#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "phaser": "^3.16.2"
+  }
+}
