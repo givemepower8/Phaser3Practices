@@ -1,4 +1,4 @@
-import Phaser from 'Phaser';
+// import Phaser from 'Phaser';
 
 var config = {
   type: Phaser.AUTO,
