@@ -85,8 +85,21 @@ Create is used for generating game objects so to get the game completely set up 
 #### add
 
 ```js
+var config = {
+  title: 'Awesome'
+};
+
+var game = new Phaser.Game(config);
+
 function create() {
   this.add.image(400, 300, 'sky');
+
+  var text = this.add.text(80, 550, '', {
+    font: '16px Courier',
+    fill: '#ffffff'
+  });
+
+  text.setText(['Game Title: ' + game.config.gameTitle]);
 }
 ```
 
