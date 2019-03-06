@@ -2,6 +2,8 @@
 
 Phaser 3 Practices
 
+`npm run dev` which lists the directory
+
 ## Installation
 
 [download](https://phaser.io/download/stable)
@@ -29,7 +31,7 @@ var config = {
   type: Phaser.AUTO,
   width: 800,
   height: 600,
-  backgroundColor: "#2d2d2d",
+  backgroundColor: '#2d2d2d',
   scene: {
     preload: preload,
     create: create,
@@ -61,11 +63,11 @@ image
 
 ```js
 function preload() {
-  this.load.image("sky", "assets/sky.png");
-  this.load.image("ground", "assets/platform.png");
-  this.load.image("star", "assets/star.png");
-  this.load.image("bomb", "assets/bomb.png");
-  this.load.spritesheet("dude", "assets/dude.png", {
+  this.load.image('sky', 'assets/sky.png');
+  this.load.image('ground', 'assets/platform.png');
+  this.load.image('star', 'assets/star.png');
+  this.load.image('bomb', 'assets/bomb.png');
+  this.load.spritesheet('dude', 'assets/dude.png', {
     frameWidth: 32,
     frameHeight: 48
   });
@@ -86,20 +88,20 @@ Create is used for generating game objects so to get the game completely set up 
 
 ```js
 var config = {
-  title: "Awesome"
+  title: 'Awesome'
 };
 
 var game = new Phaser.Game(config);
 
 function create() {
-  this.add.image(400, 300, "sky");
+  this.add.image(400, 300, 'sky');
 
-  var text = this.add.text(80, 550, "", {
-    font: "16px Courier",
-    fill: "#ffffff"
+  var text = this.add.text(80, 550, '', {
+    font: '16px Courier',
+    fill: '#ffffff'
   });
 
-  text.setText(["Game Title: " + game.config.gameTitle]);
+  text.setText(['Game Title: ' + game.config.gameTitle]);
 }
 ```
 
@@ -158,6 +160,11 @@ scenes
 
 background
 
+### graphics
+
+[Canvas Drawing shapes](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
+[Graphics Doc](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Graphics.html)
+
 ### sprite
 
 player
@@ -188,6 +195,7 @@ Official
 - [API docs](https://photonstorm.github.io/phaser3-docs/)
 - [Phaser 3 examples](http://labs.phaser.io/)
 - [Phaser 3 examples code](https://github.com/photonstorm/phaser3-examples)
+- [Phaser 2 examples code](https://github.com/photonstorm/phaser-examples)
 - [community tutorials](http://phaser.io/learn/community-tutorials)
 
 Tutorials

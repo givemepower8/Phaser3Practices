@@ -4,6 +4,7 @@
   "description": "Phaser 3 Practices",
   "scripts": {
     "start": "webpack-dev-server --content-base ./public --open",
+    "dev": "webpack-dev-server --inline --content-base ./public --open",
     "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
