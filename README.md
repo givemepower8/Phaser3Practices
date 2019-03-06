@@ -29,7 +29,7 @@ var config = {
   type: Phaser.AUTO,
   width: 800,
   height: 600,
-  backgroundColor: '#2d2d2d',
+  backgroundColor: "#2d2d2d",
   scene: {
     preload: preload,
     create: create,
@@ -61,11 +61,11 @@ image
 
 ```js
 function preload() {
-  this.load.image('sky', 'assets/sky.png');
-  this.load.image('ground', 'assets/platform.png');
-  this.load.image('star', 'assets/star.png');
-  this.load.image('bomb', 'assets/bomb.png');
-  this.load.spritesheet('dude', 'assets/dude.png', {
+  this.load.image("sky", "assets/sky.png");
+  this.load.image("ground", "assets/platform.png");
+  this.load.image("star", "assets/star.png");
+  this.load.image("bomb", "assets/bomb.png");
+  this.load.spritesheet("dude", "assets/dude.png", {
     frameWidth: 32,
     frameHeight: 48
   });
@@ -86,20 +86,20 @@ Create is used for generating game objects so to get the game completely set up 
 
 ```js
 var config = {
-  title: 'Awesome'
+  title: "Awesome"
 };
 
 var game = new Phaser.Game(config);
 
 function create() {
-  this.add.image(400, 300, 'sky');
+  this.add.image(400, 300, "sky");
 
-  var text = this.add.text(80, 550, '', {
-    font: '16px Courier',
-    fill: '#ffffff'
+  var text = this.add.text(80, 550, "", {
+    font: "16px Courier",
+    fill: "#ffffff"
   });
 
-  text.setText(['Game Title: ' + game.config.gameTitle]);
+  text.setText(["Game Title: " + game.config.gameTitle]);
 }
 ```
 
@@ -197,3 +197,14 @@ Tutorials
 Books
 
 - [An Introduction to HTML5 Game Development with Phaser.js](https://github.com/meanderingleaf/PhaserBookExamples)
+
+https://gamedevacademy.org/phaser-3-tutorial/
+
+community tutorials
+
+[Top-down Infinite Terrain Generation with Phaser 3](https://yorkcs.com/2019/02/25/top-down-infinite-terrain-generation-with-phaser-3/) [TutorialInfiniteTerrain code](https://github.com/jaredyork/TutorialInfiniteTerrain)
+
+Maze
+
+https://www.emanueleferonato.com/tag/maze/
+https://www.emanueleferonato.com/2018/05/24/pure-javascript-a-maze-solving-with-a-bit-of-magic-thanks-to-phaser-and-easystar-js-updated-to-phaser-3-8-0-and-easystar-js-0-4-3/
