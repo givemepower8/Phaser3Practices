@@ -18,22 +18,20 @@
 
       Extends: Phaser.Scene,
 
-      initialize:
+      initialize: function MassAttack(config) {
+        Phaser.Scene.call(this, config)
 
-        function MassAttack(config) {
-          Phaser.Scene.call(this, config)
+        this.gameOptions = {
+          maxDiameter: 1,
+          ballGrowingSpeed: 0.015,
+          balanceFriction: 400
+        };
 
-          this.gameOptions = {
-            maxDiameter: 1,
-            ballGrowingSpeed: 0.015,
-            balanceFriction: 400
-          };
-
-          this.growBall = false;
-          this.canPlay = true;
-          this.ball = null;
-          this.balance = [];
-        },
+        this.growBall = false;
+        this.canPlay = true;
+        this.ball = null;
+        this.balance = [];
+      },
 
       preload: function () {
         this.load.image('ball', 'assets/ball.png');

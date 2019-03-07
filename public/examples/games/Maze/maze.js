@@ -17,12 +17,12 @@ window.onload = function() {
   game = new Phaser.Game(gameConfig);
   window.focus();
   resize();
-  window.addEventListener("resize", resize, false);
+  window.addEventListener('resize', resize, false);
 };
 
 class playGame extends Phaser.Scene {
   constructor() {
-    super("PlayGame");
+    super('PlayGame');
   }
   create() {
     this.mazeGraphics = this.add.graphics();
@@ -39,54 +39,54 @@ class playGame extends Phaser.Scene {
     this.maze[posX][posY] = 0;
     moves.push(posY + posY * gameOptions.mazeWidth);
     while (moves.length) {
-      var possibleDirections = "";
+      var possibleDirections = '';
       if (
         posX + 2 > 0 &&
         posX + 2 < gameOptions.mazeHeight - 1 &&
         this.maze[posX + 2][posY] == 1
       ) {
-        possibleDirections += "S";
+        possibleDirections += 'S';
       }
       if (
         posX - 2 > 0 &&
         posX - 2 < gameOptions.mazeHeight - 1 &&
         this.maze[posX - 2][posY] == 1
       ) {
-        possibleDirections += "N";
+        possibleDirections += 'N';
       }
       if (
         posY - 2 > 0 &&
         posY - 2 < gameOptions.mazeWidth - 1 &&
         this.maze[posX][posY - 2] == 1
       ) {
-        possibleDirections += "W";
+        possibleDirections += 'W';
       }
       if (
         posY + 2 > 0 &&
         posY + 2 < gameOptions.mazeWidth - 1 &&
         this.maze[posX][posY + 2] == 1
       ) {
-        possibleDirections += "E";
+        possibleDirections += 'E';
       }
       if (possibleDirections) {
         var move = Phaser.Math.Between(0, possibleDirections.length - 1);
         switch (possibleDirections[move]) {
-          case "N":
+          case 'N':
             this.maze[posX - 2][posY] = 0;
             this.maze[posX - 1][posY] = 0;
             posX -= 2;
             break;
-          case "S":
+          case 'S':
             this.maze[posX + 2][posY] = 0;
             this.maze[posX + 1][posY] = 0;
             posX += 2;
             break;
-          case "W":
+          case 'W':
             this.maze[posX][posY - 2] = 0;
             this.maze[posX][posY - 1] = 0;
             posY -= 2;
             break;
-          case "E":
+          case 'E':
             this.maze[posX][posY + 2] = 0;
             this.maze[posX][posY + 1] = 0;
             posY += 2;
@@ -144,7 +144,7 @@ class playGame extends Phaser.Scene {
           );
           i++;
         } else {
-          this.scene.start("PlayGame");
+          this.scene.start('PlayGame');
         }
       },
       callbackScope: this,
@@ -153,16 +153,16 @@ class playGame extends Phaser.Scene {
   }
 }
 function resize() {
-  var canvas = document.querySelector("canvas");
+  var canvas = document.querySelector('canvas');
   var windowWidth = window.innerWidth;
   var windowHeight = window.innerHeight;
   var windowRatio = windowWidth / windowHeight;
   var gameRatio = game.config.width / game.config.height;
   if (windowRatio < gameRatio) {
-    canvas.style.width = windowWidth + "px";
-    canvas.style.height = windowWidth / gameRatio + "px";
+    canvas.style.width = windowWidth + 'px';
+    canvas.style.height = windowWidth / gameRatio + 'px';
   } else {
-    canvas.style.width = windowHeight * gameRatio + "px";
-    canvas.style.height = windowHeight + "px";
+    canvas.style.width = windowHeight * gameRatio + 'px';
+    canvas.style.height = windowHeight + 'px';
   }
 }
