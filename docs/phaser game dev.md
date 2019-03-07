@@ -74,8 +74,6 @@ function preload() {
 }
 ```
 
-spritesheet
-
 sound
 
 tilemap
@@ -113,6 +111,34 @@ calculated, and any other miscellaneous tasks are completed. In Phaser, the game
 Update method is called during the core game loop after debug, physics, plugins and the Stage have had their preUpdate methods called. It is used for user input polling and game object collisions and detection. This method is often used to capture game events, such as key presses, button clicks, mouse movement etc, and to then update the game scene variables as a result of those inputs.
 
 It is called on every frame. The engine attempts to execute, at best efforts, 60 times per second, but that is not guaranteed. It is called BEFORE Stage, Tweens, Sounds, Input, Physics, Particles, and Plugins have had their postUpdate methods called.
+
+## Game play
+
+On the scene, there are the character or object controlled by player which interact with many other game objects.
+
+### Animation
+
+atlas
+
+spritesheet
+
+### Group
+
+```js
+function create() {
+  var group = this.add.group();
+
+  var image1 = this.add.image(0, 0, 'img1');
+
+  group.add(image1);
+
+  var image2 = this.add.image(0, 100, 'img2');
+
+  group.add(image2);
+
+  Phaser.Actions.SetXY(group.getChildren(), 400, 300);
+}
+```
 
 ## User Input
 
