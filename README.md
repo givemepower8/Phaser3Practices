@@ -30,31 +30,27 @@ Official
 - [Phaser 2 examples code](https://github.com/photonstorm/phaser-examples)
 - [community tutorials](http://phaser.io/learn/community-tutorials)
 - [Blog](https://phaser.io/phaser3/devlog)
-- [News letter](https://phaser.io/community/newsletter)
-
-Tutorials
-
-<https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser>
+- [Phaser News letter](https://phaser.io/community/newsletter)
 
 Books
 
 - [An Introduction to HTML5 Game Development with Phaser.js](https://github.com/meanderingleaf/PhaserBookExamples)
 
-https://gamedevacademy.org/phaser-3-tutorial/
+Tutorials
 
-community tutorials
+- [2D breakout game Phaser](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser)
+- [gamedev academy phaser3](https://gamedevacademy.org/phaser-3-tutorial/)
+
+Community tutorials
 
 [Top-down Infinite Terrain Generation with Phaser 3](https://yorkcs.com/2019/02/25/top-down-infinite-terrain-generation-with-phaser-3/) [TutorialInfiniteTerrain code](https://github.com/jaredyork/TutorialInfiniteTerrain)
-
-Maze
-
-https://www.emanueleferonato.com/tag/maze/
-https://www.emanueleferonato.com/2018/05/24/pure-javascript-a-maze-solving-with-a-bit-of-magic-thanks-to-phaser-and-easystar-js-updated-to-phaser-3-8-0-and-easystar-js-0-4-3/
-https://rosettacode.org/wiki/Maze_generation
-https://www.emanueleferonato.com/2015/06/30/pure-javascript-perfect-tile-maze-generation-with-a-bit-of-magic-thanks-to-phaser/
 
 https://sprite-storm.com/tutorial/phaser-tutorial/drawing-graphics-phaser/
 
 Developers
 
-Richard Davey
+Richard Davey, Creator
+
+[Richard Davey – Medium](https://medium.com/@photonstorm)
+
+[Emanuele Feronato](https://www.emanueleferonato.com)
