@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>basics</title>
+    <title>100 world bodies</title>
     <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
 </head>
 
 <body>
 
+    <div id="phaser-example"></div>
     <script>
         var config = {
             type: Phaser.AUTO,
             width: 800,
             height: 600,
+            parent: 'phaser-example',
             physics: {
                 default: 'arcade',
                 arcade: {
+                    debug: true,
                     gravity: {
-                        y: 200
+                        y: 100
                     }
                 }
             },
@@ -29,31 +32,31 @@
                 create: create
             }
         };
+
         var game = new Phaser.Game(config);
 
         function preload() {
             this.load.setBaseURL('http://labs.phaser.io');
-            this.load.image('sky', 'assets/skies/space3.png');
-            this.load.image('logo', 'assets/sprites/phaser3-logo.png');
-            this.load.image('red', 'assets/particles/red.png');
+            this.load.image('wizball', 'assets/sprites/wizball.png');
         }
 
         function create() {
-            this.add.image(400, 300, 'sky');
-            var particles = this.add.particles('red');
-            var emitter = particles.createEmitter({
-                speed: 100,
-                scale: {
-                    start: 1,
-                    end: 0
-                },
-                blendMode: 'ADD'
-            });
-            var logo = this.physics.add.image(400, 100, 'logo');
-            logo.setVelocity(100, 200);
-            logo.setBounce(1, 1);
-            logo.setCollideWorldBounds(true);
-            emitter.startFollow(logo);
+            var ball1 = this.physics.add.image(100, 240, 'wizball');
+            var ball2 = this.physics.add.image(700, 240, 'wizball');
+
+            ball1.setCircle(46);
+            ball2.setCircle(46);
+
+            ball1.setCollideWorldBounds(true);
+            ball2.setCollideWorldBounds(true);
+
+            ball1.setBounce(1);
+            ball2.setBounce(1);
+
+            ball1.setVelocity(150);
+            ball2.setVelocity(-200, 60);
+
+            this.physics.add.collider(ball1, ball2);
         }
     </script>
 
