@@ -1,145 +1,163 @@
-class Ship extends Phaser.Physics.Arcade.Sprite {
+<!DOCTYPE html>
+<html lang="en">
 
-    constructor (scene, x, y, points)
-    {
-        super(scene, x, y, 'ship', 2);
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>100 world bodies</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-        scene.sys.add.existing(this);
-        scene.sys.arcadePhysics.add.existing(this);
+<body>
 
-        this.setScale(2);
-        this.play('thrust');
+    <div id="phaser-example"></div>
+    <script>
+        class Ship extends Phaser.Physics.Arcade.Sprite {
 
-        this.speed = 150;
-        this.points = points;
+            constructor(scene, x, y, points) {
+                super(scene, x, y, 'ship', 2);
 
-        this.target;
-        this.targetIndex = -1;
+                scene.sys.add.existing(this);
+                scene.sys.arcadePhysics.add.existing(this);
 
-        this.isSeeking = true;
-        
-        this.seek();
-    }
+                this.setScale(2);
+                this.play('thrust');
 
-    seek ()
-    {
-        //  Pick a random target point
-        var entry = Phaser.Utils.Array.GetRandomExcluding(this.points, this.targetIndex);
+                this.speed = 150;
+                this.points = points;
 
-        this.targetIndex = entry.index;
-        this.target = entry.value;
+                this.target;
+                this.targetIndex = -1;
 
-        this.isSeeking = false;
+                this.isSeeking = true;
 
-        this.scene.sys.tweens.add({
-            targets: this.body.velocity,
-            x: 0,
-            y: 0,
-            ease: 'Linear',
-            duration: 500,
-            onComplete: function (tween, targets, ship)
-            {
-                ship.isSeeking = true;
-                ship.scene.sys.tweens.add({
-                    targets: ship,
-                    speed: 150,
-                    delay: 500,
-                    ease: 'Sine.easeOut',
-                    duration: 1000
+                this.seek();
+            }
+
+            seek() {
+                //  Pick a random target point
+                var entry = Phaser.Utils.Array.GetRandom(this.points, this.targetIndex);
+
+                this.targetIndex = entry.index;
+                this.target = entry.value;
+
+                this.isSeeking = false;
+
+                this.scene.sys.tweens.add({
+                    targets: this.body.velocity,
+                    x: 0,
+                    y: 0,
+                    ease: 'Linear',
+                    duration: 500,
+                    onComplete: function (tween, targets, ship) {
+                        ship.isSeeking = true;
+                        ship.scene.sys.tweens.add({
+                            targets: ship,
+                            speed: 150,
+                            delay: 500,
+                            ease: 'Sine.easeOut',
+                            duration: 1000
+                        });
+                    },
+                    onCompleteParams: [this]
                 });
+            }
+
+            preUpdate(time, delta) {
+                super.preUpdate(time, delta);
+
+                //  Is the ship within the radius of the target?
+                if (this.target && this.target.contains(this.x, this.y)) {
+                    this.seek();
+                } else if (this.isSeeking) {
+                    var angle = Math.atan2(this.target.y - this.y, this.target.x - this.x);
+
+                    this.scene.sys.arcadePhysics.velocityFromRotation(angle, this.speed, this.body.velocity);
+                }
+            }
+
+        }
+
+        let config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600,
+            pixelArt: true,
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: {
+                        y: 0
+                    },
+                    debug: true
+                }
             },
-            onCompleteParams: [ this ]
-        });
-    }
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
 
-    preUpdate (time, delta)
-    {
-        super.preUpdate(time, delta);
+        var g;
+        var bob;
 
-        //  Is the ship within the radius of the target?
-        if (this.target.contains(this.x, this.y))
-        {
-            this.seek();
+        let game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.spritesheet('ship', 'assets/games/lazer/ship.png', {
+                frameWidth: 16,
+                frameHeight: 24
+            });
         }
-        else if (this.isSeeking)
-        {
-            var angle = Math.atan2(this.target.y - this.y, this.target.x - this.x);
 
-            this.scene.sys.arcadePhysics.velocityFromRotation(angle, this.speed, this.body.velocity);
+        function create() {
+            this.anims.create({
+                key: 'thrust',
+                frames: this.anims.generateFrameNumbers('ship', {
+                    frames: [2, 7]
+                }),
+                frameRate: 20,
+                repeat: -1
+            });
+
+            let points = [
+                new Phaser.Geom.Circle(100, 100, 32),
+                new Phaser.Geom.Circle(400, 100, 32),
+                new Phaser.Geom.Circle(700, 100, 32),
+                new Phaser.Geom.Circle(100, 300, 32),
+                new Phaser.Geom.Circle(400, 300, 32),
+                new Phaser.Geom.Circle(700, 300, 32),
+                new Phaser.Geom.Circle(100, 500, 32),
+                new Phaser.Geom.Circle(400, 500, 32),
+                new Phaser.Geom.Circle(700, 500, 32)
+            ];
+
+            var debug = this.add.graphics();
+
+            debug.lineStyle(1, 0x00ff00);
+
+            points.forEach(function (p) {
+                debug.strokeCircleShape(p);
+            });
+
+            g = this.add.graphics();
+
+            bob = new Ship(this, 400, 300, points);
         }
-    }
 
-}
-
-let config = {
-    type: Phaser.AUTO,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    pixelArt: true,
-    physics: {
-        default: 'arcade',
-        arcade: {
-            gravity: { y: 0 },
-            debug: true
+        function update() {
+            g.clear();
+            g.fillStyle(0xff0000);
+            if (bob.target) {
+                g.fillRect(bob.target.x, bob.target.y, 4, 4);
+            }
         }
-    },
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
+    </script>
 
-var g;
-var bob;
+</body>
 
-let game = new Phaser.Game(config);
-
-function preload ()
-{
-    this.load.spritesheet('ship', 'assets/games/lazer/ship.png', { frameWidth: 16, frameHeight: 24 });
-}
-
-function create ()
-{
-    this.anims.create(
-    {
-        key: 'thrust',
-        frames: this.anims.generateFrameNumbers('ship', { frames: [ 2, 7 ] }),
-        frameRate: 20,
-        repeat: -1
-    });
-
-    let points = [
-        new Phaser.Geom.Circle(100, 100, 32),
-        new Phaser.Geom.Circle(400, 100, 32),
-        new Phaser.Geom.Circle(700, 100, 32),
-        new Phaser.Geom.Circle(100, 300, 32),
-        new Phaser.Geom.Circle(400, 300, 32),
-        new Phaser.Geom.Circle(700, 300, 32),
-        new Phaser.Geom.Circle(100, 500, 32),
-        new Phaser.Geom.Circle(400, 500, 32),
-        new Phaser.Geom.Circle(700, 500, 32)
-    ];
-
-    var debug = this.add.graphics();
-
-    debug.lineStyle(1, 0x00ff00);
-
-    points.forEach(function (p)
-    {
-        debug.strokeCircleShape(p);
-    });
-
-    g = this.add.graphics();
-
-    bob = new Ship(this, 400, 300, points);
-}
-
-function update ()
-{
-    g.clear();
-    g.fillStyle(0xff0000);
-    g.fillRect(bob.target.x, bob.target.y, 4, 4);
-}
+</html>

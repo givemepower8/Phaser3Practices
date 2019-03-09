@@ -1,51 +1,69 @@
-var config = {
-    type: Phaser.WEBGL,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    physics: {
-        default: 'arcade',
-        arcade: {
-            debug: true
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>100 world bodies</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.WEBGL,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    debug: true
+                }
+            },
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
+
+        var sprite;
+        var group;
+
+        var game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('mushroom', 'assets/sprites/mushroom2.png');
+            this.load.image('ball', 'assets/sprites/shinyball.png');
         }
-    },
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
 
-var sprite;
-var group;
+        function create() {
+            sprite = this.physics.add.image(400, 300, 'mushroom');
 
-var game = new Phaser.Game(config);
+            group = this.physics.add.staticGroup({
+                key: 'ball',
+                frameQuantity: 30
+            });
 
-function preload ()
-{
-    this.load.image('mushroom', 'assets/sprites/mushroom2.png');
-    this.load.image('ball', 'assets/sprites/shinyball.png');
-}
+            Phaser.Actions.PlaceOnRectangle(group.getChildren(), new Phaser.Geom.Rectangle(84, 84, 616, 416));
 
-function create ()
-{
-    sprite = this.physics.add.image(400, 300, 'mushroom');
+            //  We need to call this because placeOnRectangle has changed the coordinates of all the children
+            //  If we don't call it, the static physics bodies won't be updated to reflect them
+            group.refresh();
 
-    group = this.physics.add.staticGroup({
-        key: 'ball',
-        frameQuantity: 30
-    });
+            sprite.setVelocity(100, 200).setBounce(1, 1).setCollideWorldBounds(true).setGravityY(200);
+        }
 
-    Phaser.Actions.PlaceOnRectangle(group.getChildren(), new Phaser.Geom.Rectangle(84, 84, 616, 416));
+        function update() {
+            this.physics.world.collide(sprite, group);
+        }
+    </script>
 
-    //  We need to call this because placeOnRectangle has changed the coordinates of all the children
-    //  If we don't call it, the static physics bodies won't be updated to reflect them
-    group.refresh();
+</body>
 
-    sprite.setVelocity(100, 200).setBounce(1, 1).setCollideWorldBounds(true).setGravityY(200);
-}
-
-function update ()
-{
-    this.physics.world.collide(sprite, group);
-}
+</html>
