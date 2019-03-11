@@ -4,6 +4,8 @@
 
 Line
 
+Triangle
+
 Rectangle
 
 Circle
