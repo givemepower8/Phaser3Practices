@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var game = new Phaser.Game(800, 400, Phaser.AUTO, '', {
+            preload: preload,
+            create: create,
+            update: update
+        });
+
+        function preload() {
+
+        }
+
+        function create() {
+            var startLine = game.add.graphics(0, 0);
+            startLine.beginFill(0xFF3300);
+            startLine.lineStyle(2, 0xffd900, 1);
+            startLine.moveTo(-100, game.height / 2 - 1);
+            startLine.lineTo(game.width / 2 - 100, game.height / 2 - 1);
+            startLine.endFill();
+
+            /// circle ///
+            var circle = game.add.graphics(game.width / 2 - 100, game.height / 2);
+            circle.lineStyle(0);
+            circle.beginFill(0xFFFF0B, 1);
+            circle.drawCircle(0, 0, 20);
+            circle.endFill();
+
+            ///// line ////
+            var middleLine = game.add.graphics(0, 0);
+            middleLine.beginFill(0xFF1100);
+            middleLine.lineStyle(2, 0xff1100, 1);
+            middleLine.moveTo(game.width / 2 - 90, game.height / 2 - 1);
+            middleLine.lineTo(game.width / 2 + 100, game.height / 2 - 1);
+            middleLine.endFill();
+
+            ////////// circle //////
+            var circle2 = game.add.graphics(game.width / 2 + 100, game.height / 2);
+            circle2.lineStyle(0);
+            circle2.beginFill(0xFFFF0B, 1);
+            circle2.drawCircle(0, 0, 20);
+            circle2.endFill();
+
+            //////////// end line ///////
+            var endLine = game.add.graphics(0, 0);
+            endLine.beginFill(0x149900);
+            endLine.lineStyle(2, 0x149900, 1);
+            endLine.moveTo(game.width / 2 + 100 + 10, game.height / 2 - 1);
+            endLine.lineTo(game.width + 100, game.height / 2 - 1);
+            endLine.endFill();
+
+            reg.circle1 = circle;
+            reg.circle2 = circle2;
+            reg.line1 = startLine;
+            reg.line2 = middleLine;
+            reg.line3 = endLine;
+
+            moveRandomly();
+        }
+
+        var reg = {};
+
+        function update() {
+
+        }
+
+        function moveCircle(item, item2, x, y, x2, y2) {
+            item.initialX = item.x;
+            item.initialY = item.y;
+            item2.initialX = item2.x;
+            item2.initialY = item2.y;
+            var tween = tweenProperty(item, "xy", {
+                x: x,
+                y: y
+            }, 1200, 0, Phaser.Easing.Back.InOut);
+            var tween2 = tweenProperty(item2, "xy", {
+                x: x2,
+                y: y2
+            }, 1200, 0, Phaser.Easing.Back.InOut);
+
+            tween.chain(tween2);
+
+            tween.onUpdateCallback(function (twn, percent, twnData) {
+                redraw(percent, reg.line1, [item.initialX, x], [item.initialY, y], -100, game.height / 2 - 1,
+                    0xffd900);
+                //// middle line //////
+                redrawBoth(percent, reg.line2, [item.initialX + 10, x + 10], [item.initialY, y], [item2.initialX,
+                    x2
+                ], [item2.initialY, y2], 0xFF1100);
+                //// end line /////
+                redraw(percent, reg.line3, [item2.initialX + 10, x2 + 10], [item2.initialY, y2], game.width +
+                    100, game.height / 2 - 1, 0x149900);
+            });
+            tween.onComplete.addOnce(moveRandomly);
+            //drawGfx();
+        }
+
+        function redraw(percent, dataObj, rangeX, rangeY, startPointX, startPointY, color) {
+            //console.log(percent);
+            dataObj.clear();
+            dataObj.beginFill(color);
+            dataObj.lineStyle(2, color, 1);
+            dataObj.moveTo(startPointX, startPointY);
+            var x = Phaser.Math.linearInterpolation(rangeX, percent);
+            var y = Phaser.Math.linearInterpolation(rangeY, percent);
+            //console.log(x, y);
+            dataObj.lineTo(x, y);
+            dataObj.endFill();
+        }
+
+        function redraw2(percent, dataObj, rangeX, rangeY, endPointX, endPointY, color) {
+            //console.log(percent);
+            dataObj.clear();
+            dataObj.beginFill(color);
+            dataObj.lineStyle(2, color, 1);
+            var x = Phaser.Math.linearInterpolation(rangeX, percent);
+            var y = Phaser.Math.linearInterpolation(rangeY, percent);
+            dataObj.moveTo(x, y);
+
+            //console.log(x, y);
+            dataObj.lineTo(endPointX, endPointY);
+            dataObj.endFill();
+        }
+
+        function redrawBoth(percent, dataObj, rangeX, rangeY, endPointX, endPointY, color) {
+            dataObj.clear();
+            dataObj.beginFill(color);
+            dataObj.lineStyle(2, color, 1);
+            var x = Phaser.Math.linearInterpolation(rangeX, percent);
+            var y = Phaser.Math.linearInterpolation(rangeY, percent);
+            dataObj.moveTo(x, y);
+            var x2 = Phaser.Math.linearInterpolation(endPointX, percent);
+            var y2 = Phaser.Math.linearInterpolation(endPointY, percent);
+            //console.log(x, y);
+            dataObj.lineTo(x2, y2);
+            dataObj.endFill();
+        }
+
+        function moveRandomly() {
+            var x = game.rnd.integerInRange(game.width / 2 - 100, game.width / 2 + 100);
+            var y = game.rnd.integerInRange(game.height / 2 - 100, game.height / 2 + 120);
+            var x2 = game.rnd.integerInRange(game.width / 2 - 100, game.width / 2 + 100);
+            var y2 = game.rnd.integerInRange(game.height / 2 - 100, game.height / 2 + 120);
+            moveCircle(reg.circle1, reg.circle2, x, y, x2, y2);
+        }
+
+        function tweenProperty(item, property, obj, duration, delay, easing, yoyo, repeat, reverse) {
+
+            delay = delay || {};
+            easing = easing || Phaser.Easing.Linear.None;
+            yoyo = yoyo || false;
+            repeat = repeat || 0;
+
+            var tween = game.add.tween(item).to(obj, duration, easing, true, delay, repeat, yoyo);
+            tween.reverse = reverse || false;
+            return tween;
+        }
+    </script>
+
+</body>
+
+</html>

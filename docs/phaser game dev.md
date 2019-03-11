@@ -175,13 +175,3 @@ if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT)) {
 ## Game objects
 
 The Game Object Factory is a Scene plugin that allows you to quickly create many common types of Game Objects and have them automatically registered with the Scene. Game Objects directly register themselves with the Factory and inject their own creation methods into the class.
-
-## Physics
-
-### Arcade
-
-[Arcade source code](https://github.com/photonstorm/phaser/tree/v3.16.2/src/physics/arcade)
-
-### Impact
-
-[Impact source code](https://github.com/photonstorm/phaser/tree/v3.16.2/src/physics/impact)

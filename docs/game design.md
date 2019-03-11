@@ -50,19 +50,6 @@ NPCs
 
 ## physics
 
-overlap / collide
-
-```js
-game.physics.arcade.overlap(catcher, cat, catHitHandler);
-
-function catHitHandler(catcherObject, catObject) {
-  catObject.x = Math.random() * game.width;
-  catObject.y = Math.random() * game.height;
-  score++;
-  txtScore.setText(score.toString());
-}
-```
-
 ## Game engine
 
 [HTML5 game engine](http://html5gameengine.com)

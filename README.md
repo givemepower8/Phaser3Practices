@@ -54,3 +54,5 @@ Richard Davey, Creator
 [Richard Davey – Medium](https://medium.com/@photonstorm)
 
 [Emanuele Feronato](https://www.emanueleferonato.com)
+
+[nightlycoding](http://nightlycoding.com/)
