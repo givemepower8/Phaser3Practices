@@ -96,8 +96,6 @@
                 repeat: -1
             });
 
-
-
             cursors = this.input.keyboard.createCursorKeys();
             stars = this.physics.add.group({
                 key: "star",
@@ -112,14 +110,14 @@
             stars.children.iterate(function (child) {
                 child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
             });
-            scoreText = this.add.text(16, 16, 'score: 0', {
-                fontSize: '32px',
-                fill: '#000'
+            scoreText = this.add.text(16, 16, "score: 0", {
+                fontSize: "32px",
+                fill: "#000"
             });
             bombs = this.physics.add.group();
 
             this.physics.add.collider(bombs, platforms);
-
+            this.physics.add.collider(bombs, bombs);
             this.physics.add.collider(player, bombs, hitBomb, null, this);
 
             this.physics.add.collider(player, platforms);
@@ -151,22 +149,22 @@
             star.disableBody(true, true);
 
             score += 10;
-            scoreText.setText('Score: ' + score);
+            scoreText.setText("Score: " + score);
 
             if (stars.countActive(true) === 0) {
                 stars.children.iterate(function (child) {
-
                     child.enableBody(true, child.x, 0, true, true);
-
                 });
 
-                var x = (player.x < 400) ? Phaser.Math.Between(400, 800) : Phaser.Math.Between(0, 400);
-                for (i = 0; i < Phaser.Math.Between(1, 5); i++) {
-                    var bomb = bombs.create(x, 16, 'bomb');
+                var x =
+                    player.x < 400 ?
+                    Phaser.Math.Between(400, 800) :
+                    Phaser.Math.Between(0, 400);
+                for (i = 0; i < Phaser.Math.Between(1, 6); i++) {
+                    var bomb = bombs.create(x, 16, "bomb");
                     bomb.setBounce(Phaser.Math.Between(1, 1.001));
                     bomb.setCollideWorldBounds(true);
-                    bomb.setVelocity(
-                        Phaser.Math.Between(-200, 200), 20);
+                    bomb.setVelocity(Phaser.Math.Between(-200, 200), 20);
                 }
             }
         }
@@ -176,7 +174,7 @@
 
             player.setTint(0xff0000);
 
-            player.anims.play('turn');
+            player.anims.play("turn");
 
             //gameOver = true;
         }
