@@ -112,6 +112,70 @@ Update method is called during the core game loop after debug, physics, plugins 
 
 It is called on every frame. The engine attempts to execute, at best efforts, 60 times per second, but that is not guaranteed. It is called BEFORE Stage, Tweens, Sounds, Input, Physics, Particles, and Plugins have had their postUpdate methods called.
 
+### Multiple scenes
+
+functional scenes
+
+```js
+var loaderScene = {
+  key: 'loaderScene',
+  active: true,
+  preload: loaderScenePreload,
+  create: loaderSceneCreate
+};
+
+var firstScene = {
+  key: 'firstScene',
+  active: false,
+  visible: false,
+  preload: firstScenePreload,
+  create: firstSceneCreate
+};
+
+var secondScene = {
+  key: 'secondScene',
+  active: false,
+  visible: false,
+  preload: secondScenePreload,
+  create: secondSceneCreate
+};
+
+var gameConfig = {
+  type: Phaser.AUTO,
+  parent: 'phaser-example',
+  width: 640,
+  height: 338,
+  scene: [loaderScene, firstScene, secondScene]
+};
+```
+
+in each, use `this.scene.launch('xxxScene')` or start to switch scenes.
+
+Another more proper scenes dev is to use the class scenes
+
+```js
+class SceneA extends Phaser.Scene {
+  constructor() {
+    super('GameScene');
+  }
+
+  preload() {}
+
+  create() {}
+}
+
+class SceneB extends Phaser.Scene {
+  constructor() {
+    super({ key: 'UIScene', active: true });
+  }
+
+  create() {
+    //  Grab a reference to the Game Scene
+    let ourGame = this.scene.get('GameScene');
+  }
+}
+```
+
 ## Game play
 
 On the scene, there are the character or object controlled by player which interact with many other game objects.
