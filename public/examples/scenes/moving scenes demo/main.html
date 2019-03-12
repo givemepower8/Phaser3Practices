@@ -1,10 +1,37 @@
-let config = {
-    type: Phaser.AUTO,
-    width: 1024,
-    height: 600,
-    parent: 'phaser-example',
-    backgroundColor: '#000000',
-    scene: [ Controller, SceneA, SceneB, SceneC, SceneD, SceneE, SceneF ]
-};
+<!DOCTYPE html>
+<html lang="en">
 
-let game = new Phaser.Game(config);
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>100 world bodies</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+    <script src="Controller.js"></script>
+    <script src="SceneA.js"></script>
+    <script src="SceneB.js"></script>
+    <script src="SceneC.js"></script>
+    <script src="SceneD.js"></script>
+    <script src="SceneE.js"></script>
+    <script src="SceneF.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        let config = {
+            type: Phaser.AUTO,
+            width: 1024,
+            height: 600,
+            parent: 'phaser-example',
+            backgroundColor: '#000000',
+            scene: [Controller, SceneA, SceneB, SceneC, SceneD, SceneE, SceneF]
+        };
+
+        let game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>
