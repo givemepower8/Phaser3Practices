@@ -1,117 +1,136 @@
-/* global dat */
+<!DOCTYPE html>
+<html lang="en">
 
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    backgroundColor: 0x222222,
-    parent: 'phaser-example',
-    physics: {
-        default: 'arcade',
-        arcade: { debug: true }
-    },
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>100 world bodies</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-var balls;
-var blocks;
-var graphics;
+<body>
 
-new Phaser.Game(config);
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            backgroundColor: 0x222222,
+            parent: 'phaser-example',
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    debug: true
+                }
+            },
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
 
-function preload ()
-{
-    this.load.image('ball', 'assets/sprites/yellow_ball.png');
-    this.load.image('block', 'assets/sprites/32x32.png');
-}
+        var balls;
+        var blocks;
+        var graphics;
 
-function create ()
-{
-    // this.physics.world.setBounds(50, 50, 700, 500);
+        new Phaser.Game(config);
 
-    graphics = this.add.graphics();
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('ball', 'assets/sprites/yellow_ball.png');
+            this.load.image('block', 'assets/sprites/32x32.png');
+        }
 
-    blocks = this.physics.add.staticGroup({
-        key: 'block',
-        frameQuantity: 20
-    });
+        function create() {
+            // this.physics.world.setBounds(50, 50, 700, 500);
 
-    Phaser.Actions.PlaceOnRectangle(blocks.getChildren(), new Phaser.Geom.Rectangle(100, 100, 600, 400));
+            graphics = this.add.graphics();
 
-    blocks.refresh();
+            blocks = this.physics.add.staticGroup({
+                key: 'block',
+                frameQuantity: 20
+            });
 
-    balls = this.physics.add.group({
-        key: 'ball',
-        frameQuantity: 12,
-        collideWorldBounds: true,
-        bounceX: 1,
-        bounceY: 1,
-        velocityX: 200,
-        velocityY: 200
-    });
+            Phaser.Actions.PlaceOnRectangle(blocks.getChildren(), new Phaser.Geom.Rectangle(100, 100, 600, 400));
 
-    Phaser.Actions.RandomRectangle(balls.getChildren(), this.physics.world.bounds);
+            blocks.refresh();
 
-    this.physics.add.collider(balls);
-    this.physics.add.collider(balls, blocks);
+            balls = this.physics.add.group({
+                key: 'ball',
+                frameQuantity: 12,
+                collideWorldBounds: true,
+                bounceX: 1,
+                bounceY: 1,
+                velocityX: 200,
+                velocityY: 200
+            });
 
-    createWorldGui(this.physics.world);
-}
+            Phaser.Actions.RandomRectangle(balls.getChildren(), this.physics.world.bounds);
 
-function update ()
-{
-    this.physics.world.wrap(balls);
+            this.physics.add.collider(balls);
+            this.physics.add.collider(balls, blocks);
 
-    graphics.clear().fillStyle(0).fillRectShape(this.physics.world.bounds);
-}
+            createWorldGui(this.physics.world);
+        }
 
-function createWorldGui (world)
-{
-    var gui = new dat.GUI({ width: 400 });
+        function update() {
+            this.physics.world.wrap(balls);
 
-    var bounds = gui.addFolder('bounds');
-    bounds.add(world.bounds, 'x', -400, 400, 10);
-    bounds.add(world.bounds, 'y', -300, 300, 10);
-    bounds.add(world.bounds, 'width', 0, 800, 10);
-    bounds.add(world.bounds, 'height', 0, 600, 10);
+            graphics.clear().fillStyle(0).fillRectShape(this.physics.world.bounds);
+        }
 
-    var check = gui.addFolder('checkCollision');
-    check.add(world.checkCollision, 'left');
-    check.add(world.checkCollision, 'up');
-    check.add(world.checkCollision, 'right');
-    check.add(world.checkCollision, 'down');
+        function createWorldGui(world) {
+            var gui = new dat.GUI({
+                width: 400
+            });
 
-    var defaults = gui.addFolder('defaults');
-    defaults.add(world.defaults, 'debugShowBody');
-    defaults.add(world.defaults, 'debugShowStaticBody');
-    defaults.add(world.defaults, 'debugShowVelocity');
-    defaults.addColor(world.defaults, 'bodyDebugColor');
-    defaults.addColor(world.defaults, 'staticBodyDebugColor');
-    defaults.addColor(world.defaults, 'velocityDebugColor');
+            var bounds = gui.addFolder('bounds');
+            bounds.add(world.bounds, 'x', -400, 400, 10);
+            bounds.add(world.bounds, 'y', -300, 300, 10);
+            bounds.add(world.bounds, 'width', 0, 800, 10);
+            bounds.add(world.bounds, 'height', 0, 600, 10);
 
-    var debug = gui.addFolder('debugGraphic');
-    debug.add(world.debugGraphic, 'visible');
-    debug.add(world.debugGraphic, 'clear');
+            var check = gui.addFolder('checkCollision');
+            check.add(world.checkCollision, 'left');
+            check.add(world.checkCollision, 'up');
+            check.add(world.checkCollision, 'right');
+            check.add(world.checkCollision, 'down');
 
-    gui.add(world, 'drawDebug');
+            var defaults = gui.addFolder('defaults');
+            defaults.add(world.defaults, 'debugShowBody');
+            defaults.add(world.defaults, 'debugShowStaticBody');
+            defaults.add(world.defaults, 'debugShowVelocity');
+            defaults.addColor(world.defaults, 'bodyDebugColor');
+            defaults.addColor(world.defaults, 'staticBodyDebugColor');
+            defaults.addColor(world.defaults, 'velocityDebugColor');
 
-    gui.add(world, 'forceX');
+            var debug = gui.addFolder('debugGraphic');
+            debug.add(world.debugGraphic, 'visible');
+            debug.add(world.debugGraphic, 'clear');
 
-    var gravity = gui.addFolder('gravity');
-    gravity.add(world.gravity, 'x', -300, 300, 10);
-    gravity.add(world.gravity, 'y', -300, 300, 10);
+            gui.add(world, 'drawDebug');
 
-    // gui.add(world, 'isPaused');
+            gui.add(world, 'forceX');
 
-    gui.add(world, 'OVERLAP_BIAS', -8, 8, 1);
+            var gravity = gui.addFolder('gravity');
+            gravity.add(world.gravity, 'x', -300, 300, 10);
+            gravity.add(world.gravity, 'y', -300, 300, 10);
 
-    gui.add(world, 'pause');
+            // gui.add(world, 'isPaused');
 
-    gui.add(world, 'resume');
+            gui.add(world, 'OVERLAP_BIAS', -8, 8, 1);
 
-    return gui;
-}
+            gui.add(world, 'pause');
+
+            gui.add(world, 'resume');
+
+            return gui;
+        }
+    </script>
+
+</body>
+
+</html>

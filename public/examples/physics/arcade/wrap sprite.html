@@ -1,39 +1,59 @@
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    physics: {
-        default: 'arcade',
-        arcade: {
-            debug: false,
-            gravity: { y: 0 }
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>100 world bodies</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    debug: false,
+                    gravity: {
+                        y: 0
+                    }
+                }
+            },
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
+
+        var block;
+
+        var game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('block', 'assets/sprites/block.png');
         }
-    },
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
 
-var block;
+        function create() {
+            block = this.physics.add.image(0, 0, 'block');
 
-var game = new Phaser.Game(config);
+            block.setVelocity(150, 150);
+        }
 
-function preload ()
-{
-    this.load.image('block', 'assets/sprites/block.png');
-}
+        function update() {
+            this.physics.world.wrap(block, 48);
+        }
+    </script>
 
-function create ()
-{
-    block = this.physics.add.image(0, 0, 'block');
+</body>
 
-    block.setVelocity(150, 150);
-}
-
-function update ()
-{
-    this.physics.world.wrap(block, 48);
-}
+</html>
