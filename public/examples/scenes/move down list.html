@@ -1,84 +1,107 @@
-var DemoA = new Phaser.Class({
+<!DOCTYPE html>
+<html lang="en">
 
-    Extends: Phaser.Scene,
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    initialize:
+<body>
 
-    function DemoA ()
-    {
-        Phaser.Scene.call(this, { key: 'demoA', active: true });
-    },
+    <div id="phaser-example"></div>
+    <script>
+        var DemoA = new Phaser.Class({
 
-    preload: function ()
-    {
-        this.load.image('picA', 'assets/pics/lance-overdose-loader-eye.png');
-    },
+            Extends: Phaser.Scene,
 
-    create: function ()
-    {
-        this.add.image(400, 300, 'picA');
+            initialize:
 
-        this.input.on('pointerup', function () {
+                function DemoA() {
+                    Phaser.Scene.call(this, {
+                        key: 'demoA',
+                        active: true
+                    });
+                },
 
-            this.scene.moveDown();
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('picA', 'assets/pics/lance-overdose-loader-eye.png');
+            },
 
-        }, this);
-    }
+            create: function () {
+                this.add.image(400, 300, 'picA');
 
-});
+                this.input.on('pointerup', function () {
 
-var DemoB = new Phaser.Class({
+                    this.scene.moveDown();
 
-    Extends: Phaser.Scene,
+                }, this);
+            }
 
-    initialize:
+        });
 
-    function DemoB ()
-    {
-        Phaser.Scene.call(this, { key: 'demoB', active: true });
-    },
+        var DemoB = new Phaser.Class({
 
-    preload: function ()
-    {
-        this.load.image('picB', 'assets/pics/sukasuka-chtholly.png');
-    },
+            Extends: Phaser.Scene,
 
-    create: function ()
-    {
-        this.add.image(400, 500, 'picB');
-    }
+            initialize:
 
-});
+                function DemoB() {
+                    Phaser.Scene.call(this, {
+                        key: 'demoB',
+                        active: true
+                    });
+                },
 
-var DemoC = new Phaser.Class({
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('picB', 'assets/pics/sukasuka-chtholly.png');
+            },
 
-    Extends: Phaser.Scene,
+            create: function () {
+                this.add.image(400, 500, 'picB');
+            }
 
-    initialize:
+        });
 
-    function DemoC ()
-    {
-        Phaser.Scene.call(this, { key: 'demoC', active: true });
-    },
+        var DemoC = new Phaser.Class({
 
-    preload: function ()
-    {
-        this.load.image('picC', 'assets/pics/titan-mech.png');
-    },
+            Extends: Phaser.Scene,
 
-    create: function ()
-    {
-        this.add.image(300, 300, 'picC');
-    }
+            initialize:
 
-});
+                function DemoC() {
+                    Phaser.Scene.call(this, {
+                        key: 'demoC',
+                        active: true
+                    });
+                },
 
-var config = {
-    type: Phaser.WEBGL,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: [ DemoB, DemoC, DemoA ]
-};
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('picC', 'assets/pics/titan-mech.png');
+            },
 
-var game = new Phaser.Game(config);
+            create: function () {
+                this.add.image(300, 300, 'picC');
+            }
+
+        });
+
+        var config = {
+            type: Phaser.WEBGL,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            scene: [DemoB, DemoC, DemoA]
+        };
+
+        var game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>

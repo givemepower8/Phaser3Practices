@@ -1,121 +1,130 @@
-var SceneA = new Phaser.Class({
+<!DOCTYPE html>
+<html lang="en">
 
-    Extends: Phaser.Scene,
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    initialize:
+<body>
 
-    function SceneA ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneA' });
-    },
+    <div id="phaser-example"></div>
+    <script>
+        var SceneA = new Phaser.Class({
 
-    preload: function ()
-    {
-        this.load.image('face', 'assets/pics/bw-face.png');
-        this.load.image('arrow', 'assets/sprites/longarrow.png');
-    },
+            Extends: Phaser.Scene,
 
-    create: function ()
-    {
-        console.log('SceneA');
+            initialize: function SceneA() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneA'
+                });
+            },
 
-        this.scene.start('sceneB');
-    }
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('face', 'assets/pics/bw-face.png');
+                this.load.image('arrow', 'assets/sprites/longarrow.png');
+            },
 
-});
+            create: function () {
+                console.log('SceneA');
 
-var SceneB = new Phaser.Class({
+                this.scene.start('sceneB');
+            }
 
-    Extends: Phaser.Scene,
+        });
 
-    initialize:
+        var SceneB = new Phaser.Class({
 
-    function SceneB ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneB' });
-    },
+            Extends: Phaser.Scene,
 
-    create: function ()
-    {
-        console.log('SceneB');
+            initialize: function SceneB() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneB'
+                });
+            },
 
-        this.scene.start('sceneC');
-    }
+            create: function () {
+                console.log('SceneB');
 
-});
+                this.scene.start('sceneC');
+            }
 
-var SceneC = new Phaser.Class({
+        });
 
-    Extends: Phaser.Scene,
+        var SceneC = new Phaser.Class({
 
-    initialize:
+            Extends: Phaser.Scene,
 
-    function SceneC ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneC' });
-    },
+            initialize: function SceneC() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneC'
+                });
+            },
 
-    create: function ()
-    {
-        console.log('SceneC');
+            create: function () {
+                console.log('SceneC');
 
-        this.scene.start('sceneD');
-    }
+                this.scene.start('sceneD');
+            }
 
-});
+        });
 
-var SceneD = new Phaser.Class({
+        var SceneD = new Phaser.Class({
 
-    Extends: Phaser.Scene,
+            Extends: Phaser.Scene,
 
-    initialize:
+            initialize: function SceneD() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneD'
+                });
+            },
 
-    function SceneD ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneD' });
-    },
+            create: function () {
+                console.log('SceneD');
 
-    create: function ()
-    {
-        console.log('SceneD');
+                this.scene.start('sceneE');
+            }
 
-        this.scene.start('sceneE');
-    }
+        });
 
-});
+        var SceneE = new Phaser.Class({
 
-var SceneE = new Phaser.Class({
+            Extends: Phaser.Scene,
 
-    Extends: Phaser.Scene,
+            initialize: function SceneE() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneE'
+                });
+            },
 
-    initialize:
+            create: function () {
+                console.log('SceneE');
 
-    function SceneE ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneE' });
-    },
+                this.add.image(400, 300, 'face');
+                this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
+            },
 
-    create: function ()
-    {
-        console.log('SceneE');
+            update: function (time, delta) {
+                this.arrow.rotation += 0.01;
+            }
 
-        this.add.image(400, 300, 'face');
-        this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
-    },
+        });
 
-    update: function (time, delta)
-    {
-        this.arrow.rotation += 0.01;
-    }
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            scene: [SceneA, SceneB, SceneC, SceneD, SceneE]
+        };
 
-});
+        var game = new Phaser.Game(config);
+    </script>
 
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: [ SceneA, SceneB, SceneC, SceneD, SceneE ]
-};
+</body>
 
-var game = new Phaser.Game(config);
+</html>

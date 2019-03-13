@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>examples</title>
     <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+    <script src="Preloader.js"></script>
+    <script src="SubGame.js"></script>
+    <script src="WorldMap.js"></script>
+
 </head>
 
 <body>
@@ -15,31 +19,22 @@
     <script>
         var config = {
             type: Phaser.AUTO,
-            parent: 'phaser-example',
             width: 800,
             height: 600,
-            scene: {
-                preload: preload,
-                create: create
-            }
+            parent: 'phaser-example',
+            physics: {
+                default: "arcade",
+                arcade: {
+                    debug: false,
+                    gravity: {
+                        y: 0
+                    }
+                }
+            },
+            scene: [Preloader, WorldMap, SubGame]
         };
 
         var game = new Phaser.Game(config);
-
-        function preload() {
-            this.load.setBaseURL('http://labs.phaser.io');
-            this.load.plugin('BasePlugin', '../../phaser3-plugin-template/dist/BasePlugin.js');
-        }
-
-        function create() {
-            this.sys.install('BasePlugin');
-
-            this.sys.base.test('Rich');
-
-            // console.log(this.sys);
-
-            // this.add.image(400, 300, 'face');
-        }
     </script>
 
 </body>

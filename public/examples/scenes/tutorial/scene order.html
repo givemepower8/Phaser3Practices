@@ -1,87 +1,108 @@
-//  Needless to say, RICK AND MORTY is a trademark of Cartoon Network, Inc.,
+<!DOCTYPE html>
+<html lang="en">
 
-class Controller extends Phaser.Scene {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    constructor ()
-    {
-        super('Controller');
-    }
+<body>
 
-    preload ()
-    {
-        this.load.image('bg', 'assets/pics/purple-dots.png');
-    }
+    <div id="phaser-example"></div>
+    <script>
+        //  Needless to say, RICK AND MORTY is a trademark of Cartoon Network, Inc.,
 
-    create ()
-    {
-        this.add.image(400, 300, 'bg');
+        class Controller extends Phaser.Scene {
 
-        //  This will bring the Logo Scene to the top of the Scene List
-        this.scene.bringToTop('Logo');
-    }
+            constructor() {
+                super('Controller');
+            }
 
-}
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('bg', 'assets/pics/purple-dots.png');
+            }
 
-class Rick extends Phaser.Scene {
+            create() {
+                this.add.image(400, 300, 'bg');
 
-    constructor ()
-    {
-        super({ key: 'Rick', active: true });
-    }
+                //  This will bring the Logo Scene to the top of the Scene List
+                this.scene.bringToTop('Logo');
+            }
 
-    preload ()
-    {
-        this.load.image('rick', 'assets/pics/guard-rick.png');
-    }
+        }
 
-    create ()
-    {
-        this.add.image(750, 600, 'rick').setOrigin(1);
-    }
-}
+        class Rick extends Phaser.Scene {
 
-class Morty extends Phaser.Scene {
+            constructor() {
+                super({
+                    key: 'Rick',
+                    active: true
+                });
+            }
 
-    constructor ()
-    {
-        super({ key: 'Morty', active: true });
-    }
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('rick', 'assets/pics/guard-rick.png');
+            }
 
-    preload ()
-    {
-        this.load.image('morty', 'assets/pics/morty.png');
-    }
+            create() {
+                this.add.image(750, 600, 'rick').setOrigin(1);
+            }
+        }
 
-    create ()
-    {
-        this.add.image(250, 300, 'morty');
-    }
-}
+        class Morty extends Phaser.Scene {
 
-class Logo extends Phaser.Scene {
+            constructor() {
+                super({
+                    key: 'Morty',
+                    active: true
+                });
+            }
 
-    constructor ()
-    {
-        super({ key: 'Logo', active: true });
-    }
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('morty', 'assets/pics/morty.png');
+            }
 
-    preload ()
-    {
-        this.load.image('logo', 'assets/pics/rick-and-morty-logo.png');
-    }
+            create() {
+                this.add.image(250, 300, 'morty');
+            }
+        }
 
-    create ()
-    {
-        this.add.image(400, 450, 'logo');
-    }
-}
+        class Logo extends Phaser.Scene {
 
-let config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: [ Controller, Logo, Morty, Rick ]
-};
+            constructor() {
+                super({
+                    key: 'Logo',
+                    active: true
+                });
+            }
 
-let game = new Phaser.Game(config);
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('logo', 'assets/pics/rick-and-morty-logo.png');
+            }
+
+            create() {
+                this.add.image(400, 450, 'logo');
+            }
+        }
+
+        let config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            scene: [Controller, Logo, Morty, Rick]
+        };
+
+        let game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>

@@ -21,7 +21,7 @@ var config = {
   type: Phaser.AUTO,
   width: 800,
   height: 600,
-  backgroundColor: '#2d2d2d',
+  backgroundColor: "#2d2d2d",
   scene: {
     preload: preload,
     create: create,
@@ -63,11 +63,11 @@ image
 
 ```js
 function preload() {
-  this.load.image('sky', 'assets/sky.png');
-  this.load.image('ground', 'assets/platform.png');
-  this.load.image('star', 'assets/star.png');
-  this.load.image('bomb', 'assets/bomb.png');
-  this.load.spritesheet('dude', 'assets/dude.png', {
+  this.load.image("sky", "assets/sky.png");
+  this.load.image("ground", "assets/platform.png");
+  this.load.image("star", "assets/star.png");
+  this.load.image("bomb", "assets/bomb.png");
+  this.load.spritesheet("dude", "assets/dude.png", {
     frameWidth: 32,
     frameHeight: 48
   });
@@ -86,20 +86,20 @@ Create is used for generating game objects so to get the game completely set up 
 
 ```js
 var config = {
-  title: 'Awesome'
+  title: "Awesome"
 };
 
 var game = new Phaser.Game(config);
 
 function create() {
-  this.add.image(400, 300, 'sky');
+  this.add.image(400, 300, "sky");
 
-  var text = this.add.text(80, 550, '', {
-    font: '16px Courier',
-    fill: '#ffffff'
+  var text = this.add.text(80, 550, "", {
+    font: "16px Courier",
+    fill: "#ffffff"
   });
 
-  text.setText(['Game Title: ' + game.config.gameTitle]);
+  text.setText(["Game Title: " + game.config.gameTitle]);
 }
 ```
 
@@ -118,14 +118,14 @@ functional scenes
 
 ```js
 var loaderScene = {
-  key: 'loaderScene',
+  key: "loaderScene",
   active: true,
   preload: loaderScenePreload,
   create: loaderSceneCreate
 };
 
 var firstScene = {
-  key: 'firstScene',
+  key: "firstScene",
   active: false,
   visible: false,
   preload: firstScenePreload,
@@ -133,7 +133,7 @@ var firstScene = {
 };
 
 var secondScene = {
-  key: 'secondScene',
+  key: "secondScene",
   active: false,
   visible: false,
   preload: secondScenePreload,
@@ -142,7 +142,7 @@ var secondScene = {
 
 var gameConfig = {
   type: Phaser.AUTO,
-  parent: 'phaser-example',
+  parent: "phaser-example",
   width: 640,
   height: 338,
   scene: [loaderScene, firstScene, secondScene]
@@ -156,7 +156,7 @@ Another more proper scenes dev is to use the class scenes
 ```js
 class SceneA extends Phaser.Scene {
   constructor() {
-    super('GameScene');
+    super("GameScene");
   }
 
   preload() {}
@@ -166,13 +166,27 @@ class SceneA extends Phaser.Scene {
 
 class SceneB extends Phaser.Scene {
   constructor() {
-    super({ key: 'UIScene', active: true });
+    super({ key: "UIScene", active: true });
   }
 
   create() {
     //  Grab a reference to the Game Scene
-    let ourGame = this.scene.get('GameScene');
+    let ourGame = this.scene.get("GameScene");
   }
+}
+```
+
+the key is used to locate the scene instance.
+
+```js
+let sceneB = this.scene.get("MySecondScene");
+```
+
+#### dynamic scene
+
+```js
+for (var i = 1; i < 10; i++) {
+  this.scene.add("demo_" + i, Demo, true);
 }
 ```
 
@@ -192,11 +206,11 @@ spritesheet
 function create() {
   var group = this.add.group();
 
-  var image1 = this.add.image(0, 0, 'img1');
+  var image1 = this.add.image(0, 0, "img1");
 
   group.add(image1);
 
-  var image2 = this.add.image(0, 100, 'img2');
+  var image2 = this.add.image(0, 100, "img2");
 
   group.add(image2);
 

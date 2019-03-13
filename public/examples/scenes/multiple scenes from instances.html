@@ -1,42 +1,62 @@
-var demo = new Phaser.Scene('Demo');
+<!DOCTYPE html>
+<html lang="en">
 
-demo.preload = function () {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    this.load.image('face', 'assets/pics/bw-face.png');
+<body>
 
-};
+    <div id="phaser-example"></div>
+    <script>
+        var demo = new Phaser.Scene('Demo');
 
-demo.create = function () {
+        demo.preload = function () {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('face', 'assets/pics/bw-face.png');
 
-    console.log(this.sys.settings.key, 'is alive');
+        };
 
-    this.add.image(400, 300, 'face');
+        demo.create = function () {
 
-    this.scene.launch('Test');
+            console.log(this.sys.settings.key, 'is alive');
 
-};
+            this.add.image(400, 300, 'face');
 
-var test = new Phaser.Scene('Test');
+            this.scene.launch('Test');
 
-test.preload = function () {
+        };
 
-    this.load.image('barbarian', 'assets/pics/barbarian-loading.png');
+        var test = new Phaser.Scene('Test');
 
-};
+        test.preload = function () {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('barbarian', 'assets/pics/barbarian-loading.png');
 
-test.create = function () {
+        };
 
-    console.log(this.sys.settings.key, 'is alive');
+        test.create = function () {
 
-    this.add.image(400, 300, 'barbarian').setScale(0.5);
-}
+            console.log(this.sys.settings.key, 'is alive');
 
-var config = {
-    type: Phaser.CANVAS,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    scene: [ demo, test ]
-};
+            this.add.image(400, 300, 'barbarian').setScale(0.5);
+        }
 
-var game = new Phaser.Game(config);
+        var config = {
+            type: Phaser.CANVAS,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600,
+            scene: [demo, test]
+        };
+
+        var game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>

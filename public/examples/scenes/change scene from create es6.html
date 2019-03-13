@@ -1,77 +1,88 @@
-class SceneA extends Phaser.Scene {
+<!DOCTYPE html>
+<html lang="en">
 
-    constructor ()
-    {
-        super('sceneA');
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    preload ()
-    {
-        this.load.image('face', 'assets/pics/bw-face.png');
-        this.load.image('arrow', 'assets/sprites/longarrow.png');
-    }
+<body>
 
-    create ()
-    {
-        this.scene.start('sceneB');
-    }
+    <div id="phaser-example"></div>
+    <script>
+        class SceneA extends Phaser.Scene {
 
-}
+            constructor() {
+                super('sceneA');
+            }
 
-class SceneB extends Phaser.Scene {
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('face', 'assets/pics/bw-face.png');
+                this.load.image('arrow', 'assets/sprites/longarrow.png');
+            }
 
-    constructor ()
-    {
-        super('sceneB');
-    }
+            create() {
+                this.scene.start('sceneB');
+            }
 
-    create ()
-    {
-        this.scene.start('sceneC');
-    }
+        }
 
-}
+        class SceneB extends Phaser.Scene {
 
-class SceneC extends Phaser.Scene {
+            constructor() {
+                super('sceneB');
+            }
 
-    constructor ()
-    {
-        super('sceneC');
-    }
+            create() {
+                this.scene.start('sceneC');
+            }
 
-    create ()
-    {
-        this.scene.start('sceneD');
-    }
+        }
 
-}
+        class SceneC extends Phaser.Scene {
 
-class SceneD extends Phaser.Scene {
+            constructor() {
+                super('sceneC');
+            }
 
-    constructor ()
-    {
-        super('sceneD');
-    }
+            create() {
+                this.scene.start('sceneD');
+            }
 
-    create ()
-    {
-        this.face = this.add.image(400, 300, 'face');
-        this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
-    }
+        }
 
-    update ()
-    {
-        this.arrow.rotation += 0.01;
-    }
+        class SceneD extends Phaser.Scene {
 
-}
+            constructor() {
+                super('sceneD');
+            }
 
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: [ SceneA, SceneB, SceneC, SceneD ]
-};
+            create() {
+                this.face = this.add.image(400, 300, 'face');
+                this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
+            }
 
-var game = new Phaser.Game(config);
+            update() {
+                this.arrow.rotation += 0.01;
+            }
+
+        }
+
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            scene: [SceneA, SceneB, SceneC, SceneD]
+        };
+
+        var game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>

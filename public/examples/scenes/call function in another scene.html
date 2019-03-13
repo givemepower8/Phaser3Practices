@@ -1,76 +1,95 @@
-var SceneA = new Phaser.Class({
+<!DOCTYPE html>
+<html lang="en">
 
-    Extends: Phaser.Scene,
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    initialize:
+<body>
 
-    function SceneA ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneA' });
-    },
+    <div id="phaser-example"></div>
+    <script>
+        var SceneA = new Phaser.Class({
 
-    create: function ()
-    {
-        var sceneB = this.scene.get('sceneB');
+            Extends: Phaser.Scene,
 
-        this.input.on('pointerup', function () {
+            initialize: function SceneA() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneA'
+                });
+            },
 
-            var x = Phaser.Math.Between(0, 800);
-            var y = Phaser.Math.Between(0, 600);
-            var frame = sceneB.getImage();
+            create: function () {
+                var sceneB = this.scene.get('sceneB');
 
-            this.add.image(x, y, frame);
+                this.input.on('pointerup', function () {
 
-        }, this);
+                    var x = Phaser.Math.Between(0, 800);
+                    var y = Phaser.Math.Between(0, 600);
+                    var frame = sceneB.getImage();
 
-        this.add.text(10, 10, 'Click to get image', { font: '16px Courier', fill: '#00ff00' }).setDepth(1000);
-    }
+                    this.add.image(x, y, frame);
 
-});
+                }, this);
 
-var SceneB = new Phaser.Class({
+                this.add.text(10, 10, 'Click to get image', {
+                    font: '16px Courier',
+                    fill: '#00ff00'
+                }).setDepth(1000);
+            }
 
-    Extends: Phaser.Scene,
+        });
 
-    initialize:
+        var SceneB = new Phaser.Class({
 
-    function SceneB ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneB', active: true });
+            Extends: Phaser.Scene,
 
-        this.frames;
-    },
+            initialize: function SceneB() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneB',
+                    active: true
+                });
 
-    preload: function ()
-    {
-        this.load.setPath('assets/sprites/');
+                this.frames;
+            },
 
-        this.load.image('amiga-cursor');
-        this.load.image('aqua_ball');
-        this.load.image('asuna_by_vali233');
-        this.load.image('atari130xe');
-        this.load.image('atari400');
-    },
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.setPath('assets/sprites/');
 
-    create: function ()
-    {
-        this.frames = [ 'amiga-cursor', 'aqua_ball', 'asuna_by_vali233', 'atari130xe', 'atari400' ];
-    },
+                this.load.image('amiga-cursor');
+                this.load.image('aqua_ball');
+                this.load.image('asuna_by_vali233');
+                this.load.image('atari130xe');
+                this.load.image('atari400');
+            },
 
-    getImage: function ()
-    {
-        return Phaser.Math.RND.pick(this.frames);
-    }
+            create: function () {
+                this.frames = ['amiga-cursor', 'aqua_ball', 'asuna_by_vali233', 'atari130xe', 'atari400'];
+            },
 
-});
+            getImage: function () {
+                return Phaser.Math.RND.pick(this.frames);
+            }
 
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    backgroundColor: '#2d2d2d',
-    parent: 'phaser-example',
-    scene: [ SceneA, SceneB ]
-};
+        });
 
-var game = new Phaser.Game(config);
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            backgroundColor: '#2d2d2d',
+            parent: 'phaser-example',
+            scene: [SceneA, SceneB]
+        };
+
+        var game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>

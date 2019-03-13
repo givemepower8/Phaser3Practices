@@ -1,92 +1,111 @@
-class SceneA extends Phaser.Scene {
+<!DOCTYPE html>
+<html lang="en">
 
-    constructor ()
-    {
-        super({ key: 'sceneA' });
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    preload ()
-    {
-        this.load.image('face', 'assets/pics/bw-face.png');
-    }
+<body>
 
-    create ()
-    {
-        this.face = this.add.image(400, 300, 'face');
+    <div id="phaser-example"></div>
+    <script>
+        class SceneA extends Phaser.Scene {
 
-        this.input.manager.enabled = true;
+            constructor() {
+                super({
+                    key: 'sceneA'
+                });
+            }
 
-        this.input.once('pointerdown', function () {
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('face', 'assets/pics/bw-face.png');
+            }
 
-            this.scene.start('sceneB');
+            create() {
+                this.face = this.add.image(400, 300, 'face');
 
-        }, this);
-    }
+                this.input.manager.enabled = true;
 
-}
+                this.input.once('pointerdown', function () {
 
-class SceneB extends Phaser.Scene {
+                    this.scene.start('sceneB');
 
-    constructor ()
-    {
-        super({ key: 'sceneB' });
-    }
+                }, this);
+            }
 
-    preload ()
-    {
-        this.load.image('arrow', 'assets/sprites/longarrow.png');
-    }
+        }
 
-    create ()
-    {
-        this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
+        class SceneB extends Phaser.Scene {
 
-        this.input.once('pointerdown', function (event) {
+            constructor() {
+                super({
+                    key: 'sceneB'
+                });
+            }
 
-            this.scene.start('sceneC');
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('arrow', 'assets/sprites/longarrow.png');
+            }
 
-        }, this);
-    }
+            create() {
+                this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
 
-    update ()
-    {
-        this.arrow.rotation += 0.01;
-    }
+                this.input.once('pointerdown', function (event) {
 
-}
+                    this.scene.start('sceneC');
 
-class SceneC extends Phaser.Scene {
+                }, this);
+            }
 
-    constructor ()
-    {
-        super({ key: 'sceneC' });
-    }
+            update() {
+                this.arrow.rotation += 0.01;
+            }
 
-    preload ()
-    {
-        this.load.image('mech', 'assets/pics/titan-mech.png');
-    }
+        }
 
-    create ()
-    {
-        this.add.sprite(Phaser.Math.Between(300, 600), 300, 'mech');
+        class SceneC extends Phaser.Scene {
 
-        this.input.once('pointerdown', function (event) {
+            constructor() {
+                super({
+                    key: 'sceneC'
+                });
+            }
 
-            this.scene.start('sceneA');
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('mech', 'assets/pics/titan-mech.png');
+            }
 
-        }, this);
-    }
+            create() {
+                this.add.sprite(Phaser.Math.Between(300, 600), 300, 'mech');
 
-}
+                this.input.once('pointerdown', function (event) {
 
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    backgroundColor: '#000000',
-    parent: 'phaser-example',
-    scene: [ SceneA, SceneB, SceneC ]
-};
+                    this.scene.start('sceneA');
 
-var game = new Phaser.Game(config);
+                }, this);
+            }
+
+        }
+
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            backgroundColor: '#000000',
+            parent: 'phaser-example',
+            scene: [SceneA, SceneB, SceneC]
+        };
+
+        var game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>

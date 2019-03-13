@@ -1,29 +1,50 @@
-class MyScene extends Phaser.Scene {
+<!DOCTYPE html>
+<html lang="en">
 
-    constructor (config)
-    {
-        super(config);
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    preload ()
-    {
-        this.load.image('face', 'assets/pics/bw-face.png');
-    }
+<body>
 
-    create (data)
-    {
-        this.face = this.add.image(data.x, data.y, 'face');
-    }
+    <div id="phaser-example"></div>
+    <script>
+        class MyScene extends Phaser.Scene {
 
-}
+            constructor(config) {
+                super(config);
+            }
 
-var config = {
-    type: Phaser.AUTO,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600
-};
+            preload() {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('face', 'assets/pics/bw-face.png');
+            }
 
-var game = new Phaser.Game(config);
+            create(data) {
+                this.face = this.add.image(data.x, data.y, 'face');
+            }
 
-game.scene.add('myScene', MyScene, true, { x: 400, y: 300 });
+        }
+
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600
+        };
+
+        var game = new Phaser.Game(config);
+
+        game.scene.add('myScene', MyScene, true, {
+            x: 400,
+            y: 300
+        });
+    </script>
+
+</body>
+
+</html>
