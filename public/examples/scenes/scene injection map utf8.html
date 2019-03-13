@@ -1,39 +1,55 @@
-var MyScene = new Phaser.Class({
+<!DOCTYPE html>
+<html lang="en">
 
-    Extends: Phaser.Scene,
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    initialize:
+<body>
 
-    function MyScene ()
-    {
-        var config = {
-            map: {
-                add: '加',
-                load: '加载'
+    <div id="phaser-example"></div>
+    <script>
+        var MyScene = new Phaser.Class({
+
+            Extends: Phaser.Scene,
+
+            initialize: function MyScene() {
+                var config = {
+                    map: {
+                        add: '加',
+                        load: '加载'
+                    }
+                };
+
+                Phaser.Scene.call(this, config)
+            },
+
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.加载.image('face', 'assets/pics/bw-face.png');
+            },
+
+            create: function () {
+                this.加.image(400, 300, 'face');
             }
+
+        });
+
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            scene: MyScene
         };
 
-        Phaser.Scene.call(this, config)
-    },
+        var game = new Phaser.Game(config);
+    </script>
 
-    preload: function ()
-    {
-        this.加载.image('face', 'assets/pics/bw-face.png');
-    },
+</body>
 
-    create: function ()
-    {
-        this.加.image(400, 300, 'face');
-    }
-
-});
-
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: MyScene
-};
-
-var game = new Phaser.Game(config);
+</html>

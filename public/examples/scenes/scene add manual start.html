@@ -1,35 +1,53 @@
-var MyGame = {};
+<!DOCTYPE html>
+<html lang="en">
 
-MyGame.Boot = function ()
-{
-    this.face = null;
-};
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-MyGame.Boot.prototype.constructor = MyGame.Boot;
+<body>
 
-MyGame.Boot.prototype = {
+    <div id="phaser-example"></div>
+    <script>
+        var MyGame = {};
 
-    preload: function ()
-    {
-        this.load.image('face', 'assets/pics/bw-face.png');
-    },
+        MyGame.Boot = function () {
+            this.face = null;
+        };
 
-    create: function ()
-    {
-        this.face = this.add.image(400, 300, 'face');
-    }
+        MyGame.Boot.prototype.constructor = MyGame.Boot;
 
-};
+        MyGame.Boot.prototype = {
 
-var config = {
-    type: Phaser.CANVAS,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600
-};
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('face', 'assets/pics/bw-face.png');
+            },
 
-var game = new Phaser.Game(config);
+            create: function () {
+                this.face = this.add.image(400, 300, 'face');
+            }
 
-game.scene.add('Boot', MyGame.Boot);
+        };
 
-game.scene.start('Boot');
+        var config = {
+            type: Phaser.CANVAS,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600
+        };
+
+        var game = new Phaser.Game(config);
+
+        game.scene.add('Boot', MyGame.Boot);
+
+        game.scene.start('Boot');
+    </script>
+
+</body>
+
+</html>

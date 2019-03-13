@@ -1,54 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
 
-var sceneConfigA = {
-    key: 'sceneA',
-    create: createA,
-    pack: {
-        files: [
-            { type: 'image', key: 'face', url: 'assets/pics/bw-face.png' }
-        ]
-    }
-};
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-var sceneConfigB = {
-    key: 'sceneB',
-    create: createB,
-    pack: {
-        files: [
-            { type: 'image', key: 'logo', url: 'assets/pics/monika-krawinkel-amberstar-title.png' }
-        ]
-    }
-};
+<body>
 
-var gameConfig = {
-    type: Phaser.CANVAS,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    scene: [ sceneConfigA, sceneConfigB ]
-};
+    <div id="phaser-example"></div>
+    <script>
+        var sceneConfigA = {
+            key: 'sceneA',
+            create: createA,
+            pack: {
+                files: [{
+                    type: 'image',
+                    key: 'face',
+                    url: 'http://labs.phaser.io/assets/pics/bw-face.png'
+                }]
+            }
+        };
 
-var game = new Phaser.Game(gameConfig);
+        var sceneConfigB = {
+            key: 'sceneB',
+            create: createB,
+            pack: {
+                files: [{
+                    type: 'image',
+                    key: 'logo',
+                    url: 'http://labs.phaser.io/assets/pics/monika-krawinkel-amberstar-title.png'
+                }]
+            }
+        };
 
-function createA ()
-{
-    this.add.image(400, 300, 'face');
+        var gameConfig = {
+            type: Phaser.CANVAS,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600,
+            scene: [sceneConfigA, sceneConfigB]
+        };
 
-    this.input.on('pointerdown', function () {
-    
-        this.input.stopPropagation();
-        this.scene.switch('sceneB');
-    
-    }, this);
-}
+        var game = new Phaser.Game(gameConfig);
 
-function createB ()
-{
-    this.add.image(400, 300, 'logo');
+        function createA() {
+            this.add.image(400, 300, 'face');
 
-    this.input.on('pointerdown', function () {
-    
-        this.input.stopPropagation();
-        this.scene.switch('sceneA');
-    
-    }, this);
-}
+            this.input.on('pointerdown', function () {
+
+                this.input.stopPropagation();
+                this.scene.switch('sceneB');
+
+            }, this);
+        }
+
+        function createB() {
+            this.add.image(400, 300, 'logo');
+
+            this.input.on('pointerdown', function () {
+
+                this.input.stopPropagation();
+                this.scene.switch('sceneA');
+
+            }, this);
+        }
+    </script>
+
+</body>
+
+</html>

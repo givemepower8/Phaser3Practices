@@ -1,40 +1,59 @@
-//  Files specified in the Scene config files payload
-//  will be loaded in *before* the Scene is started,
-//  meaning they're available before even the Scene.preload function (if set) is called
+<!DOCTYPE html>
+<html lang="en">
 
-//  This is perfect for loading in small JSON config files for example,
-//  or a tiny amount of preloader assets that the preloader itself needs to use.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-var sceneConfig = {
-    preload: preload,
-    create: create,
-    pack: {
-        files: [
-            { type: 'image', key: 'sonic', url: 'assets/sprites/sonic_havok_sanity.png' }
-        ]
-    }
-};
+<body>
 
-var gameConfig = {
-    type: Phaser.CANVAS,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    scene: sceneConfig
-};
+    <div id="phaser-example"></div>
+    <script>
+        //  Files specified in the Scene config files payload
+        //  will be loaded in *before* the Scene is started,
+        //  meaning they're available before even the Scene.preload function (if set) is called
 
-var game = new Phaser.Game(gameConfig);
+        //  This is perfect for loading in small JSON config files for example,
+        //  or a tiny amount of preloader assets that the preloader itself needs to use.
 
-function preload() {
+        var sceneConfig = {
+            preload: preload,
+            create: create,
+            pack: {
+                files: [{
+                    type: 'image',
+                    key: 'sonic',
+                    url: 'http://labs.phaser.io/assets/sprites/sonic_havok_sanity.png'
+                }]
+            }
+        };
 
-    //  You can still preload other assets too
-    this.load.image('face', 'assets/pics/bw-face.png');
+        var gameConfig = {
+            type: Phaser.CANVAS,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600,
+            scene: sceneConfig
+        };
 
-}
+        var game = new Phaser.Game(gameConfig);
 
-function create() {
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('face', 'assets/pics/bw-face.png');
 
-    this.add.image(0, 0, 'face');
-    this.add.image(0, 0, 'sonic');
+        }
 
-}
+        function create() {
+            this.add.image(0, 0, 'face');
+            this.add.image(0, 0, 'sonic');
+        }
+    </script>
+
+</body>
+
+</html>

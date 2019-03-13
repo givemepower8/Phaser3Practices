@@ -1,29 +1,48 @@
-var config = {
-    type: Phaser.AUTO,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    scene: {
-        preload: preload,
-        create: create,
-        plugins: [ 'Loader' ],
-        map: {
-            'load': 'load',
-            'add': 'add'
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600,
+            scene: {
+                preload: preload,
+                create: create,
+                plugins: ['Loader'],
+                map: {
+                    'load': 'load',
+                    'add': 'add'
+                }
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('face', 'assets/pics/bw-face.png');
         }
-    }
-};
 
-var game = new Phaser.Game(config);
+        function create() {
+            console.log(this);
 
-function preload ()
-{
-    this.load.image('face', 'assets/pics/bw-face.png');
-}
+            this.add.image(400, 300, 'face');
+        }
+    </script>
 
-function create ()
-{
-    console.log(this);
+</body>
 
-    this.add.image(400, 300, 'face');
-}
+</html>

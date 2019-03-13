@@ -1,145 +1,163 @@
-var SceneA = new Phaser.Class({
+<!DOCTYPE html>
+<html lang="en">
 
-    Extends: Phaser.Scene,
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
 
-    initialize:
+<body>
 
-    function SceneA ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneA' });
+    <div id="phaser-example"></div>
+    <script>
+        var SceneA = new Phaser.Class({
 
-        this.face;
-    },
+            Extends: Phaser.Scene,
 
-    preload: function ()
-    {
-        this.load.image('face', 'assets/pics/bw-face.png');
-    },
+            initialize: function SceneA() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneA'
+                });
 
-    create: function ()
-    {
-        this.face = this.add.image(0, 0, 'face').setOrigin(0);
+                this.face;
+            },
 
-        this.input.once('pointerdown', function () {
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('face', 'assets/pics/bw-face.png');
+            },
 
-            this.scene.transition({
-                target: 'sceneB',
-                duration: 2000,
-                moveBelow: true,
-                onUpdate: this.transitionOut,
-                data: { x: 400, y: 300 }
-            });
+            create: function () {
+                this.face = this.add.image(0, 0, 'face').setOrigin(0);
 
-        }, this);
-    },
+                this.input.once('pointerdown', function () {
 
-    transitionOut: function (progress)
-    {
-        this.face.y = (600 * progress);
-    }
+                    this.scene.transition({
+                        target: 'sceneB',
+                        duration: 2000,
+                        moveBelow: true,
+                        onUpdate: this.transitionOut,
+                        data: {
+                            x: 400,
+                            y: 300
+                        }
+                    });
 
-});
+                }, this);
+            },
 
-var SceneB = new Phaser.Class({
+            transitionOut: function (progress) {
+                this.face.y = (600 * progress);
+            }
 
-    Extends: Phaser.Scene,
+        });
 
-    initialize:
+        var SceneB = new Phaser.Class({
 
-    function SceneB ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneB' });
-    },
+            Extends: Phaser.Scene,
 
-    preload: function ()
-    {
-        this.load.image('arrow', 'assets/sprites/longarrow.png');
-        this.load.image('planet', 'assets/tests/space/purple-planet.png');
-    },
+            initialize: function SceneB() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneB'
+                });
+            },
 
-    create: function (data)
-    {
-        var planet = this.add.image(data.x, data.y, 'planet').setScale(0);
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('arrow', 'assets/sprites/longarrow.png');
+                this.load.image('planet', 'assets/tests/space/purple-planet.png');
+            },
 
-        this.events.on('transitionstart', function (fromScene, duration) {
+            create: function (data) {
+                var planet = this.add.image(data.x, data.y, 'planet').setScale(0);
 
-            this.tweens.add({
-                targets: planet,
-                scaleX: 1,
-                scaleY: 1,
-                duration: duration
-            });
+                this.events.on('transitionstart', function (fromScene, duration) {
 
-        }, this);
+                    this.tweens.add({
+                        targets: planet,
+                        scaleX: 1,
+                        scaleY: 1,
+                        duration: duration
+                    });
 
-        this.events.on('transitioncomplete', function () { console.log('Complete'); });
+                }, this);
 
-        this.events.on('transitionout', function (toScene, duration) {
+                this.events.on('transitioncomplete', function () {
+                    console.log('Complete');
+                });
 
-            this.tweens.add({
-                targets: planet,
-                scaleX: 0,
-                scaleY: 0,
-                duration: duration
-            });
+                this.events.on('transitionout', function (toScene, duration) {
 
-        }, this);
+                    this.tweens.add({
+                        targets: planet,
+                        scaleX: 0,
+                        scaleY: 0,
+                        duration: duration
+                    });
 
-        this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
+                }, this);
 
-        this.input.once('pointerdown', function (event) {
+                this.arrow = this.add.sprite(400, 300, 'arrow').setOrigin(0, 0.5);
 
-            this.scene.transition({
-                target: 'sceneC',
-                duration: 3000
-            });
+                this.input.once('pointerdown', function (event) {
 
-        }, this);
-    },
+                    this.scene.transition({
+                        target: 'sceneC',
+                        duration: 3000
+                    });
 
-    update: function (time, delta)
-    {
-        this.arrow.rotation += 0.01;
-    }
+                }, this);
+            },
 
-});
+            update: function (time, delta) {
+                this.arrow.rotation += 0.01;
+            }
 
-var SceneC = new Phaser.Class({
+        });
 
-    Extends: Phaser.Scene,
+        var SceneC = new Phaser.Class({
 
-    initialize:
+            Extends: Phaser.Scene,
 
-    function SceneC ()
-    {
-        Phaser.Scene.call(this, { key: 'sceneC' });
-    },
+            initialize: function SceneC() {
+                Phaser.Scene.call(this, {
+                    key: 'sceneC'
+                });
+            },
 
-    preload: function ()
-    {
-        this.load.image('mech', 'assets/pics/titan-mech.png');
-    },
+            preload: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.load.image('mech', 'assets/pics/titan-mech.png');
+            },
 
-    create: function ()
-    {
-        this.add.sprite(Phaser.Math.Between(0, 800), 300, 'mech');
+            create: function () {
+                this.load.setBaseURL('http://labs.phaser.io');
+                this.add.sprite(Phaser.Math.Between(0, 800), 300, 'mech');
 
-        this.input.once('pointerdown', function (event) {
+                this.input.once('pointerdown', function (event) {
 
-            this.scene.start('sceneA');
+                    this.scene.start('sceneA');
 
-        }, this);
-    }
+                }, this);
+            }
 
-});
+        });
 
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    backgroundColor: '#000000',
-    parent: 'phaser-example',
-    scene: [ SceneA, SceneB, SceneC ]
-};
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            backgroundColor: '#000000',
+            parent: 'phaser-example',
+            scene: [SceneA, SceneB, SceneC]
+        };
 
-var game = new Phaser.Game(config);
+        var game = new Phaser.Game(config);
+    </script>
+
+</body>
+
+</html>
