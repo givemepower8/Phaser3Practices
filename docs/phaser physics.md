@@ -1,5 +1,9 @@
 # Physics
 
+In a game, lots of game objects simulates the objects in real world which has physics involved. Physics is like objects fall, projectile, acceleration, friction, explode, ...
+
+[Game physics](https://en.wikipedia.org/wiki/Game_physics) is provided by phaser game engine.
+
 A physics engine defines gravity, angular velocity, drag, acceleration, etc.
 
 There are three physics engines in Phaser ready to use, arcade, impact and matter.js.
@@ -116,3 +120,7 @@ Impact is the physics engine used by the Impact game engine. I've got the least 
 ## Matter.js
 
 Matter.js is very powerful but not suitable for some types of games. It's for more realistic collision or more complex body shapes which has more features and more flexibility necessitate more complicated logic. It was not intended for games as it obviously makes the engine slower.
+
+## Particle systems
+
+[Particle systems](https://en.wikipedia.org/wiki/Particle_system)

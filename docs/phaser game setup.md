@@ -1,4 +1,4 @@
-# Phaser Game Dev
+# Phaser Game Setup
 
 ## Game
 
@@ -14,7 +14,7 @@ Game has a [config](https://photonstorm.github.io/phaser3-docs/Phaser.Core.Confi
 
 [Game Config source code](https://photonstorm.github.io/phaser3-docs/global.html#GameConfig)
 
-The minumum code is like following:
+The minimum code is like following:
 
 ```js
 var config = {
@@ -63,6 +63,7 @@ image
 
 ```js
 function preload() {
+  this.load.setBaseURL('http://labs.phaser.io');
   this.load.image('sky', 'assets/sky.png');
   this.load.image('ground', 'assets/platform.png');
   this.load.image('star', 'assets/star.png');
@@ -149,8 +150,6 @@ var gameConfig = {
 };
 ```
 
-in each, use `this.scene.launch('xxxScene')` or start to switch scenes.
-
 Another more proper scenes dev is to use the class scenes
 
 ```js
@@ -176,7 +175,11 @@ class SceneB extends Phaser.Scene {
 }
 ```
 
+#### Switch scene
+
 The key is used to locate the scene instance. it can be used in get(), switch() methods, etc.,
+
+In each scene, use `this.scene.launch('xxxScene')` or `start('xxxScene')` to switch scenes.
 
 ```js
 let sceneB = this.scene.get('MySecondScene');
@@ -189,7 +192,7 @@ sceneB.switch('anotherScene');
 use Phaser.Scene static methods
 
 ```js
-Phaser.Scene.call;
+Phaser.Scene.call('oneScene');
 ```
 
 #### dynamic scene
