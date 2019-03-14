@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>100 world bodies</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+    <script src="Boing.js"></script>
+    <script src="Clock.js"></script>
+    <script src="Controller.js"></script>
+    <script src="Eyes.js"></script>
+    <script src="Invaders.js"></script>
+    <script src="Juggler.js"></script>
+    <script src="Stars.js"></script>
+
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.WEBGL,
+            width: window.innerWidth,
+            height: window.innerHeight,
+            backgroundColor: '#0055aa',
+            parent: 'phaser-example',
+            scene: Controller,
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    debug: false,
+                    gravity: {
+                        y: 0
+                    }
+                }
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        window.addEventListener('resize', function (event) {
+
+            game.resize(window.innerWidth, window.innerHeight);
+
+        }, false);
+    </script>
+
+</body>
+
+</html>
