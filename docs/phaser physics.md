@@ -80,13 +80,17 @@ Those game objects will has all the properties and methods of
   - Flip
   - GetBounds
 
-### Arcade sprite
+## Arcade
+
+Arcade is a custom physics engine used in Phaser. The only body types it supports are axis-aligned rectangles (i.e. rectangles with no rotation) and circles. This makes its collision quite rudimentary, but quite fast.
+
+[Arcade source code](https://github.com/photonstorm/phaser/tree/v3.16.2/src/physics/arcade)
 
 An Arcade Physics Sprite is a Sprite with an Arcade Physics body and related components. The body can be dynamic or static.
 
 The main difference between an Arcade Sprite and an Arcade Image is that you cannot animate an Arcade Image. If you do not require animation then you can safely use Arcade Images instead of Arcade Sprites.
 
-overlap
+### overlap
 
 ```js
 game.physics.arcade.overlap(catcher, cat, catHitHandler);
@@ -99,17 +103,11 @@ function catHitHandler(catcherObject, catObject) {
 }
 ```
 
-collide
+### collide
 
 [collide](https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.Events.html#event:COLLIDE)
 
 A Collider is a way to automatically perform collision checks between two objects, calling the collide and process callbacks if they occur.
-
-## Arcade
-
-Arcade is a custom physics engine used in Phaser. The only body types it supports are axis-aligned rectangles (i.e. rectangles with no rotation) and circles. This makes its collision quite rudimentary, but quite fast.
-
-[Arcade source code](https://github.com/photonstorm/phaser/tree/v3.16.2/src/physics/arcade)
 
 ## Impact
 
