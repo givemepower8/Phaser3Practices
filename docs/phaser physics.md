@@ -10,13 +10,19 @@ There are three physics engines in Phaser ready to use, arcade, impact and matte
 
 [physics source code](https://github.com/photonstorm/phaser/blob/v3.16.2/src/physics/arcade/index.js)
 
-The scene has a `physics.world`, the world is responsible for creating, managing, colliding and updating all of the bodies within it.
+## Body
 
-The world has a bounds, gravity.
+The game has a `physics.world`, the world is responsible for creating, managing, colliding and updating all of the objects within it.
+
+In order for physics systems to work, it needs to have objects inside of the physics "world" that can collide against each other. These objects are termed "bodies." A body is something that has a certain shape like a box, circle, or complex shape made up of points and lines and exists in the world. These bodies are not visual elements and are only used by the physics system to calculate things like change in position and collisions. Since they are not visible objects, they are often associated with a visible element that will reflect the position and rotation of the physics body in a visible way on screen.
+
+By default, Phaser sprites do not have bodies associated with them. The bodies need to be activated for the physics system you will be using. Once activated, the sprites will be controlled by the body in the physics system.
+
+By default, Phaser sprites do not have bodies associated with them. The bodies need to be activated for the physics system you will be using.
+
+Inside the world, there lives lots of sprites, game objects or grouped items on the scene. The world has a bounds, gravity for the sprites with body enabled.
 
 By default, the world's fps (frame rate per second) is set to 60 which defines physics steps to be taken per second.
-
-Inside the world, there lives lots of sprites, game objects or grouped items on the scene.
 
 They have physics body which can be Dynamic or Static.
 
@@ -32,7 +38,7 @@ First, config the game config.
 var config = {
   // ...
   physics: {
-    default: 'arcade',
+    default: "arcade",
     arcade: {
       gravity: {
         y: 100

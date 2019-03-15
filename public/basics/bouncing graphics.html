@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>basics</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            backgroundColor: '#2d2d2d',
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: {
+                        y: 300
+                    },
+                    debug: false
+                }
+            },
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('block', 'assets/sprites/block.png');
+        }
+
+        var mgraphic;
+
+        function create() {
+            /* SET UP GRAPHIC */
+            mgraphic = this.add.graphics();
+            mgraphic.fillStyle(0xffff00, 1);
+            mgraphic.fillRoundedRect(0, 0, 15, 15, 3);
+
+            /* ENABLE ARCADE PHYSICS OBJECT ON GRAPHIC */
+            this.physics.add.existing(mgraphic);
+            mgraphic.body.setSize(15, 15);
+            mgraphic.body.velocity.x = 0;
+            mgraphic.body.velocity.y = 0;
+            mgraphic.body.bounce.x = 1;
+            mgraphic.body.bounce.y = 1;
+            mgraphic.body.collideWorldBounds = true;
+
+            cursors = this.input.keyboard.createCursorKeys();
+        }
+
+        function update() {
+            // console.log("update");
+        }
+    </script>
+</body>
+
+</html>
