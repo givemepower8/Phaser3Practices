@@ -39,18 +39,17 @@
     function create() {
       //setup game
 
-      this.add.sprite(0, 0, 'bg');
+      this.add.image(400, 300, 'bg');
 
-      catcher = this.add.sprite(400, 300, 'catcher');
-      //catcher.anchor.setTo(0.5, 0);
-      this.physics.world.enable(catcher);
+      catcher = this.physics.add.sprite(400, 300, 'catcher');
+      catcher.setCollideWorldBounds(true);
 
-      cat = this.add.sprite(
-        Math.random() * game.width,
-        Math.random() * game.height,
+      cat = this.physics.add.sprite(
+        Math.random() * 800,
+        Math.random() * 600,
         'cat'
       );
-      this.physics.world.enable(cat);
+      cat.setCollideWorldBounds(true);
 
       score = 0;
       var style = {
@@ -88,8 +87,9 @@
     }
 
     function catHitHandler(catcherObject, catObject) {
-      catObject.x = Math.random() * game.width;
-      catObject.y = Math.random() * game.height;
+      //console.log("cat hit");
+      catObject.x = Math.random() * 800;
+      catObject.y = Math.random() * 600;
 
       score++;
       txtScore.setText(score.toString());
