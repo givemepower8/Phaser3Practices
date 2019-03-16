@@ -10,13 +10,21 @@ There are three physics engines in Phaser ready to use, arcade, impact and matte
 
 [physics source code](https://github.com/photonstorm/phaser/blob/v3.16.2/src/physics/arcade/index.js)
 
-The scene has a `physics.world`, the world is responsible for creating, managing, colliding and updating all of the bodies within it.
+## Body
 
-The world has a bounds, gravity.
+[body source code](https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.Body.html)
+
+The game has a `physics.world`, the world is responsible for creating, managing, colliding and updating all of the objects within it.
+
+In order for physics systems to work, it needs to have objects inside of the physics "world" that can collide against each other. These objects are termed "bodies." A body is something that has a certain shape like a box, circle, or complex shape made up of points and lines and exists in the world. These bodies are not visual elements and are only used by the physics system to calculate things like change in position and collisions. Since they are not visible objects, they are often associated with a visible element that will reflect the position and rotation of the physics body in a visible way on screen.
+
+By default, Phaser sprites do not have bodies associated with them. The bodies need to be activated for the physics system you will be using. Once activated, the sprites will be controlled by the body in the physics system.
+
+By default, Phaser sprites do not have bodies associated with them. The bodies need to be activated for the physics system you will be using.
+
+Inside the world, there lives lots of sprites, game objects or grouped items on the scene. The world has a bounds, gravity for the sprites with body enabled.
 
 By default, the world's fps (frame rate per second) is set to 60 which defines physics steps to be taken per second.
-
-Inside the world, there lives lots of sprites, game objects or grouped items on the scene.
 
 They have physics body which can be Dynamic or Static.
 
@@ -32,7 +40,7 @@ First, config the game config.
 var config = {
   // ...
   physics: {
-    default: 'arcade',
+    default: "arcade",
     arcade: {
       gravity: {
         y: 100
@@ -80,13 +88,17 @@ Those game objects will has all the properties and methods of
   - Flip
   - GetBounds
 
-### Arcade sprite
+## Arcade
+
+Arcade is a custom physics engine used in Phaser. The only body types it supports are axis-aligned rectangles (i.e. rectangles with no rotation) and circles. This makes its collision quite rudimentary, but quite fast.
+
+[Arcade source code](https://github.com/photonstorm/phaser/tree/v3.16.2/src/physics/arcade)
 
 An Arcade Physics Sprite is a Sprite with an Arcade Physics body and related components. The body can be dynamic or static.
 
 The main difference between an Arcade Sprite and an Arcade Image is that you cannot animate an Arcade Image. If you do not require animation then you can safely use Arcade Images instead of Arcade Sprites.
 
-overlap
+### overlap
 
 ```js
 game.physics.arcade.overlap(catcher, cat, catHitHandler);
@@ -99,17 +111,11 @@ function catHitHandler(catcherObject, catObject) {
 }
 ```
 
-collide
+### collide
 
 [collide](https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.Events.html#event:COLLIDE)
 
 A Collider is a way to automatically perform collision checks between two objects, calling the collide and process callbacks if they occur.
-
-## Arcade
-
-Arcade is a custom physics engine used in Phaser. The only body types it supports are axis-aligned rectangles (i.e. rectangles with no rotation) and circles. This makes its collision quite rudimentary, but quite fast.
-
-[Arcade source code](https://github.com/photonstorm/phaser/tree/v3.16.2/src/physics/arcade)
 
 ## Impact
 

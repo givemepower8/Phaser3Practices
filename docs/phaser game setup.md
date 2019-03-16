@@ -235,38 +235,6 @@ function create() {
 }
 ```
 
-## User Input
-
-### keyboard
-
-```js
-var cursors = game.input.keyboard.createCursorKeys();
-
-if(cursors.left.isDown) {
-    catcher.x – = 5;
-}
-
-if(cursors.right.isDown) {
-    catcher.x += 5;
-}
-
-if(cursors.up.isDown) {
-    catcher.y – = 5;
-}
-
-if(cursors.down.isDown) {
-    catcher.y += 5;
-}
-```
-
-```js
-if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT)) {
-  //acceleration, fire bullets, anything else that needs a constant press
-}
-```
-
-### mouse
-
 ## Game objects
 
 The Game Object Factory is a Scene plugin that allows you to quickly create many common types of Game Objects and have them automatically registered with the Scene. Game Objects directly register themselves with the Factory and inject their own creation methods into the class.
