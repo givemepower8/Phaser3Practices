@@ -32,6 +32,12 @@
 
         function create() {
             console.log("create");
+            var text = this.add.text(340, 550, '', {
+                font: '16px Courier',
+                fill: '#ffffff'
+            });
+
+            text.setText("Just a game");
         }
 
         function update() {
