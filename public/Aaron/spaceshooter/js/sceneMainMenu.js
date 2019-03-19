@@ -17,6 +17,10 @@ class SceneMainMenu extends Phaser.Scene {
         this.load.audio("sndBtnDown", "content/sndBtnDown.wav");
     }
     create() {
+        this.add.text(320, 620, "Made by legomaster378", {
+            fontSize: "12px",
+            fill: "#FFF"
+        });
         this.sfx = {
             btnOver: this.sound.add("sndBtnOver"),
             btnDown: this.sound.add("sndBtnDown")
