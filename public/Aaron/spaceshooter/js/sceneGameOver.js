@@ -6,6 +6,28 @@ class SceneGameOver extends Phaser.Scene {
     }
     create() {
 
+        if (score > highscore) {
+            highscore = score
+            localStorage.setItem("spaceShooterHighscore", highscore);
+        }
+
+        var highScoreToDisplay = 0;
+        if (localStorage.getItem("spaceShooterHighscore") !== null) {
+            highScoreToDisplay = parseInt(localStorage.getItem("spaceShooterHighscore"));
+        }
+        this.cameras.main.shake(500)
+        this.time.delayedCall(300, function () {
+            // this.cameras.main.fade(250);
+            this.cameras.main.resetFX();
+        }, [], this);
+        this.add.text(125, 275, "Your score was : " + score, {
+            fontSize: "20px",
+            fill: "#FFF"
+        });
+        this.add.text(115, 315, "The highscore was : " + highScoreToDisplay, {
+            fontSize: "20px",
+            fill: "#FFF"
+        });
         this.title = this.add.text(this.game.config.width * 0.5, 128, "GAME OVER", {
             fontFamily: 'monospace',
             fontSize: 48,
@@ -22,7 +44,7 @@ class SceneGameOver extends Phaser.Scene {
 
         this.btnRestart = this.add.sprite(
             this.game.config.width * 0.5,
-            this.game.config.height * 0.5,
+            this.game.config.height * 0.63,
             "sprBtnRestart"
         );
 

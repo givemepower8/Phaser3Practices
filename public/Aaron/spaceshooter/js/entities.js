@@ -60,6 +60,7 @@ class Player extends Entity {
     }
 
     onDestroy() {
+
         this.scene.time.addEvent({ // go to game over scene
             delay: 1000,
             callback: function () {
@@ -68,6 +69,7 @@ class Player extends Entity {
             callbackScope: this,
             loop: false
         });
+
     }
 
     update() {

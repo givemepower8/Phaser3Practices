@@ -1,3 +1,5 @@
+let score, scoreText, highscore;
+highscore = 0;
 class SceneMain extends Phaser.Scene {
     constructor() {
         super({
@@ -32,6 +34,11 @@ class SceneMain extends Phaser.Scene {
     }
 
     create() {
+        score = 0;
+        scoreText = this.add.text(16, 16, "Score: 0", {
+            fontSize: "32px",
+            fill: "#FFF"
+        });
         this.anims.create({
             key: "sprEnemy0",
             frames: this.anims.generateFrameNumbers("sprEnemy0"),
@@ -98,7 +105,7 @@ class SceneMain extends Phaser.Scene {
                     enemy = new GunShip(
                         this,
                         Phaser.Math.Between(0, this.game.config.width),
-                        0
+                        4
                     );
                 } else if (Phaser.Math.Between(0, 10) >= 5) {
                     if (this.getEnemiesByType("ChaserShip").length < 5) {
@@ -106,14 +113,14 @@ class SceneMain extends Phaser.Scene {
                         enemy = new ChaserShip(
                             this,
                             Phaser.Math.Between(0, this.game.config.width),
-                            0
+                            4
                         );
                     }
                 } else {
                     enemy = new CarrierShip(
                         this,
                         Phaser.Math.Between(0, this.game.config.width),
-                        0
+                        4
                     );
                 }
 
@@ -130,9 +137,12 @@ class SceneMain extends Phaser.Scene {
             if (enemy) {
                 if (enemy.onDestroy !== undefined) {
                     enemy.onDestroy();
+
                 }
                 enemy.explode(true);
                 playerLaser.destroy();
+                score += 10;
+                scoreText.setText("Score: " + score);
             }
         });
 
@@ -141,7 +151,10 @@ class SceneMain extends Phaser.Scene {
                 !enemy.getData("isDead")) {
                 player.explode(false);
                 player.onDestroy();
+
                 enemy.explode(true);
+
+                scoreText.setText("Score: " + score);
             }
         });
 
@@ -150,6 +163,7 @@ class SceneMain extends Phaser.Scene {
                 !laser.getData("isDead")) {
                 player.explode(false);
                 player.onDestroy();
+
                 laser.destroy();
             }
         });
@@ -201,8 +215,11 @@ class SceneMain extends Phaser.Scene {
                 if (enemy) {
                     if (enemy.onDestroy !== undefined) {
                         enemy.onDestroy();
+
                     }
                     enemy.destroy();
+                    score += 10;
+                    scoreText.setText("Score: " + score);
                 }
             }
         }
