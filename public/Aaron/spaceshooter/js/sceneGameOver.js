@@ -1,3 +1,4 @@
+let setHighScoreNow;
 class SceneGameOver extends Phaser.Scene {
     constructor() {
         super({
@@ -5,15 +6,22 @@ class SceneGameOver extends Phaser.Scene {
         });
     }
     create() {
-
+        setHighScoreNow = 0;
         if (score > highscore) {
             highscore = score
             localStorage.setItem("spaceShooterHighscore", highscore);
+            setHighScoreNow = 1;
         }
 
         var highScoreToDisplay = 0;
         if (localStorage.getItem("spaceShooterHighscore") !== null) {
             highScoreToDisplay = parseInt(localStorage.getItem("spaceShooterHighscore"));
+        }
+        if (setHighScoreNow = 1) {
+            this.add.text(160, 475, "NEW HIGHSCORE!", {
+                fontSize: "20px",
+                fill: "#F4FA58"
+            });
         }
         this.cameras.main.shake(500)
         this.time.delayedCall(300, function () {
