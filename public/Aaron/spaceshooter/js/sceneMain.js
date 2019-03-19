@@ -81,7 +81,7 @@ class SceneMain extends Phaser.Scene {
         this.player = new Player(
             this,
             this.game.config.width * 0.5,
-            this.game.config.height * 0.5,
+            this.game.config.height * 0.8,
             "sprPlayer"
         );
         console.log(this.player);
