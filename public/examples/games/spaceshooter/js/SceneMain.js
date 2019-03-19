@@ -1,8 +1,10 @@
 class SceneMain extends Phaser.Scene {
   constructor() {
-    super({ key: "SceneMain" });
+    super({
+      key: "SceneMain"
+    });
   }
-  
+
   preload() {
     this.load.spritesheet("sprExplosion", "content/sprExplosion.png", {
       frameWidth: 32,
@@ -89,7 +91,7 @@ class SceneMain extends Phaser.Scene {
 
     this.time.addEvent({
       delay: 1000,
-      callback: function() {
+      callback: function () {
         var enemy = null;
 
         if (Phaser.Math.Between(0, 10) >= 3) {
@@ -98,25 +100,23 @@ class SceneMain extends Phaser.Scene {
             Phaser.Math.Between(0, this.game.config.width),
             0
           );
-        }
-        else if (Phaser.Math.Between(0, 10) >= 5) {
+        } else if (Phaser.Math.Between(0, 10) >= 5) {
           if (this.getEnemiesByType("ChaserShip").length < 5) {
-    
+
             enemy = new ChaserShip(
               this,
               Phaser.Math.Between(0, this.game.config.width),
               0
             );
           }
-        }
-        else {
+        } else {
           enemy = new CarrierShip(
             this,
             Phaser.Math.Between(0, this.game.config.width),
             0
           );
         }
-    
+
         if (enemy !== null) {
           enemy.setScale(Phaser.Math.Between(10, 20) * 0.1);
           this.enemies.add(enemy);
@@ -126,7 +126,7 @@ class SceneMain extends Phaser.Scene {
       loop: true
     });
 
-    this.physics.add.collider(this.playerLasers, this.enemies, function(playerLaser, enemy) {
+    this.physics.add.collider(this.playerLasers, this.enemies, function (playerLaser, enemy) {
       if (enemy) {
         if (enemy.onDestroy !== undefined) {
           enemy.onDestroy();
@@ -136,18 +136,18 @@ class SceneMain extends Phaser.Scene {
       }
     });
 
-    this.physics.add.overlap(this.player, this.enemies, function(player, enemy) {
+    this.physics.add.overlap(this.player, this.enemies, function (player, enemy) {
       if (!player.getData("isDead") &&
-          !enemy.getData("isDead")) {
+        !enemy.getData("isDead")) {
         player.explode(false);
         player.onDestroy();
         enemy.explode(true);
       }
     });
 
-    this.physics.add.overlap(this.player, this.enemyLasers, function(player, laser) {
+    this.physics.add.overlap(this.player, this.enemyLasers, function (player, laser) {
       if (!player.getData("isDead") &&
-          !laser.getData("isDead")) {
+        !laser.getData("isDead")) {
         player.explode(false);
         player.onDestroy();
         laser.destroy();
@@ -172,21 +172,18 @@ class SceneMain extends Phaser.Scene {
       this.player.update();
       if (this.keyW.isDown) {
         this.player.moveUp();
-      }
-      else if (this.keyS.isDown) {
+      } else if (this.keyS.isDown) {
         this.player.moveDown();
       }
       if (this.keyA.isDown) {
         this.player.moveLeft();
-      }
-      else if (this.keyD.isDown) {
+      } else if (this.keyD.isDown) {
         this.player.moveRight();
       }
 
       if (this.keySpace.isDown) {
         this.player.setData("isShooting", true);
-      }
-      else {
+      } else {
         this.player.setData("timerShootTick", this.player.getData("timerShootDelay") - 1);
         this.player.setData("isShooting", false);
       }
