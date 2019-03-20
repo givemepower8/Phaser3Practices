@@ -27,7 +27,7 @@ class SceneMain extends Phaser.Scene {
             frameWidth: 16,
             frameHeight: 16
         });
-
+       // this.load.audio('music', ['../content/soundtrack.mp3', '../content/soundtrack.ogg']);
         this.load.audio("sndExplode0", "content/sndExplode0.wav");
         this.load.audio("sndExplode1", "content/sndExplode1.wav");
         this.load.audio("sndLaser", "content/sndLaser.wav");
@@ -167,6 +167,11 @@ class SceneMain extends Phaser.Scene {
                 laser.destroy();
             }
         });
+        // let track = this.sound.add('music');
+        // track.once('play', function () {
+        //     console.log("track play");
+        // });
+        // track.play();
     }
 
     getEnemiesByType(type) {
@@ -178,10 +183,10 @@ class SceneMain extends Phaser.Scene {
             }
         }
         return arr;
+
     }
 
     update() {
-
         if (!this.player.getData("isDead")) {
             this.player.update();
             if (this.keyW.isDown) {
