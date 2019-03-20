@@ -5,6 +5,7 @@ class SceneGameOver extends Phaser.Scene {
         });
     }
     create() {
+
         let highScoreToDisplay = 0;
         if (score > highscore) {
             highscore = score

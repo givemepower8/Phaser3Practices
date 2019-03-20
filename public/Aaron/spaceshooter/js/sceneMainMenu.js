@@ -5,10 +5,13 @@ class SceneMainMenu extends Phaser.Scene {
         });
     }
     preload() {
+
+        this.load.audio("music", ['./content/soundtrack.mp3', "./content/soundtrack.ogg"]);
         this.load.image("sprBg0", "content/sprBg0.png");
         this.load.image("sprBg1", "content/sprBg1.png");
         this.load.image("sprBtnPlay", "content/sprBtnPlay.png");
         this.load.image("sprBtnPlayHover", "content/sprBtnPlayHover.png");
+
         this.load.image("sprBtnPlayDown", "content/sprBtnPlayDown.png");
         this.load.image("sprBtnRestart", "content/sprBtnRestart.png");
         this.load.image("sprBtnRestartHover", "content/sprBtnRestartHover.png");
@@ -16,7 +19,9 @@ class SceneMainMenu extends Phaser.Scene {
         this.load.audio("sndBtnOver", "content/sndBtnOver.wav");
         this.load.audio("sndBtnDown", "content/sndBtnDown.wav");
     }
+
     create() {
+        let instext;
         this.add.text(320, 620, "Made by legomaster378", {
             fontSize: "12px",
             fill: "#FFF"
@@ -37,10 +42,16 @@ class SceneMainMenu extends Phaser.Scene {
         this.btnPlay.on("pointerover", function () {
             this.btnPlay.setTexture("sprBtnPlayHover"); // set the button texture to sprBtnPlayHover
             this.sfx.btnOver.play(); // play the button over sound
+            instext = this.add.text(30, 350, "WASD to move, Space key to shoot. Shoot down all of the enemies!", {
+                fontSize: "11px",
+                fill: "#FFF"
+            });
+
         }, this);
 
         this.btnPlay.on("pointerout", function () {
             this.setTexture("sprBtnPlay");
+            instext.setText("");
         });
 
         this.btnPlay.on("pointerdown", function () {

@@ -27,7 +27,7 @@ class SceneMain extends Phaser.Scene {
             frameWidth: 16,
             frameHeight: 16
         });
-       // this.load.audio('music', ['../content/soundtrack.mp3', '../content/soundtrack.ogg']);
+        //'./content/soundtrack.mp3',
         this.load.audio("sndExplode0", "content/sndExplode0.wav");
         this.load.audio("sndExplode1", "content/sndExplode1.wav");
         this.load.audio("sndLaser", "content/sndLaser.wav");
@@ -90,7 +90,9 @@ class SceneMain extends Phaser.Scene {
         this.keyS = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.S);
         this.keyA = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
         this.keyD = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.D);
-        this.keySpace = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
+        this.keySpace = this.input.keyboard.addKey(
+            Phaser.Input.Keyboard.KeyCodes.SPACE
+        );
 
         this.enemies = this.add.group();
         this.enemyLasers = this.add.group();
@@ -109,7 +111,6 @@ class SceneMain extends Phaser.Scene {
                     );
                 } else if (Phaser.Math.Between(0, 10) >= 5) {
                     if (this.getEnemiesByType("ChaserShip").length < 5) {
-
                         enemy = new ChaserShip(
                             this,
                             Phaser.Math.Between(0, this.game.config.width),
@@ -133,11 +134,13 @@ class SceneMain extends Phaser.Scene {
             loop: true
         });
 
-        this.physics.add.collider(this.playerLasers, this.enemies, function (playerLaser, enemy) {
+        this.physics.add.collider(this.playerLasers, this.enemies, function (
+            playerLaser,
+            enemy
+        ) {
             if (enemy) {
                 if (enemy.onDestroy !== undefined) {
                     enemy.onDestroy();
-
                 }
                 enemy.explode(true);
                 playerLaser.destroy();
@@ -146,9 +149,12 @@ class SceneMain extends Phaser.Scene {
             }
         });
 
-        this.physics.add.overlap(this.player, this.enemies, function (player, enemy) {
-            if (!player.getData("isDead") &&
-                !enemy.getData("isDead")) {
+        this.physics.add.overlap(this.player, this.enemies, function (
+            player,
+            enemy
+        ) {
+            if (!player.getData("isDead") && !enemy.getData("isDead")) {
+                track.stop();
                 player.explode(false);
                 player.onDestroy();
 
@@ -158,20 +164,24 @@ class SceneMain extends Phaser.Scene {
             }
         });
 
-        this.physics.add.overlap(this.player, this.enemyLasers, function (player, laser) {
-            if (!player.getData("isDead") &&
-                !laser.getData("isDead")) {
+        this.physics.add.overlap(this.player, this.enemyLasers, function (
+            player,
+            laser
+        ) {
+            if (!player.getData("isDead") && !laser.getData("isDead")) {
+                track.stop();
                 player.explode(false);
                 player.onDestroy();
 
                 laser.destroy();
             }
         });
-        // let track = this.sound.add('music');
-        // track.once('play', function () {
-        //     console.log("track play");
-        // });
-        // track.play();
+
+        let track = this.sound.add("music");
+        track.stop();
+        track.currentTime = 0;
+        track.loop = true;
+        track.play();
     }
 
     getEnemiesByType(type) {
@@ -183,7 +193,6 @@ class SceneMain extends Phaser.Scene {
             }
         }
         return arr;
-
     }
 
     update() {
@@ -203,7 +212,10 @@ class SceneMain extends Phaser.Scene {
             if (this.keySpace.isDown) {
                 this.player.setData("isShooting", true);
             } else {
-                this.player.setData("timerShootTick", this.player.getData("timerShootDelay") - 1);
+                this.player.setData(
+                    "timerShootTick",
+                    this.player.getData("timerShootDelay") - 1
+                );
                 this.player.setData("isShooting", false);
             }
         }
@@ -213,14 +225,15 @@ class SceneMain extends Phaser.Scene {
 
             enemy.update();
 
-            if (enemy.x < -enemy.displayWidth ||
+            if (
+                enemy.x < -enemy.displayWidth ||
                 enemy.x > this.game.config.width + enemy.displayWidth ||
                 enemy.y < -enemy.displayHeight * 4 ||
-                enemy.y > this.game.config.height + enemy.displayHeight) {
+                enemy.y > this.game.config.height + enemy.displayHeight
+            ) {
                 if (enemy) {
                     if (enemy.onDestroy !== undefined) {
                         enemy.onDestroy();
-
                     }
                     enemy.destroy();
                     score += 10;
@@ -232,10 +245,12 @@ class SceneMain extends Phaser.Scene {
         for (var i = 0; i < this.enemyLasers.getChildren().length; i++) {
             var laser = this.enemyLasers.getChildren()[i];
             laser.update();
-            if (laser.x < -laser.displayWidth ||
+            if (
+                laser.x < -laser.displayWidth ||
                 laser.x > this.game.config.width + laser.displayWidth ||
                 laser.y < -laser.displayHeight * 4 ||
-                laser.y > this.game.config.height + laser.displayHeight) {
+                laser.y > this.game.config.height + laser.displayHeight
+            ) {
                 if (laser) {
                     laser.destroy();
                 }
@@ -245,10 +260,12 @@ class SceneMain extends Phaser.Scene {
         for (var i = 0; i < this.playerLasers.getChildren().length; i++) {
             var laser = this.playerLasers.getChildren()[i];
             laser.update();
-            if (laser.x < -laser.displayWidth ||
+            if (
+                laser.x < -laser.displayWidth ||
                 laser.x > this.game.config.width + laser.displayWidth ||
                 laser.y < -laser.displayHeight * 4 ||
-                laser.y > this.game.config.height + laser.displayHeight) {
+                laser.y > this.game.config.height + laser.displayHeight
+            ) {
                 if (laser) {
                     laser.destroy();
                 }
