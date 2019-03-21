@@ -12,7 +12,7 @@ class Entity extends Phaser.GameObjects.Sprite {
   explode(canDestroy) {
     if (!this.getData("isDead")) {
       // Set the texture to the explosion image, then play the animation
-      this.setTexture("sprExplosion");  // this refers to the same animation key we used when we added this.anims.create previously
+      this.setTexture("sprExplosion"); // this refers to the same animation key we used when we added this.anims.create previously
       this.play("sprExplosion"); // play the animation
       // pick a random explosion sound within the array we defined in this.sfx in SceneMain
       this.scene.sfx.explosions[Phaser.Math.Between(0, this.scene.sfx.explosions.length - 1)].play();
@@ -23,11 +23,10 @@ class Entity extends Phaser.GameObjects.Sprite {
       }
       this.setAngle(0);
       this.body.setVelocity(0, 0);
-      this.on('animationcomplete', function() {
+      this.on('animationcomplete', function () {
         if (canDestroy) {
           this.destroy();
-        }
-        else {
+        } else {
           this.setVisible(false);
         }
       }, this);
@@ -43,7 +42,7 @@ class Player extends Entity {
     this.setData("speed", 200);
 
     this.setData("isShooting", false);
-    this.setData("timerShootDelay", 10);
+    this.setData("timerShootDelay", 0);
     this.setData("timerShootTick", this.getData("timerShootDelay") - 1);
   }
 
@@ -63,7 +62,7 @@ class Player extends Entity {
   onDestroy() {
     this.scene.time.addEvent({ // go to game over scene
       delay: 1000,
-      callback: function() {
+      callback: function () {
         this.scene.scene.start("SceneGameOver");
       },
       callbackScope: this,
@@ -79,11 +78,10 @@ class Player extends Entity {
     if (this.getData("isShooting")) {
       if (this.getData("timerShootTick") < this.getData("timerShootDelay")) {
         this.setData("timerShootTick", this.getData("timerShootTick") + 1); // every game update, increase timerShootTick by one until we reach the value of timerShootDelay
-      }
-      else { // when the "manual timer" is triggered:
+      } else { // when the "manual timer" is triggered:
         var laser = new PlayerLaser(this.scene, this.x, this.y);
         this.scene.playerLasers.add(laser);
-      
+
         this.scene.sfx.laser.play(); // play the laser sound effect
         this.setData("timerShootTick", 0);
       }
@@ -121,11 +119,11 @@ class ChaserShip extends Entity {
   update() {
     if (!this.getData("isDead") && this.scene.player) {
       if (Phaser.Math.Distance.Between(
-        this.x,
-        this.y,
-        this.scene.player.x,
-        this.scene.player.y
-      ) < 320) {
+          this.x,
+          this.y,
+          this.scene.player.x,
+          this.scene.player.y
+        ) < 320) {
 
         this.state = this.states.CHASE;
       }
@@ -144,10 +142,9 @@ class ChaserShip extends Entity {
 
         if (this.x < this.scene.player.x) {
           this.angle -= 5;
-        }
-        else {
+        } else {
           this.angle += 5;
-        } 
+        }
       }
     }
   }
@@ -162,7 +159,7 @@ class GunShip extends Entity {
 
     this.shootTimer = this.scene.time.addEvent({
       delay: 1000,
-      callback: function() {
+      callback: function () {
         var laser = new EnemyLaser(
           this.scene,
           this.x,
