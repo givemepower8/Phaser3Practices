@@ -236,8 +236,7 @@ class SceneMain extends Phaser.Scene {
                         enemy.onDestroy();
                     }
                     enemy.destroy();
-                    score += 10;
-                    scoreText.setText("Score: " + score);
+
                 }
             }
         }
