@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>single keydown event</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.CANVAS,
+            parent: 'phaser-example',
+            scene: {
+                create: create
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        function create() {
+
+            //  Listen for a specific key (in this case the A key.)
+            //  This works without creating a new Key object, and is especially useful for 'once' calls.
+            //  For game input (i.e. player controls) you should use Key objects instead.
+
+            this.input.keyboard.on('keydown_A', function (event) {
+
+                console.log('Hello from the A Key!');
+
+            });
+
+            this.input.keyboard.on('keydown', function (event) {
+
+                console.log(event.key);
+
+            });
+
+            this.input.keyboard.on('keydown_SPACE', function (event) {
+
+                console.log('Hello from the Space Bar!');
+
+            });
+
+            this.input.keyboard.addCapture('SPACE');
+        }
+    </script>
+
+</body>
+
+</html>
