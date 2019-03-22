@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>095 rectangle 1</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      type: Phaser.WEBGL,
+      parent: 'phaser-example',
+      scene: {
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function create() {
+
+      var r1 = new Phaser.Geom.Rectangle(0, 0, 100, 100);
+
+      console.log(r1);
+
+      var r2 = new Phaser.Geom.Rectangle(190, 90, 50, 50);
+
+      console.log(r2);
+
+      var overlaps = Phaser.Geom.Rectangle.Overlaps(r1, r2);
+
+      console.log('overlaps?', overlaps);
+
+      var area = Phaser.Geom.Rectangle.Area(r1);
+
+      console.log('r1 area', area);
+
+    }
+  </script>
+
+</body>
+
+</html>

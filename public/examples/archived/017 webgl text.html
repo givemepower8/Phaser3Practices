@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>017 webgl text</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example', {
+      preload: preload,
+      create: create
+    });
+
+    function preload() {
+
+      game.load.image('einstein', '/assets/pics/ra_einstein.png');
+      game.load.image('pic', '/assets/sprites/block.png');
+
+    }
+
+    function create() {
+
+      game.add.sprite(0, 0, 'einstein');
+
+      game.add.text(500, 400, 'Phaser 3', {
+        font: "65px Arial",
+        fill: "#ff0044"
+      });
+
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>query data</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      type: Phaser.WEBGL,
+      parent: 'phaser-example',
+      scene: {
+        preload: preload,
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function preload() {
+
+      this.load.image('gem', '/assets/sprites/gem.png');
+
+    }
+
+    var image;
+
+    function create() {
+
+      image = this.add.image(0, 0, 'gem');
+
+      image.setDataEnabled();
+
+      image.data.set('name', 'Red GemStone');
+      image.data.set('value_armor', true);
+      image.data.set('armor_head', 50);
+      image.data.set('armor_body', 250);
+      image.data.set('armor_feet', 15);
+
+      //  Query lets you run a regular expression against the keys,
+      //  and get an object back with them all in.
+      //  Here we're checking for keys matching 'armor' at the start
+      console.log(image.data.query(/^armor/));
+
+    }
+  </script>
+
+</body>
+
+</html>

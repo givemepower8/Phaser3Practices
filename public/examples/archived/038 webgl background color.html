@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>038 webgl background color</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example', {
+      preload: preload,
+      create: create
+    });
+
+    function preload() {
+
+      game.load.image('world', '/assets/pics/world.png');
+
+    }
+
+    var image;
+
+    function create() {
+
+      image = game.add.image(0, 0, 'world', null, game.stage);
+
+      // image.color.alpha = 0.5;
+
+      image.color.setBackground(255, 0, 255, 1);
+
+      // image.color.red = 100;
+
+      // game.add.tween(image.color).to( { red: 255, green: 20, blue: 200 }, 1000, 'Linear', true, 0, -1, true);
+
+    }
+  </script>
+
+</body>
+
+</html>
