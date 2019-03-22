@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>atlas frame tint</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.WEBGL,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600,
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
+
+        var image1;
+        var image2;
+
+        var game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.atlas('atlas', 'assets/atlas/megaset-2.png', 'assets/atlas/megaset-2.json');
+        }
+
+        function create() {
+            image1 = this.add.image(400, 150, 'atlas', 'atari400');
+            image2 = this.add.image(400, 400, 'atlas', 'hotdog');
+
+            //  Set the tint like this (topLeft, topRight, bottomLeft, bottomRight)
+
+            image1.setTint(0xff00ff, 0xffff00, 0x0000ff, 0xff0000);
+
+            image2.setTint(0x0000ff, 0xff0000, 0xff00ff, 0xffff00);
+        }
+
+        function update() {
+            image1.rotation -= 0.02;
+            image2.rotation += 0.02;
+        }
+    </script>
+
+</body>
+
+</html>

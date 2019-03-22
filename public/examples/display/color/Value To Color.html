@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Value To Color</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      type: Phaser.CANVAS,
+      parent: 'phaser-example',
+      scene: {
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function create() {
+
+      //  All should equal Color 255, 238, 221 (alpha 255)
+
+      var color1 = Phaser.Display.Color.ValueToColor(0xffeedd);
+
+      console.log(color1);
+
+      var color2 = Phaser.Display.Color.ValueToColor('#ffeedd');
+
+      console.log(color2);
+
+      var color3 = Phaser.Display.Color.ValueToColor('#fed');
+
+      console.log(color3);
+
+      var color4 = Phaser.Display.Color.ValueToColor('rgb(255, 238, 221)');
+
+      console.log(color4);
+
+    }
+  </script>
+
+</body>
+
+</html>

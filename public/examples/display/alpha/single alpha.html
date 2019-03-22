@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>single alpha</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      type: Phaser.WEBGL,
+      parent: 'phaser-example',
+      width: 800,
+      height: 600,
+      backgroundColor: '#7d2d2d',
+      scene: {
+        preload: preload,
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function preload() {
+      this.load.setBaseURL('http://labs.phaser.io');
+      this.load.image('face', 'assets/pics/bw-face.png');
+    }
+
+    function create() {
+      var image = this.add.image(400, 300, 'face');
+
+      image.setAlpha(0.2);
+    }
+  </script>
+
+</body>
+
+</html>
