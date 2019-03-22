@@ -2,56 +2,54 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>create from config</title>
-  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>create from config</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
 </head>
 
 <body>
 
-  <div id="phaser-example"></div>
-  <script>
-var config = {
-    type: Phaser.WEBGL,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: {
-        create: create,
-    }
-};
-
-var text;
-var game = new Phaser.Game(config);
-
-function create() 
-{
-    //  Implicit values
-    var config1 = {
-        x: 100,
-        y: 100,
-        text: 'Text\nGame Object\nCreated from config',
-        style: {
-            fontSize: '64px',
-            fontFamily: 'Arial',
-            color: '#ffffff',
-            align: 'center',
-            backgroundColor: '#ff00ff',
-            shadow: {
-                color: '#000000',
-                fill: true,
-                offsetX: 2,
-                offsetY: 2,
-                blur: 8
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.WEBGL,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            scene: {
+                create: create,
             }
+        };
+
+        var text;
+        var game = new Phaser.Game(config);
+
+        function create() {
+            //  Implicit values
+            var config1 = {
+                x: 100,
+                y: 100,
+                text: 'Text\nGame Object\nCreated from config',
+                style: {
+                    fontSize: '64px',
+                    fontFamily: 'Arial',
+                    color: '#ffffff',
+                    align: 'center',
+                    backgroundColor: '#ff00ff',
+                    shadow: {
+                        color: '#000000',
+                        fill: true,
+                        offsetX: 2,
+                        offsetY: 2,
+                        blur: 8
+                    }
+                }
+            };
+
+            this.make.text(config1);
         }
-    };
-
-    this.make.text(config1);
-}
-
     </script>
 
 </body>

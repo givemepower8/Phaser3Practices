@@ -13,19 +13,18 @@
 
   <div id="phaser-example"></div>
   <script>
-var config = {
-    type: Phaser.CANVAS,
-    parent: 'phaser-example',
-    scene: {
+    var config = {
+      type: Phaser.CANVAS,
+      parent: 'phaser-example',
+      scene: {
         create: create,
-    }
-};
+      }
+    };
 
-var game = new Phaser.Game(config);
+    var game = new Phaser.Game(config);
 
-function create() 
-{
-    var content = [
+    function create() {
+      var content = [
         "The sky above the port was the color of television, tuned to a dead channel.",
         "`It's not like I'm using,' Case heard someone say, as he shouldered his way ",
         "through the crowd around the door of the Chat. `It's like my body's developed",
@@ -48,12 +47,15 @@ function create()
         "",
         "",
         "From Neuromancer by William Gibson"
-    ];
+      ];
 
-    this.add.text(100, 100, content, { fontFamily: 'Arial', color: '#00ff00', align: 'right' });
-}
-
-    </script>
+      this.add.text(100, 100, content, {
+        fontFamily: 'Arial',
+        color: '#00ff00',
+        align: 'right'
+      });
+    }
+  </script>
 
 </body>
 

@@ -13,21 +13,20 @@
 
   <div id="phaser-example"></div>
   <script>
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: {
+    var config = {
+      type: Phaser.AUTO,
+      width: 800,
+      height: 600,
+      parent: 'phaser-example',
+      scene: {
         create: create,
-    }
-};
+      }
+    };
 
-var game = new Phaser.Game(config);
+    var game = new Phaser.Game(config);
 
-function create() 
-{
-    var content = [
+    function create() {
+      var content = [
         "The sky above the port was the color of television, tuned to a dead channel.",
         "`It's not like I'm using,' Case heard someone say, as he shouldered his way ",
         "through the crowd around the door of the Chat. `It's like my body's developed",
@@ -42,17 +41,20 @@ function create()
         "African whose cheekbones were ridged with precise rows of tribal scars. `Wage was",
         "in here early, with two joeboys,' Ratz said, shoving a draft across the bar with",
         "his good hand. `Maybe some business with you, Case?'"
-    ];
+      ];
 
-    this.add.text(100, 60, content, { fontFamily: 'Arial', color: '#00ff00', lineSpacing: 10 });
+      this.add.text(100, 60, content, {
+        fontFamily: 'Arial',
+        color: '#00ff00',
+        lineSpacing: 10
+      });
 
-    //  Or you can set it like this:
+      //  Or you can set it like this:
 
-    // var t = this.add.text(100, 60, content, { fontFamily: 'Arial', color: '#00ff00' });
-    // t.setLineSpacing(10);
-}
-
-    </script>
+      // var t = this.add.text(100, 60, content, { fontFamily: 'Arial', color: '#00ff00' });
+      // t.setLineSpacing(10);
+    }
+  </script>
 
 </body>
 

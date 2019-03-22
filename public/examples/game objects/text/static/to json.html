@@ -2,49 +2,47 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>to json</title>
-  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>to json</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
 </head>
 
 <body>
 
-  <div id="phaser-example"></div>
-  <script>
-var config = {
-    type: Phaser.WEBGL,
-    width: 800,
-    height: 600,
-    parent: 'phaser-example',
-    scene: {
-        create: create,
-    }
-};
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.WEBGL,
+            width: 800,
+            height: 600,
+            parent: 'phaser-example',
+            scene: {
+                create: create,
+            }
+        };
 
-var game = new Phaser.Game(config);
+        var game = new Phaser.Game(config);
 
-function create () 
-{
-    //  Implicit values
-    var textConfig = {
-        x: 100,
-        y: 100,
-        text: 'Phaser 3\ntoJSON',
-        style: {
-            font: '64px Arial',
-            fill: '#ffffff',
-            align: 'center',
-            backgroundColor: '#ff00ff'
+        function create() {
+            //  Implicit values
+            var textConfig = {
+                x: 100,
+                y: 100,
+                text: 'Phaser 3\ntoJSON',
+                style: {
+                    font: '64px Arial',
+                    fill: '#ffffff',
+                    align: 'center',
+                    backgroundColor: '#ff00ff'
+                }
+            };
+
+            var text = this.make.text(textConfig);
+
+            console.log(text.toJSON());
         }
-    };
-
-    var text = this.make.text(textConfig);
-
-    console.log(text.toJSON());
-}
-
     </script>
 
 </body>

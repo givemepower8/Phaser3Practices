@@ -2,76 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>render texture larger than camera</title>
-  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>render texture larger than camera</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
 </head>
 
 <body>
 
-  <div id="phaser-example"></div>
-  <script>
-var config = {
-    type: Phaser.AUTO,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    backgroundColor: '#2d2d88',
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            width: 800,
+            height: 600,
+            backgroundColor: '#2d2d88',
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
 
-var controls;
+        var controls;
 
-var game = new Phaser.Game(config);
+        var game = new Phaser.Game(config);
 
-function preload ()
-{
-    this.load.image('ayu', '/assets/pics/ayu.png');
-}
-
-function create ()
-{
-    var rt = this.add.renderTexture(0, 0, 1400, 1200);
-
-    rt.fill(0x2d2d2d);
-
-    for (var y = 0; y < 4; y++)
-    {
-        for (var x = 0; x < 4; x++)
-        {
-            rt.draw('ayu', x * 404, y * 371);
+        function preload() {
+            this.load.image('ayu', '/assets/pics/ayu.png');
         }
-    }
 
-    var cursors = this.input.keyboard.createCursorKeys();
+        function create() {
+            var rt = this.add.renderTexture(0, 0, 1400, 1200);
 
-    var controlConfig = {
-        camera: this.cameras.main,
-        left: cursors.left,
-        right: cursors.right,
-        up: cursors.up,
-        down: cursors.down,
-        acceleration: 0.06,
-        drag: 0.0005,
-        maxSpeed: 1.0
-    };
+            rt.fill(0x2d2d2d);
 
-    controls = new Phaser.Cameras.Controls.SmoothedKeyControl(controlConfig);
+            for (var y = 0; y < 4; y++) {
+                for (var x = 0; x < 4; x++) {
+                    rt.draw('ayu', x * 404, y * 371);
+                }
+            }
 
-    this.add.text(10, 10, 'Cursors to move', { font: '16px Courier', fill: '#ffffff' }).setScrollFactor(0);
-}
+            var cursors = this.input.keyboard.createCursorKeys();
 
-function update (time, delta)
-{
-    controls.update(delta);
-}
+            var controlConfig = {
+                camera: this.cameras.main,
+                left: cursors.left,
+                right: cursors.right,
+                up: cursors.up,
+                down: cursors.down,
+                acceleration: 0.06,
+                drag: 0.0005,
+                maxSpeed: 1.0
+            };
 
+            controls = new Phaser.Cameras.Controls.SmoothedKeyControl(controlConfig);
+
+            this.add.text(10, 10, 'Cursors to move', {
+                font: '16px Courier',
+                fill: '#ffffff'
+            }).setScrollFactor(0);
+        }
+
+        function update(time, delta) {
+            controls.update(delta);
+        }
     </script>
 
 </body>
