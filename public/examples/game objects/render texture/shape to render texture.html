@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>shape to render texture</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+var config = {
+    type: Phaser.AUTO,
+    parent: 'phaser-example',
+    width: 800,
+    height: 600,
+    scene: {
+        create: create
+    }
+};
+
+var game = new Phaser.Game(config);
+
+function create ()
+{
+    var rt = this.add.renderTexture(0, 0, 800, 600);
+
+    var circle = this.add.circle(200, 200, 80, 0x6666ff);
+
+    // var rect = this.add.rectangle(0, 0, 100, 100, 0xff0000);
+
+    rt.draw(circle, 300, 300);
+}
+
+    </script>
+
+</body>
+
+</html>
