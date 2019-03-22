@@ -10,6 +10,10 @@ There are three physics engines in Phaser ready to use, arcade, impact and matte
 
 [physics source code](https://github.com/photonstorm/phaser/blob/v3.16.2/src/physics/arcade/index.js)
 
+Difference between event, update method and physics
+
+Any game objects not enabled by physics can still be controlled in events, update method.
+
 ## Body
 
 [body source code](https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.Body.html)
@@ -40,7 +44,7 @@ First, config the game config.
 var config = {
   // ...
   physics: {
-    default: "arcade",
+    default: 'arcade',
     arcade: {
       gravity: {
         y: 100

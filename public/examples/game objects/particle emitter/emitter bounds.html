@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>emitter bounds</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.WEBGL,
+            width: 800,
+            height: 600,
+            backgroundColor: '#000',
+            parent: 'phaser-example',
+            scene: {
+                preload: preload,
+                create: create
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.atlas('flares', 'assets/particles/flares.png', 'assets/particles/flares.json');
+        }
+
+        function create() {
+            var particles = this.add.particles('flares');
+
+            var rect = new Phaser.Geom.Rectangle(100, 100, 600, 400);
+
+            particles.createEmitter({
+                frame: ['red', 'yellow', 'green'],
+                x: 400,
+                y: 300,
+                lifespan: 4000,
+                speed: {
+                    min: 100,
+                    max: 250
+                },
+                scale: {
+                    start: 0.4,
+                    end: 0
+                },
+                gravityY: 150,
+                bounce: 0.8,
+                bounds: rect,
+                blendMode: 'ADD'
+            });
+
+            particles.createEmitter({
+                frame: 'blue',
+                lifespan: 1000,
+                scale: {
+                    start: 0.4,
+                    end: 0
+                },
+                emitZone: {
+                    type: 'edge',
+                    source: rect,
+                    quantity: 60
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
