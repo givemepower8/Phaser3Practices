@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cat Catcher2000</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+
+</head>
+
+<body>
+  <script>
+    let cat, catcher, cursors, txtScore, score;
+
+    function catHitHandler(catcherObject, catObject) {
+      //console.log("cat hit");
+      catObject.x = Math.random() * 800;
+      catObject.y = Math.random() * 600;
+
+      score++;
+      txtScore.setText(score.toString());
+    }
+
+    // class Catcher extends Phaser.GameObjects.Sprite {
+
+    //   constructor(scene, x, y) {
+    //     super(scene, x, y);
+
+    //     this.setPosition(x, y);
+    //   }
+    // }
+
+    class SceneMain extends Phaser.Scene {
+      constructor() {
+        super({
+          key: "SceneMain"
+        });
+      }
+
+      preload() {
+        //load in assets needed
+        this.load.image('cat', 'img/cat.png');
+        this.load.image('catcher', 'img/catcher.png');
+        this.load.image('bg', 'img/bg.png');
+      }
+
+      create() {
+        //setup game
+        this.add.image(400, 300, 'bg');
+
+        catcher = this.physics.add.sprite(400, 300, 'catcher');
+        catcher.setCollideWorldBounds(true);
+
+        cat = this.physics.add.sprite(
+          Math.random() * 800,
+          Math.random() * 600,
+          'cat'
+        );
+        cat.setCollideWorldBounds(true);
+
+        score = 0;
+        var style = {
+          font: '20px Arial',
+          fill: '#FFF'
+        };
+        txtScore = this.add.text(10, 10, score.toString(), style);
+
+        //controls
+        cursors = this.input.keyboard.createCursorKeys();
+      }
+
+      update() {
+        //run game loop code
+
+        if (cursors.left.isDown) {
+          catcher.x -= 5;
+          //catcher.scale.x = 1;
+        }
+
+        if (cursors.right.isDown) {
+          catcher.x += 5;
+          //catcher.scale.x = -1;
+        }
+
+        if (cursors.up.isDown) {
+          catcher.y -= 5;
+        }
+
+        if (cursors.down.isDown) {
+          catcher.y += 5;
+        }
+
+        this.physics.overlap(catcher, cat, catHitHandler);
+      }
+    }
+
+    // set the configuration of the game
+    let config = {
+      type: Phaser.AUTO, // Phaser will use WebGL if available, if not it will use Canvas
+      width: 800,
+      height: 600,
+      physics: {
+        default: 'arcade',
+        arcade: {
+          debug: false
+        }
+      },
+      scene: [SceneMain]
+    };
+
+    // create a new game, pass the configuration
+    let game = new Phaser.Game(config);
+  </script>
+</body>
+
+</html>

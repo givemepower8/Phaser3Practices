@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>area</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            width: 800,
+            height: 600,
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            scene: {
+                create: create
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        function create() {
+            var graphics = this.add.graphics({
+                fillStyle: {
+                    color: 0xaaaa00
+                }
+            });
+
+            var triangle = new Phaser.Geom.Triangle(0, 0, 0, 600, 400, 300);
+
+            var text = this.add.text(400, 50, '');
+
+            this.input.on('pointermove', function (pointer) {
+
+                triangle.x3 = pointer.x;
+                triangle.y3 = pointer.y;
+
+                redraw();
+
+            });
+
+            redraw();
+
+            function redraw() {
+                graphics.clear();
+
+                graphics.fillTriangleShape(triangle);
+
+                var area = Phaser.Geom.Triangle.Area(triangle);
+
+                text.setText("Triangle Area: " + area);
+            }
+        }
+    </script>
+
+</body>
+
+</html>

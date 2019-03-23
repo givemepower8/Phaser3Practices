@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mouse down</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.CANVAS,
+            parent: 'phaser-example',
+            scene: {
+                preload: preload,
+                create: create
+            }
+        };
+
+        var game = new Phaser.Game(config);
+
+        function preload() {
+
+            this.load.image('logo', '/assets/sprites/phaser.png');
+
+        }
+
+        function create() {
+
+            this.input.on('pointerdown', function (pointer) {
+
+                this.add.image(pointer.x, pointer.y, 'logo');
+
+            }, this);
+
+        }
+    </script>
+
+</body>
+
+</html>

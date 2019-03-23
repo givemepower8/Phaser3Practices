@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>059 state from extended class</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var MyGame = {};
+
+        MyGame.Boot = function () {
+            Phaser.Scene.call(this);
+
+            this.bob = null;
+        };
+
+        MyGame.Boot.prototype = Object.create(Phaser.Scene.prototype);
+        MyGame.Boot.prototype.constructor = MyGame.Boot;
+
+        MyGame.Boot.prototype.preload = function () {
+            this.load.image('face', '/assets/pics/bw-face.png');
+        };
+
+        MyGame.Boot.prototype.create = function () {
+            this.bob = this.add.image(0, 0, 'face');
+        };
+
+        window.onload = function () {
+
+            //  All of the following different methods of adding a Scene work
+
+            //  Method 1 - Passed in the constructor
+
+            var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example', MyGame.Boot);
+
+            //  Method 2 - Given to SceneManager.add with autoStart true
+
+            // var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example');
+            // game.scene.add('Boot', MyGame.Boot, true);
+
+            //  Method 3 - Given to SceneManager.add and then started
+
+            // var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example');
+            // game.scene.add('Boot', MyGame.Boot);
+            // game.scene.start('Boot');
+
+        };
+    </script>
+
+</body>
+
+</html>

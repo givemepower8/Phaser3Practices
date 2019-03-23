@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>global keydown event</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      type: Phaser.CANVAS,
+      parent: 'phaser-example',
+      scene: {
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function create() {
+
+      //  Receives every single key down event, regardless of origin or key
+
+      this.input.keyboard.on('keydown', function (event) {
+
+        console.dir(event);
+
+      });
+
+    }
+  </script>
+
+</body>
+
+</html>

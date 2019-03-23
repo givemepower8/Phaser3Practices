@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>multiple images</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      type: Phaser.WEBGL,
+      parent: 'phaser-example',
+      width: 800,
+      height: 600,
+      scene: {
+        preload: preload,
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function preload() {
+      this.load.setBaseURL('http://labs.phaser.io');
+      this.load.image('pixel', 'assets/sprites/16x16.png');
+    }
+
+    function create() {
+      this.add.image(300, 300, 'pixel').setTint(0xff0000);
+      this.add.image(400, 300, 'pixel').setTint(0x00ff00);
+      this.add.image(500, 300, 'pixel').setTint(0x0000ff);
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>create triangle</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      width: 800,
+      height: 600,
+      type: Phaser.AUTO,
+      parent: 'phaser-example',
+      scene: {
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function create() {
+      var graphics = this.add.graphics({
+        lineStyle: {
+          width: 2,
+          color: 0x00ff00
+        },
+        fillStyle: {
+          color: 0xff0000
+        }
+      });
+
+      var triangle = new Phaser.Geom.Triangle(400, 100, 100, 500, 700, 500);
+
+      // graphics.strokeTriangleShape(triangle);
+
+      graphics.fillTriangleShape(triangle);
+    }
+  </script>
+
+</body>
+
+</html>

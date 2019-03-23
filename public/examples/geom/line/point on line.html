@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>point on line</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+  <div id="phaser-example"></div>
+  <script>
+    var config = {
+      width: 800,
+      height: 600,
+      type: Phaser.AUTO,
+      parent: 'phaser-example',
+      scene: {
+        create: create
+      }
+    };
+
+    var game = new Phaser.Game(config);
+
+    function create() {
+      var graphics = this.add.graphics();
+
+      var line = new Phaser.Geom.Line(200, 300, 700, 100);
+
+      graphics.lineStyle(1, 0x00aa00);
+
+      graphics.strokeLineShape(line);
+
+      var x = line.x1 + (line.x2 - line.x1) * 0.1;
+      var y = line.y1 + (line.y2 - line.y1) * 0.1;
+
+      graphics.fillStyle(0xff0000);
+
+      graphics.fillRect(x, y, 6, 6);
+    }
+  </script>
+
+</body>
+
+</html>
