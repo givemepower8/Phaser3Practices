@@ -148,3 +148,7 @@ Queen walk
 ## League
 
 ![League](https://www.allclash.com/farming-elixir-strategy/star-and-league-bonus/)
+
+## Readings
+
+[Flammy's Strategy Guides](https://clashofclans.fandom.com/wiki/Flammy%27s_Strategy_Guides)
