@@ -2,6 +2,10 @@
 
 Wisely dispatch troops to destroy opponent's defence system.
 
+## Structures
+
+### Wall
+
 ## Troops
 
 Each army camp has housing space 65 TH11, 70 TH12. 4 Camps in total, so TH11 260, TH12 280. Each clan castle level 11 adds 30 extra and level 12 adds 40 extra. No need to protect army camp.
@@ -170,6 +174,8 @@ Weakness:
 | 7     | 58  | 90  | 12        | 140,000            | 9          | 11d 12h       |
 | 8     | 62  | 96  | 13        | 180,000            | 10         | 14 days       |
 
+## Building
+
 ### Laboratory
 
 | Level | Hitpoints | Build Cost Elixir | Build Time | Experience Gained XP | Town Hall Level Required |
@@ -224,6 +230,8 @@ Common strategies
   - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Earthquake Spell in CC
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
+
+### TH 9 strategies
 
 ## Farming
 
