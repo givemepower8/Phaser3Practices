@@ -90,6 +90,8 @@ Weakness: no attack, vulnerable to any air defence
 
 ### Dragon
 
+[Dragon](https://clashofclans.fandom.com/wiki/Dragon)
+
 20 housing space, attack speed 1.25s, move speed: 16, range: 3 tile
 
 No preferred target
@@ -98,22 +100,60 @@ Strength: Splash damage radius 0.3, immune to ground troop, great in clan castle
 
 Weakness:
 
+| Level | DpS | DpA   | HP    | Cost   | Research Cost | Laboratory | Research Time |
+| ----- | --- | ----- | ----- | ------ | ------------- | ---------- | ------------- |
+| 1     | 140 | 175   | 1,900 | 18,000 | N/A           | N/A        | N/A           |
+| 2     | 160 | 200   | 2,100 | 20,000 | 2,000,000     | 5          | 4d 12h        |
+| 3     | 180 | 225   | 2,300 | 22,000 | 3,000,000     | 6          | 6 days        |
+| 4     | 210 | 262.5 | 2,600 | 24,000 | 5,000,000     | 7          | 6d 12h        |
+| 5     | 240 | 300   | 3,000 | 26,000 | 7,000,000     | 8          | 8 days        |
+| 6     | 270 | 337.5 | 3,300 | 28,000 | 9,000,000     | 9          | 11d 12h       |
+| 7     | 310 | 387.5 | 3,600 | 30,000 | 11,000,000    | 10         | 14 days       |
+
 ### PEKKA
 
 25 housing space, attack speed 1.8s, move speed: 16, range: 0.8 tile
 
-| Level | DpS | DpA   | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
-| ----- | --- | ----- | ----- | --------- | ------------------ | ---------- | ------------- |
-| 1     | 240 | 432   | 2,800 | 21,000    | N/A                | N/A        | N/A           |
-| 2     | 270 | 486   | 3,100 | 24,000    | 3,000,000          | 6          | 4d 12h        |
-| 3     | 310 | 558   | 3,500 | 27,000    | 5,000,000          | 6          | 5d 12h        |
-| 4     | 360 | 648   | 4,000 | 30,000    | 6,000,000          | 7          | 6 days        |
-| 5     | 410 | 738   | 4,700 | 33,000    | 7,500,000          | 8          | 7d 12h        |
-| 6     | 470 | 846   | 5,200 | 35,000    | 8,500,000          | 8          | 8d 12h        |
-| 7     | 540 | 972   | 5,700 | 37,000    | 10,000,000         | 9          | 11d 12h       |
-| 8     | 610 | 1,098 | 6,300 | 39,000    | 12,000,000         | 10         | 14 days       |
+| Level | DpS | DpA   | HP    | Cost   | Research Cost | Laboratory | Research Time |
+| ----- | --- | ----- | ----- | ------ | ------------- | ---------- | ------------- |
+| 1     | 240 | 432   | 2,800 | 21,000 | N/A           | N/A        | N/A           |
+| 2     | 270 | 486   | 3,100 | 24,000 | 3,000,000     | 6          | 4d 12h        |
+| 3     | 310 | 558   | 3,500 | 27,000 | 5,000,000     | 6          | 5d 12h        |
+| 4     | 360 | 648   | 4,000 | 30,000 | 6,000,000     | 7          | 6 days        |
+| 5     | 410 | 738   | 4,700 | 33,000 | 7,500,000     | 8          | 7d 12h        |
+| 6     | 470 | 846   | 5,200 | 35,000 | 8,500,000     | 8          | 8d 12h        |
+| 7     | 540 | 972   | 5,700 | 37,000 | 10,000,000    | 9          | 11d 12h       |
+| 8     | 610 | 1,098 | 6,300 | 39,000 | 12,000,000    | 10         | 14 days       |
 
 ### Baby dragon
+
+[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village)
+
+10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tile
+
+| Level | DpS | DpA | HP    | Cost   | Research Cost | Laboratory | Research Time |
+| ----- | --- | --- | ----- | ------ | ------------- | ---------- | ------------- |
+| 1     | 75  | 75  | 1,200 | 10,000 | N/A           | N/A        | N/A           |
+| 2     | 85  | 85  | 1,300 | 11,000 | 5,000,000     | 7          | 5d 12h        |
+| 3     | 95  | 95  | 1,400 | 12,000 | 6,000,000     | 8          | 6d 12h        |
+| 4     | 105 | 105 | 1,500 | 13,000 | 7,000,000     | 8          | 8 days        |
+| 5     | 115 | 115 | 1,600 | 14,000 | 8,000,000     | 9          | 11d 12h       |
+| 6     | 125 | 125 | 1,700 | 15,000 | 9,000,000     | 10         | 14 days       |
+
+### Miner
+
+[Miner](https://clashofclans.fandom.com/wiki/Miner)
+
+6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
+
+| Level | DpS | DpA   | HP  | Cost  | Research Cost | Laboratory | Research Time |
+| ----- | --- | ----- | --- | ----- | ------------- | ---------- | ------------- |
+| 1     | 80  | 136   | 550 | 4,200 | N/A           | N/A        | N/A           |
+| 2     | 88  | 149.6 | 610 | 4,800 | 6,000,000     | 8          | 5d 12h        |
+| 3     | 96  | 163.2 | 670 | 5,200 | 7,000,000     | 8          | 6d 12h        |
+| 4     | 104 | 176.8 | 730 | 5,600 | 8,000,000     | 9          | 8d            |
+| 5     | 112 | 190.4 | 800 | 6,000 | 9,500,000     | 9          | 11d 12h       |
+| 6     | 120 | 204   | 870 | 6,400 | 11,000,000    | 10         | 14d           |
 
 ### Minion
 
