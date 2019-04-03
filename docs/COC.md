@@ -8,9 +8,7 @@ Wisely dispatch troops to destroy opponent's defence system.
 
 ## Troops
 
-Each army camp has housing space 65 TH11, 70 TH12. 4 Camps in total, so TH11 260, TH12 280. Each clan castle level 11 adds 30 extra and level 12 adds 40 extra. No need to protect army camp.
-
-Barrack level unlocks new type of troops. The number of barracks determines how quick troop is trained. No need to protect barracks.
+Troops are the attacking units.
 
 ### Barbarian
 
@@ -44,13 +42,15 @@ Weakness: Slow and low attack.
 
 ### Goblins
 
+Goblins and wall breakers are great for farming, a.k.a., goblin knife. The drawback of goblin knife is that it drops trophies fast.
+
 1 housing space, attack speed 1s, move speed: 32, range: 0.4 tile
 
 Prefer resource building.
 
 Strength: Fastest unit which deals twice damage to resource building and town hall.
 
-Weakness: low HP, vulnerable to splash damage and spells
+Weakness: low HP, vulnerable to splash damage and spells.
 
 ### Wall breaker
 
@@ -64,13 +64,15 @@ Weakness: low HP, vulnerable to splash damage and spells
 
 ### Balloon
 
+Balloon is a must have for air attacking strategies. dragon-loon or lava-loon.
+
 5 housing space, attack speed 3s, move speed: 10, range: 0.5 tile
 
 prefer defensive structures.
 
 Strength: Splash damage radius 1.2, ground defensive cannot attack balloons, when it's destroyed, explode and cause damage.
 
-Weakness: slowest
+Weakness: slowest unit.
 
 ### Wizard
 
@@ -83,6 +85,8 @@ Strength: Splash damage radius 0.3, over wall attack.
 Weakness:
 
 ### Healer
+
+Healer is mainly used for supporting Queen.
 
 14 housing space, heal speed 0.7s, move speed: 16, range: 5 tile
 
@@ -114,6 +118,25 @@ Weakness:
 | 6     | 270 | 337.5 | 3,300 | 28,000 | 9,000,000     | 9          | 11d 12h       |
 | 7     | 310 | 387.5 | 3,600 | 30,000 | 11,000,000    | 10         | 14 days       |
 
+### Baby dragon
+
+[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon.
+
+10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tile
+
+Strength: Splash damage radius 0.3, immune to ground troop, attack faster than dragon but with less range. Damage x2 when enraged.
+
+Weakness: HP is not as endurable as dragon so more vulnerable to splash damage in group, DpS is much lower than dragon.
+
+| Level | DpS | DpA | HP    | Cost   | Research Cost | Laboratory | Research Time |
+| ----- | --- | --- | ----- | ------ | ------------- | ---------- | ------------- |
+| 1     | 75  | 75  | 1,200 | 10,000 | N/A           | N/A        | N/A           |
+| 2     | 85  | 85  | 1,300 | 11,000 | 5,000,000     | 7          | 5d 12h        |
+| 3     | 95  | 95  | 1,400 | 12,000 | 6,000,000     | 8          | 6d 12h        |
+| 4     | 105 | 105 | 1,500 | 13,000 | 7,000,000     | 8          | 8 days        |
+| 5     | 115 | 115 | 1,600 | 14,000 | 8,000,000     | 9          | 11d 12h       |
+| 6     | 125 | 125 | 1,700 | 15,000 | 9,000,000     | 10         | 14 days       |
+
 ### PEKKA
 
 25 housing space, attack speed 1.8s, move speed: 16, range: 0.8 tile
@@ -129,24 +152,9 @@ Weakness:
 | 7     | 540 | 972   | 5,700 | 37,000 | 10,000,000    | 9          | 11d 12h       |
 | 8     | 610 | 1,098 | 6,300 | 39,000 | 12,000,000    | 10         | 14 days       |
 
-### Baby dragon
-
-[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village)
-
-10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tile
-
-| Level | DpS | DpA | HP    | Cost   | Research Cost | Laboratory | Research Time |
-| ----- | --- | --- | ----- | ------ | ------------- | ---------- | ------------- |
-| 1     | 75  | 75  | 1,200 | 10,000 | N/A           | N/A        | N/A           |
-| 2     | 85  | 85  | 1,300 | 11,000 | 5,000,000     | 7          | 5d 12h        |
-| 3     | 95  | 95  | 1,400 | 12,000 | 6,000,000     | 8          | 6d 12h        |
-| 4     | 105 | 105 | 1,500 | 13,000 | 7,000,000     | 8          | 8 days        |
-| 5     | 115 | 115 | 1,600 | 14,000 | 8,000,000     | 9          | 11d 12h       |
-| 6     | 125 | 125 | 1,700 | 15,000 | 9,000,000     | 10         | 14 days       |
-
 ### Miner
 
-[Miner](https://clashofclans.fandom.com/wiki/Miner)
+[Miner](https://clashofclans.fandom.com/wiki/Miner) is often used with hero's support.
 
 6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
 
@@ -161,7 +169,7 @@ Weakness:
 
 ### Minion
 
-[Minion](https://clashofclans.fandom.com/wiki/Minion)
+[Minion](https://clashofclans.fandom.com/wiki/Minion) is a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion. Loonion is often brought with Rage Spells, Minions, Haste Spells, Poison Spell, and Balloons. The player will make a wall of Balloons where the air-targeting defences mostly are, and if needed, support them with either a haste spell or a rage spell. Then, they deploy the minions to clean up behind once the first layer of defenses are taken down. However, Air Bombs can seriously ruin this attack if many Balloons or Minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the Balloons from being destroyed.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -174,9 +182,43 @@ Weakness:
 | 7     | 58  | 90  | 12        | 140,000            | 9          | 11d 12h       |
 | 8     | 62  | 96  | 13        | 180,000            | 10         | 14 days       |
 
+### Hog rider
+
+### Golem
+
+### Valkyries
+
+### Bowler
+
+[Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
+
+### Witch
+
+## Heroes
+
+### Archer Queen
+
+### Barbarian King
+
+### Great Wardon
+
 ## Building
 
+### Barracks
+
+Barrack level unlocks new type of troops. The number of barracks determines how quick troop is trained. No need to protect barracks.
+
+### Camp
+
+Each army camp has housing space 65 at TH11, 70 at TH12. 4 Camps in total, so TH11 260, TH12 280 in total.
+
+Each clan castle level 11 adds 30 extra and level 12 adds 40 extra.
+
+No need to protect army camp.
+
 ### Laboratory
+
+Laboratory enables research on higher level of troops.
 
 | Level | Hitpoints | Build Cost Elixir | Build Time | Experience Gained XP | Town Hall Level Required |
 | ----- | --------- | ----------------- | ---------- | -------------------- | ------------------------ |
@@ -199,19 +241,13 @@ Weakness:
 
 ## Defence
 
-### Defence Ground only
-
-#### Mortar
+### Mortar
 
 Mortar cannot target troops within 4 tiles.
 
-### Defence Air only
-
-### Defence Both
-
 ## Strategies
 
-Minions are a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion. Loonion is often brought with Rage Spells, Minions, Haste Spells, Poison Spell, and Balloons. The player will make a wall of Balloons where the air-targeting defences mostly are, and if needed, support them with either a haste spell or a rage spell. Then, they deploy the minions to clean up behind once the first layer of defenses are taken down. However, Air Bombs can seriously ruin this attack if many Balloons or Minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the Balloons from being destroyed.
+Take out opponent's defence so to launch more effective attack.
 
 [Strategy_Guides](https://clashofclans.fandom.com/wiki/Strategy_Guides)
 
