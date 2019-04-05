@@ -6,6 +6,22 @@ Wisely dispatch troops to destroy opponent's defence system.
 
 ### Wall
 
+| Level | Cost Gold | Cumulative Cost | Cost Elixir | Cumulative Cost Elixir | Cost Wall Ring | Hitpoints | Town Hall Level Required |
+| ----- | --------- | --------------- | ----------- | ---------------------- | -------------- | --------- | ------------------------ |
+| 1     | 50        | 50              | N/A         | N/A                    | N/A            | 300       | 2                        |
+| 2     | 1,000     | 1,050           | N/A         | N/A                    | 1              | 500       | 2                        |
+| 3     | 5,000     | 6,050           | N/A         | N/A                    | 1              | 700       | 3                        |
+| 4     | 10,000    | 16,050          | N/A         | N/A                    | 1              | 900       | 4                        |
+| 5     | 25,000    | 41,050          | N/A         | N/A                    | 1              | 1,400     | 5                        |
+| 6     | 50,000    | 91,050          | N/A         | N/A                    | 1              | 2,000     | 6                        |
+| 7     | 100,000   | 191,050         | N/A         | N/A                    | 1              | 2,500     | 7                        |
+| 8     | 250,000   | 441,050         | N/A         | N/A                    | 1              | 3,000     | 8                        |
+| 9     | 500,000   | 941,050         | 500,000     | 500,000                | 1              | 4,000     | 9                        |
+| 10    | 1,000,000 | 1,941,050       | 1,000,000   | 1,500,000              | 1              | 5,500     | 9                        |
+| 11    | 2,000,000 | 3,941,050       | 2,000,000   | 3,500,000              | 2              | 7,000     | 10                       |
+| 12    | 4,000,000 | 7,941,050       | 4,000,000   | 7,500,000              | 4              | 8,500     | 11                       |
+| 13    | 5,000,000 | 12,941,050      | 5,000,000   | 12,500,000             | 5              | 10,000    | 12                       |
+
 ## Troops
 
 Troops are the attacking units.
@@ -20,6 +36,17 @@ Strength: cheap and fast to train, only 1 housing space, works great as a group 
 
 Weakness: low attack, vulnerable to splash damage like mortar, wizard tower and bomb tower.
 
+| Level | DpS | DpA | HP  | Cost | Research Cost | Laboratory | Research Time |
+| ----- | --- | --- | --- | ---- | ------------- | ---------- | ------------- |
+| 1     | 8   | 8   | 45  | 25   | N/A           | N/A        | N/A           |
+| 2     | 11  | 11  | 54  | 40   | 50,000        | 1          | 6 hours       |
+| 3     | 14  | 14  | 65  | 60   | 150,000       | 3          | 1 day         |
+| 4     | 18  | 18  | 78  | 100  | 500,000       | 5          | 2 days        |
+| 5     | 23  | 23  | 95  | 150  | 1,500,000     | 6          | 3 days        |
+| 6     | 26  | 26  | 110 | 200  | 4,500,000     | 7          | 4 days        |
+| 7     | 30  | 30  | 145 | 250  | 6,000,000     | 8          | 5 days        |
+| 8     | 34  | 34  | 205 | 300  | 8,000,000     | 9          | 8 days        |
+
 ### Archer
 
 1 housing space, attack speed 1s, move speed: 24, range: 3.5 tile
@@ -30,6 +57,17 @@ Strength: only 1 housing space, longer attack range, can attack over wall
 
 Weakness: low HP, vulnerable to splash damage and spells
 
+| Level | DpS | DpA | HP  | Cost | Research Cost | Laboratory | Research Time |
+| ----- | --- | --- | --- | ---- | ------------- | ---------- | ------------- |
+| 1     | 7   | 7   | 20  | 50   | N/A           | N/A        | N/A           |
+| 2     | 9   | 9   | 23  | 80   | 50,000        | 1          | 12 hours      |
+| 3     | 12  | 12  | 28  | 120  | 250,000       | 3          | 1 day         |
+| 4     | 16  | 16  | 33  | 200  | 750,000       | 5          | 2 days        |
+| 5     | 20  | 20  | 40  | 300  | 2,250,000     | 6          | 3 days        |
+| 6     | 22  | 22  | 44  | 400  | 6,000,000     | 7          | 4 days        |
+| 7     | 25  | 25  | 48  | 500  | 7,500,000     | 8          | 5 days        |
+| 8     | 28  | 28  | 52  | 600  | 9,000,000     | 9          | 8 days        |
+
 ### Giant
 
 5 housing space, attack speed 2s, move speed: 12, range: 1 tile
@@ -39,6 +77,18 @@ prefer defensive structures.
 Strength: higher HP so better distracting troop to protect the group.
 
 Weakness: Slow and low attack.
+
+| Level | DpS | DpA | HP    | Cost  | Research Cost | Laboratory | Research Time |
+| ----- | --- | --- | ----- | ----- | ------------- | ---------- | ------------- |
+| 1     | 11  | 22  | 300   | 250   | N/A           | N/A        | N/A           |
+| 2     | 14  | 28  | 360   | 750   | 100,000       | 2          | 12 hours      |
+| 3     | 19  | 38  | 430   | 1,250 | 250,000       | 4          | 1d 12h        |
+| 4     | 24  | 48  | 520   | 1,750 | 750,000       | 5          | 2 days        |
+| 5     | 31  | 62  | 720   | 2,250 | 2,250,000     | 6          | 3 days        |
+| 6     | 43  | 86  | 940   | 3,000 | 5,000,000     | 7          | 5 days        |
+| 7     | 50  | 100 | 1,280 | 3,500 | 6,000,000     | 8          | 6 days        |
+| 8     | 57  | 114 | 1,480 | 4,000 | 9,500,000     | 9          | 10 days       |
+| 9     | 64  | 128 | 1,660 | 4,500 | 12,000,000    | 10         | 14 days       |
 
 ### Goblins
 
@@ -74,6 +124,17 @@ Strength: Splash damage radius 1.2, ground defensive cannot attack balloons, whe
 
 Weakness: slowest unit.
 
+| Level | DpS | DpA | Damage upon death | HP  | Cost  | Research Cost | Laboratory | Research Time |
+| ----- | --- | --- | ----------------- | --- | ----- | ------------- | ---------- | ------------- |
+| 1     | 25  | 75  | 25                | 150 | 1,750 | N/A           | N/A        | N/A           |
+| 2     | 32  | 96  | 32                | 180 | 2,250 | 150,000       | 2          | 12 hours      |
+| 3     | 48  | 144 | 48                | 216 | 2,750 | 450,000       | 4          | 1d 12h        |
+| 4     | 72  | 216 | 72                | 280 | 3,500 | 1,350,000     | 5          | 2 days        |
+| 5     | 108 | 324 | 108               | 390 | 4,000 | 2,500,000     | 6          | 3 days        |
+| 6     | 162 | 486 | 162               | 545 | 4,500 | 6,000,000     | 7          | 5 days        |
+| 7     | 198 | 594 | 214               | 690 | 5,000 | 9,500,000     | 9          | 10 days       |
+| 8     | 236 | 708 | 268               | 840 | 5,500 | 12,000,000    | 10         | 14 days       |
+
 ### Wizard
 
 4 housing space, attack speed 1.5s, move speed: 16, range: 3 tile
@@ -83,6 +144,18 @@ No preferred target
 Strength: Splash damage radius 0.3, over wall attack.
 
 Weakness:
+
+| Level | DpS | DpA   | HP  | Cost  | Research Cost | Laboratory | Research Time |
+| ----- | --- | ----- | --- | ----- | ------------- | ---------- | ------------- |
+| 1     | 50  | 75    | 75  | 1,000 | N/A           | N/A        | N/A           |
+| 2     | 70  | 105   | 90  | 1,400 | 150,000       | 3          | 12 hours      |
+| 3     | 90  | 135   | 108 | 1,800 | 450,000       | 4          | 1d 12h        |
+| 4     | 125 | 187.5 | 130 | 2,200 | 1,350,000     | 5          | 2 days        |
+| 5     | 170 | 255   | 156 | 2,600 | 2,500,000     | 6          | 3 days        |
+| 6     | 185 | 277.5 | 175 | 3,000 | 5,000,000     | 7          | 5 days        |
+| 7     | 200 | 300   | 190 | 3,400 | 7,000,000     | 8          | 6 days        |
+| 8     | 215 | 322.5 | 210 | 3,800 | 9,000,000     | 9          | 10 days       |
+| 9     | 230 | 345   | 230 | 4,200 | 11,000,000    | 10         | 14 days       |
 
 ### Healer
 
@@ -167,6 +240,16 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 | 5     | 112 | 190.4 | 800 | 6,000 | 9,500,000     | 9          | 11d 12h       |
 | 6     | 120 | 204   | 870 | 6,400 | 11,000,000    | 10         | 14d           |
 
+### Electro Dragon
+
+30 housing space, attack speed 3.5s, move speed: 12, range: 3 tile
+
+| Level | DpS | DpA   | Damage when destroyed | HP    | Cost   | Research Cost | Laboratory | Research Time |
+| ----- | --- | ----- | --------------------- | ----- | ------ | ------------- | ---------- | ------------- |
+| 1     | 240 | 840   | 50 x6                 | 3,200 | 28,000 | N/A           | N/A        | N/A           |
+| 2     | 270 | 945   | 55 x6                 | 3,700 | 32,000 | 9,000,000     | 9          | 10 days       |
+| 3     | 300 | 1,050 | 60 x6                 | 4,200 | 36,000 | 11,000,000    | 10         | 14 days       |
+
 ### Minion
 
 [Minion](https://clashofclans.fandom.com/wiki/Minion) is a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion. Loonion is often brought with Rage Spells, Minions, Haste Spells, Poison Spell, and Balloons. The player will make a wall of Balloons where the air-targeting defences mostly are, and if needed, support them with either a haste spell or a rage spell. Then, they deploy the minions to clean up behind once the first layer of defenses are taken down. However, Air Bombs can seriously ruin this attack if many Balloons or Minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the Balloons from being destroyed.
@@ -186,13 +269,58 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### Golem
 
-### Valkyries
+### Valkyrie
+
+8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
+
+| Level | DpS | DpA   | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | ----- | ----- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 94  | 169.2 | 750   | 50        | N/A                | N/A        | N/A           |
+| 2     | 106 | 190.8 | 800   | 65        | 50,000             | 6          | 4 days        |
+| 3     | 119 | 214.2 | 850   | 80        | 60,000             | 7          | 5d 12h        |
+| 4     | 133 | 239.4 | 900   | 100       | 70,000             | 7          | 6d 12h        |
+| 5     | 148 | 266.4 | 1,100 | 130       | 110,000            | 8          | 8 days        |
+| 6     | 163 | 293.4 | 1,200 | 160       | 150,000            | 9          | 11d 12h       |
+| 7     | 178 | 320.4 | 1,300 | 190       | 190,000            | 10         | 14 days       |
 
 ### Bowler
 
+6 housing space, attack speed 2.2s, move speed: 14, range: 3 tile
+
 [Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
 
+| Level | DpS | DpA | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | --- | --- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 60  | 132 | 290 | 70        | N/A                | N/A        | N/A           |
+| 2     | 70  | 154 | 310 | 95        | 120,000            | 8          | 8d 12h        |
+| 3     | 80  | 176 | 350 | 115       | 160,000            | 9          | 12 days       |
+| 4     | 90  | 198 | 390 | 140       | 200,000            | 10         | 14 days       |
+
 ### Witch
+
+Witches will spawn Skeletons to help the Giants.
+
+12 housing space, attack speed 0.7s, summon cool down 7s, move speed: 12, range: 4 tile
+
+no preferred target
+
+| Level | DpS | DpA | Maximum skeleton | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | --- | ---------------- | --- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 100 | 70  | 6                | 300 | 125       | N/A                | N/A        | N/A           |
+| 2     | 110 | 77  | 8                | 320 | 150       | 75,000             | 7          | 6 days        |
+| 3     | 140 | 98  | 10               | 400 | 175       | 120,000            | 8          | 9 days        |
+| 4     | 160 | 112 | 12               | 440 | 225       | 160,000            | 9          | 12 days       |
+| 5     | 180 | 126 | 14               | 480 | 275       | 200,000            | 10         | 14 days       |
+
+### Lava Hound
+
+| Level | DpS | DpA | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | --- | --- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 10  | 20  | 100 | 8         | 6,100              | 390        | N/A           | N/A | N/A |
+| 2     | 12  | 24  | 150 | 10        | 6,500              | 450        | 60,000        | 7 | 6d 12h |
+| 3     | 14  | 28  | 200 | 12        | 6,800              | 510        | 70,000        | 8 | 8 days |
+| 4     | 16  | 32  | 250 | 14        | 7,200              | 570        | 150,000       | 9 | 11d 12h |
+| 5     | 18  | 36  | 300 | 16        | 7,600              | 630        | 200,000       | 10 | 14 days |
 
 ## Heroes
 
@@ -271,6 +399,38 @@ Common strategies
 
 ## Farming
 
+### TH 11 strategies
+
+<https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
+
+#### lavaloonian
+
+A little bit costy but very effective.
+
+- 3 Lavahound
+- 26 Balloons
+- 21 Minions
+- 4 Wall Breakers
+- 3 Rage Spell
+- 1 Healing Spell
+- 1 Freeze Spell
+- 1 Haze Spell
+
+<https://www.youtube.com/watch?v=_IVqeAipX5g>
+
+<https://www.allclash.com/farming-with-lavaloonian/>
+
+A variation with queen walk
+
+- 4 Healers
+- 26 Balloons
+- 21 Minions
+- 4 Wall Breakers
+- 3 Rage Spell
+- 1 Healing Spell
+- 1 Freeze Spell
+- 1 Haze Spell
+
 [farming elixir strategy](https://www.allclash.com/farming-elixir-strategy/)
 
 <https://www.allclash.com/farming-strategies-for-all-town-hall-level/>
@@ -283,7 +443,7 @@ Common strategies
 
 <https://www.allclash.com/farming-with-goblin-knife/>
 
-<https://www.allclash.com/farming-with-lavaloonian/>
+<https://cocland.com/guides/bowler-attack-strategy>
 
 ## League
 
