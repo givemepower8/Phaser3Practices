@@ -2,25 +2,42 @@
 
 Wisely dispatch troops to destroy opponent's defence system.
 
-## Structures
+## Resources and Structures
+
+Gold mine and elixir
+
+- TH8 can have 6 of each and maximum level 12.
+- TH9 can have 7 of each.
+- TH10 can have maximum level 13.
+
+- Each level 12 generates 4200/h, 100.8K/day
+- Each level 13 generates 4900/h. 117.6K/day
+
+Dark elixir
+
+- TH8 can have 2 of each and maximum level 3.
+- Each level 3 generates 45/h, 1080/day
+- TH9 can have level 4,5,6
+- TH10 can level 7 and 3 of each of max level 7
+- Each level 7 generates 120/h, 2880/day
 
 ### Wall
 
 | Level | Color           | Cost Gold | Cumulative Cost | Cost Wall Ring | Hitpoints | TH Required | Total |
 | ----- | --------------- | --------- | --------------- | -------------- | --------- | ----------- | ----- |
 | 1     |                 | 50        | 50              | N/A            | 300       | 2           |       |
-| 2     |                 | 1,000     | 1,050           | 1              | 500       | 2           |       |
-| 3     |                 | 5,000     | 6,050           | 1              | 700       | 3           |       |
-| 4     |                 | 10,000    | 16,050          | 1              | 900       | 4           |       |
-| 5     | gold            | 25,000    | 41,050          | 1              | 1,400     | 5           |       |
-| 6     | pink crystal    | 50,000    | 91,050          | 1              | 2,000     | 6           |       |
-| 7     | purple crystal  | 100,000   | 191,050         | 1              | 2,500     | 7           |       |
-| 8     | dark stone      | 250,000   | 441,050         | 1              | 3,000     | 8           | 225   |
-| 9     | skeleton        | 500,000   | 941,050         | 1              | 4,000     | 9           | 250   |
-| 10    | dark with spike | 1,000,000 | 1,941,050       | 1              | 5,500     | 9           | 250   |
-| 11    | lava            | 2,000,000 | 3,941,050       | 2              | 7,000     | 10          |       |
-| 12    | yellow          | 4,000,000 | 7,941,050       | 4              | 8,500     | 11          |       |
-| 13    | blue            | 5,000,000 | 12,941,050      | 5              | 10,000    | 12          |       |
+| 2     |                 | 1,000     | 1,050           | 1              | 500       | 2           | 25    |
+| 3     |                 | 5,000     | 6,050           | 1              | 700       | 3           | 50    |
+| 4     |                 | 10,000    | 16,050          | 1              | 900       | 4           | 75    |
+| 5     | gold            | 25,000    | 41,050          | 1              | 1,400     | 5           | 100   |
+| 6     | pink crystal    | 50,000    | 91,050          | 1              | 2,000     | 6           | 125   |
+| 7     | purple crystal  | 100,000   | 191,050         | 1              | 2,500     | 7           | 175   |
+| 8     | skull           | 250,000   | 441,050         | 1              | 3,000     | 8           | 225   |
+| 9     | spike           | 500,000   | 941,050         | 1              | 4,000     | 9           | 250   |
+| 10    | lava stripe top | 1,000,000 | 1,941,050       | 1              | 5,500     | 9           | 250   |
+| 11    | lava side       | 2,000,000 | 3,941,050       | 2              | 7,000     | 10          | 275   |
+| 12    | yellow          | 4,000,000 | 7,941,050       | 4              | 8,500     | 11          | 300   |
+| 13    | blue            | 5,000,000 | 12,941,050      | 5              | 10,000    | 12          | 300   |
 
 From level 9, elixir can be used for the upgrade.
 
@@ -269,8 +286,6 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### Hog rider
 
-### Golem
-
 ### Valkyrie
 
 8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
@@ -284,6 +299,10 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 | 5     | 148 | 266.4 | 1,100 | 130       | 110,000            | 8          | 8 days        |
 | 6     | 163 | 293.4 | 1,200 | 160       | 150,000            | 9          | 11d 12h       |
 | 7     | 178 | 320.4 | 1,300 | 190       | 190,000            | 10         | 14 days       |
+
+### Golem
+
+Unlocked at dark barrack level 4.
 
 ### Bowler
 
