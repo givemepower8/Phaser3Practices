@@ -286,6 +286,10 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### Hog rider
 
+Unlocked at dark barrack level 2.
+
+5 housing space, attack speed 1s, move speed: 24, range: 0.6 tile
+
 ### Valkyrie
 
 8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
@@ -303,6 +307,12 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 ### Golem
 
 Unlocked at dark barrack level 4.
+
+30 housing space, attack speed 2.4s, move speed: 12, range: 1 tile
+
+Cause splash damage in 1.2 title when it dies.
+
+### Ice Golem
 
 ### Bowler
 
@@ -335,13 +345,17 @@ no preferred target
 
 ### Lava Hound
 
-| Level | DpS | DpA | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
-| ----- | --- | --- | --- | --------- | ------------------ | ---------- | ------------- |
-| 1     | 10  | 20  | 100 | 8         | 6,100              | 390        | N/A           | N/A | N/A |
-| 2     | 12  | 24  | 150 | 10        | 6,500              | 450        | 60,000        | 7 | 6d 12h |
-| 3     | 14  | 28  | 200 | 12        | 6,800              | 510        | 70,000        | 8 | 8 days |
-| 4     | 16  | 32  | 250 | 14        | 7,200              | 570        | 150,000       | 9 | 11d 12h |
-| 5     | 18  | 36  | 300 | 16        | 7,600              | 630        | 200,000       | 10 | 14 days |
+Unlocked at dark barrack level 6.
+
+30 housing space, attack speed 2s, move speed: 20, range: 1 tile
+
+| Level | DpS | DpA | Damage upon death | Lava pups | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | --- | ----------------- | --------- | ----- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 10  | 20  | 100               | 8         | 6,100 | 390       | N/A                | N/A        | N/A           |
+| 2     | 12  | 24  | 150               | 10        | 6,500 | 450       | 60,000             | 7          | 6d 12h        |
+| 3     | 14  | 28  | 200               | 12        | 6,800 | 510       | 70,000             | 8          | 8 days        |
+| 4     | 16  | 32  | 250               | 14        | 7,200 | 570       | 150,000            | 9          | 11d 12h       |
+| 5     | 18  | 36  | 300               | 16        | 7,600 | 630       | 200,000            | 10         | 14 days       |
 
 ## Heroes
 
