@@ -4,7 +4,7 @@ Wisely dispatch troops to destroy opponent's defence system.
 
 ## Resources and Structures
 
-Gold mine and elixir
+Gold mine and elixir collector
 
 - TH8 can have 6 of each and maximum level 12.
 - TH9 can have 7 of each.
@@ -13,12 +13,12 @@ Gold mine and elixir
 - Each level 12 generates 4200/h, 100.8K/day
 - Each level 13 generates 4900/h. 117.6K/day
 
-Dark elixir
+Dark elixir collector
 
 - TH8 can have 2 of each and maximum level 3.
 - Each level 3 generates 45/h, 1080/day
 - TH9 can have level 4,5,6
-- TH10 can level 7 and 3 of each of max level 7
+- TH10 can have 3 of them with max level 7
 - Each level 7 generates 120/h, 2880/day
 
 ### Wall
@@ -414,12 +414,6 @@ Take out opponent's defence so to launch more effective attack.
 
 [Strategy_Guides](https://clashofclans.fandom.com/wiki/Strategy_Guides)
 
-Queen walk
-
-- Put a balloon when to deploy the queen to trigger the seeking air mine.
-- Use offensive spells around queen
-  - Rage spell to increase the queen DPS.
-
 Common strategies
 
 - Air
@@ -430,15 +424,54 @@ Common strategies
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
+### TH 8 Strategies
+
+maximize the troops
+
+- Barbarian lvl 5
+- Wizard lvl 5
+- Archer lvl 5
+- Hog rider lvl 4
+- Dragon lvl 3
+- Balloon lvl 5
+- Barbarian King 10
+
+maximize the spells
+
+maximize the defence
+
+- Air defense lvl 5
+- Mortar lvl 5
+- Wizard tower 4
+- Archer tower
+- Bomb tower
+- Bombs and traps
+
 ### TH 9 strategies
 
-## Farming
+Queen joins in the village.
+
+Queen walk
+
+- Put a balloon when to deploy the queen to trigger the seeking air mine.
+- Protect the healers. Make sure no other troops will take away the healers.
+- Use offensive spells around queen
+
+  - Rage spell to increase the queen DPS.
+
+### TH 10 strategies
 
 ### TH 11 strategies
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
-#### lavaloonian
+Bowler
+
+Miner
+
+## Farming
+
+### lavaloonian
 
 A little bit costy but very effective.
 
