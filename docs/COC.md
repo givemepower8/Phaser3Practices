@@ -357,25 +357,43 @@ Unlocked at dark barrack level 6.
 | 4     | 16  | 32  | 250               | 14        | 7,200 | 570       | 150,000            | 9          | 11d 12h       |
 | 5     | 18  | 36  | 300               | 16        | 7,600 | 630       | 200,000            | 10         | 14 days       |
 
+## Spells
+
+### Heal spell
+
+It's vital for hog riders, miners.
+
+### Rage spell
+
+### Poison spell
+
+It's must have for cc troops.
+
 ## Heroes
 
 ### Archer Queen
 
 ### Barbarian King
 
-### Great Wardon
+### Great Warden
 
 ## Building
 
 ### Barracks
 
-Barrack level unlocks new type of troops. The number of barracks determines how quick troop is trained. No need to protect barracks.
+Elixir troop and dark elixir troop.
+
+Barrack level unlocks new type of troops. Also the number and level of barracks determine how quick troop is trained.
+
+No need to protect barracks.
 
 ### Camp
 
-Each army camp has housing space 65 at TH11, 70 at TH12. 4 Camps in total, so TH11 260, TH12 280 in total.
+The camp level decides how much housing space for the troops. Each army camp has housing space 65 at TH11, 70 at TH12. 4 Camps in total, so TH11 260, TH12 280 in total.
 
 Each clan castle level 11 adds 30 extra and level 12 adds 40 extra.
+
+Always maximize camp as soon as possible so to strengthen the attack.
 
 No need to protect army camp.
 
@@ -404,13 +422,21 @@ Laboratory enables research on higher level of troops.
 
 ## Defence
 
+### Cannon
+
 ### Mortar
 
 Mortar cannot target troops within 4 tiles.
 
 ## Strategies
 
-Take out opponent's defence so to launch more effective attack.
+Study your opponent's base. Take out opponent's defence so to launch more effective attack.
+
+Have a balanced attack system.
+
+If the base air defence level is low, use air troops.
+
+If the base ground defence level is strong, use hog rider, bowler, miner.
 
 [Strategy_Guides](https://clashofclans.fandom.com/wiki/Strategy_Guides)
 
@@ -423,6 +449,8 @@ Common strategies
   - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Earthquake Spell in CC
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
+
+### CC lure
 
 ### TH 8 Strategies
 
