@@ -131,6 +131,17 @@ Strength: Splash damage radius 2, deals 40X damage to wall.
 
 Weakness: low HP, vulnerable to splash damage and spells
 
+| Level | Damage | Walls | HP  | Cost  | Research Cost | Laboratory | Research Time |
+| ----- | ------ | ----- | --- | ----- | ------------- | ---------- | ------------- |
+| 1     | 12     | 480   | 20  | 600   | N/A           | N/A        | N/A           |
+| 2     | 16     | 640   | 24  | 800   | 100,000       | 2          | 12 hours      |
+| 3     | 24     | 960   | 29  | 1,000 | 250,000       | 4          | 1d 12h        |
+| 4     | 32     | 1,280 | 35  | 1,200 | 750,000       | 5          | 2 days        |
+| 5     | 46     | 1,840 | 53  | 1,400 | 2,000,000     | 6          | 3 days        |
+| 6     | 60     | 2,400 | 72  | 1,600 | 6,000,000     | 8          | 5 days        |
+| 7     | 78     | 3,120 | 82  | 1,800 | 9,000,000     | 9          | 8 days        |
+| 8     | 100    | 4,000 | 92  | 2,000 | 12,000,000    | 10         | 14 days       |
+
 ### Balloon
 
 Balloon is a must have for air attacking strategies. dragon-loon or lava-loon.
@@ -187,6 +198,14 @@ Prefer radius 2 ground troop
 Strength: healing
 
 Weakness: no attack, vulnerable to any air defence
+
+| Level | Healing per Second | Healing per Pulse | HP    | Cost   | Research Cost | Laboratory | Research Time |
+| ----- | ------------------ | ----------------- | ----- | ------ | ------------- | ---------- | ------------- |
+| 1     | 35                 | 24.5              | 500   | 5,000  | N/A           | N/A        | N/A           |
+| 2     | 42                 | 29.4              | 600   | 6,000  | 750,000       | 5          | 2 days        |
+| 3     | 55                 | 38.5              | 840   | 8,000  | 1,500,000     | 6          | 3 days        |
+| 4     | 65                 | 45.5              | 1,200 | 10,000 | 3,000,000     | 7          | 5 days        |
+| 5     | 80                 | 56                | 1,500 | 14,000 | 9,500,000     | 9          | 14 days       |
 
 ### Dragon
 
@@ -290,6 +309,18 @@ Unlocked at dark barrack level 2.
 
 5 housing space, attack speed 1s, move speed: 24, range: 0.6 tile
 
+| Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 60  | 270 | 30        | N/A                | N/A        | N/A           |
+| 2     | 70  | 312 | 34        | 20,000             | 5          | 3d 12h        |
+| 3     | 80  | 360 | 38        | 30,000             | 6          | 4 days        |
+| 4     | 92  | 415 | 42        | 40,000             | 6          | 4d 12h        |
+| 5     | 105 | 480 | 48        | 50,000             | 7          | 6 days        |
+| 6     | 118 | 590 | 60        | 100,000            | 8          | 7d 12h        |
+| 7     | 135 | 700 | 80        | 150,000            | 9          | 11d 12h       |
+| 8     | 148 | 810 | 100       | 200,000            | 10         | 14 days       |
+| 9     | 161 | 920 | 120       | 240,000            | 10         | 14 days       |
+
 ### Valkyrie
 
 8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
@@ -312,7 +343,26 @@ Unlocked at dark barrack level 4.
 
 Cause splash damage in 1.2 title when it dies.
 
+| Level | DpS | DpA   | Damage Upon Death | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | ----- | ----------------- | ----- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 38  | 91.2  | 350               | 5,100 | 200       | N/A                | N/A        | N/A           |
+| 2     | 42  | 100.8 | 400               | 5,400 | 250       | 60,000             | 6          | 4 days        |
+| 3     | 46  | 110.4 | 450               | 5,700 | 300       | 70,000             | 7          | 5d 12h        |
+| 4     | 50  | 120   | 500               | 6,000 | 350       | 80,000             | 7          | 6d 12h        |
+| 5     | 54  | 129.6 | 530               | 6,300 | 425       | 90,000             | 8          | 8 days        |
+| 6     | 58  | 139.2 | 530               | 6,600 | 500       | 150,000            | 9          | 9d 12h        |
+| 7     | 62  | 148.8 | 530               | 6,900 | 600       | 200,000            | 9          | 11d 12h       |
+| 8     | 66  | 158.4 | 530               | 7,200 | 700       | 200,000            | 10         | 14 days       |
+
 ### Ice Golem
+
+| Level | DpS | DpA  | Damage Upon Death | defense | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | ---- | ----------------- | ------- | ----- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 24  | 57.6 | 4.0s              | 2.5s    | 2,600 | 220       | N/A                | N/A        | N/A           |
+| 2     | 28  | 67.2 | 4.75s             | 2.75s   | 2,800 | 240       | 80,000             | 9          | 8 days        |
+| 3     | 32  | 76.8 | 5.5s              | 3.0s    | 3,000 | 260       | 120,000            | 9          | 10 days       |
+| 4     | 36  | 86.4 | 6.25s             | 3.25s   | 3,200 | 280       | 160,000            | 10         | 12 days       |
+| 5     | 40  | 96   | 7.0s              | 3.5s    | 3,400 | 300       | 200,000            | 10         | 14 days       |
 
 ### Bowler
 
