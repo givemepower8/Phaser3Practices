@@ -490,19 +490,27 @@ If the base ground defence level is strong, use hog rider, bowler, miner.
 
 [Strategy_Guides](https://clashofclans.fandom.com/wiki/Strategy_Guides)
 
+### CC lure
+
+In war, enemies have clan castle troop. For example, lower level TH has dragon, witch in common. Higher level has ice golems. If they are not dealt ahead of time, they cause lots of trouble to the attacking troops.
+
+Send one archer or fast troop close to the clan castle so the troop will come out, send another archer to attack the corner
+
+Poison spell is a must-have to take down the cc troops.
+
+### TH 8 Strategies
+
 Common strategies
 
 - Air
+
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
+
 - Ground
   - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
   - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Earthquake Spell in CC
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
-
-### CC lure
-
-### TH 8 Strategies
 
 maximize the troops
 
