@@ -1,6 +1,6 @@
 # COC
 
-Wisely dispatch troops to destroy opponent's defence system.
+Wisely dispatch troops to destroy opponent's defence system and town hall.
 
 ## Resources and Structures
 
@@ -68,13 +68,15 @@ Weakness: low attack, vulnerable to splash damage like mortar, wizard tower and 
 
 ### Archer
 
-1 housing space, attack speed 1s, move speed: 24, range: 3.5 tile
+1 housing space, attack speed 1s, move speed: 24, range: 3.5 tiles
 
 No preferred target, attacks closest enemy troop then structures.
 
-Strength: only 1 housing space, longer attack range, can attack over wall
+It's good to lure and destroy CC troops.
 
-Weakness: low HP, vulnerable to splash damage and spells
+Strength: only 1 housing space, longer attack range, can attack over wall.
+
+Weakness: low HP, vulnerable to splash damage and spells.
 
 | Level | DpS | DpA | HP  | Cost | Research Cost | Laboratory | Research Time |
 | ----- | --- | --- | --- | ---- | ------------- | ---------- | ------------- |
@@ -89,13 +91,15 @@ Weakness: low HP, vulnerable to splash damage and spells
 
 ### Giant
 
+Unlocked at Unlocked at TH 3.
+
 5 housing space, attack speed 2s, move speed: 12, range: 1 tile
 
 prefer defensive structures.
 
 Strength: higher HP so better distracting troop to protect the group.
 
-Weakness: Slow and low attack.
+Weakness: Slow and low attack. Giant will ignore troops while any defensive structures in range so it's vulnerable to defensing heros.
 
 | Level | DpS | DpA | HP    | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | --- | ----- | ----- | ------------- | ---------- | ------------- |
@@ -111,17 +115,21 @@ Weakness: Slow and low attack.
 
 ### Goblins
 
-Goblins and wall breakers are great for farming, a.k.a., goblin knife. The drawback of goblin knife is that it drops trophies fast.
-
 1 housing space, attack speed 1s, move speed: 32, range: 0.4 tile
 
 Prefer resource building.
+
+Goblins and wall breakers are great for farming, a.k.a., goblin knife. The drawback of goblin knife is that it drops trophies fast.
+
+It's not intended for war.
 
 Strength: Fastest unit which deals twice damage to resource building and town hall.
 
 Weakness: low HP, vulnerable to splash damage and spells.
 
 ### Wall breaker
+
+Unlocked at Unlocked at TH 4.
 
 2 housing space, attack speed 1s, move speed: 24, range: 1 tile
 
@@ -144,15 +152,17 @@ Weakness: low HP, vulnerable to splash damage and spells
 
 ### Balloon
 
+Unlocked at Unlocked at TH 4.
+
 Balloon is a must have for air attacking strategies. dragon-loon or lava-loon.
 
 5 housing space, attack speed 3s, move speed: 10, range: 0.5 tile
 
-prefer defensive structures.
+Prefer defensive structures.
 
 Strength: Splash damage radius 1.2, ground defensive cannot attack balloons, when it's destroyed, explode and cause damage.
 
-Weakness: slowest unit.
+Weakness: slowest unit. Vulnerable to air defences.
 
 | Level | DpS | DpA | Damage upon death | HP  | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | --- | ----------------- | --- | ----- | ------------- | ---------- | ------------- |
@@ -167,13 +177,15 @@ Weakness: slowest unit.
 
 ### Wizard
 
-4 housing space, attack speed 1.5s, move speed: 16, range: 3 tile
+Unlocked at Unlocked at TH 5.
 
-No preferred target
+4 housing space, attack speed 1.5s, move speed: 16, range: 3 tiles
+
+No preferred target.
 
 Strength: Splash damage radius 0.3, over wall attack.
 
-Weakness:
+Weakness: Fairly low HP so must go with some tanks like golem, pekka.
 
 | Level | DpS | DpA   | HP  | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | --- | ----- | ------------- | ---------- | ------------- |
@@ -188,6 +200,8 @@ Weakness:
 | 9     | 230 | 345   | 230 | 4,200 | 11,000,000    | 10         | 14 days       |
 
 ### Healer
+
+Unlocked at Unlocked at TH 7.
 
 Healer is mainly used for supporting Queen.
 
@@ -211,9 +225,11 @@ Weakness: no attack, vulnerable to any air defence
 
 [Dragon](https://clashofclans.fandom.com/wiki/Dragon)
 
+Unlocked at Unlocked at TH 7.
+
 20 housing space, attack speed 1.25s, move speed: 16, range: 3 tile
 
-No preferred target
+No preferred target.
 
 Strength: Splash damage radius 0.3, immune to ground troop, great in clan castle and war.
 
@@ -230,6 +246,8 @@ Weakness:
 | 7     | 310 | 387.5 | 3,600 | 30,000 | 11,000,000    | 10         | 14 days       |
 
 ### Baby dragon
+
+Unlocked at Unlocked at TH 9.
 
 [Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon.
 
@@ -250,7 +268,13 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### PEKKA
 
+Unlocked at Unlocked at TH 8.
+
 25 housing space, attack speed 1.8s, move speed: 16, range: 0.8 tile
+
+No preferred target. You need to create funnels to make best use of it.
+
+Strength: High HP and DpS, can absorb lots of damage.
 
 | Level | DpS | DpA   | HP    | Cost   | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | ----- | ------ | ------------- | ---------- | ------------- |
@@ -265,9 +289,15 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### Miner
 
+Unlocked at Unlocked at TH 10.
+
 [Miner](https://clashofclans.fandom.com/wiki/Miner) is often used with hero's support.
 
 6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
+
+Strength:
+
+Weakness:
 
 | Level | DpS | DpA   | HP  | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | --- | ----- | ------------- | ---------- | ------------- |
@@ -280,7 +310,13 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### Electro Dragon
 
-30 housing space, attack speed 3.5s, move speed: 12, range: 3 tile
+Unlocked at Unlocked at TH 11.
+
+30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
+
+Strength:
+
+Weakness:
 
 | Level | DpS | DpA   | Damage when destroyed | HP    | Cost   | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | --------------------- | ----- | ------ | ------------- | ---------- | ------------- |
@@ -289,6 +325,8 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 | 3     | 300 | 1,050 | 60 x6                 | 4,200 | 36,000 | 11,000,000    | 10         | 14 days       |
 
 ### Minion
+
+Unlocked at Unlocked at TH 7.
 
 [Minion](https://clashofclans.fandom.com/wiki/Minion) is a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion. Loonion is often brought with Rage Spells, Minions, Haste Spells, Poison Spell, and Balloons. The player will make a wall of Balloons where the air-targeting defences mostly are, and if needed, support them with either a haste spell or a rage spell. Then, they deploy the minions to clean up behind once the first layer of defenses are taken down. However, Air Bombs can seriously ruin this attack if many Balloons or Minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the Balloons from being destroyed.
 
@@ -305,7 +343,7 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### Hog rider
 
-Unlocked at dark barrack level 2.
+Unlocked at Unlocked at TH 7 and dark barrack level 2.
 
 5 housing space, attack speed 1s, move speed: 24, range: 0.6 tile
 
@@ -323,6 +361,8 @@ Unlocked at dark barrack level 2.
 
 ### Valkyrie
 
+Unlocked at TH 8.
+
 8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
 
 | Level | DpS | DpA   | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
@@ -337,11 +377,15 @@ Unlocked at dark barrack level 2.
 
 ### Golem
 
-Unlocked at dark barrack level 4.
+Unlocked at TH 8 and dark barrack level 4.
 
 30 housing space, attack speed 2.4s, move speed: 12, range: 1 tile
 
 Cause splash damage in 1.2 title when it dies.
+
+Strength:
+
+Weakness:
 
 | Level | DpS | DpA   | Damage Upon Death | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | ----- | ----------------- | ----- | --------- | ------------------ | ---------- | ------------- |
@@ -366,9 +410,15 @@ Cause splash damage in 1.2 title when it dies.
 
 ### Bowler
 
-6 housing space, attack speed 2.2s, move speed: 14, range: 3 tile
+Bowler is unlocked at TH 10.
+
+6 housing space, attack speed 2.2s, move speed: 14, range: 3 tiles
 
 [Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
+
+Strength: the stone can cause massive damage on condensed defense system.
+
+Weakness: Low HP.
 
 | Level | DpS | DpA | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -379,11 +429,15 @@ Cause splash damage in 1.2 title when it dies.
 
 ### Witch
 
-Witches will spawn Skeletons to help the Giants.
+Witches will spawn skeletons to help the Giants.
 
-12 housing space, attack speed 0.7s, summon cool down 7s, move speed: 12, range: 4 tile
+12 housing space, attack speed 0.7s, summon cool down 7s, move speed: 12, range: 4 tiles
 
-no preferred target
+No preferred target.
+
+Strength:
+
+Weakness:
 
 | Level | DpS | DpA | Maximum skeleton | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | ---------------- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -417,7 +471,7 @@ It's vital for hog riders, miners.
 
 ### Poison spell
 
-It's must have for cc troops.
+It's must have for CC troops.
 
 ## Heroes
 
@@ -484,7 +538,7 @@ Mortar cannot target troops within 4 tiles.
 
 Study your opponent's base. Take out opponent's defence so to launch more effective attack.
 
-Have a balanced attack system.
+Maximize the troops to have a balanced attack system.
 
 If the base air defence level is low, use air troops.
 
@@ -502,26 +556,20 @@ Poison spell is a must-have to take down the cc troops.
 
 ### TH 8 Strategies
 
-Common strategies
-
-- Air
-
-  - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
-
-- Ground
-  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
-  - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Earthquake Spell in CC
-  - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
-  - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
-
-maximize the troops
+Maximize the troops and camps. TH 8 has 200 camp house capacity and 20 CC house capacity.
 
 - Barbarian lvl 5
 - Wizard lvl 5
 - Archer lvl 5
-- Hog rider lvl 4
+- Wall breakers lvl 5
+- Healer lvl 3
 - Dragon lvl 3
 - Balloon lvl 5
+- PEKKA lvl 3
+- Valkyrie lvl 2
+- Minion lvl 4
+- Golem lvl 2
+- Hog rider lvl 4
 - Barbarian King 10
 
 maximize the spells
@@ -534,6 +582,20 @@ maximize the defence
 - Archer tower
 - Bomb tower
 - Bombs and traps
+
+War:
+
+- Air
+
+  - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
+
+Farming:
+
+- Ground
+  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
+  - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Earthquake Spell in CC
+  - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
+  - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
 ### TH 9 strategies
 
@@ -550,6 +612,8 @@ Queen walk
 ### TH 10 strategies
 
 ### TH 11 strategies
+
+Great warden joins in the village.
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
