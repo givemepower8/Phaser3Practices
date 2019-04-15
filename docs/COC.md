@@ -491,23 +491,23 @@ It's must have for CC troops.
 
 Elixir troop and dark elixir troop.
 
-Barrack level unlocks new type of troops. Also the number and level of barracks determine how quick troop is trained.
+Barrack level unlocks new type of troops. Also the number and level of barracks determine how quick troops can be trained.
 
 No need to protect barracks.
 
 ### Camp
 
-The camp level decides how much housing space for the troops. Each army camp has housing space 65 at TH11, 70 at TH12. 4 Camps in total, so TH11 260, TH12 280 in total.
+The camp level determines how much housing capacity for the troops. Each army camp has housing space 50 at TH8, 55 at TH9, 60 at TH10, 65 at TH11, 70 at TH12. 4 Camps in total, so TH08 200, TH09 220, TH10 240, TH11 260, TH12 280 in total.
 
-Each clan castle level 11 adds 30 extra and level 12 adds 40 extra.
+Camp should be always upgraded as early as possible so to strengthen the attack.
 
-Always maximize camp as soon as possible so to strengthen the attack.
+Each clan castle adds extra housing capacity. TH8 20, TH9 25, TH10 30, TH11 35, TH12 40.
 
 No need to protect army camp.
 
 ### Laboratory
 
-Laboratory enables research on higher level of troops.
+Laboratory enables research on higher level of troops. Laboratory should be always upgraded as early as possible so to get stronger troops.
 
 | Level | Hitpoints | Build Cost Elixir | Build Time | Experience Gained XP | Town Hall Level Required |
 | ----- | --------- | ----------------- | ---------- | -------------------- | ------------------------ |
@@ -544,7 +544,7 @@ Maximize the troops to have a balanced attack system.
 
 If the base air defence level is low, use air troops.
 
-If the base ground defence level is strong, use hog rider, bowler, miner.
+If the base ground defence level is strong, use tank like golem to distract along with hog rider, bowler, miner.
 
 [Strategy_Guides](https://clashofclans.fandom.com/wiki/Strategy_Guides)
 
