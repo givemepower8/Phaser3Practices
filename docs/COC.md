@@ -634,7 +634,7 @@ use Giant + Wizard + Archer + Wall breaker to farm.
 
 Queen joins in the village.
 
-x-bows
+X-bows
 
 Maximize the hero levels.
 
@@ -650,6 +650,8 @@ Queen walk
   - Rage spell to increase the queen DPS.
 
 ### TH 10 strategies
+
+Inferno tower.
 
 Maximize the hero levels.
 
