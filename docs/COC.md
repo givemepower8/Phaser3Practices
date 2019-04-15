@@ -408,26 +408,9 @@ Weakness:
 | 4     | 36  | 86.4 | 6.25s             | 3.25s   | 3,200 | 280       | 160,000            | 10         | 12 days       |
 | 5     | 40  | 96   | 7.0s              | 3.5s    | 3,400 | 300       | 200,000            | 10         | 14 days       |
 
-### Bowler
-
-Bowler is unlocked at TH 10.
-
-6 housing space, attack speed 2.2s, move speed: 14, range: 3 tiles
-
-[Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
-
-Strength: the stone can cause massive damage on condensed defense system.
-
-Weakness: Low HP.
-
-| Level | DpS | DpA | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
-| ----- | --- | --- | --- | --------- | ------------------ | ---------- | ------------- |
-| 1     | 60  | 132 | 290 | 70        | N/A                | N/A        | N/A           |
-| 2     | 70  | 154 | 310 | 95        | 120,000            | 8          | 8d 12h        |
-| 3     | 80  | 176 | 350 | 115       | 160,000            | 9          | 12 days       |
-| 4     | 90  | 198 | 390 | 140       | 200,000            | 10         | 14 days       |
-
 ### Witch
+
+Witch is unlocked at TH 9.
 
 Witches will spawn skeletons to help the Giants.
 
@@ -449,7 +432,7 @@ Weakness:
 
 ### Lava Hound
 
-Unlocked at dark barrack level 6.
+Unlocked at at TH 9 and dark barrack level 6.
 
 30 housing space, attack speed 2s, move speed: 20, range: 1 tile
 
@@ -461,11 +444,30 @@ Unlocked at dark barrack level 6.
 | 4     | 16  | 32  | 250               | 14        | 7,200 | 570       | 150,000            | 9          | 11d 12h       |
 | 5     | 18  | 36  | 300               | 16        | 7,600 | 630       | 200,000            | 10         | 14 days       |
 
+### Bowler
+
+Bowler is unlocked at TH 10.
+
+6 housing space, attack speed 2.2s, move speed: 14, range: 3 tiles
+
+[Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
+
+Strength: the stone can cause massive damage on condensed defense system.
+
+Weakness: Low HP.
+
+| Level | DpS | DpA | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | --- | --- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 60  | 132 | 290 | 70        | N/A                | N/A        | N/A           |
+| 2     | 70  | 154 | 310 | 95        | 120,000            | 8          | 8d 12h        |
+| 3     | 80  | 176 | 350 | 115       | 160,000            | 9          | 12 days       |
+| 4     | 90  | 198 | 390 | 140       | 200,000            | 10         | 14 days       |
+
 ## Spells
 
 ### Heal spell
 
-It's vital for hog riders, miners.
+It's vital for keeping hog riders, miners live.
 
 ### Rage spell
 
@@ -556,50 +558,88 @@ Poison spell is a must-have to take down the cc troops.
 
 ### TH 8 Strategies
 
-Maximize the troops and camps. TH 8 has 200 camp house capacity and 20 CC house capacity.
+Maximize gold mine, elixir collector and dark elixir collector.
+
+- TH8 can have 6 of each and maximum level 12. Each level 12 generates 4200/h, 100.8K/day. Roughly 600K gold and elixir a day.
+- TH8 can have 2 Dark elixir collector and maximum level 3. Each level 3 generates 45/h, 1080/day. Roughly 2K a day.
+
+Maximize the camps' house capacity. TH 8 has 200 house capacity and 20 CC house capacity.
+
+Maximize the troops
 
 - Barbarian lvl 5
-- Wizard lvl 5
 - Archer lvl 5
+- Giant lvl 5
+- Goblin lvl 5
 - Wall breakers lvl 5
+- Balloon lvl 5
+- Wizard lvl 5
 - Healer lvl 3
 - Dragon lvl 3
-- Balloon lvl 5
 - PEKKA lvl 3
-- Valkyrie lvl 2
 - Minion lvl 4
-- Golem lvl 2
 - Hog rider lvl 4
+- Valkyrie lvl 2
+- Golem lvl 2
 - Barbarian King 10
 
-maximize the spells
+Maximize the spells
+
+- Lighting lvl 5
+- Healing lvl 5
+- Rage lvl 5
+- Poison lvl 2
+- Earthquake lvl 2
 
 maximize the defence
 
-- Air defense lvl 5
-- Mortar lvl 5
-- Wizard tower 4
-- Archer tower
-- Bomb tower
-- Bombs and traps
+- Cannon lvl 10, can gear up
+- Archer tower lvl 10
+- Mortar lvl 6, can gear up
+- Air defense lvl 6
+- Wizard tower lvl 6
+- Air sweeper lvl 4
+- Hidden Tesla lvl 6
+- Bomb tower lvl 2
+- Bombs lvl 5
+- Spring traps lvl 3
+- Air bomb lvl 3
+- Giant bomb lvl 3
+- Seeking air mine lvl 1
+- Skeleton trap lvl 2
 
 War:
 
-- Air
+The goal is to 3 star.
+
+Depending on your opponent's base, you can choose using air troop or ground troop. If your target's air defense is weak, prefer air attack. Otherwise, prefer ground attack.
+
+The following strategy may vary:
+
+- Air attack
 
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
-Farming:
-
-- Ground
+- Ground attack
   - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
   - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Earthquake Spell in CC
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
+Farming:
+
+use Giant + Wizard + Archer + Wall breaker to farm.
+
 ### TH 9 strategies
 
 Queen joins in the village.
+
+x-bows
+
+Maximize the hero levels.
+
+- Queen lvl 30
+- King lvl 30
 
 Queen walk
 
@@ -611,9 +651,79 @@ Queen walk
 
 ### TH 10 strategies
 
+Maximize the hero levels.
+
+- Queen lvl 40
+- King lvl 40
+
 ### TH 11 strategies
 
 Great warden joins in the village.
+
+Maximize the hero levels.
+
+- Queen lvl 50
+- King lvl 50
+- Great warden lvl 20.
+
+Maximize the troops
+
+- Barbarian lvl 8 Max
+- Archer lvl 8 Max
+- Giant lvl 8
+- Goblin lvl 7 Max
+- Wall breakers lvl 7
+- Balloon lvl 7
+- Wizard lvl 8
+- Healer lvl 5 Max
+- Dragon lvl 6
+- Baby dragon lvl 5
+- PEKKA lvl 7
+- Miner lvl 5
+- Electro Dragon lvl 2
+- Minion lvl 7
+- Hog rider lvl 7
+- Valkyrie lvl 6
+- Golem lvl 7
+- Witch lvl 4
+- Lava Hound lvl 4
+- Bowler lvl 3
+- Ice golem lvl 3
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max
+- Clone lvl 5 Max
+- Poison lvl 5 Max
+- Earthquake lvl 4 Max
+- Haste lvl 4 Max
+- Skeleton lvl 4
+- Bat lvl 4
+
+Maximize the defence
+
+- Eagle artillery lvl 2
+- Inferno tower lvl 5
+- X-Bows lvl 5
+- Cannon lvl 10, can gear up
+- Archer tower lvl 10
+- Mortar lvl 10, can gear up
+- Air defense lvl 9
+- Wizard tower lvl 10
+- Air sweeper lvl 7 Max
+- Hidden Tesla lvl 9
+- Bomb tower lvl 6
+- Bombs lvl 8 Max
+- Spring traps lvl 5 Max
+- Air bomb lvl 5
+- Giant bomb lvl 5 Max
+- Seeking air mine lvl 3 Max
+- Skeleton trap lvl 4 Max
+- Tornado trap lvl 2
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
