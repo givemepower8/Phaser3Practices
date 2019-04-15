@@ -423,6 +423,8 @@ It's must have for cc troops.
 
 ### Archer Queen
 
+[Queen](https://clashofclans.fandom.com/wiki/Archer_Queen)
+
 ### Barbarian King
 
 ### Great Warden
