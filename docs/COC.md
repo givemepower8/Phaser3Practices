@@ -101,6 +101,8 @@ Strength: higher HP so better distracting troop to protect the group.
 
 Weakness: Slow and low attack. Giant will ignore troops while any defensive structures in range so it's vulnerable to defensing heros.
 
+Giant is terrible at tearing down walls, must go with wizard as a meat shield.
+
 | Level | DpS | DpA | HP    | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | --- | ----- | ----- | ------------- | ---------- | ------------- |
 | 1     | 11  | 22  | 300   | 250   | N/A           | N/A        | N/A           |
@@ -129,11 +131,13 @@ Weakness: low HP, vulnerable to splash damage and spells.
 
 ### Wall breaker
 
-Unlocked at Unlocked at TH 4.
+Unlocked at TH 4. It's on the top priority to develop.
 
 2 housing space, attack speed 1s, move speed: 24, range: 1 tile
 
-Prefer wall.
+Prefer the closest wall with building behind it.
+
+Always bring 5-6 wall breakers in the army to bring the troop to the core. Giant and golem take forever to break the war, if there is defensing system behind the war, wizard will die very soon.
 
 Strength: Splash damage radius 2, deals 40X damage to wall.
 
@@ -177,7 +181,7 @@ Weakness: slowest unit. Vulnerable to air defences.
 
 ### Wizard
 
-Unlocked at Unlocked at TH 5.
+Unlocked at Unlocked at TH 5. It's on the top priority to develop.
 
 4 housing space, attack speed 1.5s, move speed: 16, range: 3 tiles
 
@@ -251,9 +255,11 @@ Unlocked at Unlocked at TH 8.
 
 25 housing space, attack speed 1.8s, move speed: 16, range: 0.8 tile
 
-No preferred target. You need to create funnels to make best use of it.
+No preferred target. Sometimes in cell base, PEKKA will get distracted easily. You need to create funnels to make best use of it.
 
 Strength: High HP and DpS, can absorb lots of damage.
+
+Weakness: Attack speed is a bit low.
 
 | Level | DpS | DpA   | HP    | Cost   | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | ----- | ------ | ------------- | ---------- | ------------- |
@@ -295,9 +301,9 @@ Unlocked at Unlocked at TH 10.
 
 6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
 
-Strength:
+Strength: Can go through walls.
 
-Weakness:
+Weakness: Vulnerable to splash damage, giant bomb.
 
 | Level | DpS | DpA   | HP  | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | --- | ----- | ------------- | ---------- | ------------- |
@@ -348,6 +354,12 @@ Unlocked at Unlocked at TH 7 and dark barrack level 2.
 5 housing space, attack speed 1s, move speed: 24, range: 0.6 tile
 
 Prefer defensive structures.
+
+At TH8, hog rider is a very strong attacker in war.
+
+Strength: Jump over walls.
+
+Weakness: Vulnerable to splash damage, giant bomb. Expensive in looting.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -430,6 +442,8 @@ Unlocked at at TH 9 and dark barrack level 6.
 
 30 housing space, attack speed 2s, move speed: 20, range: 1 tile
 
+Meat shield for other air troops.
+
 | Level | DpS | DpA | Damage upon death | Lava pups | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | ----------------- | --------- | ----- | --------- | ------------------ | ---------- | ------------- |
 | 1     | 10  | 20  | 100               | 8         | 6,100 | 390       | N/A                | N/A        | N/A           |
@@ -490,6 +504,8 @@ It's vital for keeping hog riders, miners live.
 It's a must-have for boosting attacking.
 
 ### Jump
+
+In higher town halls, as the wall level gets much higher, it's harder to break through the wall. Jump spell can brings troops to the core. It can be used on the wall intersections.
 
 ### Freeze
 
@@ -590,6 +606,14 @@ Send one archer or fast troop close to the clan castle so the troop will come ou
 
 Poison spell is a must-have to take down the cc troops.
 
+### Funneling
+
+Troops are controlled by AI, once a troop is dispatched, you cannot change the command anymore. They will randomly pick target to attack and get distracted easily.
+
+For example, without funneling, heros and pekkas will go around the outside of the base to destroy the non defensing building while under the attack of defensing building inside the wall.
+
+Funneling is to make all the troops go to expected location by eliminating those distractions at the right timing. For example, wall breaker creates a funnel to the town hall. Bowlers, air troops can create funnels.
+
 ### TH 8 Strategies
 
 Maximize gold mine, elixir collector and dark elixir collector.
@@ -641,6 +665,8 @@ maximize the defence
 - Giant bomb lvl 3
 - Seeking air mine lvl 1
 - Skeleton trap lvl 2
+
+Common:
 
 War:
 
