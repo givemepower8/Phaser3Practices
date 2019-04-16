@@ -610,11 +610,11 @@ Sometimes, the CC is right at the core of the base so it's hard to lure it out.
 
 ### Funneling
 
-Troops are controlled by AI, once a troop is dispatched, you cannot control where it goes explicitly. They will pick attacking target on their own usually the closet building or troops engaged and get distracted easily.
+Many troops have no preferred target so the actions are controlled by AI. Once a troop is dispatched, you cannot control where it goes explicitly but you can control the path by sending other troops to create the path. Otherwise, the troop will pick attacking target on their own, usually the closet building or enemy troops engaged, and get distracted easily.
 
-For example, without funneling, heros and pekkas will go around the outside of the base to destroy the non defensing building while still under the attack of defensing building inside the wall.
+For example, without funneling, heros and pekkas will go around the outside of the base to destroy the closest non-defensing building while still under the attack of defensing building inside the wall.
 
-Funneling is to create the path so to make all the troops go to the expected location by breaking walls and eliminating those distractions at the right timing. For example, wall breaker creates a funnel to the town hall. Bowlers, air troops can create funnels.
+Funneling is to create the path so to guild the troop to go to the expected location by breaking walls and eliminating those distractions at the right timing. For example, wall breaker creates a funnel after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy buildings massively.
 
 Sometimes, heros will launch suicide attack to destroy defensing system to create some funnels for attacking troops.
 
