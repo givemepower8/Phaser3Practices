@@ -95,7 +95,7 @@ Unlocked at Unlocked at TH 3.
 
 5 housing space, attack speed 2s, move speed: 12, range: 1 tile
 
-prefer defensive structures.
+Prefer defensive structures.
 
 Strength: higher HP so better distracting troop to protect the group.
 
@@ -133,7 +133,7 @@ Unlocked at Unlocked at TH 4.
 
 2 housing space, attack speed 1s, move speed: 24, range: 1 tile
 
-prefer wall.
+Prefer wall.
 
 Strength: Splash damage radius 2, deals 40X damage to wall.
 
@@ -152,7 +152,7 @@ Weakness: low HP, vulnerable to splash damage and spells
 
 ### Balloon
 
-Unlocked at Unlocked at TH 4.
+Unlocked at TH 4.
 
 Balloon is a must have for air attacking strategies. dragon-loon or lava-loon.
 
@@ -207,7 +207,7 @@ Healer is mainly used for supporting Queen.
 
 14 housing space, heal speed 0.7s, move speed: 16, range: 5 tile
 
-Prefer radius 2 ground troop
+Prefer radius 2 ground troop.
 
 Strength: healing
 
@@ -245,27 +245,6 @@ Weakness:
 | 6     | 270 | 337.5 | 3,300 | 28,000 | 9,000,000     | 9          | 11d 12h       |
 | 7     | 310 | 387.5 | 3,600 | 30,000 | 11,000,000    | 10         | 14 days       |
 
-### Baby dragon
-
-Unlocked at Unlocked at TH 9.
-
-[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon.
-
-10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tile
-
-Strength: Splash damage radius 0.3, immune to ground troop, attack faster than dragon but with less range. Damage x2 when enraged.
-
-Weakness: HP is not as endurable as dragon so more vulnerable to splash damage in group, DpS is much lower than dragon.
-
-| Level | DpS | DpA | HP    | Cost   | Research Cost | Laboratory | Research Time |
-| ----- | --- | --- | ----- | ------ | ------------- | ---------- | ------------- |
-| 1     | 75  | 75  | 1,200 | 10,000 | N/A           | N/A        | N/A           |
-| 2     | 85  | 85  | 1,300 | 11,000 | 5,000,000     | 7          | 5d 12h        |
-| 3     | 95  | 95  | 1,400 | 12,000 | 6,000,000     | 8          | 6d 12h        |
-| 4     | 105 | 105 | 1,500 | 13,000 | 7,000,000     | 8          | 8 days        |
-| 5     | 115 | 115 | 1,600 | 14,000 | 8,000,000     | 9          | 11d 12h       |
-| 6     | 125 | 125 | 1,700 | 15,000 | 9,000,000     | 10         | 14 days       |
-
 ### PEKKA
 
 Unlocked at Unlocked at TH 8.
@@ -286,6 +265,27 @@ Strength: High HP and DpS, can absorb lots of damage.
 | 6     | 470 | 846   | 5,200 | 35,000 | 8,500,000     | 8          | 8d 12h        |
 | 7     | 540 | 972   | 5,700 | 37,000 | 10,000,000    | 9          | 11d 12h       |
 | 8     | 610 | 1,098 | 6,300 | 39,000 | 12,000,000    | 10         | 14 days       |
+
+### Baby dragon
+
+Unlocked at Unlocked at TH 9.
+
+[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon.
+
+10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tile
+
+Strength: Splash damage radius 0.3, immune to ground troop, attack faster than dragon but with less range. Damage x2 when enraged.
+
+Weakness: HP is not as endurable as dragon so more vulnerable to splash damage in group, DpS is much lower than dragon.
+
+| Level | DpS | DpA | HP    | Cost   | Research Cost | Laboratory | Research Time |
+| ----- | --- | --- | ----- | ------ | ------------- | ---------- | ------------- |
+| 1     | 75  | 75  | 1,200 | 10,000 | N/A           | N/A        | N/A           |
+| 2     | 85  | 85  | 1,300 | 11,000 | 5,000,000     | 7          | 5d 12h        |
+| 3     | 95  | 95  | 1,400 | 12,000 | 6,000,000     | 8          | 6d 12h        |
+| 4     | 105 | 105 | 1,500 | 13,000 | 7,000,000     | 8          | 8 days        |
+| 5     | 115 | 115 | 1,600 | 14,000 | 8,000,000     | 9          | 11d 12h       |
+| 6     | 125 | 125 | 1,700 | 15,000 | 9,000,000     | 10         | 14 days       |
 
 ### Miner
 
@@ -347,6 +347,8 @@ Unlocked at Unlocked at TH 7 and dark barrack level 2.
 
 5 housing space, attack speed 1s, move speed: 24, range: 0.6 tile
 
+Prefer defensive structures.
+
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
 | 1     | 60  | 270 | 30        | N/A                | N/A        | N/A           |
@@ -383,9 +385,11 @@ Unlocked at TH 8 and dark barrack level 4.
 
 Cause splash damage in 1.2 title when it dies.
 
-Strength:
+For TH8 war strategies, one more golem should be always in the army.
 
-Weakness:
+Strength: High HP to distract defensing system so to protect wizards, valkyries, or others.
+
+Weakness: Very low DpS.
 
 | Level | DpS | DpA   | Damage Upon Death | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | ----- | ----------------- | ----- | --------- | ------------------ | ---------- | ------------- |
@@ -397,16 +401,6 @@ Weakness:
 | 6     | 58  | 139.2 | 530               | 6,600 | 500       | 150,000            | 9          | 9d 12h        |
 | 7     | 62  | 148.8 | 530               | 6,900 | 600       | 200,000            | 9          | 11d 12h       |
 | 8     | 66  | 158.4 | 530               | 7,200 | 700       | 200,000            | 10         | 14 days       |
-
-### Ice Golem
-
-| Level | DpS | DpA  | Damage Upon Death | defense | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
-| ----- | --- | ---- | ----------------- | ------- | ----- | --------- | ------------------ | ---------- | ------------- |
-| 1     | 24  | 57.6 | 4.0s              | 2.5s    | 2,600 | 220       | N/A                | N/A        | N/A           |
-| 2     | 28  | 67.2 | 4.75s             | 2.75s   | 2,800 | 240       | 80,000             | 9          | 8 days        |
-| 3     | 32  | 76.8 | 5.5s              | 3.0s    | 3,000 | 260       | 120,000            | 9          | 10 days       |
-| 4     | 36  | 86.4 | 6.25s             | 3.25s   | 3,200 | 280       | 160,000            | 10         | 12 days       |
-| 5     | 40  | 96   | 7.0s              | 3.5s    | 3,400 | 300       | 200,000            | 10         | 14 days       |
 
 ### Witch
 
@@ -463,17 +457,57 @@ Weakness: Low HP.
 | 3     | 80  | 176 | 350 | 115       | 160,000            | 9          | 12 days       |
 | 4     | 90  | 198 | 390 | 140       | 200,000            | 10         | 14 days       |
 
+### Ice Golem
+
+Unlocked at TH 11 dark barrack level 8.
+
+15 housing space, attack speed 2.4s, move speed: 12, range: 1 tile
+
+Cause freeze in 7.5 tiles when it dies.
+
+Strength: High HP to distract defensing system so to protect wizards, valkyries, or others.
+
+Weakness: Very low DpS. Not ideal for being sent in the siege machine.
+
+| Level | DpS | DpA  | Damage Upon Death | defense | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
+| ----- | --- | ---- | ----------------- | ------- | ----- | --------- | ------------------ | ---------- | ------------- |
+| 1     | 24  | 57.6 | 4.0s              | 2.5s    | 2,600 | 220       | N/A                | N/A        | N/A           |
+| 2     | 28  | 67.2 | 4.75s             | 2.75s   | 2,800 | 240       | 80,000             | 9          | 8 days        |
+| 3     | 32  | 76.8 | 5.5s              | 3.0s    | 3,000 | 260       | 120,000            | 9          | 10 days       |
+| 4     | 36  | 86.4 | 6.25s             | 3.25s   | 3,200 | 280       | 160,000            | 10         | 12 days       |
+| 5     | 40  | 96   | 7.0s              | 3.5s    | 3,400 | 300       | 200,000            | 10         | 14 days       |
+
 ## Spells
 
-### Heal spell
+### Lighting
+
+### Healing
 
 It's vital for keeping hog riders, miners live.
 
-### Rage spell
+### Rage
 
-### Poison spell
+It's a must-have for boosting attacking.
 
-It's must have for CC troops.
+### Jump
+
+### Freeze
+
+### Clone
+
+### Poison
+
+It's a must-have for taking CC troops.
+
+### Earthquake
+
+### Haste
+
+For slow air attacking units.
+
+### Skeleton
+
+### Bat
 
 ## Heroes
 
@@ -528,7 +562,7 @@ Laboratory enables research on higher level of troops. Laboratory should be alwa
 
 ![Laboratory](https://cocland.com/wp-content/uploads/2015/04/elixir-upgrades.jpg)
 
-## Defence
+## Defence systems
 
 ### Cannon
 
@@ -632,9 +666,9 @@ use Giant + Wizard + Archer + Wall breaker to farm.
 
 ### TH 9 strategies
 
-Queen joins in the village.
+Queen is unlocked. Wall level can go up to 10.
 
-X-bows
+2 X-bows are unlocked.
 
 Maximize the hero levels.
 
@@ -679,8 +713,8 @@ Maximize the troops
 - Wizard lvl 8
 - Healer lvl 5 Max
 - Dragon lvl 6
-- Baby dragon lvl 5
 - PEKKA lvl 7
+- Baby dragon lvl 5
 - Miner lvl 5
 - Electro Dragon lvl 2
 - Minion lvl 7
@@ -708,9 +742,6 @@ Maximize the spells
 
 Maximize the defence
 
-- Eagle artillery lvl 2
-- Inferno tower lvl 5
-- X-Bows lvl 5
 - Cannon lvl 10, can gear up
 - Archer tower lvl 10
 - Mortar lvl 10, can gear up
@@ -726,6 +757,9 @@ Maximize the defence
 - Seeking air mine lvl 3 Max
 - Skeleton trap lvl 4 Max
 - Tornado trap lvl 2
+- X-Bows lvl 5
+- Inferno tower lvl 5
+- Eagle artillery lvl 2
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
