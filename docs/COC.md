@@ -633,7 +633,7 @@ Maximize gold mine, elixir collector and dark elixir collector.
 - TH8 can have 6 of each and maximum level 12. Each level 12 generates 4200/h, 100.8K/day. Roughly 600K gold and elixir a day.
 - TH8 can have 2 Dark elixir collector and maximum level 3. Each level 3 generates 45/h, 1080/day. Roughly 2K a day.
 
-Maximize the camps' house capacity. TH 8 has 200 house capacity and 20 CC house capacity.
+Maximize the camps' house capacity. TH 8 has 200 house capacity and 25 CC house capacity.
 
 Maximize the troops
 
@@ -680,13 +680,13 @@ maximize the defence
 
 #### Facts
 
-Wall breakers lvl 5 can cause 1,840 damage on the walls. 1 wall breaker can take down gold and lower level walls. 2 wall breakers can take down from purple to skull walls.
+Wall breakers lvl 5 can cause 1,840 damage on the walls. 1 wall breaker can take down gold (lvl 5) and lower level walls. 2 wall breakers can take down from purple to skull walls (lvl 6,7,8).
 
 Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5).
 
 Hog rider lvl 4 housing space 5, attack speed 1s, move speed: 24, range: 0.6 tile, HP 415, damage per attack 92, DpS 92.
 
-Golem lvl 2 housing space 30, attack speed 2.4s, move speed: 12, range: 1 tile, HP 5400, damage per attack 100.8, damage upon death 400, DpS 42. As its HP is extremely high, one or two can be great meat shield.
+Golem lvl 2 housing space 30, attack speed 2.4s, move speed: 12, range: 1 tile, HP 5400, damage per attack 100.8, damage upon death 400, DpS 42. As its HP is extremely high, one or two can be a great meat shield for other troops.
 
 PEKKA lvl 3 housing space 25, attack speed 1.8s, move speed: 16, range: 0.8 tile, HP 3500, damage per attack 558, DpS 310.
 
@@ -714,20 +714,44 @@ The following strategy may vary:
 
 Upgrade the barracks to shorten the training time.
 
-use Giant + Wizard + Archer + Wall breaker to farm.
+use Giant + Wizard + Archer + Wall breaker to farm. The aim is to 1 or 2 star and get most of the resources, first dark elixir, then elixir, gold.
 
 ### TH 9 strategies
 
-Queen is unlocked. Wall level can go up to 10.
+Queen is unlocked. Wall level can go up to 9 (spike) and 10 (lava stripe on top).
 
 2 X-bows are unlocked.
+
+Other new buildings:
+
+New troops baby dragon and witch are unlocked.
 
 Maximize the hero levels.
 
 - Queen lvl 30
 - King lvl 30
 
-Queen walk
+Maximize the troop levels.
+
+- Barbarian lvl 6
+- Archer lvl 6
+- Giant lvl 6
+- Goblin lvl 5
+- Wall breakers lvl 5
+- Balloon lvl 6
+- Wizard lvl 6
+- Healer lvl 4
+- Dragon lvl 4
+- PEKKA lvl 4
+- Baby dragon lvl 2
+- Minion lvl 4
+- Hog rider lvl 5
+- Valkyrie lvl 4
+- Golem lvl 4
+- Witch lvl 2
+- Lava Hound lvl 2
+
+Queen walk / charger
 
 - Put a balloon when to deploy the queen to trigger the seeking air mine.
 - Protect the healers. Make sure no other troops will take away the healers.
