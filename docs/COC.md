@@ -231,13 +231,13 @@ Weakness: no attack, vulnerable to any air defence
 
 Unlocked at Unlocked at TH 7.
 
-20 housing space, attack speed 1.25s, move speed: 16, range: 3 tile
+20 housing space, attack speed 1.25s, move speed: 16, range: 3 tiles
 
 No preferred target.
 
 Strength: Splash damage radius 0.3, immune to ground troop, great in clan castle and war.
 
-Weakness:
+Weakness: If the base layout is not condensed, dragon may get distracted and circle around.
 
 | Level | DpS | DpA   | HP    | Cost   | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | ----- | ------ | ------------- | ---------- | ------------- |
@@ -276,9 +276,9 @@ Weakness: Attack speed is a bit low.
 
 Unlocked at Unlocked at TH 9.
 
-[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon.
+[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon. It's good for creating funnels.
 
-10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tile
+10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tiles.
 
 Strength: Splash damage radius 0.3, immune to ground troop, attack faster than dragon but with less range. Damage x2 when enraged.
 
@@ -705,10 +705,14 @@ The following strategy may vary:
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
 - Ground attack
-  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
-  - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Earthquake Spell in CC
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
+  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
+  - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Poison Spell in CC
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
+
+Once golem is unlocked, focus on upgrading PEKKA to level 3. It's recommend to upgrade PEKKA first as it's harder to farm dark elixir and you can maximize king's level to 10 as fast as you can as well. GoWiPe is pretty effective in TH8 war. Golem needs 60K dark elixir to upgrade if possible go get medal badge in league war to get the hammer.
+
+Once PEKKA is at level 3, go either Valkyrie, or hog riders, one at a time.
 
 #### TH 8 Farming
 
@@ -724,7 +728,7 @@ Queen is unlocked. Wall level can go up to 9 (spike) and 10 (lava stripe on top)
 
 Other new buildings:
 
-New troops baby dragon and witch are unlocked.
+New troops baby dragon, witch and Lava Hound are unlocked.
 
 Maximize the hero levels.
 
