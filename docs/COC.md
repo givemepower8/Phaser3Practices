@@ -665,7 +665,7 @@ maximize the defence
 
 - Cannon lvl 10, can gear up
 - Archer tower lvl 10
-- Mortar lvl 6, can gear up
+- Mortar lvl 6, can gear up if builder hall level 8
 - Air defense lvl 6
 - Wizard tower lvl 6
 - Air sweeper lvl 4
@@ -710,7 +710,13 @@ The following strategy may vary:
   - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Poison Spell in CC
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
-Once golem is unlocked, focus on upgrading PEKKA to level 3. It's recommend to upgrade PEKKA first as it's harder to farm dark elixir and you can maximize king's level to 10 as fast as you can as well. GoWiPe is pretty effective in TH8 war. Golem needs 60K dark elixir to upgrade if possible go get medal badge in league war to get the hammer.
+Once golem is unlocked, focus on upgrading PEKKA to level 3. It's recommend to upgrade PEKKA first as it's harder to farm dark elixir and you can maximize king's level to 10 as fast as you can. Golem level 1 is fine as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
+
+GoWiPe is pretty effective in TH8 war.
+
+Lure the CC troops to corner and drop poison and deploy 6 to 8 archers circle around to kill CC troops.
+
+Pick the side where strongest defensing system located because the goal is to destroy the main defending force first. Deploy 2 golems must at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are shielding the fire, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
 
 Once PEKKA is at level 3, go either Valkyrie, or hog riders, one at a time.
 
