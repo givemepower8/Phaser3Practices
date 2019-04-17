@@ -678,9 +678,21 @@ maximize the defence
 - Seeking air mine lvl 1
 - Skeleton trap lvl 2
 
-Common:
+#### Facts
 
-War:
+Wall breakers lvl 5 can cause 1,840 damage on the walls. 1 wall breaker can take down gold and lower level walls. 2 wall breakers can take down from purple to skull walls.
+
+Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5).
+
+Hog rider lvl 4 housing space 5, attack speed 1s, move speed: 24, range: 0.6 tile, HP 415, damage per attack 92, DpS 92.
+
+Golem lvl 2 housing space 30, attack speed 2.4s, move speed: 12, range: 1 tile, HP 5400, damage per attack 100.8, damage upon death 400, DpS 42. As its HP is extremely high, one or two can be great meat shield.
+
+PEKKA lvl 3 housing space 25, attack speed 1.8s, move speed: 16, range: 0.8 tile, HP 3500, damage per attack 558, DpS 310.
+
+Valkyrie lvl 2 housing space 8, attack speed 1.8s, move speed: 24, range: 0.5 tile, HP 800, damage per attack 190.8, DpS 106.
+
+#### TH8 War Strategy
 
 The goal is to 3 star.
 
@@ -698,7 +710,9 @@ The following strategy may vary:
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
-Farming:
+#### TH 8 Farming
+
+Upgrade the barracks to shorten the training time.
 
 use Giant + Wizard + Archer + Wall breaker to farm.
 
