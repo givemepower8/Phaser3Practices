@@ -851,6 +851,16 @@ Maximize the defence
 
 Bowler
 
+Bowler and healer
+
+This typically is comprised of around 30 bowlers and 6-8 healers. The tactics here are to use your bowlers on two adjacent corners of the map with 3 or 4 healers behind each group. Take down the outer defenses and buildings with this and clear and very straight forward path into the middle of the map. You'll be using a rage, a jump and a freeze to ensure that this is done with relative ease. Once the corners are cleared, drop the rest of the bowlers either behind a golem or behind a few giants – also drop heroes with them. There is also the possibility to have a couple of other healers at this stage to help keep the bowlers up.
+
+The beauty of this attack is that the bowlers will move into the center and under rage grab 2 stars extremely quickly. From there, usually several or most of them will die but you're left with a whole load of healers which will then help keep your heroes awake helping you get that all important 3 star.
+
+Bowler and Witch
+
+For th 11 the Combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you have to take max golem and 1 max giant and rage spell. First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the defending troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly. This Strategy will help you easily 2 star any th 11 base ( sometimes even 3 stars if the bowlers dont get seperated ) This strategy can 3 star allmost all th 10's if you execute the troops and spells in proper manner.
+
 Miner
 
 ## Farming
