@@ -680,7 +680,7 @@ maximize the defence
 
 #### Facts
 
-Wall breakers lvl 5 can cause 1,840 damage on the walls. 1 wall breaker can take down gold (lvl 5) and lower level walls. 2 wall breakers can take down from purple to skull walls (lvl 6,7,8).
+Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can take down gold (lvl 5) and lower level walls. 2 wall breakers can take down from purple to skull walls (lvl 6,7,8). A lvl 5 wall breaker can take one lvl 5 mortar splash damage, but will be instantly killed by lvl 6 motors.
 
 Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5).
 
@@ -692,11 +692,35 @@ PEKKA lvl 3 housing space 25, attack speed 1.8s, move speed: 16, range: 0.8 tile
 
 Valkyrie lvl 2 housing space 8, attack speed 1.8s, move speed: 24, range: 0.5 tile, HP 800, damage per attack 190.8, DpS 106.
 
+Most of the TH8 opponents walls HP 2500-3000.
+
+Cannon HP 880 lvl 9 to 960 lvl 10, attack speed 0.8s, DpS 56 lvl 9, 64 lvl 10, range 9.
+
+Archer tower HP 750 lvl 9 to 810 lvl 10, attack speed 0.5s, DpS 56 lvl 9, 63 lvl 10, range 10.
+
+Wizard tower HP 840 lvl 5 to 960 lvl 6, attack speed 1.3s, DpS 24 lvl 5, 32 lvl 6, range 7.
+
+Bomb tower HP 650 lvl 1 to 700 lvl 2, attack speed 1.1s, DpS 24 lvl 1, 28 lvl 2, range 6.
+
+Mortar HP 600 lvl 5 to 650 lvl 6, attack speed 5s, DpS 9 lvl 5, 11 lvl 6, range 4 to 11.
+
+Hidden tesla HP 730 lvl 5 to 770 lvl 6, attack speed 0.6s, DpS 75 lvl 5, 87 lvl 6, range 7.
+
+Lighting spell lvl 4 480 damage, lvl 5 540 damage.
+
+Healing spell 12 seconds, 40 pulses 0.3s each, each pulse lvl 4 30 (1200 total) to lvl 5 35 (1400 total).
+
+Rage spell 18 seconds, 40 pulses 0.3s each, damage increase 1vl 4 160% to lvl 5 170%, speed increase 26 lvl 4 to 28 lvl 5.
+
+Poison spell causes troops in 4 tiles 90 damage per second lvl 1, 115 lvl 2, speed decrease 26% to 30%, attack rate decrease 35% to 40%.
+
 #### TH8 War Strategy
 
 The goal is to 3 star.
 
 Depending on your opponent's base, you can choose using air troop or ground troop. If your target's air defense is weak, prefer air attack. Otherwise, prefer ground attack.
+
+Always try to lure the CC troop out first. Lure the CC troops to corner and drop poison and deploy 6 to 8 archers circle around to kill CC troops.
 
 The following strategy may vary:
 
@@ -705,20 +729,26 @@ The following strategy may vary:
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
 - Ground attack
-  - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
+  - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog (CC lure) +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
   - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
   - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Poison Spell in CC
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
-Once golem is unlocked, focus on upgrading PEKKA to level 3. It's recommend to upgrade PEKKA first as it's harder to farm dark elixir and you can maximize king's level to 10 as fast as you can. Golem level 1 is fine as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
+As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages.
 
-GoWiPe is pretty effective in TH8 war.
+After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
 
-Lure the CC troops to corner and drop poison and deploy 6 to 8 archers circle around to kill CC troops.
+With level 3 pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents.
 
-Pick the side where strongest defensing system located because the goal is to destroy the main defending force first. Deploy 2 golems must at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are shielding the fire, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
+For maxed out TH8 opponent, GoHo with level 4 hogs is more effective.
 
-Once PEKKA is at level 3, go either Valkyrie, or hog riders, one at a time.
+Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
+
+Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first, then immediately deploy them.
+
+If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are shielding the fire, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
+
+Once PEKKA is at level 3, update either Valkyrie, or hog riders, one at a time.
 
 #### TH 8 Farming
 
