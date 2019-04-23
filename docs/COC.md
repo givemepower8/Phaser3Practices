@@ -299,11 +299,15 @@ Unlocked at Unlocked at TH 10.
 
 [Miner](https://clashofclans.fandom.com/wiki/Miner) is often used with hero's support.
 
-6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
+Miner takes 6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
 
-Strength: Can go under walls.
+Strength: Can burrow under walls.
 
-Weakness: Vulnerable to splash damage, giant bomb.
+Weakness: Vulnerable to splash damage building like bomb tower, also vulnerable to giant bomb.
+
+For TH12 opponents with maximized Giga tesla, miner strategy is a bit risky sometimes it deals with lots of destruction but gets only one star.
+
+Miners' good companions are healers or meat shields around them. witches are good companions as well as skeletons distract queen or inferno towers.
 
 | Level | DpS | DpA   | HP  | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | --- | ----- | ------------- | ---------- | ------------- |
@@ -334,7 +338,7 @@ Weakness:
 
 Unlocked at Unlocked at TH 7.
 
-[Minion](https://clashofclans.fandom.com/wiki/Minion) is a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion. Loonion is often brought with Rage Spells, Minions, Haste Spells, Poison Spell, and Balloons. The player will make a wall of Balloons where the air-targeting defences mostly are, and if needed, support them with either a haste spell or a rage spell. Then, they deploy the minions to clean up behind once the first layer of defenses are taken down. However, Air Bombs can seriously ruin this attack if many Balloons or Minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the Balloons from being destroyed.
+[Minion](https://clashofclans.fandom.com/wiki/Minion) is a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -456,7 +460,19 @@ Meat shield for other air troops.
 
 Bowler is unlocked at TH 10.
 
-6 housing space, attack speed 2.2s, move speed: 14, range: 3 tiles
+Bowler takes 6 housing space, attack speed 2.2s, move speed: 14, range: 3 tiles
+
+Bowlers have no preferred target when attacking; they will simply attack the closest building. However, once they become aware of enemy Clan Castle troops, heroes, or skeleton trap skeletons (either by being attacked themselves or by being near another friendly troop under attack), they will leave their previously targeted building and instead engage the enemy troops. Once all of the nearby enemy troops are defeated, the bowlers will proceed to attack the nearest structure. So in the group, there must be a meat shield or hero, otherwise bowlers will be separated so get destroyed easily. Bowlers are strong only when they stay together.
+
+Bowlers have low HP. If not led by wall wrecker and heros, try not to attack from corner as they could get distracted away by the outside trash buildings and get easily picked off.
+
+A meat shield like golem or a couple of giants are good companions of bowler. Or, 4 healers can keep the bowlers live for a while.
+
+For spells, jump spell can take the bowlers to the core. Freeze spell is a must-have when they in range of inferno tower so to take it down. Rage spell is great while bowlers are going along with wall wreaker and heroes.
+
+Due to low HP, bowler is very fragile to eagle artillery, two shots can wipe off a group of bowlers. Also make sure inferno tower can be destroyed on bowler's path. Try to use the wall wreaker or heroes to take off the eagle artillery first. Also the CC air troop is extremely annoying, for example, two dragons or hounds will kill the bowlers around.
+
+Funneling for bowler is important as its goal is to keep the bowlers stay together as possible.
 
 [Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
 
@@ -539,7 +555,7 @@ For slow air attacking units.
 
 ### Barracks
 
-Elixir troop and dark elixir troop.
+There are two kind of troops: elixir troop and dark elixir troop.
 
 Barrack level unlocks new type of troops. Also the number and level of barracks determine how quick troops can be trained.
 
@@ -680,19 +696,19 @@ maximize the defence
 
 #### Facts
 
-Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can take down gold (lvl 5) and lower level walls. 2 wall breakers can take down from purple to skull walls (lvl 6,7,8). A lvl 5 wall breaker can take one lvl 5 mortar splash damage, but will be instantly killed by lvl 6 motors.
+Most of the TH8 opponents wall level is level 7 purple crystal HP 2500 to level 8 skull stone HP 3000.
 
-Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5).
+Wall breaker is crucial to create the path to the core of base. Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can one-shot take down gold (lvl 5) and lower level walls. 2 wall breakers can take down pink, purple crystal walls and skull walls (lvl 6,7,8). Don't deploy it close to cannon, archer tower if there is no meat shield, otherwise it will be destroyed instantly. For mortars, a lvl 5 wall breaker can take one lvl 5 mortar splash damage, but will be instantly killed by lvl 6 motors. For wizard tower, it can withstand 1 attack damage.
 
-Hog rider lvl 4 housing space 5, attack speed 1s, move speed: 24, range: 0.6 tile, HP 415, damage per attack 92, DpS 92.
+Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5). Wizard can be main attackers protected by meat shields or it acts a very import role to clear the trash building which may distract the troops.
 
-Golem lvl 2 housing space 30, attack speed 2.4s, move speed: 12, range: 1 tile, HP 5400, damage per attack 100.8, damage upon death 400, DpS 42. As its HP is extremely high, one or two can be a great meat shield for other troops.
+Golem housing space 30, attack speed 2.4s, move speed: 12, range: 1 tile, lvl 1 HP 5100, damage per attack 91.2, damage upon death 350, DpS 38. lvl 2 HP 5400, damage per attack 100.8, damage upon death 400, DpS 42. As its HP is extremely high, one or two can be a great meat shield for other high DpS troops like wizard.
 
 PEKKA lvl 3 housing space 25, attack speed 1.8s, move speed: 16, range: 0.8 tile, HP 3500, damage per attack 558, DpS 310.
 
 Valkyrie lvl 2 housing space 8, attack speed 1.8s, move speed: 24, range: 0.5 tile, HP 800, damage per attack 190.8, DpS 106.
 
-Most of the TH8 opponents walls HP 2500-3000.
+Hog rider lvl 4 housing space 5, attack speed 1s, move speed: 24, range: 0.6 tile, HP 415, damage per attack 92, DpS 92.
 
 Cannon HP 880 lvl 9 to 960 lvl 10, attack speed 0.8s, DpS 56 lvl 9, 64 lvl 10, range 9.
 
@@ -720,7 +736,7 @@ The goal is to 3 star.
 
 Depending on your opponent's base, you can choose using air troop or ground troop. If your target's air defense is weak, prefer air attack. Otherwise, prefer ground attack.
 
-Always try to lure the CC troop out first. Lure the CC troops to corner and drop poison and deploy 6 to 8 archers circle around to kill CC troops.
+Always try to lure the CC troop out first. Lure the CC troops to corner, and drop poison spell and deploy 6 to 8 archers circle around to kill CC troops. Circle will make the CC troop stay in the poison longer.
 
 The following strategy may vary:
 
@@ -729,12 +745,13 @@ The following strategy may vary:
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
 - Ground attack
+
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog (CC lure) +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
-  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
   - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Poison Spell in CC
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
+  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
 
-As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages.
+    As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages.
 
 After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
 
@@ -744,9 +761,9 @@ For maxed out TH8 opponent, GoHo with level 4 hogs is more effective.
 
 Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
 
-Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first, then immediately deploy them.
+Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers.
 
-If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are shielding the fire, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
+If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
 
 Once PEKKA is at level 3, update either Valkyrie, or hog riders, one at a time.
 
@@ -754,7 +771,29 @@ Once PEKKA is at level 3, update either Valkyrie, or hog riders, one at a time.
 
 Upgrade the barracks to shorten the training time.
 
-use Giant + Wizard + Archer + Wall breaker to farm. The aim is to 1 or 2 star and get most of the resources, first dark elixir, then elixir, gold.
+Barch farming
+
+Use barbarians, archers and wall breakers. Adding some goblins may speed up the process as well. Works best in gold league trophy level 1700 to 1800, and above, lots of players have collectors left outside the base and storages are behind the outside-most wall. The strategy is aiming for the storages,overwhelming the defensing buildings with lots of barbarians and archers. And even no spell is required. You can 1 star the opponent and get lots of loots with higher ROI.
+
+But usually dark elixir is at the core of base so barch farming is good for farming gold and elixir.
+
+To farm for dark elixir, you need to use 15 Giants / 20 Wizards / Archers / 8 Wall breakers / 1 or 2 Peeka to farm dark elixir. The aim is to 1 or 2 star and get most of the resources, first dark elixir, then elixir, gold.
+
+GiBarch farming
+
+<https://www.allclash.com/farming-with-gibarch/>
+
+Loonion farming
+
+The strategy is targets players with lots of loots.
+
+Balloons and minors are better at maximized level to make the farming more effective. Lighting spell is better at level 5. 2 level 5 lightening spells deals 540 damages each so it can take down one air defense level 5 (HP 1000) or level 6 ( HP 1050).
+
+Make a wall of Balloons where the air-targeting defences mostly are, and if needed, support them with either a haste spell or a rage spell.
+
+Then, deploy the minions to clean up behind once the first layer of defenses are taken down and send in the King.
+
+However, Air Bombs can seriously ruin this attack if many balloons or minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the balloons from being destroyed.
 
 ### TH 9 strategies
 
@@ -858,10 +897,10 @@ Maximize the spells
 
 Maximize the defence
 
-- Cannon lvl 10, can gear up
-- Archer tower lvl 10
+- Cannon lvl 15, can gear up
+- Archer tower lvl 15
 - Mortar lvl 10, can gear up
-- Air defense lvl 9
+- Air defense lvl 10
 - Wizard tower lvl 10
 - Air sweeper lvl 7 Max
 - Hidden Tesla lvl 9
@@ -879,23 +918,61 @@ Maximize the defence
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
-Bowler
+#### Level 40+ Queen charge
+
+If attacking TH11 opponents, with 4 max healers (level 5), 1 or 2 rage spells, queen should last long enough to clear one corner of the base. But for attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings.
+
+#### Level 3 Bowler
+
+Bowlers can be the main attackers, or a killer squad to clear one corner with inferno and x-bows.
+
+Bowler killer squad
+
+With luck, support from healer or meat shield, bowler can get to the core.
 
 Bowler and healer
 
-This typically is comprised of around 30 bowlers and 6-8 healers. The tactics here are to use your bowlers on two adjacent corners of the map with 3 or 4 healers behind each group. Take down the outer defenses and buildings with this and clear and very straight forward path into the middle of the map. You'll be using a rage, a jump and a freeze to ensure that this is done with relative ease. Once the corners are cleared, drop the rest of the bowlers either behind a golem or behind a few giants – also drop heroes with them. There is also the possibility to have a couple of other healers at this stage to help keep the bowlers up.
+This typically is comprised of around 30 bowlers and 6-8 healers.
+
+The strategy is to use your bowlers on two adjacent corners of the map with 3 or 4 healers behind each group. Take down the outer defenses and buildings with this and clear and very straight forward path into the middle of the base. You'll be using a rage, a jump and a freeze spell to ensure that this is done with relative ease. Once the corners are cleared, drop the rest of the bowlers either behind a golem or behind a few giants – also drop heroes with them. There is also the possibility to have a couple of other healers at this stage to help keep the bowlers up.
 
 The beauty of this attack is that the bowlers will move into the center and under rage grab 2 stars extremely quickly. From there, usually several or most of them will die but you're left with a whole load of healers which will then help keep your heroes awake helping you get that all important 3 star.
 
-Bowler and Witch
+Bowler and Witch (BOWITCH)
 
-For th 11 the Combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you have to take max golem and 1 max giant and rage spell. First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the defending troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly. This Strategy will help you easily 2 star any th 11 base ( sometimes even 3 stars if the bowlers dont get seperated ) This strategy can 3 star allmost all th 10's if you execute the troops and spells in proper manner.
+The combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you have to take max golem and 1 max giant and rage spell.
 
-Miner
+First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
 
-## Farming
+This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner.
 
-### lavaloonian
+#### Level 5 Miner
+
+Miners strategy is solid to 2 star other middle level TH11. But against maxed TH11 with high level eagle artillery, inferno tower and x-bows, it's very risky. When facing TH12 with giga tesla, often miner strategy gets only 1 star but high percentage.
+
+The rule of thumb is to narrow down the miner attack path. Miners are strong when they swarm. So for a square base layout, use heroes to clear one corner to create a L shape and some wizard to clear some trash building, so to make minor stay together while moving forward.
+
+Once the queen is strong enough, use a powerful queen charge to take out eagle artillery and CC troops, then deploy miners. Send warden to the middle of the base will help out, too.
+
+Ground CC troops especially witches will cause a headache for miners but air CC troops will not as miners move fast.
+
+Health, freeze and rage spells are used in miner strategy.
+
+#### Level 2 electro dragon
+
+Electro dragon has 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
+
+TH12 with maximized camps can take 9 electro dragons and TH11 with maximized camps can take 8 electro dragons.
+
+The attack is strong when heroes are strong. Usually, heroes will launch a kind of suicide attack on the 2 sides out the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence.
+
+Clone spell if is done right.
+
+Bat spell can help to take down one air defence.
+
+#### TH11 farming
+
+Lavaloonian
 
 A little bit costy but very effective.
 
@@ -930,8 +1007,6 @@ A variation with queen walk
 <https://www.allclash.com/queen-charge-mass-miner-farming-trophy-pushing-strategy/>
 
 <https://www.allclash.com/best-th11-farming-base-layouts/>
-
-<https://www.allclash.com/farming-with-gibarch/>
 
 <https://www.allclash.com/farming-with-goblin-knife/>
 
