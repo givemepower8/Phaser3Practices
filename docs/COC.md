@@ -45,6 +45,37 @@ From level 9, elixir can be used for the upgrade.
 
 Troops are the attacking units.
 
+### Moving speed
+
+Moving speed to tiles ratio is 0.125.
+
+- Move speed 32 is equivalent to 32 \* 0.125 = 4 tiles per second. Miner, Goblin, Minion
+- Move speed 24 is equivalent to 24 \* 0.125 = 3 tiles per second. Archer, Wall breaker, Hog rider, Valkyrie
+- Move speed 20 is equivalent to 20 \* 0.125 = 2.5 tiles per second. Lava hound
+- Move speed 16 is equivalent to 16 \* 0.125 = 2 tiles per second. Barbarian, Wizard, Healer, Dragon, PEKKA, Baby Dragon
+- Move speed 14 is equivalent to 14 \* 0.125 = 1.75 tiles per second. Bowler
+- Move speed 12 is equivalent to 12 \* 0.125 = 1.5 tiles per second. Giant, Electro Dragon, Golem, Witch, Ice Golem
+- Move speed 10 is equivalent to 10 \* 0.125 = 1.25 tiles per second. Balloon
+
+### Path AI
+
+Most of troops have no preferred target when attacking. Barbarian, Archer, Wizard, Dragon, PEKKA, Baby Dragon, Miner, Electro Dragon, Minion, Valkyrie, Witch
+
+When troops have no preferred target when attacking, they will simply attack the closest building. However, once they become aware of enemy Clan Castle troops, Heroes, or Skeleton Trap skeletons (either by being attacked themselves or by being near another friendly troop under attack), they will leave their previously targeted building and instead engage the enemy troops. Once all of the nearby enemy troops are defeated, the Bowlers will proceed to attack the nearest structure.
+
+If the path to the target is blocked by walls, they will attack the wall to try to get through.
+
+For troops have preferred target, they will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield. This is true even if they are under attack by enemy Clan Castle troops, heroes or Skeleton Trap skeletons. Note that like all troops that prioritize defenses, Giants do not consider the Clan Castle to be a defense regardless of whether or not it contains enemy troops, but do consider the defending Grand Warden and the level 12 Town Hall(if its Giga Tesla has been triggered) to be defensive buildings.
+
+- Giant prioritizes defensive structures above all other targets.
+- Goblin prioritizes resource buildings above all other targets.
+- Wall breakers prioritizes walls above all other targets, and will completely ignore any building or enemy troop while even a single segment of Wall exists on the battlefield. Wall breakers look for the nearest building that is enclosed (fully or partially) by Walls and target any Wall that surrounds them. They only attack by locating the nearest protected (wall enclosed) building and destroying its protective Walls. Note that Wall Breakers will not target single Walls. There needs to be at least 3 connected Walls for a Wall Breaker to target it, and it must be protecting a building fully or partially.
+- Balloon prioritizes defensive structures above all other targets.
+- Hog Rider prioritizes defensive structures above all other targets.
+- Golem prioritizes defensive structures above all other targets.
+- Lava Hound prioritizes Air Defenses above all other target.
+- Ice Golem prioritizes defensive structures above all other targets.
+
 ### Barbarian
 
 1 housing space, attack speed 1s, move speed: 16, range: 0.4 tile
@@ -207,9 +238,11 @@ Weakness: Fairly low HP so must go with some tanks like golem, pekka.
 
 Unlocked at Unlocked at TH 7.
 
-Healer is mainly used for supporting Queen.
+Healers will heal Heroes at a reduced rate of only 55% of her normal healing rate.
 
-14 housing space, heal speed 0.7s, move speed: 16, range: 5 tile
+Healer is often used for supporting Queen.
+
+14 housing space, heal speed 0.7s, move speed: 16, range: 5 tiles
 
 Prefer radius 2 ground troop.
 
@@ -511,13 +544,45 @@ Weakness: Very low DpS. Not ideal for being sent in the siege machine.
 
 ### Lighting
 
+Radius 2 tiles, Random Radius,3.5 tiles, Number of Strikes 6, Time Between Strikes 0.4, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 1
+
+| Level | Total Damage | Damage per Strike | Cost   | Research Cost | Research Time | Laboratory |
+| ----- | ------------ | ----------------- | ------ | ------------- | ------------- | ---------- |
+| 1     | 300          | 50                | 15,000 | N/A           | N/A           | N/A        |
+| 2     | 360          | 60                | 16,500 | 200,000       | 1d            | 1          |
+| 3     | 420          | 70                | 18,000 | 500,000       | 2d            | 2          |
+| 4     | 480          | 80                | 20,000 | 1,000,000     | 3d            | 3          |
+| 5     | 540          | 90                | 22,000 | 2,000,000     | 4d            | 6          |
+| 6     | 600          | 100               | 24,000 | 6,000,000     | 6d            | 7          |
+| 7     | 660          | 110               | 26,000 | 8,000,000     | 10d           | 8          |
+
 ### Healing
 
-It's vital for keeping hog riders, miners live.
+It's vital for keeping hog riders, miners live. One spell lasts 12 seconds.
+
+Radius 5, Number of Pulses 40, Time Between Pulses 0.3s, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 2.
+
+| Level | Total Damage | Damage per Strike | Cost   | Research Cost | Research Time | Laboratory |
+| ----- | ------------ | ----------------- | ------ | ------------- | ------------- | ---------- |
+| 1     | 600          | 15                | 15,000 | N/A           | N/A           | N/A        |
+| 2     | 800          | 20                | 16,500 | 300,000       | 1d            | 2          |
+| 3     | 1,000        | 25                | 18,000 | 600,000       | 2d            | 4          |
+| 4     | 1,200        | 30                | 19,000 | 1,200,000     | 3d            | 5          |
+| 5     | 1,400        | 35                | 21,000 | 2,000,000     | 4d            | 6          |
+| 6     | 1,600        | 40                | 23,000 | 4,000,000     | 6d            | 7          |
+| 7     | 1,800        | 45                | 25,000 | 6,000,000     | 10d           | 8          |
 
 ### Rage
 
-It's a must-have for boosting attacking.
+It's a must-have for boosting attacking. One spell lasts 18 seconds.
+
+Radius 5, Number of Pulses 60, Time Between Pulses 0.3s, Boost Time 1s, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 3.
+
+The most effective placement of the Rage Spell is to position it approximately 3-4 tiles toward where your Troops' next target will be; this will give your Troops the maximum amount of time inside the Rage Spell's area of effect as they destroy their current target and move to the next one. If you drop it directly under their feet, they will quickly move out of its range once they have finished with their current target.
+
+The P.E.K.K.A and Balloon are especially well-suited for the Rage Spell, as they normally move and attack quite slowly.
+
+The Barbarian King's Iron Fist ability does not stack with the Rage Spell, nor do the nearby enraged Barbarians that are affected by the ability.
 
 ### Jump
 
@@ -971,6 +1036,14 @@ Clone spell if is done right.
 Bat spell can help to take down one air defence.
 
 #### TH11 farming
+
+Miner farming
+
+Miner farming with queen charge is very effective for dead bases or TH11 with medium level defensing systems.
+
+29 miners, 1 baby dragon, 5 healers, 6 archers.
+
+Use queen and 5 healers to clear one side, use baby dragon, king and warden the other side to clear the buildings within range. Once the outside is a bit cleared, send in the miners and make them alive with health spell and freeze spell. King has to be a bit strong to absorb damages, and king might not survive at last. But at that time, warden come to middle to help out the minors.
 
 Lavaloonian
 
