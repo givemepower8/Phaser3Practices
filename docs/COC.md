@@ -396,7 +396,7 @@ At TH8, hog rider is a very strong attacker in war.
 
 Strength: Jump over walls.
 
-Weakness: Vulnerable to splash damage, giant bomb. Expensive in looting.
+Weakness: Vulnerable to splash damage, giant bomb. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 800 dark elixir already.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -438,7 +438,7 @@ For TH8 war strategies, one more golem should be always in the army.
 
 Strength: High HP to distract defensing system so to protect wizards, valkyries, or others.
 
-Weakness: Very low DpS.
+Weakness: Very low DpS and very slow speed.
 
 | Level | DpS | DpA   | Damage Upon Death | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | ----- | ----------------- | ----- | --------- | ------------------ | ---------- | ------------- |
@@ -578,11 +578,19 @@ It's a must-have for boosting attacking. One spell lasts 18 seconds.
 
 Radius 5, Number of Pulses 60, Time Between Pulses 0.3s, Boost Time 1s, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 3.
 
-The most effective placement of the Rage Spell is to position it approximately 3-4 tiles toward where your Troops' next target will be; this will give your Troops the maximum amount of time inside the Rage Spell's area of effect as they destroy their current target and move to the next one. If you drop it directly under their feet, they will quickly move out of its range once they have finished with their current target.
+The most effective placement of the Rage Spell is to position it approximately 3-4 tiles toward where your troops' next target will be; this will give your Troops the maximum amount of time inside the Rage Spell's area of effect as they destroy their current target and move to the next one. If you drop it directly under their feet, they will quickly move out of its range once they have finished with their current target.
 
 The P.E.K.K.A and Balloon are especially well-suited for the Rage Spell, as they normally move and attack quite slowly.
 
 The Barbarian King's Iron Fist ability does not stack with the Rage Spell, nor do the nearby enraged Barbarians that are affected by the ability.
+
+| Level | Damage Increase | Speed Increase | Cost   | Research Cost | Research Time | Laboratory |
+| ----- | --------------- | -------------- | ------ | ------------- | ------------- | ---------- |
+| 1     | 130%            | 20             | 20,000 | N/A           | N/A           | N/A        |
+| 2     | 140%            | 22             | 22,000 | 450,000       | 2d            | 3          |
+| 3     | 150%            | 24             | 24,000 | 900,000       | 3d            | 4          |
+| 4     | 160%            | 26             | 26,000 | 1,800,000     | 4d            | 5          |
+| 5     | 170%            | 28             | 28,000 | 3,000,000     | 5d            | 6          |
 
 ### Jump
 
@@ -775,7 +783,7 @@ Valkyrie lvl 2 housing space 8, attack speed 1.8s, move speed: 24, range: 0.5 ti
 
 Hog rider lvl 4 housing space 5, attack speed 1s, move speed: 24, range: 0.6 tile, HP 415, damage per attack 92, DpS 92.
 
-Cannon HP 880 lvl 9 to 960 lvl 10, attack speed 0.8s, DpS 56 lvl 9, 64 lvl 10, range 9.
+Cannon HP 880 lvl 9 to 960 lvl 10, attack speed 0.8s, DpA 44.8, DpS 56 lvl 9; DpA 51.2 DpS 64 lvl 10, range 9.
 
 Archer tower HP 750 lvl 9 to 810 lvl 10, attack speed 0.5s, DpS 56 lvl 9, 63 lvl 10, range 10.
 
@@ -783,7 +791,7 @@ Wizard tower HP 840 lvl 5 to 960 lvl 6, attack speed 1.3s, DpS 24 lvl 5, 32 lvl 
 
 Bomb tower HP 650 lvl 1 to 700 lvl 2, attack speed 1.1s, DpS 24 lvl 1, 28 lvl 2, range 6.
 
-Mortar HP 600 lvl 5 to 650 lvl 6, attack speed 5s, DpS 9 lvl 5, 11 lvl 6, range 4 to 11.
+Mortar HP 600 lvl 5 to 650 lvl 6, attack speed 5s, DpA 45, DpS 9 lvl 5, DpA 55, DpS 11 lvl 6, range 4 to 11.
 
 Hidden tesla HP 730 lvl 5 to 770 lvl 6, attack speed 0.6s, DpS 75 lvl 5, 87 lvl 6, range 7.
 
@@ -809,6 +817,8 @@ The following strategy may vary:
 
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
+  DragLoon is look at the air sweeper to decide which way to attack. You don't want to attacked the area which is covered by the air sweeper. Use 2 lightning spells to take out 1 furthest air defense, closest to the core. Aiming the rest 2 air defences. Deploy dragons to destroy the defensing buildings first, then deploy balloons to attack the rest 2 air defenses. Send in the king to clean up.
+
 - Ground attack
 
   - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog (CC lure) +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
@@ -816,11 +826,9 @@ The following strategy may vary:
   - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
   - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
 
-    As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages.
+As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
 
-After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
-
-With level 3 pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents.
+With level 3 pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents but for a nearly maxed out TH8, GoWiPe is hard to get 3 star as PEKKA needs funneling and sometimes it goes out the core.
 
 For maxed out TH8 opponent, GoHo with level 4 hogs is more effective.
 
