@@ -1,10 +1,10 @@
 # COC
 
-Wisely dispatch troops to destroy opponent's defence system and town hall.
+Wisely dispatch troops to destroy opponent's defensing system and town hall. For a multiplayer battle, player gets one star by 50% more destruction, one star by destroying the town hall, three stars by 100% destruction. In a clan war, leader decides the size of players, each player has two attacks, the clan who gets more stars wins the clan war. If two clans get the same number of stars, the clan has more destruction rate wins the war.
 
 ## Resources and Structures
 
-Gold mine and elixir collector
+Gold mine and elixir collector. Maximizing collectors is the thing to do so you can save time on looting. For a TH8 with maxed collectors, 600K gold and 600K elixir each day is great and it's free.
 
 - TH8 can have 6 of each and maximum level 12.
 - TH9 can have 7 of each.
