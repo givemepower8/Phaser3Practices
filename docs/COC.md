@@ -416,6 +416,10 @@ Unlocked at TH 8.
 
 8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
 
+Valkyries can be a killer squad to destroy one condensed area.
+
+Moving fast makes valkyrie very hard to control. Don't deploy valkyrie too soon. Only if the walls are opened enough, the area close to the core is a great battle field for valkyries. For bases with lots of compartments, use golem, wizards and wall breakers for the first wave to open walls as deep as can to get close to the core. Then deploy valkyries for the second wave so valkyries will not move out the inside base. If deployed too soon, they would finish the compartment quickly and move on, in most of the cases they will go out the core and circle around the outside base. Also if deployed too soon, at the beginning of the battle, if the opponent has high level walls, valkyries swarm together which makes them vulnerable to splash damage, giant bomb.
+
 | Level | DpS | DpA   | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | ----- | ----- | --------- | ------------------ | ---------- | ------------- |
 | 1     | 94  | 169.2 | 750   | 50        | N/A                | N/A        | N/A           |
@@ -425,6 +429,13 @@ Unlocked at TH 8.
 | 5     | 148 | 266.4 | 1,100 | 130       | 110,000            | 8          | 8 days        |
 | 6     | 163 | 293.4 | 1,200 | 160       | 150,000            | 9          | 11d 12h       |
 | 7     | 178 | 320.4 | 1,300 | 190       | 190,000            | 10         | 14 days       |
+
+Strength: Relatively high HP and DpS, very high move speed.
+
+Weakness:
+
+- Hard to control due to high move speed and no preferred target.
+- Relatively expensive, it's not for looting. 10 valkyries will cost 500 dark elixir already.
 
 ### Golem
 
@@ -817,28 +828,52 @@ The following strategy may vary:
 
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
-  DragLoon is look at the air sweeper to decide which way to attack. You don't want to attacked the area which is covered by the air sweeper. Use 2 lightning spells to take out 1 furthest air defense, closest to the core. Aiming the rest 2 air defences. Deploy dragons to destroy the defensing buildings first, then deploy balloons to attack the rest 2 air defenses. Send in the king to clean up.
+  DragLoon is to look at the air sweeper to decide which way to attack. You don't want to attack the area which is covered by the air sweeper which slows the air troop. Use 2 lightning spells to take out 1 air defense which is closest to the core. Deploy dragons to create path to the air defenses. Then use balloons to destroy the rest 2 air defences. Send in the king to clean up. Check the corner builder huts as the dragons move very slow.
 
 - Ground attack
 
-  - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog (CC lure) +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
-  - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Poison Spell in CC
-  - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
-  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
+  - GoWiPe
+  - GoWiVa
+  - GoHo
+  - GoVaHo
 
 As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
-
-With level 3 pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents but for a nearly maxed out TH8, GoWiPe is hard to get 3 star as PEKKA needs funneling and sometimes it goes out the core.
-
-For maxed out TH8 opponent, GoHo with level 4 hogs is more effective.
-
-Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
 
 Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers.
 
 If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
 
 Once PEKKA is at level 3, update either Valkyrie, or hog riders, one at a time.
+
+##### TH8 GoWiPe
+
+1 Golem + 3 Pekka + 18 Wizards + 6 Wall Breakers + 1 Hog (CC lure) + 6 Archers + 1 Healing + 2 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
+
+With level 3 pekkas and one CC pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents.
+
+PEKKA needs proper funneling. Outside building must be cleared up before pekka goes there, otherwise Pekka will chop the wall and go outside to attack some trash building outside.
+
+The strategy is to use golem as meat shield grouped with pekkas, 3 to 4 wall breakers open the first layer. Always have 5 to 8 wizards follow with the squad to destroy the building behind so pekkas can move forward. Always leave some wizards to clear up the outside buildings, Send the king with pekkas, 2 rage spells should work well on Pekka and kings. Send in the rest wall breakers to open more inside walls.
+
+But for a nearly maxed out TH8, GoWiPe is hard to get 3 star as it's attacking speed is slow so easier to get destroyed by higher level defensing buildings.
+
+##### TH8 GoWiVa
+
+1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 1 rage spell + 2 Healing Spell + 1 earthquake and 1 Pekka + 1 Poison Spell in CC
+
+Valkyries attack faster that pekka, but they are harder to control.
+
+##### TH8 GoHo
+
+2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
+
+For maxed out TH8 opponent, GoHo with level 4 hogs is more effective.
+
+Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
+
+##### TH8 GoVaHo
+
+1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
 
 #### TH 8 Farming
 
