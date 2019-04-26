@@ -59,11 +59,11 @@ Moving speed to tiles ratio is 0.125.
 
 ### Path AI
 
-Most of troops have no preferred target when attacking. Barbarian, Archer, Wizard, Dragon, PEKKA, Baby Dragon, Miner, Electro Dragon, Minion, Valkyrie, Witch
+Most of troops have no preferred target when attacking, i.e., Barbarian, Archer, Wizard, Dragon, PEKKA, Baby Dragon, Miner, Electro Dragon, Minion, Valkyrie, Witch.
 
 When troops have no preferred target when attacking, they will simply attack the closest building. However, once they become aware of enemy Clan Castle troops, Heroes, or Skeleton Trap skeletons (either by being attacked themselves or by being near another friendly troop under attack), they will leave their previously targeted building and instead engage the enemy troops. Once all of the nearby enemy troops are defeated, the Bowlers will proceed to attack the nearest structure.
 
-If the path to the target is blocked by walls, they will attack the wall to try to get through.
+If the path to the target is blocked by walls, they will attack the wall to try to get through and destroy the building. Miner can burrow through the walls.
 
 For troops have preferred target, they will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield. This is true even if they are under attack by enemy Clan Castle troops, heroes or Skeleton Trap skeletons. Note that like all troops that prioritize defenses, Giants do not consider the Clan Castle to be a defense regardless of whether or not it contains enemy troops, but do consider the defending Grand Warden and the level 12 Town Hall(if its Giga Tesla has been triggered) to be defensive buildings.
 
@@ -84,7 +84,7 @@ No preferred target, attacks closest enemy troop then structures.
 
 Strength: cheap and fast to train, only 1 housing space, works great as a group along with giant, heroes to distract and take off alone target.
 
-Weakness: low attack, vulnerable to splash damage like mortar, wizard tower and bomb tower.
+Weakness: low DpS, the group is vulnerable to splash damage like mortar, wizard tower and bomb tower.
 
 | Level | DpS | DpA | HP  | Cost | Research Cost | Laboratory | Research Time |
 | ----- | --- | --- | --- | ---- | ------------- | ---------- | ------------- |
@@ -392,7 +392,7 @@ Unlocked at Unlocked at TH 7 and dark barrack level 2.
 
 Prefer defensive structures.
 
-At TH8, hog rider is a very strong attacker in war.
+At TH8, level 4 hog rider is a very strong attacker in war.
 
 Strength: Jump over walls.
 
@@ -416,7 +416,7 @@ Unlocked at TH 8.
 
 8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
 
-Valkyries can be a killer squad to destroy one condensed area.
+A group of valkyries can be a killer squad to destroy one condensed area.
 
 Moving fast makes valkyrie very hard to control. Don't deploy valkyrie too soon. Only if the walls are opened enough, the area close to the core is a great battle field for valkyries. For bases with lots of compartments, use golem, wizards and wall breakers for the first wave to open walls as deep as can to get close to the core. Then deploy valkyries for the second wave so valkyries will not move out the inside base. If deployed too soon, they would finish the compartment quickly and move on, in most of the cases they will go out the core and circle around the outside base. Also if deployed too soon, at the beginning of the battle, if the opponent has high level walls, valkyries swarm together which makes them vulnerable to splash damage, giant bomb.
 
@@ -447,7 +447,7 @@ Cause splash damage in 1.2 title when it dies.
 
 For TH8 war strategies, one more golem should be always in the army.
 
-Strength: High HP to distract defensing system so to protect wizards, valkyries, or others.
+Strength: High HP to distract defensing structures so to protect wizards, valkyries, or others.
 
 Weakness: Very low DpS and very slow speed.
 
@@ -520,7 +520,7 @@ Funneling for bowler is important as its goal is to keep the bowlers stay togeth
 
 [Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
 
-Strength: the stone can cause massive damage on condensed defense system.
+Strength: The stone can cause massive damage on condensed defense system as it can hit multiple targets in a line.
 
 Weakness: Low HP.
 
@@ -678,7 +678,7 @@ Laboratory enables research on higher level of troops. Laboratory should be alwa
 
 ![Laboratory](https://cocland.com/wp-content/uploads/2015/04/elixir-upgrades.jpg)
 
-## Defence systems
+## Defensing Structures
 
 ### Cannon
 
@@ -716,15 +716,17 @@ For example, without funneling, heros and pekkas will go around the outside of t
 
 Funneling is to create the path so to guild the troop to go to the expected location by breaking walls and eliminating those distractions at the right timing. For example, wall breaker creates a funnel after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy buildings massively.
 
-Sometimes, heros will launch suicide attack to destroy defensing system to create some funnels for attacking troops.
+Sometimes, heros will launch suicide attack to destroy defensing structures to create the funnels for attacking troops.
 
-How to create the funnel,
+Creating the funnel depends on the attacking strategy. For example,
 
-Baby dragons and wizards are often used to create funnels. For example,
+- clear the outside buildings
+- clear one corner with the eagle artillery
+- use wall breaker, stone slammer or jump spell so the troops can get close to the core
 
-- clear the outside buildings.
-- use wall breaker
-- use jump spell
+Baby dragons and wizards are often used to clear the outside buildings. Wizards is a bit expensive as 6 wizards takes up 24 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence.
+
+Heros with queen charge can clear two outsides of base or with wall breaker they can clear one corner of the base to create the L shape so the attacking troops will be more effective to destroy the buildings.
 
 ### TH 8 Strategies
 
@@ -782,7 +784,7 @@ maximize the defence
 
 Most of the TH8 opponents wall level is level 7 purple crystal HP 2500 to level 8 skull stone HP 3000.
 
-Wall breaker is crucial to create the path to the core of base. Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can one-shot take down gold (lvl 5) and lower level walls. 2 wall breakers can take down pink, purple crystal walls and skull walls (lvl 6,7,8). Don't deploy it close to cannon, archer tower if there is no meat shield, otherwise it will be destroyed instantly. For mortars, a lvl 5 wall breaker can take one lvl 5 mortar splash damage, but will be instantly killed by lvl 6 motors. For wizard tower, it can withstand 1 attack damage.
+Wall breaker is crucial to create the path to the core of base. Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can one-shot take down gold (lvl 5) and lower level walls. 2 wall breakers can take down pink, purple crystal walls and skull walls (lvl 6,7,8). Don't deploy it close to cannon, archer tower if there is no meat shield, otherwise it will be destroyed instantly as cannon and archer fires very fast. For mortars which attack every 5 seconds, a lvl 5 wall breaker can take one lvl 5 mortar splash damage, but will be instantly killed by lvl 6 motors. For wizard tower, it can withstand 1 attack damage but the window is 2 seconds.
 
 Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5). Wizard can be main attackers protected by meat shields or it acts a very import role to clear the trash building which may distract the troops.
 
@@ -845,29 +847,33 @@ If deploying 2 golems, they must be at least 8 to 10 tiles away from each other,
 
 Once PEKKA is at level 3, update either Valkyrie, or hog riders, one at a time.
 
+Choosing the attacking strategy depends on the opponent's base and cc troop. CC troop must be cleared first and should be done as soon as possible. Dragons or flying units will ruin the ground attack. Watch out for the CC clear-up time as pekka attacks slow.
+
 ##### TH8 GoWiPe
 
 1 Golem + 3 Pekka + 18 Wizards + 6 Wall Breakers + 1 Hog (CC lure) + 6 Archers + 1 Healing + 2 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
 
-With level 3 pekkas and one CC pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents.
+With level 3 pekkas and one CC level 8 pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents.
 
 PEKKA needs proper funneling. Outside building must be cleared up before pekka goes there, otherwise Pekka will chop the wall and go outside to attack some trash building outside.
 
-The strategy is to use golem as meat shield grouped with pekkas, 3 to 4 wall breakers open the first layer. Always have 5 to 8 wizards follow with the squad to destroy the building behind so pekkas can move forward. Always leave some wizards to clear up the outside buildings, Send the king with pekkas, 2 rage spells should work well on Pekka and kings. Send in the rest wall breakers to open more inside walls.
+The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards. Use rage in the first open compartment as it helps King and pekka damages faster. If the wizards hit bombs,great bombs so get killed, always have 4 to 5 wizards follow the killer squad so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures are exposed at this moment, use rage one more time so to destroy town hall. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
 
-But for a nearly maxed out TH8, GoWiPe is hard to get 3 star as it's attacking speed is slow so easier to get destroyed by higher level defensing buildings.
+Send the king with the level 8 pekka as the main attacking troop, rage spells work well on Pekka and kings. Have one pekka with 3 to 5 wizards to destroy the outside building so inner pekkas can move forward and won't move outside. 3 to 5 wizards to clear the other outside.
+
+But for a nearly maxed out TH8, GoWiPe can get 2 stars but it is hard to get 3 stars as it's attacking speed is slow so maybe get destroyed by higher level defensing buildings like teslas and burst cannons.
 
 ##### TH8 GoWiVa
 
 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 1 rage spell + 2 Healing Spell + 1 earthquake and 1 Pekka + 1 Poison Spell in CC
 
-Valkyries attack faster that pekka, but they are harder to control.
+Valkyrie attacks and moves faster that pekka, and their HP is much more than wizards. but they are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings. Wizards need to clear the outside buildings. They are better used at a fairly larger enclosed area.
 
 ##### TH8 GoHo
 
 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
-For maxed out TH8 opponent, GoHo with level 4 hogs is more effective.
+For maxed out TH8 opponent or low level TH 9 opponent, GoHo with level 4 hogs is more effective.
 
 Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
 
