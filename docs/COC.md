@@ -822,7 +822,7 @@ The goal is to 3 star.
 
 Depending on your opponent's base, you can choose using air troop or ground troop. If your target's air defense is weak, prefer air attack. Otherwise, prefer ground attack.
 
-Always try to lure the CC troop out first. Lure the CC troops to corner, and drop poison spell and deploy 6 to 8 archers circle around to kill CC troops. Circle will make the CC troop stay in the poison longer.
+Always try to lure the CC troop out first. Lure the CC troops to corner, and drop poison spell and deploy 6 to 8 archers circle around to kill CC troops. Circle will make the CC troop stay in the poison longer. But if valkyrie is the CC troop, it's hard to circle around as they move and attack fast, drop a high HP troop like Pekka or Giant in the circle to absorb the damage.
 
 The following strategy may vary:
 
@@ -830,7 +830,7 @@ The following strategy may vary:
 
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
-  DragLoon is to look at the air sweeper to decide which way to attack. You don't want to attack the area which is covered by the air sweeper which slows the air troop. Use 2 lightning spells to take out 1 air defense which is closest to the core. Deploy dragons to create path to the air defenses. Then use balloons to destroy the rest 2 air defences. Send in the king to clean up. Check the corner builder huts as the dragons move very slow.
+  DragLoon is to look at the air sweeper to decide which way to attack. You don't want to attack the area which is covered by the air sweeper which slows the air troop. Use 2 lightning spells to take out 1 air defense which is closest to the core. Depends on the base layout, the balloons can try to get the rest 2 air defenses or try to funnel the outside buildings so the dragons stay inside. If air defence is reachable, deploy dragons to create path to the rest 2 air defenses and clear the wizard tower as they will damage the balloons. Before they can be hit by the air defence, be aware of the timing to deploy the balloons. Rage or haze the balloons to destroy the rest 2 air defences. Send in the king to clean up. Check the corner builder huts as the dragons move very slow.
 
 - Ground attack
 
@@ -839,15 +839,15 @@ The following strategy may vary:
   - GoHo
   - GoVaHo
 
-As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
+As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badges in league war to get the hammer.
 
 Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers.
 
 If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
 
-Once PEKKA is at level 3, update either Valkyrie, or hog riders, one at a time.
+Once PEKKA is at level 3, update either valkyrie, or hog riders, but one at a time. Hog riders is recommended as they dominate in TH8 war.
 
-Choosing the attacking strategy depends on the opponent's base and cc troop. CC troop must be cleared first and should be done as soon as possible. Dragons or flying units will ruin the ground attack. Watch out for the CC clear-up time as pekka attacks slow.
+Choosing the attacking strategy depends on the opponent's base and cc troop. CC troop must be cleared first and should be done as soon as possible. Dragons or other flying units will ruin the ground attack. Witch or valkyrie creates lots of headache. Watch out for the CC clear-up time as pekka attacks slow.
 
 ##### TH8 GoWiPe
 
@@ -867,7 +867,7 @@ But for a nearly maxed out TH8, GoWiPe can get 2 stars but it is hard to get 3 s
 
 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 1 rage spell + 2 Healing Spell + 1 earthquake and 1 Pekka + 1 Poison Spell in CC
 
-Valkyrie attacks and moves faster that pekka, and their HP is much more than wizards. but they are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings. Wizards need to clear the outside buildings. They are better used at a fairly larger enclosed area.
+Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. But they are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings. Wizards need to clear the outside buildings. They are better used at a fairly larger enclosed area.
 
 ##### TH8 GoHo
 
@@ -946,6 +946,8 @@ Maximize the troop levels.
 
 Queen walk / charger
 
+When the healers die or separate, queen will have a hard time.
+
 - Put a balloon when to deploy the queen to trigger the seeking air mine.
 - Protect the healers. Make sure no other troops will take away the healers.
 - Use offensive spells around queen
@@ -961,7 +963,7 @@ Maximize the hero levels.
 - Queen lvl 40
 - King lvl 40
 
-### TH 11 strategies
+### TH11 strategies
 
 Great warden joins in the village.
 
@@ -1031,10 +1033,6 @@ Maximize the defence
 - Eagle artillery lvl 2
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
-
-#### Level 40+ Queen charge
-
-If attacking TH11 opponents, with 4 max healers (level 5), 1 or 2 rage spells, queen should last long enough to clear one corner of the base. But for attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings.
 
 #### Level 3 Bowler
 
@@ -1135,6 +1133,112 @@ A variation with queen walk
 <https://www.allclash.com/farming-with-goblin-knife/>
 
 <https://cocland.com/guides/bowler-attack-strategy>
+
+## TH12 war strategies
+
+The resources you have:
+
+- Heroes
+- Wall wreckers / Stone slammer
+- Troops (40 + 280)
+  - CC troop
+  - Primary troop (miner, bowler, pekka, dragon loon, electro dragon)
+  - Supplementary troop
+- Spells
+
+There is no one exact strategy can 3 star any base. It's based on your opponent's base then pick the most effective strategy.
+
+Tactics
+
+Exchange
+
+### Queen charge
+
+Queen charge is for supporting other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge.
+
+To perform the queen charge, level up the queen to 45+ at least. The idea is to use queen charge to take out one corner with eagle artillery to create the L shape, so the troops can target the remaining buildings easily. Possibly absorb damages from Giga tesla so to support other troops. Drawback of queen charge is it may be very slow to create the funnel. TH11 against TH12 using queen charge is not a good idea as queen is very fragile.
+
+At your disposal, you have queen and 5 healers, wall wrecker /stone slammer with CC troop, king, grand warden, companion troops and main troops.
+
+Facts about queen,
+
+Queen's attack speed 0.75s, move speed 24, range 5 tiles, search range 10 tiles.
+
+- Level 45 queen HP 1,809 DpS 474, DpA 355.5. When in ability, DpS 1,394 in 5.2s.
+- Level 50 queen HP 2,007 DpS 536, DpA 402. When in ability, DpS 1,556 in 5.4s.
+- Level 55 queen HP 2,274 DpS 594, DpA 445.5. When in ability, DpS 1,714 in 5.4s.
+- Level 60 queen HP 2,575 DpS 658, DpA 493.5. When in ability, DpS 1,778 in 5.8s.
+
+Facts about king
+
+King's attack speed 1.2s, move speed 16, range 1 tile, search range 9 tiles.
+
+- Level 45 king HP 5,038 DpS 299, DpA 358.8. When in ability, DpS 777 in 10s.
+- Level 50 king HP 5,700 DpS 332, DpA 398.4. When in ability, DpS 878 in 10s.
+- Level 55 king HP 6,452 DpS 369, DpA 442.8. When in ability, DpS 987 in 10s.
+- Level 60 king HP 7,303 DpS 410, DpA 492.0. When in ability, DpS 1,028 in 10s.
+
+Facts about Grand Warden
+
+Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 tiles.
+
+- Level 15 Grand Warden HP 1,350 DpS 90, DpA 162. Eternal Tome 4.5s, Life Aura 40%.
+- Level 20 Grand Warden HP 1,500 DpS 110, DpA 198. Eternal Tome 5s, Life Aura 50%.
+- Level 25 Grand Warden HP 1,658 DpS 136, DpA 244.8. Eternal Tome 5.5s, Life Aura 60%.
+- Level 30 Grand Warden HP 1,833 DpS 168, DpA 302.4. Eternal Tome 6s, Life Aura 70%.
+
+Keep the queen alive is one of the key. This is done by healers.
+
+Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers enable the queen to live for a long enough time.
+
+Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Ability is better saved when massive DpS is needed.
+
+Planning for queen is another key. If queen charge takes too long, the destruction rate will be very low because it's only queen is attacking. To move queen forward, some funneling troop like giants/wizards, hog rider, pekka can clear some building which may distract the queen.
+
+Ideally, queen can take down CC troops, destroy EA and one inferno, use another killer squad for another inferno, or use bowler witch clear the outside buildings, keep the remaining buildings on a narrowed path being attacked.
+
+Choose the most effective way.
+
+Queen's mission is to destroy eagle artillery before it's activated, and funnel for the troops.
+
+Eagle Artillery targets the area with the largest density of hitpoints. It fires a volley of three successive shots at regular 10 second intervals.
+
+- Level 2 HP 4,400, damage per hit is 350
+- Level 3 HP 4,800, damage per hit is 400
+
+Eagle Artillery will be activated after 180 - 200 housing spaces worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces.
+
+Once eagle is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
+
+Inferno tower range 9, multiple target 5
+
+- Inferno tower level 4, HP 2400, DpS 57 when set to multiple, DpS 155 when set to single after 1.5s and DpS 1,550 after 5.25s
+- Inferno tower level 5, HP 2700, DpS 70 when set to multiple, DpS 175 when set to single after 1.5s and DpS 1,750 after 5.25s
+- Inferno tower level 6, HP 3000, DpS 81 when set to multiple, DpS 200 when set to single after 1.5s and DpS 2,000 after 5.25s
+
+multiple is against miner, bowler, hog rider strategy, single is again queen charge strategy.
+
+Cannon range 9
+
+- Cannon level 14 HP 1,380, DpS 110
+- Cannon level 15 HP 1,500, DpS 118
+
+Archer tower range 10
+
+- Archer tower level 14, HP 1,130, DpS 92
+- Archer tower level 15, HP 1,230, DpS 104
+
+X-bows range 14
+
+- X-bows level 4 HP 2,700, DpS 95
+- X-bows level 5 HP 3,100, DpS 125
+- X-bows level 6 HP 3,500, DpS 155
+
+If attacking TH11 opponents, with 4 max healers (level 5), 1 or 2 rage spells, queen should last long enough to clear one corner of the base. But for attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings.
+
+### Level 6 Miner
+
+Usually at this stage, you are facing TH12 with Giga tesla and multiple inferno tower which will destroy the miners extremely quickly.
 
 ## League
 
