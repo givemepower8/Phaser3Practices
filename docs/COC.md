@@ -1146,19 +1146,7 @@ The resources you have:
   - Supplementary troop
 - Spells
 
-There is no one exact strategy can 3 star any base. It's based on your opponent's base then pick the most effective strategy.
-
-Tactics
-
-Exchange
-
-### Queen charge
-
-Queen charge is for supporting other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge.
-
-To perform the queen charge, level up the queen to 45+ at least. The idea is to use queen charge to take out one corner with eagle artillery to create the L shape, so the troops can target the remaining buildings easily. Possibly absorb damages from Giga tesla so to support other troops. Drawback of queen charge is it may be very slow to create the funnel. TH11 against TH12 using queen charge is not a good idea as queen is very fragile.
-
-At your disposal, you have queen and 5 healers, wall wrecker /stone slammer with CC troop, king, grand warden, companion troops and main troops.
+There is no one exact strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly.
 
 Facts about queen,
 
@@ -1186,6 +1174,18 @@ Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 t
 - Level 20 Grand Warden HP 1,500 DpS 110, DpA 198. Eternal Tome 5s, Life Aura 50%.
 - Level 25 Grand Warden HP 1,658 DpS 136, DpA 244.8. Eternal Tome 5.5s, Life Aura 60%.
 - Level 30 Grand Warden HP 1,833 DpS 168, DpA 302.4. Eternal Tome 6s, Life Aura 70%.
+
+  Tactics
+
+Exchange
+
+### Queen charge
+
+Queen charge is for supporting other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge.
+
+To perform the queen charge, level up the queen to 45+ at least. The idea is to use queen charge to take out one corner with eagle artillery to create the L shape, so the troops can target the remaining buildings easily. Possibly absorb damages from Giga tesla so to support other troops. Drawback of queen charge is it may be very slow to create the funnel. TH11 against TH12 using queen charge is not a good idea as queen is very fragile.
+
+At your disposal, you have queen and 5 healers, wall wrecker /stone slammer with CC troop, king, grand warden, companion troops and main troops.
 
 Keep the queen alive is one of the key. This is done by healers.
 
