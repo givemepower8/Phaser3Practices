@@ -154,7 +154,7 @@ Prefer resource building.
 
 Goblins and wall breakers are great for farming, a.k.a., goblin knife. The drawback of goblin knife is that it drops trophies fast.
 
-It's not intended for war.
+Goblin is not intended for war.
 
 Strength: Fastest unit which deals twice damage to resource building and town hall.
 
@@ -520,7 +520,7 @@ Funneling for bowler is important as its goal is to keep the bowlers stay togeth
 
 [Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
 
-Strength: The stone can cause massive damage on condensed defense system as it can hit multiple targets in a line.
+Strength: The stone can cause massive damage on condensed defense system as it can hit multiple targets in a line. Housing space is fair low.
 
 Weakness: Low HP.
 
@@ -690,7 +690,7 @@ Mortar cannot target troops within 4 tiles.
 
 Study your opponent's base. Take out opponent's defence so to launch more effective attack.
 
-Maximize the troops to have a balanced attack system.
+Maximize the troops to have a balanced air and ground attack system.
 
 If the base air defence level is low, use air troops.
 
@@ -839,7 +839,7 @@ The following strategy may vary:
   - GoHo
   - GoVaHo
 
-As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badges in league war to get the hammer.
+As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the for wizards and other high DPS dealers. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badges in league war to get the hammer.
 
 Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers.
 
@@ -857,7 +857,7 @@ With level 3 pekkas and one CC level 8 pekka, GoWiPe is pretty effective in TH8 
 
 PEKKA needs proper funneling. Outside building must be cleared up before pekka goes there, otherwise Pekka will chop the wall and go outside to attack some trash building outside.
 
-The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards. Use rage in the first open compartment as it helps King and pekka damages faster. If the wizards hit bombs,great bombs so get killed, always have 4 to 5 wizards follow the killer squad so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures are exposed at this moment, use rage one more time so to destroy town hall. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
+The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards. Use rage in the first open compartment as it helps King and pekka damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures are exposed at this moment, use rage one more time so to destroy town hall. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
 
 Send the king with the level 8 pekka as the main attacking troop, rage spells work well on Pekka and kings. Have one pekka with 3 to 5 wizards to destroy the outside building so inner pekkas can move forward and won't move outside. 3 to 5 wizards to clear the other outside.
 
@@ -865,9 +865,11 @@ But for a nearly maxed out TH8, GoWiPe can get 2 stars but it is hard to get 3 s
 
 ##### TH8 GoWiVa
 
+For attacking some low level TH9, their base is a more open with less layer as they are covered by x-bows, massive valkyries can do better.
+
 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 1 rage spell + 2 Healing Spell + 1 earthquake and 1 Pekka + 1 Poison Spell in CC
 
-Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. But they are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings. Wizards need to clear the outside buildings. They are better used at a fairly larger enclosed area.
+Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. But they are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings. Wizards need to clear the outside buildings.
 
 ##### TH8 GoHo
 
@@ -952,7 +954,7 @@ When the healers die or separate, queen will have a hard time.
 - Protect the healers. Make sure no other troops will take away the healers.
 - Use offensive spells around queen
 
-  - Rage spell to increase the queen DPS.
+  - Rage spell to increase the queen DPS also the healing speed.
 
 ### TH 10 strategies
 
@@ -1019,7 +1021,7 @@ Maximize the defence
 - Air defense lvl 10
 - Wizard tower lvl 10
 - Air sweeper lvl 7 Max
-- Hidden Tesla lvl 9
+- Hidden Tesla lvl 9 x 4
 - Bomb tower lvl 6
 - Bombs lvl 8 Max
 - Spring traps lvl 5 Max
@@ -1028,15 +1030,15 @@ Maximize the defence
 - Seeking air mine lvl 3 Max
 - Skeleton trap lvl 4 Max
 - Tornado trap lvl 2
-- X-Bows lvl 5
-- Inferno tower lvl 5
-- Eagle artillery lvl 2
+- X-Bows lvl 5 x 4
+- Inferno tower lvl 5 x 2
+- Eagle artillery lvl 2 x 1
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
 #### Level 3 Bowler
 
-Bowlers can be the main attackers, or a killer squad to clear one corner with inferno and x-bows.
+Bowlers is a very useful killer squad to clear one corner with inferno and x-bows. Bowlers can be the main attackers with queen walk, it's very easy to get 2 start but hard to 3 star.
 
 Bowler killer squad
 
@@ -1058,7 +1060,7 @@ The combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it inc
 
 First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
 
-This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner.
+This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
 
 #### Level 5 Miner
 
@@ -1072,17 +1074,50 @@ Ground CC troops especially witches will cause a headache for miners but air CC 
 
 Health, freeze and rage spells are used in miner strategy.
 
+#### Level 7 hog rider
+
+Hog rider jumps overs walls, like the miner burrows under walls.
+
+Level 5 miner vs. level 7 hog rider
+
+Hog rider housing space 5 and miner is 6, so you can bring a couple more hog riders in the army.
+
+Level 5 miner HP 800, move speed 32, DpS 112 with attacking speed 1.7s.
+Level 7 hog riders HP 700, move speed 24, DpS 135 with attacking speed 1.
+
+Hog riders attack defensing structure first, miner attacks nearest building first.
+
+In TH11, they are kind of the same level.
+
+In TH12, hog rider max level is 9 and miner max level is 6.
+
+Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
+Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
+
+So in TH12, hog rider is slightly better than miner.
+
+If the opponent's Giga tesla is maxed which deals massive damages on 4 target, and inferno is set to multiple, which damages DpS 81 on 5 troops, without healing spell, it's hard to make the troops survive.
+
+#### Level 7 pekka
+
+Level 7 pekka HP 5700, attacking speed 1.8s, DpA 972, DpS 540
+Level 8 pekka HP 6300, attacking speed 1.8s, DpA 1098, DpS 610
+
+Pekka smash is often a strong 2 star strategy.
+
 #### Level 2 electro dragon
 
 Electro dragon has 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
 TH12 with maximized camps can take 9 electro dragons and TH11 with maximized camps can take 8 electro dragons.
 
-The attack is strong when heroes are strong. Usually, heroes will launch a kind of suicide attack on the 2 sides out the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence.
+The attack is strong when heroes are strong. Usually, king and queen will launch a kind of suicide attack on the 2 sides of the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence. Grand warden will follow the dragons for his abilities support.
 
 Clone spell if is done right.
 
 Bat spell can help to take down one air defence.
+
+#### TH11 Dragon bat
 
 #### TH11 farming
 
@@ -1091,6 +1126,8 @@ Miner farming
 Miner farming with queen charge is very effective for dead bases or TH11 with medium level defensing systems.
 
 29 miners, 1 baby dragon, 5 healers, 6 archers.
+
+Baby dragon is cheap for removing the outside trash building. Keep it away from the air defence. Or If the air defence is exposed, use queen to take it out. When queen level is not high enough, watch out for the CC troop.
 
 Use queen and 5 healers to clear one side, use baby dragon, king and warden the other side to clear the buildings within range. Once the outside is a bit cleared, send in the miners and make them alive with health spell and freeze spell. King has to be a bit strong to absorb damages, and king might not survive at last. But at that time, warden come to middle to help out the minors.
 
@@ -1135,6 +1172,8 @@ A variation with queen walk
 <https://cocland.com/guides/bowler-attack-strategy>
 
 ## TH12 war strategies
+
+Workshop is unlocked.
 
 The resources you have:
 
