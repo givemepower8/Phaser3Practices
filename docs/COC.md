@@ -969,6 +969,14 @@ Maximize the hero levels.
 
 Great warden joins in the village.
 
+- Heroes maxed 50/50/20
+- Donated Wall wreckers / Stone slammer
+- Troops (260 Camp + 35 Clan Castle)
+  - CC troop 35
+  - Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
+  - Supplementary troop (healer, wall breaker...)
+- Spells
+
 Maximize the hero levels.
 
 - Queen lvl 50
@@ -1015,21 +1023,21 @@ Maximize the spells
 
 Maximize the defence
 
-- Cannon lvl 15, can gear up
-- Archer tower lvl 15
-- Mortar lvl 10, can gear up
-- Air defense lvl 10
-- Wizard tower lvl 10
-- Air sweeper lvl 7 Max
+- Cannon lvl 15 x 7, can gear up
+- Archer tower lvl 15 x 8
+- Mortar lvl 10 x 4, can gear up
+- Air defense lvl 9 x 4
+- Wizard tower lvl 10 x 5
+- Air sweeper lvl 7 x 2 Max
 - Hidden Tesla lvl 9 x 4
-- Bomb tower lvl 6
-- Bombs lvl 8 Max
-- Spring traps lvl 5 Max
-- Air bomb lvl 5
-- Giant bomb lvl 5 Max
-- Seeking air mine lvl 3 Max
-- Skeleton trap lvl 4 Max
-- Tornado trap lvl 2
+- Bomb tower lvl 6 x 2
+- Bombs lvl 8 x 6 Max
+- Spring traps lvl 5 x 6 Max
+- Air bomb lvl 5 x 5
+- Giant bomb lvl 5 x 5 Max
+- Seeking air mine lvl 3 x 5 Max
+- Skeleton trap lvl 4 x 3 Max
+- Tornado trap lvl 2 x 1
 - X-Bows lvl 5 x 4
 - Inferno tower lvl 5 x 2
 - Eagle artillery lvl 2 x 1
@@ -1171,19 +1179,85 @@ A variation with queen walk
 
 <https://cocland.com/guides/bowler-attack-strategy>
 
-## TH12 war strategies
+### TH12 war strategies
 
-Workshop is unlocked.
+Workshop is unlocked at Th12.
 
 The resources you have:
 
 - Heroes
 - Wall wreckers / Stone slammer
-- Troops (40 + 280)
+- Troops (280 Camp + 40 Clan Castle)
   - CC troop
   - Primary troop (miner, bowler, pekka, dragon loon, electro dragon)
   - Supplementary troop
 - Spells
+
+Maximize the hero levels.
+
+- Queen lvl 60
+- King lvl 60
+- Great warden lvl 30.
+
+Maximize the troops
+
+- Barbarian lvl 8 Max
+- Archer lvl 8 Max
+- Giant lvl 9 Max
+- Goblin lvl 8 Max
+- Wall breakers lvl 8 Max
+- Balloon lvl 8 Max
+- Wizard lvl 8 Max
+- Healer lvl 5 Max
+- Dragon lvl 7 Max
+- PEKKA lvl 8 Max
+- Baby dragon lvl 6 Max
+- Miner lvl 6 Max
+- Electro Dragon lvl 3 Max
+- Minion lvl 8 Max
+- Hog rider lvl 9 Max
+- Valkyrie lvl 7 Max
+- Golem lvl 8 Max
+- Witch lvl 5 Max
+- Lava Hound lvl 5 Max
+- Bowler lvl 4 Max
+- Ice golem lvl 5 Max
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max
+- Clone lvl 5 Max
+- Poison lvl 5 Max
+- Earthquake lvl 4 Max
+- Haste lvl 4 Max
+- Skeleton lvl 5 Max
+- Bat lvl 5 Max
+
+Maximize the defence
+
+- Cannon lvl 17 x 7, can gear up
+- Archer tower lvl 17 x 8
+- Mortar lvl 11 x 4, can gear up
+- Air defense lvl 10 x 4
+- Wizard tower lvl 11 x 5
+- Air sweeper lvl 7 x 2
+- Hidden Tesla lvl 10 x 5
+- Bomb tower lvl 7 x 2
+- Bombs lvl 8 x 6
+- Spring traps lvl 5 x 8
+- Air bomb lvl 6 x 6
+- Giant bomb lvl 5 x 6
+- Seeking air mine lvl 3 x 6
+- Skeleton trap lvl 4 x 3
+- Tornado trap lvl 3 x 1
+- X-Bows lvl 6 x 4
+- Inferno tower lvl 5 x 3
+- Eagle artillery lvl 2 x 1
+- Giga Tesla lvl 5 x 1
 
 There is no one exact strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly.
 
@@ -1214,10 +1288,6 @@ Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 t
 - Level 25 Grand Warden HP 1,658 DpS 136, DpA 244.8. Eternal Tome 5.5s, Life Aura 60%.
 - Level 30 Grand Warden HP 1,833 DpS 168, DpA 302.4. Eternal Tome 6s, Life Aura 70%.
 
-  Tactics
-
-Exchange
-
 ### Queen charge
 
 Queen charge is for supporting other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge.
@@ -1228,7 +1298,9 @@ At your disposal, you have queen and 5 healers, wall wrecker /stone slammer with
 
 Keep the queen alive is one of the key. This is done by healers.
 
-Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers enable the queen to live for a long enough time.
+Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is 400 or less, which enable the queen to live for a long enough time under multiple fire. If in 2 x-bows and other cannon or archer tower, the total DpS is around 500, it takes around 20 seconds to destroy the queen.
+
+Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
 
 Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Ability is better saved when massive DpS is needed.
 
@@ -1292,4 +1364,5 @@ Usually at this stage, you are facing TH12 with Giga tesla and multiple inferno 
 [Flammy's Strategy Guides](https://clashofclans.fandom.com/wiki/Flammy%27s_Strategy_Guides)
 
 <https://www.allclash.com/>
+
 <https://www.clashpedia.com/>
