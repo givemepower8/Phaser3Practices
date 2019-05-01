@@ -919,7 +919,9 @@ Queen is unlocked. Wall level can go up to 9 (spike) and 10 (lava stripe on top)
 
 Other new buildings:
 
-New troops baby dragon, witch and Lava Hound are unlocked.
+New troops baby dragon, witch and Lava Hound are unlocked, so new strategy lavaloonion can be used.
+
+Valkyrie can be upgraded up 2 level to level 4.
 
 Maximize the hero levels.
 
@@ -947,6 +949,8 @@ Maximize the troop levels.
 - Lava Hound lvl 2
 
 Queen walk / charger
+
+At this stage, queen charge is mainly used to take out x-bows or air defence to facilitate other main troops.
 
 When the healers die or separate, queen will have a hard time.
 
@@ -1023,26 +1027,27 @@ Maximize the spells
 
 Maximize the defence
 
-- Cannon lvl 15 x 7, can gear up
-- Archer tower lvl 15 x 8
-- Mortar lvl 10 x 4, can gear up
-- Air defense lvl 9 x 4
-- Wizard tower lvl 10 x 5
-- Air sweeper lvl 7 x 2 Max
-- Hidden Tesla lvl 9 x 4
-- Bomb tower lvl 6 x 2
-- Bombs lvl 8 x 6 Max
-- Spring traps lvl 5 x 6 Max
-- Air bomb lvl 5 x 5
-- Giant bomb lvl 5 x 5 Max
-- Seeking air mine lvl 3 x 5 Max
-- Skeleton trap lvl 4 x 3 Max
-- Tornado trap lvl 2 x 1
-- X-Bows lvl 5 x 4
-- Inferno tower lvl 5 x 2
+- Cannon lvl 15 x 7, can gear up, HP 1,500, DpS 118, Range 9
+- Archer tower lvl 15 x 8, HP 1,230, DpS 104, Range 10
+- Mortar lvl 10 x 4, can gear up, HP 850, DpS 150, Range 4-11
+- Air defense lvl 9 x 4, HP 1,300, DpS 360
+- Wizard tower lvl 10 x 5, HP 2,000, DpS 62, Range 7
+- Air sweeper lvl 7 x 2 Max, HP 1050
+- Hidden Tesla lvl 9 x 4, HP 900, DpS 110, Range 7
+- Bomb tower lvl 6 x 2, HP 1,200, DpS 52
+- Bombs lvl 8 x 6 Max, splash damage 92 in 3 titles
+- Spring traps lvl 5 x 6 Max, wipe off 19 capacity in 0.7 tiles
+- Air bomb lvl 5 x 5, splash damage 200 in 3 tiles
+- Giant bomb lvl 5 x 5 Max, splash damage 275 in 4 tiles
+- Seeking air mine lvl 3 x 5 Max, damage 2000 in 4 tiles
+- Skeleton trap lvl 4 x 3 Max, 5 spawned skeletons HP 30, DpS 25 each
+- Tornado trap lvl 2 x 1, 6 seconds and damage 48 in 3 tiles
+- X-Bows lvl 5 x 4, HP 3100, DpS 125, Range 14
+- Inferno tower lvl 5 x 2, HP 2700, DpS 70 in multiple, in single 175 after 1.5s, 1750 after 5.5s, Range 9
 - Eagle artillery lvl 2 x 1
 
-<https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
+- Level 11 town hall HP 6,800
+- Level 12 town hall HP 7,500
 
 #### Level 3 Bowler
 
@@ -1070,9 +1075,11 @@ First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in
 
 This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
 
+<https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
+
 #### Level 5 Miner
 
-Miners strategy is solid to 2 star other middle level TH11. But against maxed TH11 with high level eagle artillery, inferno tower and x-bows, it's very risky. When facing TH12 with giga tesla, often miner strategy gets only 1 star but high percentage.
+Miners strategy is solid to 2-star other middle level TH11. But against maxed TH11 with high level eagle artillery, inferno tower in multiple mode and level 5 x-bows, it's very risky. When facing TH12 with giga tesla, often miner strategy gets only 1 star but high percentage as giga tesla cause massive 4-target damage to miners.
 
 The rule of thumb is to narrow down the miner attack path. Miners are strong when they swarm. So for a square base layout, use heroes to clear one corner to create a L shape and some wizard to clear some trash building, so to make minor stay together while moving forward.
 
@@ -1265,19 +1272,21 @@ Facts about queen,
 
 Queen's attack speed 0.75s, move speed 24, range 5 tiles, search range 10 tiles.
 
-- Level 45 queen HP 1,809 DpS 474, DpA 355.5. When in ability, DpS 1,394 in 5.2s.
-- Level 50 queen HP 2,007 DpS 536, DpA 402. When in ability, DpS 1,556 in 5.4s.
-- Level 55 queen HP 2,274 DpS 594, DpA 445.5. When in ability, DpS 1,714 in 5.4s.
-- Level 60 queen HP 2,575 DpS 658, DpA 493.5. When in ability, DpS 1,778 in 5.8s.
+- Level 40 queen HP 1,630 DpS 419, DpA 314.25. When in ability, DpS 1,238 in 5.0s, Health Recovery 325, Summon 12 archers
+- Level 45 queen HP 1,809 DpS 474, DpA 355.5. When in ability, DpS 1,394 in 5.2s, Health Recovery 350, Summon 13 archers
+- Level 50 queen HP 2,007 DpS 536, DpA 402. When in ability, DpS 1,556 in 5.4s, Health Recovery 375, Summon 14 archers
+- Level 55 queen HP 2,274 DpS 594, DpA 445.5. When in ability, DpS 1,714 in 5.4s, Health Recovery 400, Summon 15 archers
+- Level 60 queen HP 2,575 DpS 658, DpA 493.5. When in ability, DpS 1,778 in 5.8s, Health Recovery 425, Summon 16 archers
 
 Facts about king
 
-King's attack speed 1.2s, move speed 16, range 1 tile, search range 9 tiles.
+King's attack speed 1.2s, move speed 16, range 1 tile, search range 9 tiles, ability time 10s.
 
-- Level 45 king HP 5,038 DpS 299, DpA 358.8. When in ability, DpS 777 in 10s.
-- Level 50 king HP 5,700 DpS 332, DpA 398.4. When in ability, DpS 878 in 10s.
-- Level 55 king HP 6,452 DpS 369, DpA 442.8. When in ability, DpS 987 in 10s.
-- Level 60 king HP 7,303 DpS 410, DpA 492.0. When in ability, DpS 1,028 in 10s.
+- Level 40 king HP 4,453 DpS 259, DpA 310.8. When in ability, DpS 673 in 10s, Health Recovery 1,692, Summon 20 barbarians
+- Level 45 king HP 5,038 DpS 299, DpA 358.8. When in ability, DpS 777 in 10s, Health Recovery 1,963, Summon 22 barbarians
+- Level 50 king HP 5,700 DpS 332, DpA 398.4. When in ability, DpS 878 in 10s, Health Recovery 2,263, Summon 24 barbarians
+- Level 55 king HP 6,452 DpS 369, DpA 442.8. When in ability, DpS 987 in 10s, Health Recovery 2,592, Summon 26 barbarians
+- Level 60 king HP 7,303 DpS 410, DpA 492.0. When in ability, DpS 1,028 in 10s, Health Recovery 2,592, Summon 28 barbarians
 
 Facts about Grand Warden
 
@@ -1290,9 +1299,11 @@ Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 t
 
 ### Queen charge
 
-Queen charge is for supporting other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge.
+Queen charge is for facilitating other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge, otherwise the queen will spend lots of time hitting on the walls.
 
-To perform the queen charge, level up the queen to 45+ at least. The idea is to use queen charge to take out one corner with eagle artillery to create the L shape, so the troops can target the remaining buildings easily. Possibly absorb damages from Giga tesla so to support other troops. Drawback of queen charge is it may be very slow to create the funnel. TH11 against TH12 using queen charge is not a good idea as queen is very fragile.
+As the level 5 giga tesla will wipe off most attacking troops around it, attack the town hall at last.
+
+To perform the queen charge, level up the queen to 45+ at least. The idea is to use queen charge to take out one corner with eagle artillery to create the L shape, so the troops can target the remaining buildings easily. Possibly absorb damages from Giga tesla so to support other troops. Drawback of queen charge is it may be very slow to create the funnel. TH11 against TH12 using queen charge is not a good idea as queen is very fragile again high DpS structures.
 
 At your disposal, you have queen and 5 healers, wall wrecker /stone slammer with CC troop, king, grand warden, companion troops and main troops.
 
@@ -1328,6 +1339,8 @@ Inferno tower range 9, multiple target 5
 - Inferno tower level 6, HP 3000, DpS 81 when set to multiple, DpS 200 when set to single after 1.5s and DpS 2,000 after 5.25s
 
 multiple is against miner, bowler, hog rider strategy, single is again queen charge strategy.
+
+Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 damage when destroyed.
 
 Cannon range 9
 
