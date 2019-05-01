@@ -396,7 +396,7 @@ At TH8, level 4 hog rider is a very strong attacker in war.
 
 Strength: Jump over walls.
 
-Weakness: Vulnerable to splash damage, giant bomb. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 800 dark elixir already.
+Weakness: Vulnerable to splash damage, giant bomb. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 840 dark elixir already.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -739,21 +739,21 @@ Maximize the camps' house capacity. TH 8 has 200 house capacity and 25 CC house 
 
 Maximize the troops
 
-- Barbarian lvl 5
-- Archer lvl 5
-- Giant lvl 5
-- Goblin lvl 5
-- Wall breakers lvl 5
-- Balloon lvl 5
-- Wizard lvl 5
-- Healer lvl 3
-- Dragon lvl 3
-- PEKKA lvl 3
-- Minion lvl 4
-- Hog rider lvl 4
-- Valkyrie lvl 2
-- Golem lvl 2
-- Barbarian King 10
+- Barbarian lvl 5, HP 95, DpS 23, attack 1s
+- Archer lvl 5, HP 40, DpS 20
+- Giant lvl 5, HP 720, DpS 31, DpA 52, attack 2s
+- Goblin lvl 5, HP 56, DpS 32, attack 1s
+- Wall breakers lvl 5, HP 53, DpS 1840 on wall.
+- Balloon lvl 5, HP 390, DpS 108, DpA 324, attack 3s
+- Wizard lvl 5, HP 156, DpS 170, DpA 255, attack 1.5s
+- Healer lvl 3, HP 840, healing per second 55
+- Dragon lvl 3, HP 2300, DpS 180, DpA 225, attack 1.25s
+- PEKKA lvl 3, HP 2300, DpS 180, DpA 225, attack 1.25s
+- Minion lvl 4, HP 72, DpS 46, attack 1s
+- Hog rider lvl 4, HP 415, DpS 92, attack 1s
+- Valkyrie lvl 2, HP 800, DpS 106, DpA 190.8, attack 1.8s
+- Golem lvl 2, HP 5400, DpS 42, DpA 100.8, attack 2.4s
+- Barbarian King 10, Attack speed 1.2s, HP 2153, DpA 171.6, DpS 143, summon 8 barbarians, ability 10s, DpS in ability 244
 
 Maximize the spells
 
@@ -765,26 +765,26 @@ Maximize the spells
 
 maximize the defence
 
-- Cannon lvl 10, can gear up
-- Archer tower lvl 10
-- Mortar lvl 6, can gear up if builder hall level 8
-- Air defense lvl 6
-- Wizard tower lvl 6
-- Air sweeper lvl 4
-- Hidden Tesla lvl 6
-- Bomb tower lvl 2
-- Bombs lvl 5
-- Spring traps lvl 3
-- Air bomb lvl 3
+- Cannon lvl 10, can gear up, HP 960, DpS 64, DpA 51.2, attack 0.8s, Range 9
+- Archer tower lvl 10, HP 810, DpS 63, DpA 31.5, attack 0.5s, Range 10
+- Mortar lvl 6, can gear up if builder hall level 8, HP 650, DpS 11, DpA 55, attack 5s, Range 4-11 tiles
+- Air defense lvl 6 x 3, HP 1050, DpS 230, Range 10
+- Wizard tower lvl 6 x 3, HP 960, DpS 32, DpA 41.6, attack 1.3s, Range 7 tiles
+- Air sweeper lvl 4 x 1, HP 900, push 2.8 tiles
+- Hidden Tesla lvl 6, HP 770, DpS 75, DpA 45, attack 0.6s, Range 7 tiles
+- Bomb tower lvl 2, HP 700, DpS 28, DpA 30.8, attack 1.1s, Range 6 tiles
+- Bombs lvl 5 x 6, damage 42 in 3 tiles
+- Spring traps lvl 3, capacity 17
+- Air bomb lvl 3 x 2, damage 120 in 3 tiles
 - Giant bomb lvl 3
-- Seeking air mine lvl 1
+- Seeking air mine lvl 1 x 1, damage 1500
 - Skeleton trap lvl 2
 
 #### Facts
 
 Most of the TH8 opponents wall level is level 7 purple crystal HP 2500 to level 8 skull stone HP 3000.
 
-Wall breaker is crucial to create the path to the core of base. Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can one-shot take down gold (lvl 5) and lower level walls. 2 wall breakers can take down pink, purple crystal walls and skull walls (lvl 6,7,8). Don't deploy it close to cannon, archer tower if there is no meat shield, otherwise it will be destroyed instantly as cannon and archer fires very fast. For mortars which attack every 5 seconds, a lvl 5 wall breaker can take one lvl 5 mortar splash damage, but will be instantly killed by lvl 6 motors. For wizard tower, it can withstand 1 attack damage but the window is 2 seconds.
+Wall breaker is crucial to create the path to the core of base. Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can one-shot take down gold (lvl 5) and lower level walls. 2 wall breakers can take down pink, purple crystal walls and skull walls (lvl 6,7,8). Don't deploy it close to cannon, archer tower if there is no meat shield, otherwise it will be destroyed instantly as cannon and archer fires very fast. For mortars which attack every 5 seconds, a lvl 5 wall breaker can take one lvl 5 mortar splash damage, but lvl 5 wall breaker will be instantly killed by lvl 6 motors. For wizard tower, lvl 5 wall breaker can withstand 1 attack damage but the window is 2 seconds.
 
 Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5). Wizard can be main attackers protected by meat shields or it acts a very import role to clear the trash building which may distract the troops.
 
@@ -857,11 +857,11 @@ With level 3 pekkas and one CC level 8 pekka, GoWiPe is pretty effective in TH8 
 
 PEKKA needs proper funneling. Outside building must be cleared up before pekka goes there, otherwise Pekka will chop the wall and go outside to attack some trash building outside.
 
-The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards. Use rage in the first open compartment as it helps King and pekka damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures are exposed at this moment, use rage one more time so to destroy town hall. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
+Look at the base layout and check where the majority of mortars are as they have long range and splash damage which wipes off wizards quickly. The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards which attack behind. Use rage in the first open compartment as it helps King and pekka damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures like hidden teslas are exposed at this moment, use rage one more time so to destroy town hall and teslas. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
 
-Send the king with the level 8 pekka as the main attacking troop, rage spells work well on Pekka and kings. Have one pekka with 3 to 5 wizards to destroy the outside building so inner pekkas can move forward and won't move outside. 3 to 5 wizards to clear the other outside.
+Send the king with the level 8 pekka as the main attacking troop, because rage spells work well on Pekka and kings. Have one pekka with 3 to 5 wizards to destroy the outside building so inner pekkas can move forward and won't move outside. 3 to 5 wizards to clear the other outside.
 
-But for a nearly maxed out TH8, GoWiPe can get 2 stars but it is hard to get 3 stars as it's attacking speed is slow so maybe get destroyed by higher level defensing buildings like teslas and burst cannons.
+But for a nearly maxed out TH8, GoWiPe can get 2 stars but it is hard to get 3 stars as it's attacking speed is slow so maybe get destroyed by higher level defensing buildings like teslas and burst cannons after the second wave.
 
 ##### TH8 GoWiVa
 
@@ -874,6 +874,10 @@ Valkyrie attacks and moves faster than pekka, and their HP is much higher than w
 ##### TH8 GoHo
 
 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
+
+Archers and wizards are for the CC troop.
+
+2 golems should keep away from each other to minimize the splash damage. 3 wall breakers to tear down the first layer of base.
 
 For maxed out TH8 opponent or low level TH 9 opponent, GoHo with level 4 hogs is more effective.
 
