@@ -748,7 +748,7 @@ Maximize the troops
 - Wizard lvl 5, HP 156, DpS 170, DpA 255, attack 1.5s
 - Healer lvl 3, HP 840, healing per second 55
 - Dragon lvl 3, HP 2300, DpS 180, DpA 225, attack 1.25s
-- PEKKA lvl 3, HP 2300, DpS 180, DpA 225, attack 1.25s
+- PEKKA lvl 3, HP 3500, DpS 310, DpA 558, attack 1.8s
 - Minion lvl 4, HP 72, DpS 46, attack 1s
 - Hog rider lvl 4, HP 415, DpS 92, attack 1s
 - Valkyrie lvl 2, HP 800, DpS 106, DpA 190.8, attack 1.8s
@@ -765,9 +765,9 @@ Maximize the spells
 
 maximize the defence
 
-- Cannon lvl 10, can gear up, HP 960, DpS 64, DpA 51.2, attack 0.8s, Range 9
-- Archer tower lvl 10, HP 810, DpS 63, DpA 31.5, attack 0.5s, Range 10
-- Mortar lvl 6, can gear up if builder hall level 8, HP 650, DpS 11, DpA 55, attack 5s, Range 4-11 tiles
+- Cannon lvl 10 x 5, can gear up, HP 960, DpS 64, DpA 51.2, attack 0.8s, Range 9
+- Archer tower lvl 10 x 5, HP 810, DpS 63, DpA 31.5, attack 0.5s, Range 10
+- Mortar lvl 6 x 4, can gear up if builder hall level 8, HP 650, DpS 11, DpA 55, attack 5s, Range 4-11 tiles
 - Air defense lvl 6 x 3, HP 1050, DpS 230, Range 10
 - Wizard tower lvl 6 x 3, HP 960, DpS 32, DpA 41.6, attack 1.3s, Range 7 tiles
 - Air sweeper lvl 4 x 1, HP 900, push 2.8 tiles
@@ -776,7 +776,7 @@ maximize the defence
 - Bombs lvl 5 x 6, damage 42 in 3 tiles
 - Spring traps lvl 3, capacity 17
 - Air bomb lvl 3 x 2, damage 120 in 3 tiles
-- Giant bomb lvl 3
+- Giant bomb lvl 3, damage 225 in 3.5 tiles
 - Seeking air mine lvl 1 x 1, damage 1500
 - Skeleton trap lvl 2
 
@@ -875,7 +875,7 @@ Valkyrie attacks and moves faster than pekka, and their HP is much higher than w
 
 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
 
-Archers and wizards are for the CC troop.
+Archers and wizards are for the CC troop and clean up outside buildings.
 
 2 golems should keep away from each other to minimize the splash damage. 3 wall breakers to tear down the first layer of base.
 
