@@ -1071,16 +1071,6 @@ Once the plan of path is made, first, funnel a little bit and deploy 6 to 8 bowl
 
 With wall wrecker, the attack can be even easier. Load 1 max golem and 1 max giant inside the wall wreaker and get 1 rage spell. Same as before, funnel with bowlers first, once the entry point is reached, send in the wall wrecker and followed by giants, heroes and witches. Golem and giant can be the meat shield to absorb some damages for the troops. Witch can slow down inferno tower.
 
-Bowler and Witch (BOWITCH)
-
-The combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you have to take max golem and 1 max giant and rage spell.
-
-First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
-
-This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
-
-<https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
-
 #### Level 5 Miner
 
 Miners strategy is solid to 2-star other middle level TH11. But against maxed TH11 with high level eagle artillery, inferno tower in multiple mode and level 5 x-bows, it's very risky. When facing TH12 with giga tesla, often miner strategy gets only 1 star but high percentage as giga tesla cause massive 4-target damage to miners.
@@ -1366,6 +1356,22 @@ X-bows range 14
 - X-bows level 6 HP 3,500, DpS 155
 
 If attacking TH11 opponents, with 4 max healers (level 5), 1 or 2 rage spells, queen should last long enough to clear one corner of the base. But for attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings.
+
+### Level 4 Bowler
+
+If the base is too crowded or the base is a rectangle shape, bowler can deal massive damages to close buildings.
+
+Bowler and Witch (BOWITCH)
+
+The combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you have to take max golem and 1 max giant and rage spell.
+
+First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
+
+This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
+
+<https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
+
+Bowler and Queen charge
 
 ### Level 6 Miner
 
