@@ -1218,7 +1218,7 @@ Maximize the troops
 - Goblin lvl 8 Max
 - Wall breakers lvl 8 Max
 - Balloon lvl 8 Max
-- Wizard lvl 8 Max
+- Wizard lvl 9 Max
 - Healer lvl 5 Max
 - Dragon lvl 7 Max
 - PEKKA lvl 8 Max
@@ -1266,8 +1266,8 @@ Maximize the defence
 - Skeleton trap lvl 4 x 3
 - Tornado trap lvl 3 x 1
 - X-Bows lvl 6 x 4
-- Inferno tower lvl 5 x 3
-- Eagle artillery lvl 2 x 1
+- Inferno tower lvl 6 x 3
+- Eagle artillery lvl 3 x 1
 - Giga Tesla lvl 5 x 1
 
 There is no one exact strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly.
@@ -1311,11 +1311,14 @@ To perform the queen charge, level up the queen to 45+ at least. The idea is to 
 
 At your disposal, you have queen and 5 healers, wall wrecker /stone slammer with CC troop, king, grand warden, companion troops and main troops.
 
+#### Healer protection
+
 Keep the queen alive is one of the key. This is done by healers.
 
-Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is 400 or less, which enable the queen to live for a long enough time under multiple fire. If in 2 x-bows and other cannon or archer tower, the total DpS is around 500, it takes around 20 seconds to destroy the queen.
+Be aware when queen and healer are close to the air blower. If the healer is not close to the queen when queen is under attack, queen will die very soon.
+Air defence and air seeking mine can destroy healers very fast. Experts always deploy a balloon first to trigger air seeking mine. Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
 
-Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
+Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is 400 or less, which enable the queen to live for a long enough time under multiple fire. If in 2 x-bows and other cannon or archer tower, the total DpS is around 500, it takes around 20 seconds to destroy the queen.
 
 Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Ability is better saved when massive DpS is needed.
 
@@ -1383,3 +1386,153 @@ Usually at this stage, you are facing TH12 with Giga tesla and multiple inferno 
 <https://www.allclash.com/>
 
 <https://www.clashpedia.com/>
+
+## Progress
+
+### superman
+
+TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
+
+Maximize the troops
+
+- Barbarian lvl 8 Max, now 7
+- Archer lvl 8 Max, now 7
+- Giant lvl 9 Max
+- Goblin lvl 8 Max, now 6
+- Wall breakers lvl 8 Max, now 6
+- Balloon lvl 8 Max
+- Wizard lvl 9 Max, now 8
+- Healer lvl 5 Max
+- Dragon lvl 7 Max
+- PEKKA lvl 8 Max
+- Baby dragon lvl 6 Max, now 4
+- Miner lvl 6 Max, now 6
+- Electro Dragon lvl 3 Max
+- Minion lvl 8 Max, now 6
+- Hog rider lvl 9 Max, now 8
+- Valkyrie lvl 7 Max
+- Golem lvl 8 Max, now 5
+- Witch lvl 5 Max, now 4
+- Lava Hound lvl 5 Max
+- Bowler lvl 4 Max
+- Ice golem lvl 5 Max, now 1
+
+Seige machine
+
+- wall wrecker 3 Max, now 1
+- Blimp 3 Max, now 2
+- stone slammer 3 Max, now 1
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max
+- Clone lvl 5 Max, now 2
+- Poison lvl 5 Max, now 2
+- Earthquake lvl 4 Max, now 2
+- Haste lvl 4 Max, now 1
+- Skeleton lvl 5 Max, now 1
+- Bat lvl 5 Max, now 3
+
+Defence
+
+wall: 1 level 9, 218 level 10, 81 level 11 as of 05/02/2019
+
+### warshong
+
+TH 12 Level 168, King 35 Queen 47 Warden 20 as of 05/02/2019
+
+Maximize the troops
+
+- Barbarian lvl 8 Max
+- Archer lvl 8 Max
+- Giant lvl 9 Max, now 8
+- Goblin lvl 8 Max, now 5
+- Wall breakers lvl 8 Max, now 7
+- Balloon lvl 8 Max, now 7
+- Wizard lvl 9 Max, now 8
+- Healer lvl 5 Max
+- Dragon lvl 7 Max, now 6
+- PEKKA lvl 8 Max, now 7
+- Baby dragon lvl 6 Max, now 3
+- Miner lvl 6 Max, now 6
+- Electro Dragon lvl 3 Max, now 2
+- Minion lvl 8 Max, now 5
+- Hog rider lvl 9 Max, now 6
+- Valkyrie lvl 7 Max, now 6
+- Golem lvl 8 Max, now 7
+- Witch lvl 5 Max, now 2
+- Lava Hound lvl 5 Max, now 4
+- Bowler lvl 4 Max
+- Ice golem lvl 5 Max, now 2
+
+Seige machine
+
+- wall wrecker 3 Max, now 3
+- Blimp 3 Max, now 1
+- stone slammer 3 Max, now 1
+
+Maximize the spells
+
+- Lighting lvl 7 Max, now 6
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max, now 5
+- Clone lvl 5 Max, now 2
+- Poison lvl 5 Max, now 4
+- Earthquake lvl 4 Max, now 3
+- Haste lvl 4 Max, now 2
+- Skeleton lvl 5 Max, now 1
+- Bat lvl 5 Max, now 1
+
+Defence
+
+wall: 163 level 10, 134 level 11, 3 level 12, as of 05/02/2019
+
+### givemepower8
+
+Queen lvl 29, King lvl 40, Great warden lvl 8 as of 05/02/2019
+
+Maximize the troops
+
+- Barbarian lvl 8 Max, now 7
+- Archer lvl 8 Max
+- Giant lvl 8
+- Goblin lvl 7 Max, now 6
+- Wall breakers lvl 7, now 5
+- Balloon lvl 7, now 6
+- Wizard lvl 8, now 7
+- Healer lvl 5 Max
+- Dragon lvl 6, now 5
+- PEKKA lvl 7
+- Baby dragon lvl 5, now 4
+- Miner lvl 5
+- Electro Dragon lvl 2, now 1
+- Minion lvl 7, now 6
+- Hog rider lvl 7, now 6
+- Valkyrie lvl 6, now 5
+- Golem lvl 7, now 5
+- Witch lvl 4, now 2
+- Lava Hound lvl 4, now 3
+- Bowler lvl 3
+- Ice golem lvl 3, now 1
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max, now 5
+- Clone lvl 5 Max, now 1
+- Poison lvl 5 Max, now 3
+- Earthquake lvl 4 Max
+- Haste lvl 4 Max, now 3
+- Skeleton lvl 4, now 2
+- Bat lvl 4, now 1
+
+wall: 211 level 10, 89 level 11, as of 05/02/2019
