@@ -1182,17 +1182,7 @@ A variation with queen walk
 
 ### TH12 war strategies
 
-Workshop is unlocked at Th12.
-
-The resources you have:
-
-- Heroes
-- Wall wreckers / Stone slammer
-- Troops (280 Camp + 40 Clan Castle)
-  - CC troop
-  - Primary troop (miner, bowler, pekka, dragon loon, electro dragon)
-  - Supplementary troop
-- Spells
+Workshop is unlocked at Th12 so you have your own seige machine.
 
 Maximize the hero levels.
 
@@ -1241,7 +1231,7 @@ Maximize the spells
 Maximize the defence
 
 - Cannon lvl 17 x 7, can gear up
-- Archer tower lvl 17 x 8
+- Archer tower lvl 17 x 8, can gear up if archer tower in builder hall level 6.
 - Mortar lvl 11 x 4, can gear up
 - Air defense lvl 10 x 4
 - Wizard tower lvl 11 x 5
@@ -1260,7 +1250,31 @@ Maximize the defence
 - Eagle artillery lvl 3 x 1
 - Giga Tesla lvl 5 x 1
 
-There is no one exact strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly.
+There is no one exact strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler strategy to attack a very separated layout will be a disaster.
+
+The forces you have:
+
+- Heroes
+- Wall wreckers / Battle blimp / Stone slammer with CC troop (40 capacity)
+- Main troop 280 capacity (miner / hog rider, bowler, pekka, dragon loon, electro dragon)
+- Supplementary troop, archers, wall breakers, etc.,
+- Spells 11 capacity and 2 capacity from CC
+
+Make a plan for 2 star or 3 star as it's different. 2 star focuses on taking out town hall and some trash building as long as the town hall is destroyed and 50% destruction rate is reached. 3 star is to wipe off everything.
+
+Usually the strategy is divide and conquer. Choose the most effective way.
+
+Analyze the base based on your air or ground strategy. If ground, get the rough idea about the main obstacles like inferno towers, x-bows, wizard towers. If air, watch out for air sweeper and air defence. No matter what, eagle artillery has to be cleared out first.
+
+If in base layout, the opponent put town hall and all the defences in the center, it's a perfect target for bowler.
+
+Some more advance players have 3 or more main areas with inferno tower and x-bows to against 3 star, you need to plan ahead of time.
+
+No matter what, notice where is the clan castle, eagle artillery are located.
+
+#### TH12 Heros
+
+Heros usually work on some suicide missions so to clear obstacle, or create path for main troops or protect them as meat shield.
 
 Facts about queen,
 
@@ -1291,34 +1305,35 @@ Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 t
 - Level 25 Grand Warden HP 1,658 DpS 136, DpA 244.8. Eternal Tome 5.5s, Life Aura 60%.
 - Level 30 Grand Warden HP 1,833 DpS 168, DpA 302.4. Eternal Tome 6s, Life Aura 70%.
 
-### Queen charge
+#### TH12 Queen
 
-Queen charge is for facilitating other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge, otherwise the queen will spend lots of time hitting on the walls.
+Queen's strategy depends on with or without healers.
 
-As the level 5 giga tesla will wipe off most attacking troops around it, attack the town hall at last.
+Queen with 4 to 5 healers is known for queen charge. Queen charge is for facilitating other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge, otherwise the queen will spend lots of time hitting on the walls.
 
-To perform the queen charge, level up the queen to 45+ at least. The idea is to use queen charge to take out one corner with eagle artillery to create the L shape, so the troops can target the remaining buildings easily. Possibly absorb damages from Giga tesla so to support other troops. Drawback of queen charge is it may be very slow to create the funnel. TH11 against TH12 using queen charge is not a good idea as queen is very fragile again high DpS structures.
+Don't let the queen fight alone for too along, there is only 3 minutes. The mission of queen charge usually is to take out eagle artillery first, once the eagle artillery is destroyed, deploy other troops. Before deploying hog rider or miner, funnel the path so queen can take out splash damage buildings like wizard tower, bomb tower, multiple target inferno tower. Before deploying air units, funnel the path so queen can take out air defences.
 
-At your disposal, you have queen and 5 healers, wall wrecker /stone slammer with CC troop, king, grand warden, companion troops and main troops.
+Also queen charge can absorb lots of damages so to distract the fires for the main attacking troops.
 
-#### Healer protection
+To perform the queen charge, level up the queen to 45+ at least. The idea is to use queen charge to take out one corner with eagle artillery to create the L shape, so the troops can target the remaining buildings easily. Possibly absorb damages from Giga tesla so to support other troops.
 
-Keep the queen alive is one of the key. This is done by healers.
+If attacking TH11 opponents, with 4 max healers (level 5), 1 or 2 rage spells, queen should last long enough to clear one corner of the base. TH11 against TH12 using queen charge is not a good idea as queen is very fragile again high DpS structures. For example, attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings. If the healers are blown back by air blower, queen will immediately die. Always watch out and use rage on healers if needed.
 
-Be aware when queen and healer are close to the air blower. If the healer is not close to the queen when queen is under attack, queen will die very soon.
+Also the drawback of queen charge is it is slow to create the funnel as queen is fighting alone.
+
+Keep the queen alive is one of the key. This is done by watching out for healers. For example, be aware when queen and healer are close to the air blower. If the healer is not close to the queen when queen is under attack, queen will die very soon. Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is 400 or less, which enable the queen to live for a long enough time under multiple fire. If in 2 x-bows and other cannon or archer tower, the total DpS is around 500, it takes around 20 seconds to destroy the queen.
+
 Air defence and air seeking mine can destroy healers very fast. Experts always deploy a balloon first to trigger air seeking mine. Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
-
-Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is 400 or less, which enable the queen to live for a long enough time under multiple fire. If in 2 x-bows and other cannon or archer tower, the total DpS is around 500, it takes around 20 seconds to destroy the queen.
 
 Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Ability is better saved when massive DpS is needed.
 
-Planning for queen is another key. If queen charge takes too long, the destruction rate will be very low because it's only queen is attacking. To move queen forward, some funneling troop like giants/wizards, hog rider, pekka can clear some building which may distract the queen.
+Planning for queen is another key. To move queen forward, some funneling troop like giants/wizards, hog rider, pekka can clear some building which may distract the queen. Once the queen is in the core, she will sometimes go back to clear some trash building and keep hitting walls so get the time wasted.
 
-Ideally, queen can take down CC troops, destroy EA and one inferno, use another killer squad for another inferno, or use bowler witch clear the outside buildings, keep the remaining buildings on a narrowed path being attacked.
+Ideally, queen can destroy EA, take down CC troops, and one inferno tower, use other killer squads for other inferno towers, or use bowler witch clear the outside buildings, keep the remaining buildings on a narrowed path being attacked.
 
-Choose the most effective way.
+##### Taking Eagle Artillery
 
-Queen's mission is to destroy eagle artillery before it's activated, and funnel for the troops.
+Usually queen's mission is to destroy eagle artillery before it's activated, and funnel for the troops.
 
 Eagle Artillery targets the area with the largest density of hitpoints. It fires a volley of three successive shots at regular 10 second intervals.
 
@@ -1327,7 +1342,9 @@ Eagle Artillery targets the area with the largest density of hitpoints. It fires
 
 Eagle Artillery will be activated after 180 - 200 housing spaces worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces.
 
-Once eagle is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
+It's better to take out eagle artillery first before it's activated. Deploy more than 180 troops will activate the eagle artillery. Hero counts as 25, wall wrecker counts as 1, spell counts as 5. But when the CC troop is out, the total amount will increase dramatically. As the healers take 70 already, there is not much room left to avoid activating eagle artillery.
+
+Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
 
 Inferno tower range 9, multiple target 5
 
@@ -1338,6 +1355,8 @@ Inferno tower range 9, multiple target 5
 multiple is against miner, bowler, hog rider strategy, single is again queen charge strategy.
 
 Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 damage when destroyed.
+
+As the level 5 giga tesla targets 4 troops so it's better have queen and healers around it to absorb damages for other troops. Also giga tesla will deal 1000 damages on attacking troops around it, attack the town hall at last or use Warden's ability is Warden is nearby.
 
 Cannon range 9
 
@@ -1355,27 +1374,31 @@ X-bows range 14
 - X-bows level 5 HP 3,100, DpS 125
 - X-bows level 6 HP 3,500, DpS 155
 
-If attacking TH11 opponents, with 4 max healers (level 5), 1 or 2 rage spells, queen should last long enough to clear one corner of the base. But for attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings.
-
 ### Level 4 Bowler
 
-If the base is too crowded or the base is a rectangle shape, bowler can deal massive damages to close buildings.
+If the base is too crowded or the the defensing is very centered, bowler can deal massive damages to close buildings.
 
-Bowler and Witch (BOWITCH)
+Bowler and Witch (BoWitch) without wall wrecker
 
-The combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you have to take max golem and 1 max giant and rage spell.
+The combination for BoWitch includes 20 Bowlers and 6-7 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you will take max golem and 1 max giant and rage spell.
 
-First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
+First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden, king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
 
 This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
+
+Bowler and Witch (BoWitch) with wall wrecker
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
 Bowler and Queen charge
 
-### Level 6 Miner
+### Level 6 Miner / hog rider
 
-Usually at this stage, you are facing TH12 with Giga tesla and multiple inferno tower which will destroy the miners extremely quickly.
+Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
+
+### TH12 air
+
+There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences, it's a perfect target for electro dragons, drag bat strategies.
 
 ## League
 
@@ -1390,6 +1413,8 @@ Usually at this stage, you are facing TH12 with Giga tesla and multiple inferno 
 [Flammy's Strategy Guides](https://clashofclans.fandom.com/wiki/Flammy%27s_Strategy_Guides)
 
 <https://www.allclash.com/>
+
+<http://www.cocland.com>
 
 <https://www.clashpedia.com/>
 
@@ -1412,7 +1437,7 @@ Maximize the troops
 - Dragon lvl 7 Max
 - PEKKA lvl 8 Max
 - Baby dragon lvl 6 Max, now 4
-- Miner lvl 6 Max, now 6
+- Miner lvl 6 Max
 - Electro Dragon lvl 3 Max
 - Minion lvl 8 Max, now 6
 - Hog rider lvl 9 Max, now 8
