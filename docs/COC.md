@@ -1264,6 +1264,8 @@ Make a plan for 2 star or 3 star as it's different. 2 star focuses on taking out
 
 Usually the strategy is divide and conquer. Choose the most effective way.
 
+Farming strategy is very different from war strategy. Home village usually protects resource storages, but in war base, those ones become trash building. CC troop is always in war so it adds more difficulties.
+
 Analyze the base based on your air or ground strategy. If ground, get the rough idea about the main obstacles like inferno towers, x-bows, wizard towers. If air, watch out for air sweeper and air defence. No matter what, eagle artillery has to be cleared out first.
 
 If in base layout, the opponent put town hall and all the defences in the center, it's a perfect target for bowler.
@@ -1274,7 +1276,7 @@ No matter what, notice where is the clan castle, eagle artillery are located.
 
 #### TH12 Heros
 
-Heros usually work on some suicide missions so to clear obstacle, or create path for main troops or protect them as meat shield.
+Heros usually work on some suicide missions so to clear obstacle and CC troops, or create path for main troops or protect them as meat shield.
 
 Facts about queen,
 
