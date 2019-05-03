@@ -1422,6 +1422,8 @@ There are lots of ground defensing systems, but for air, there are not that much
 
 <https://www.clashtrack.com/>
 
+<https://www.clashfordummies.com/>
+
 ## Progress
 
 ### superman
