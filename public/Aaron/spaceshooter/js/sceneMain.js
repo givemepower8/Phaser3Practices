@@ -1,5 +1,6 @@
 let score, scoreText, highscore;
 highscore = 0;
+
 class SceneMain extends Phaser.Scene {
     constructor() {
         super({
@@ -8,6 +9,7 @@ class SceneMain extends Phaser.Scene {
     }
 
     preload() {
+        this.load.image("blue", "content/blue.png");
         this.load.spritesheet("sprExplosion", "content/sprExplosion.png", {
             frameWidth: 32,
             frameHeight: 32
@@ -77,6 +79,16 @@ class SceneMain extends Phaser.Scene {
             var bg = new ScrollingBackground(this, "sprBg0", i * 10);
             this.backgrounds.push(bg);
         }
+        // let particles = this.add.particles("blue");
+        // let emitter = particles.createEmitter({
+        //     speed: 30,
+        //     scale: {
+        //         start: 0.1,
+        //         end: 0.1
+        //     },
+
+        //     blendMode: "ADD"
+        // });
 
         this.player = new Player(
             this,
@@ -84,8 +96,9 @@ class SceneMain extends Phaser.Scene {
             this.game.config.height * 0.8,
             "sprPlayer"
         );
-        console.log(this.player);
+        //console.log(this.player);
 
+        // emitter.startFollow(this.player);
         this.keyW = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.W);
         this.keyS = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.S);
         this.keyA = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
@@ -133,6 +146,42 @@ class SceneMain extends Phaser.Scene {
             callbackScope: this,
             loop: true
         });
+        //     this.time.addEvent({
+        //         delay: 600,
+        //         callback: function () {
+        //             var enemy = null;
+
+        //             if (Phaser.Math.Between(0, 10) >= 3) {
+        //                 enemy = new GunBoss(
+        //                     this,
+        //                     Phaser.Math.Between(0, this.game.config.width),
+        //                     4
+        //                 );
+        //             } else if (Phaser.Math.Between(0, 10) >= 5) {
+        //                 if (this.getEnemiesByType("ChaserShip").length < 5) {
+        //                     enemy = new ChaserBoss(
+        //                         this,
+        //                         Phaser.Math.Between(0, this.game.config.width),
+        //                         4
+        //                     );
+        //                 }
+        //             }
+        //             //else {
+        //             //     enemy = new CarrierBoss(
+        //             //         this,
+        //             //         Phaser.Math.Between(0, this.game.config.width),
+        //             //         4
+        //             //     );
+        //             // }
+
+        //     if (enemy !== null) {
+        //         enemy.setScale(5);
+        //         this.enemies.add(enemy);
+        //     }
+        // },
+        //     callbackScope: this,
+        //         loop: true
+        // });
 
         this.physics.add.collider(this.playerLasers, this.enemies, function (
             playerLaser,
@@ -236,8 +285,6 @@ class SceneMain extends Phaser.Scene {
                         enemy.onDestroy();
                     }
                     enemy.destroy();
-                    score += 10;
-                    scoreText.setText("Score: " + score);
                 }
             }
         }
