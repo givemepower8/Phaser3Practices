@@ -1333,48 +1333,68 @@ Queen's strategy depends on with or without healers.
 
 ##### Queen charge
 
-Queen with 5 healers is known for queen charge. Queen charge is for facilitating other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge, otherwise the queen may spend lots of time hitting on the walls.
+Queen with 5 healers is known for queen charge.
 
-Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is close to 400, which enable the queen to live for a long enough time under multiple attacks. If in 2 x-bows and other cannon or archer tower, the total DpS is around 500, it takes around 20 seconds to destroy the queen. Always watch out queen's health and use rage on healers if needed.
+###### When and when not to use queen charge
 
-Set you expectation reasonably, don't expect the queen will clear out lots of buildings. The mission of queen charge usually is to take out eagle artillery first, and the CC troops and enemy heroes. Once the eagle artillery is destroyed, deploy wall wrecker along with other troops. Before deploying main troops like hog rider or miner, funnel the path if possible so queen can take out splash damage buildings like wizard tower, bomb tower, multiple target inferno tower. Before deploying air units, funnel the path so queen can take out air defences. If you are lucky to get queen survived, queen with healer can absorb lots of damages so to protect the main attacking troops nearby.
+The idea behind queen charge strategy is to divide and conquer. Queen charge is very effective at war bases which have multiple distributed compartments which against air strategies. As the inferno, x-bows are distributed, queen walk can destroy eagle artillery first, and one or more distributed compartments.
 
-To perform the queen charge, level up the queen to 45+ at least, ideally 60. The idea is to use queen charge to take out one corner of the base with eagle artillery better with multiple target inferno to create the L shape, so the troops can target the remaining buildings easily. If the queen made it to survive to the core at last, she can possibly absorb damages from Giga tesla so to support other troops.
+Usually those war bases do not have lots of small inner compartments. It's a good place for queen charge, otherwise the queen may spend lots of time hitting on the walls before attacking. Lots of good war bases are designed to have lots of small empty compartments to block the path of queen walk.
 
-If attacking TH11 opponents, with 5 level 5 healers, 1 or 2 rage spells, queen should last long enough to clear one corner of the base. TH11 against TH12 using queen charge is not a good idea as queen is very fragile against high DpS structures. For example, attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings or another queen.
+Queen walk is also good for raiding some home villages with two layers of walls and without many compartments in-between.
 
-One major issue is that queen may lost support from healers. For example, each air seeking mine x 3 is a menace to healer; air defence takes down healer very quickly; air bombs deals splash damages to healers.
+Some very centralized defence design war base is not recommended to use queen walk. For example, queen walk will fail for sure when entering a battle field is covered by multiple defence building. In that case, use bowlers or air strategy will be more effective.
 
-In queen charge, you need watch out for healers very closely. For example, make sure queen and healer are close to the air blower. If the healers are pushed back by air blower, queen will immediately die if under attack from 2 or more single unit buildings. If the healer is distracted by troops nearby when queen is under attack, queen will die very soon. Always have a plan for queen got destroyed too early.
+###### Queen charge healers
 
-Air defence and air seeking mine can destroy healers very fast. Experts always deploy a balloon first to trigger air seeking mine. Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
+Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is close to 400, which enable the queen to live for a long enough time under multiple attacks. If in 2 x-bows and one other cannon or archer tower, the total DpS is around 500, it takes around less than 15 seconds to destroy the queen.
 
-Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Or, you can use queen's cloak ability which makes queen disappear for 5 seconds and recover a small portion of HP. Queen's ability is better saved when massive DpS is needed.
+To perform the queen charge, level up the queen to 45+ at least, ideally 60, so queen can get higher DpS and HP. The idea is to use queen charge to take out one corner of the base with eagle artillery better with multiple target inferno to create the L shape, so the troops can target the remaining buildings easily. If the healers made it to survive to the core at last, they enable troops to absorb damages from Giga tesla.
 
-Queen's enemies also are tesla farm, single mode inferno.
+If attacking TH11 opponents, with 5 level 5 healers, 1 or 2 rage spells, queen should last long enough to clear one corner of the base. TH11 against TH12 using queen charge is not a good idea as queen is very fragile against high DpS structures unless the TH12 is very rushed. For example, attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with one other defensing buildings or another queen.
 
-Keep the queen alive is one of the key. Always watching out on queen's health and danger zones. Often the case, when you were deploying other troops, from the bar, you saw queen's HP is high so let guard down. But a second later, queen got destroyed when entered a danger zone covered by multiple combinations of long range buildings.
+One major issue is that queen may lost support from healers. For example, each air seeking mine x 3 is a menace to healer; air defence takes down healer very quickly; air bombs deals splash damages to healers. So in queen charge, you need to watch out for healers very closely. For example, watch out when queen and healer are close to the air blower. If the healers are pushed back by air blower, queen will immediately die if under attack from 2 or more single target defence buildings. Don't deploy slow troops and King around queen with healers. If the healers are distracted by troops nearby when queen is under attack, queen will die very soon as well.
 
-One drawback is 5 healers take up 70 housing space already. You only have 210 housing space for others.
+Keep the queen and healers alive is one of the keys. Always watching out on queen's health and danger zones. Often the case, when you were deploying other troops or watching other battle field, you saw queen's HP is high so let guard down. But a second later, queen got destroyed when entered a danger zone covered by crossfire of long range defence buildings like x-bows within 3 to 4 seconds.
 
-Another drawback of queen charge is it is slow to create the funnel as queen is fighting alone most of the time. Don't let the queen fight alone for too along, the attack ends in only 3 minutes.
+Air defence and air seeking mine can destroy healers very fast. Experts always deploy a balloon or baby dragon first to trigger air seeking mine around. Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
 
-Planning for queen is another key. To move queen forward, some funneling troop like giants/wizards, hog rider, pekka can clear some building which may distract the queen. Once the queen is in the core, she will sometimes go back to clear some trash building and keep hitting walls so get the time wasted.
+Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Always watch out queen's health and use rage cover healers and queen if needed when queen enters into a danger zone. Or, you can use queen's cloak ability which makes queen disappear for 5 seconds and recover a small portion of HP. Queen's ability is better saved when massive DpS is needed.
 
-Ideally, queen can destroy eagle artillery, take down CC troops, and one inferno tower, use other killer squads for other inferno towers, or use bowler witch clear the outside buildings, keep the remaining buildings on a narrowed path being attacked.
+One drawback is that 5 healers take up 70 housing space already. You only have 210 housing space for others but it's worth it.
 
-##### Taking Eagle Artillery
+##### Queen charge attacking plan
 
-Usually queen's mission is to destroy eagle artillery before it's activated, and funnel for the troops.
+The plan A is use queen to remove as many obstacles as possible so make it easier for main attacking troop. Queen charge is mainly for facilitating other troops, air or ground, depending on opponent's base layout.
+
+Set you expectation reasonably, don't expect the queen is powerful enough to clear out lots of buildings. The goals of queen charge usually are to take out eagle artillery first, and take down the CC troops, then enemy heroes and infernos, x-bows, air defences if they are on the way, as they are the main obstacles for your attacking troops.
+
+The path planing is to choose eagle artillery side first if it is not centered, then lure out the CC troops, and one multiple target inferno tower or enemy heros if they are on the way. It's good enough once this plan is carried off. If possible, plan the path which queen can take out most of splash damage buildings like wizard tower, bomb tower, multiple target inferno tower on the way.
+
+Queen charge is slow as queen is fighting alone. Don't let the queen charge proceed for too along, one attack ends in only 3 minutes, deploy other troops sooner when partial goal is achieved.
+
+Once the eagle artillery is destroyed, deploy wall wrecker along with other troops or other killer squad on other sides. Don't deploy troops on the same side so to keep the healers stay with queen. If it's the bowler witch strategy, you can deploy them on the same side as bowlers are strong with healers.
+
+Use other killer squads for other inferno towers, use wall breaker with CC troops or stone slammer for town hall, use King or other troops to clear the outside trash buildings.
+
+Before deploying main troops like hog rider or miner, it's better to have the remaining buildings in the L shape if possible so to narrow the path being attacked by the main troops.
+
+Before deploying air units, choose the path which queen can take out air defences, air blowers after eager artillery is gone. If you are lucky to get queen with a couple of healers survived to the giga tesla, queen with healers can absorb lots of damages so to protect the main attacking troops nearby.
+
+Queen's other enemies are tesla farm, single mode inferno, x-bows farm.
+
+To enable the queen to move closer to the target, some funneling troop like giants/wizards, hog rider, pekka can clear some building which may distract the queen. On the way to the target, queen will sometimes leave the path to choose some trash building. It end up that queen keeps hitting walls so get the time wasted.
+
+Always have plan B for queen got destroyed too early.
 
 Eagle Artillery targets the area with the largest density of hitpoints. It fires a volley of three successive shots at regular 10 second intervals.
 
 - Level 2 HP 4,400, damage per hit is 350
 - Level 3 HP 4,800, damage per hit is 400
 
-Eagle Artillery will be activated after 180 - 200 housing spaces worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces.
+It's better to take out eagle artillery first before it's activated.
 
-It's better to take out eagle artillery first before it's activated. Deploy more than 180 troops will activate the eagle artillery. Hero counts as 25, wall wrecker counts as 1, spell counts as 5. But when the CC troop is out, the total amount will increase dramatically. As the healers take 70 already, there is not much room left to avoid activating eagle artillery.
+Eagle Artillery will be activated after 180 (level 2) - 200 housing spaces (level 3) worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces. Wall wrecker counts as 1, but when the CC troop is out, the total amount will add up quickly. As queen and warden take 50 already, the healers take 70 already, there is not much room left to avoid activating eagle artillery.
 
 Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
 
@@ -1384,29 +1404,40 @@ Inferno tower range 9, multiple target 5
 - Inferno tower level 5, HP 2700, DpS 70 when set to multiple, DpS 175 when set to single after 1.5s and DpS 1,750 after 5.25s
 - Inferno tower level 6, HP 3000, DpS 81 when set to multiple, DpS 200 when set to single after 1.5s and DpS 2,000 after 5.25s
 
-multiple is against miner, bowler, hog rider strategy, single is again queen charge strategy.
+Multiple target inferno is against miner, bowler, hog rider strategy.
+
+Single target inferno is against queen charge strategy, heroes, pekka, but a pack of hog riders, miners, bat spell or skeleton spell can take down one single target inferno easily.
 
 Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 damage when destroyed.
 
-As the level 5 giga tesla targets 4 troops so it's better have queen and healers around it to absorb damages for other troops. Also giga tesla will deal 1000 damages on attacking troops around it, attack the town hall at last or use Warden's ability is Warden is nearby.
+As the level 5 giga tesla targets 4 troops so it's better have queen and healers around it to absorb damages for other troops. Also giga tesla will deal 1000 damages on attacking troops around it, attack the level 5 TH12 town hall at last or use Warden's ability is Warden is nearby to avoid that it wipes off all the attacking troops.
 
-Cannon range 9
+Cannon x 7, range 9
 
 - Cannon level 14 HP 1,380, DpS 110
 - Cannon level 15 HP 1,500, DpS 118
+- Cannon level 16 HP 1,620, DpS 125
+- Cannon level 17 HP 1,740, DpS 132
 
-Archer tower range 10
+Archer tower x 8, range 10
 
 - Archer tower level 14, HP 1,130, DpS 92
 - Archer tower level 15, HP 1,230, DpS 104
+- Archer tower level 16, HP 1,330, DpS 116
+- Archer tower level 17, HP 1,430, DpS 122
 
-X-bows range 14
+X-bows x 4, range 14
 
 - X-bows level 4 HP 2,700, DpS 95
 - X-bows level 5 HP 3,100, DpS 125
 - X-bows level 6 HP 3,500, DpS 155
 
-### Level 4 Bowler
+Hidden Tesla x 5, range 7
+
+- Hidden Tesla level 9, HP 900, DpS 110
+- Hidden Tesla level 10, HP 950, DpS 120
+
+#### TH12 Level 4 Bowler
 
 If your opponent's base is too crowded or the the defensing is very centered, bowler can deal massive damages to close buildings as the stone deals damages on the line. Witch and a couple of giants are great companions for bowler.
 
@@ -1424,13 +1455,30 @@ Bowler and Witch (BoWitch) with wall wrecker
 
 Bowler and Queen charge
 
-### Level 6 Miner / hog rider
+#### TH12 level 6 Miner / level 9 hog rider
 
 Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
 
-### TH12 air
+#### TH12 level 8 PEKKA smash
+
+King's attack speed 1.2s, move speed 16, range 1 tile, search range 9 tiles
+
+- Level 50 king HP 5,700 DpS 332, DpA 398.4. When in ability, DpS 878 in 10s
+- Level 55 king HP 6,452 DpS 369, DpA 442.8. When in ability, DpS 987 in 10s
+- Level 60 king HP 7,303 DpS 410, DpA 492.0. When in ability, DpS 1,028 in 10s
+
+PEKKA attack speed 1.8s, move speed 16, range 0.8 tile, housing space 25
+
+- Level 7 PEKKA HP 5,700 DpS 540, DpA 972
+- Level 8 PEKKA HP 6,300 DpS 610, DpA 1098
+
+Level 7 PEKKA is kind of a level 50 king and Level 8 PEKKA is kind of a level 55 king.
+
+#### TH12 Electro dragon
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences, it's a perfect target for electro dragons, drag bat strategies.
+
+#### TH12 Dragon Bat
 
 ## League
 
