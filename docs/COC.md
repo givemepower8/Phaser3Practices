@@ -1,10 +1,10 @@
 # COC
 
-Wisely dispatch troops to destroy opponent's defence system and town hall.
+Wisely dispatch troops to destroy opponent's defensing system and town hall. For a multiplayer battle, player gets one star by 50% more destruction, one star by destroying the town hall, three stars by 100% destruction. In a clan war, leader decides the size of players, each player has two attacks, the clan who gets more stars wins the clan war. If two clans get the same number of stars, the clan has more destruction rate wins the war.
 
 ## Resources and Structures
 
-Gold mine and elixir collector
+Gold mine and elixir collector. Maximizing collectors is the thing to do so you can save time on looting. For a TH8 with maxed collectors, 600K gold and 600K elixir each day is great and it's free.
 
 - TH8 can have 6 of each and maximum level 12.
 - TH9 can have 7 of each.
@@ -59,11 +59,11 @@ Moving speed to tiles ratio is 0.125.
 
 ### Path AI
 
-Most of troops have no preferred target when attacking. Barbarian, Archer, Wizard, Dragon, PEKKA, Baby Dragon, Miner, Electro Dragon, Minion, Valkyrie, Witch
+Most of troops have no preferred target when attacking, i.e., Barbarian, Archer, Wizard, Dragon, PEKKA, Baby Dragon, Miner, Electro Dragon, Minion, Valkyrie, Witch.
 
 When troops have no preferred target when attacking, they will simply attack the closest building. However, once they become aware of enemy Clan Castle troops, Heroes, or Skeleton Trap skeletons (either by being attacked themselves or by being near another friendly troop under attack), they will leave their previously targeted building and instead engage the enemy troops. Once all of the nearby enemy troops are defeated, the Bowlers will proceed to attack the nearest structure.
 
-If the path to the target is blocked by walls, they will attack the wall to try to get through.
+If the path to the target is blocked by walls, they will attack the wall to try to get through and destroy the building. Miner can burrow through the walls.
 
 For troops have preferred target, they will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield. This is true even if they are under attack by enemy Clan Castle troops, heroes or Skeleton Trap skeletons. Note that like all troops that prioritize defenses, Giants do not consider the Clan Castle to be a defense regardless of whether or not it contains enemy troops, but do consider the defending Grand Warden and the level 12 Town Hall(if its Giga Tesla has been triggered) to be defensive buildings.
 
@@ -84,7 +84,7 @@ No preferred target, attacks closest enemy troop then structures.
 
 Strength: cheap and fast to train, only 1 housing space, works great as a group along with giant, heroes to distract and take off alone target.
 
-Weakness: low attack, vulnerable to splash damage like mortar, wizard tower and bomb tower.
+Weakness: low DpS, the group is vulnerable to splash damage like mortar, wizard tower and bomb tower.
 
 | Level | DpS | DpA | HP  | Cost | Research Cost | Laboratory | Research Time |
 | ----- | --- | --- | --- | ---- | ------------- | ---------- | ------------- |
@@ -154,7 +154,7 @@ Prefer resource building.
 
 Goblins and wall breakers are great for farming, a.k.a., goblin knife. The drawback of goblin knife is that it drops trophies fast.
 
-It's not intended for war.
+Goblin is not intended for war.
 
 Strength: Fastest unit which deals twice damage to resource building and town hall.
 
@@ -392,11 +392,11 @@ Unlocked at Unlocked at TH 7 and dark barrack level 2.
 
 Prefer defensive structures.
 
-At TH8, hog rider is a very strong attacker in war.
+At TH8, level 4 hog rider is a very strong attacker in war.
 
 Strength: Jump over walls.
 
-Weakness: Vulnerable to splash damage, giant bomb. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 800 dark elixir already.
+Weakness: Vulnerable to splash damage, giant bomb. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 840 dark elixir already.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -416,6 +416,10 @@ Unlocked at TH 8.
 
 8 housing space, attack speed 1.8s, move speed: 24, range: 0.5 tile
 
+A group of valkyries can be a killer squad to destroy one condensed area.
+
+Moving fast makes valkyrie very hard to control. Don't deploy valkyrie too soon. Only if the walls are opened enough, the area close to the core is a great battle field for valkyries. For bases with lots of compartments, use golem, wizards and wall breakers for the first wave to open walls as deep as can to get close to the core. Then deploy valkyries for the second wave so valkyries will not move out the inside base. If deployed too soon, they would finish the compartment quickly and move on, in most of the cases they will go out the core and circle around the outside base. Also if deployed too soon, at the beginning of the battle, if the opponent has high level walls, valkyries swarm together which makes them vulnerable to splash damage, giant bomb.
+
 | Level | DpS | DpA   | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | ----- | ----- | --------- | ------------------ | ---------- | ------------- |
 | 1     | 94  | 169.2 | 750   | 50        | N/A                | N/A        | N/A           |
@@ -425,6 +429,13 @@ Unlocked at TH 8.
 | 5     | 148 | 266.4 | 1,100 | 130       | 110,000            | 8          | 8 days        |
 | 6     | 163 | 293.4 | 1,200 | 160       | 150,000            | 9          | 11d 12h       |
 | 7     | 178 | 320.4 | 1,300 | 190       | 190,000            | 10         | 14 days       |
+
+Strength: Relatively high HP and DpS, very high move speed.
+
+Weakness:
+
+- Hard to control due to high move speed and no preferred target.
+- Relatively expensive, it's not for looting. 10 valkyries will cost 500 dark elixir already.
 
 ### Golem
 
@@ -436,7 +447,7 @@ Cause splash damage in 1.2 title when it dies.
 
 For TH8 war strategies, one more golem should be always in the army.
 
-Strength: High HP to distract defensing system so to protect wizards, valkyries, or others.
+Strength: High HP to distract defensing structures so to protect wizards, valkyries, or others.
 
 Weakness: Very low DpS and very slow speed.
 
@@ -493,7 +504,9 @@ Meat shield for other air troops.
 
 Bowler is unlocked at TH 10.
 
-Bowler takes 6 housing space, attack speed 2.2s, move speed: 14, range: 3 tiles
+Bowler takes 6 housing space, attack speed 2.2s, move speed: 14, range: 3 tiles and the boulder causes splash damages in 3 tiles.
+
+Bowler is kind of like a wizard with a bit more HP, longer splash damage and less DPS.
 
 Bowlers have no preferred target when attacking; they will simply attack the closest building. However, once they become aware of enemy Clan Castle troops, heroes, or skeleton trap skeletons (either by being attacked themselves or by being near another friendly troop under attack), they will leave their previously targeted building and instead engage the enemy troops. Once all of the nearby enemy troops are defeated, the bowlers will proceed to attack the nearest structure. So in the group, there must be a meat shield or hero, otherwise bowlers will be separated so get destroyed easily. Bowlers are strong only when they stay together.
 
@@ -509,7 +522,7 @@ Funneling for bowler is important as its goal is to keep the bowlers stay togeth
 
 [Bowler](https://clashofclans.fandom.com/wiki/bowler) in group can destroy lots of defense buildings. If the funnel is done right, bowler with support from heros can destroy eagle artillery easily.
 
-Strength: the stone can cause massive damage on condensed defense system.
+Strength: The stone can cause massive damage on condensed defense system as it can hit multiple targets in a line. Housing space is fair low.
 
 Weakness: Low HP.
 
@@ -544,7 +557,9 @@ Weakness: Very low DpS. Not ideal for being sent in the siege machine.
 
 ### Lighting
 
-Radius 2 tiles, Random Radius,3.5 tiles, Number of Strikes 6, Time Between Strikes 0.4, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 1
+As it takes 2 housing space, it's only useful in earlier town hall levels, for examples, in TH 8 air strategy, players use 2 level 5 lighting to take down one air defence. As the HP of building increases a lot in TH11, 12, it usually takes 3 or more spells to take down one building.
+
+Radius 2 tiles, Random Radius 3.5 tiles, Number of Strikes 6, Time Between Strikes 0.4, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 1
 
 | Level | Total Damage | Damage per Strike | Cost   | Research Cost | Research Time | Laboratory |
 | ----- | ------------ | ----------------- | ------ | ------------- | ------------- | ---------- |
@@ -558,7 +573,9 @@ Radius 2 tiles, Random Radius,3.5 tiles, Number of Strikes 6, Time Between Strik
 
 ### Healing
 
-It's vital for keeping hog riders, miners live. One spell lasts 12 seconds.
+It's vital for keeping hog riders, miners live.
+
+One spell lasts 12 seconds.
 
 Radius 5, Number of Pulses 40, Time Between Pulses 0.3s, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 2.
 
@@ -575,6 +592,8 @@ Radius 5, Number of Pulses 40, Time Between Pulses 0.3s, Housing Space 2, Brewin
 ### Rage
 
 It's a must-have for boosting attacking. One spell lasts 18 seconds.
+
+One rage spell lasts 18 seconds.
 
 Radius 5, Number of Pulses 60, Time Between Pulses 0.3s, Boost Time 1s, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 3.
 
@@ -628,7 +647,7 @@ For slow air attacking units.
 
 ### Barracks
 
-There are two kind of troops: elixir troop and dark elixir troop.
+There are two kind of troops: elixir troop and dark elixir troop. So two kind of barracks, Barracks x 4 and Dark barracks x 3.
 
 Barrack level unlocks new type of troops. Also the number and level of barracks determine how quick troops can be trained.
 
@@ -667,19 +686,19 @@ Laboratory enables research on higher level of troops. Laboratory should be alwa
 
 ![Laboratory](https://cocland.com/wp-content/uploads/2015/04/elixir-upgrades.jpg)
 
-## Defence systems
+## Defensing Structures
 
 ### Cannon
 
 ### Mortar
 
-Mortar cannot target troops within 4 tiles.
+Mortar's range is 4 to 11. Mortar cannot target troops within 4 tiles.
 
 ## Strategies
 
 Study your opponent's base. Take out opponent's defence so to launch more effective attack.
 
-Maximize the troops to have a balanced attack system.
+Maximize the troops to have a balanced air and ground attack system.
 
 If the base air defence level is low, use air troops.
 
@@ -689,9 +708,9 @@ If the base ground defence level is strong, use tank like golem to distract alon
 
 ### CC lure
 
-In war, enemies have clan castle troop. For example, lower level TH has dragon, witch in common. Higher level has ice golems. If they are not dealt ahead of time, they cause lots of trouble to the attacking troops.
+In war, enemies have clan castle troop. For example, lower level TH has dragon, witch, valkyrie in common. Higher level has ice golems to again queen. If they are not dealt ahead of time, they cause serious trouble to the attacking troops.
 
-Send one archer or fast troop close to the clan castle so the troop will come out, send another archer to attack the corner
+Check to see if any troop can reach the CC range, also check for holes. Send one archer or fast troop like hog rider can reach the clan castle range so the CC troop will come out, send another archer to attack the corner so the CC troop will go after the archer. When they are close, if slow CC troop like dragon, circle around with archers and use one poison on top of them. If fast troop like valkyrie, keep deploying one archer in the center of poison area so to keep the valkyrie inside the poison.
 
 Poison spell is a must-have to take down the cc troops.
 
@@ -699,21 +718,23 @@ Sometimes, the CC is right at the core of the base so it's hard to lure it out.
 
 ### Funneling
 
-Many troops have no preferred target so the actions are controlled by AI. Once a troop is dispatched, you cannot control where it goes explicitly but you can control the path by sending other troops to create the path. Otherwise, the troop will pick attacking target on their own, usually the closet building or enemy troops engaged, and get distracted easily.
+Many troops have no preferred target so the actions are controlled by AI. Once a troop is dispatched, you cannot control where it goes explicitly but you can control the path by sending other troops to create the path. Otherwise, the troop will pick attacking target on their own according to their position, usually the closet building or enemy troops engaged, so they will get distracted easily.
 
-For example, without funneling, heros and pekkas will go around the outside of the base to destroy the closest non-defensing building while still under the attack of defensing building inside the wall.
+For example, without funneling, when heros and pekkas are the close to core, they will go outside of the compartment if emptied to break walls to destroy the closest non-defensing building while still under the attack of defensing building from nearby compartments.
 
 Funneling is to create the path so to guild the troop to go to the expected location by breaking walls and eliminating those distractions at the right timing. For example, wall breaker creates a funnel after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy buildings massively.
 
-Sometimes, heros will launch suicide attack to destroy defensing system to create some funnels for attacking troops.
+Sometimes, heros will launch suicide attack to destroy defensing structures to create the funnels for attacking troops.
 
-How to create the funnel,
+Creating the funnel depends on the attacking strategy. For example,
 
-Baby dragons and wizards are often used to create funnels. For example,
+- clear the outside buildings
+- clear one corner with the eagle artillery
+- use wall breaker, stone slammer or jump spell so the troops can get close to the core
 
-- clear the outside buildings.
-- use wall breaker
-- use jump spell
+Baby dragons and wizards are often used to clear the outside buildings. Wizards is a bit expensive as 6 wizards takes up 24 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence.
+
+Heros with queen charge can clear two outsides of base or with wall breaker they can clear one corner of the base to create the L shape so the attacking troops will be more effective to destroy the buildings.
 
 ### TH 8 Strategies
 
@@ -726,21 +747,21 @@ Maximize the camps' house capacity. TH 8 has 200 house capacity and 25 CC house 
 
 Maximize the troops
 
-- Barbarian lvl 5
-- Archer lvl 5
-- Giant lvl 5
-- Goblin lvl 5
-- Wall breakers lvl 5
-- Balloon lvl 5
-- Wizard lvl 5
-- Healer lvl 3
-- Dragon lvl 3
-- PEKKA lvl 3
-- Minion lvl 4
-- Hog rider lvl 4
-- Valkyrie lvl 2
-- Golem lvl 2
-- Barbarian King 10
+- Barbarian lvl 5, HP 95, DpS 23, attack 1s
+- Archer lvl 5, HP 40, DpS 20
+- Giant lvl 5, HP 720, DpS 31, DpA 52, attack 2s
+- Goblin lvl 5, HP 56, DpS 32, attack 1s
+- Wall breakers lvl 5, HP 53, DpS 1840 on wall.
+- Balloon lvl 5, HP 390, DpS 108, DpA 324, attack 3s
+- Wizard lvl 5, HP 156, DpS 170, DpA 255, attack 1.5s
+- Healer lvl 3, HP 840, healing per second 55
+- Dragon lvl 3, HP 2300, DpS 180, DpA 225, attack 1.25s
+- PEKKA lvl 3, HP 3500, DpS 310, DpA 558, attack 1.8s
+- Minion lvl 4, HP 72, DpS 46, attack 1s
+- Hog rider lvl 4, HP 415, DpS 92, attack 1s
+- Valkyrie lvl 2, HP 800, DpS 106, DpA 190.8, attack 1.8s
+- Golem lvl 2, HP 5400, DpS 42, DpA 100.8, attack 2.4s
+- Barbarian King 10, Attack speed 1.2s, HP 2153, DpA 171.6, DpS 143, summon 8 barbarians, ability 10s, DpS in ability 244
 
 Maximize the spells
 
@@ -752,26 +773,26 @@ Maximize the spells
 
 maximize the defence
 
-- Cannon lvl 10, can gear up
-- Archer tower lvl 10
-- Mortar lvl 6, can gear up if builder hall level 8
-- Air defense lvl 6
-- Wizard tower lvl 6
-- Air sweeper lvl 4
-- Hidden Tesla lvl 6
-- Bomb tower lvl 2
-- Bombs lvl 5
-- Spring traps lvl 3
-- Air bomb lvl 3
-- Giant bomb lvl 3
-- Seeking air mine lvl 1
+- Cannon lvl 10 x 5, can gear up, HP 960, DpS 64, DpA 51.2, attack 0.8s, Range 9
+- Archer tower lvl 10 x 5, HP 810, DpS 63, DpA 31.5, attack 0.5s, Range 10
+- Mortar lvl 6 x 4, can gear up if builder hall level 8, HP 650, DpS 11, DpA 55, attack 5s, Range 4-11 tiles
+- Air defense lvl 6 x 3, HP 1050, DpS 230, Range 10
+- Wizard tower lvl 6 x 3, HP 960, DpS 32, DpA 41.6, attack 1.3s, Range 7 tiles
+- Air sweeper lvl 4 x 1, HP 900, push 2.8 tiles
+- Hidden Tesla lvl 6, HP 770, DpS 75, DpA 45, attack 0.6s, Range 7 tiles
+- Bomb tower lvl 2, HP 700, DpS 28, DpA 30.8, attack 1.1s, Range 6 tiles
+- Bombs lvl 5 x 6, damage 42 in 3 tiles
+- Spring traps lvl 3, capacity 17
+- Air bomb lvl 3 x 2, damage 120 in 3 tiles
+- Giant bomb lvl 3, damage 225 in 3.5 tiles
+- Seeking air mine lvl 1 x 1, damage 1500
 - Skeleton trap lvl 2
 
 #### Facts
 
 Most of the TH8 opponents wall level is level 7 purple crystal HP 2500 to level 8 skull stone HP 3000.
 
-Wall breaker is crucial to create the path to the core of base. Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can one-shot take down gold (lvl 5) and lower level walls. 2 wall breakers can take down pink, purple crystal walls and skull walls (lvl 6,7,8). Don't deploy it close to cannon, archer tower if there is no meat shield, otherwise it will be destroyed instantly. For mortars, a lvl 5 wall breaker can take one lvl 5 mortar splash damage, but will be instantly killed by lvl 6 motors. For wizard tower, it can withstand 1 attack damage.
+Wall breaker is crucial to create the path to the core of base. Wall breakers lvl 5 HP 53, move speed 24, can cause 1,840 damage on the walls. 1 wall breaker can one-shot take down gold (lvl 5) and lower level walls. 2 wall breakers can take down pink, purple crystal walls and skull walls (lvl 6,7,8). Don't deploy it close to cannon, archer tower if there is no meat shield, otherwise it will be destroyed instantly as cannon and archer fires very fast. For mortars which attack every 5 seconds, a lvl 5 wall breaker can take one lvl 5 mortar splash damage, but lvl 5 wall breaker will be instantly killed by lvl 6 motors. For wizard tower, lvl 5 wall breaker can withstand 1 attack damage but the window is 2 seconds.
 
 Wizard lvl 5 housing space 4, attack speed 1.5s, move speed: 16, range: 3 tiles, HP 156, damage per attack 255, DpS 170 (255/1.5). Wizard can be main attackers protected by meat shields or it acts a very import role to clear the trash building which may distract the troops.
 
@@ -809,7 +830,7 @@ The goal is to 3 star.
 
 Depending on your opponent's base, you can choose using air troop or ground troop. If your target's air defense is weak, prefer air attack. Otherwise, prefer ground attack.
 
-Always try to lure the CC troop out first. Lure the CC troops to corner, and drop poison spell and deploy 6 to 8 archers circle around to kill CC troops. Circle will make the CC troop stay in the poison longer.
+Always try to lure the CC troop out first. Lure the CC troops to corner, and drop poison spell and deploy 6 to 8 archers circle around to kill CC troops. Circle will make the CC troop stay in the poison longer. But if valkyrie is the CC troop, it's hard to circle around as they move and attack fast, drop a high HP troop like Pekka or Giant in the circle to absorb the damage.
 
 The following strategy may vary:
 
@@ -817,28 +838,64 @@ The following strategy may vary:
 
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
-  DragLoon is look at the air sweeper to decide which way to attack. You don't want to attacked the area which is covered by the air sweeper. Use 2 lightning spells to take out 1 furthest air defense, closest to the core. Aiming the rest 2 air defences. Deploy dragons to destroy the defensing buildings first, then deploy balloons to attack the rest 2 air defenses. Send in the king to clean up.
+  DragLoon is to look at the air sweeper to decide which way to attack. You don't want to attack the area which is covered by the air sweeper which slows down the air troop. Use 2 lightning spells to take out 1 air defense which is closest to the core. Depends on the base layout, the balloons can try to get the rest 2 air defenses or try to funnel the outside buildings so the dragons stay inside. If air defence is reachable, deploy dragons to create path to the rest 2 air defenses and clear the wizard tower as they will damage the balloons. Before they can be hit by the air defence, be aware of the timing to deploy the balloons. Rage or haze the balloons to destroy the rest 2 air defences. Send in the king to clean up. Check the corner builder huts as the dragons move very slow.
 
 - Ground attack
 
-  - GoWiPe: 2 Golem + 2 Pekka + 17 Wizards + 6 Wall Breakers + 1 Hog (CC lure) +5 Archers + 2 Healing + 1 Rage + Poison Spell and 1 Pekka + Poison Spell in CC.
-  - GoWiVa: 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 3 Earthquake + 2 Healing Spell and 1 Pekka + 1 Poison Spell in CC
-  - GoHo: 2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
-  - GoVaHo: 1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + Poison Spell/3 Earthquake 2 Healing and 3 Valkyries + 1 Archer + Poison/Earthquake Spell in CC.
+  - GoWiPe
+  - GoWiVa
+  - GoHo
+  - GoVaHo
 
-As the opponent's defense building level goes higher, golem is a must-have in the army to absorb the damages. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badge in league war to get the hammer.
+As the opponent's defense building level goes higher, golem is a must-have in the army to absorb damages for wizards and other high DPS dealers. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badges in league war to get the hammer.
 
-With level 3 pekka, GoWiPe is pretty effective in TH8 war for middle level TH8 opponents but for a nearly maxed out TH8, GoWiPe is hard to get 3 star as PEKKA needs funneling and sometimes it goes out the core.
+Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers. Wall breakers picks up walls that have building behind it.
 
-For maxed out TH8 opponent, GoHo with level 4 hogs is more effective.
+If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA, king and the rest wizards.
+
+Once PEKKA is at level 3, update either valkyrie, or hog riders, but one at a time as they need lots of dark elixir. Hog riders is recommended as they dominate in TH8 war.
+
+Choosing the attacking strategy depends on the opponent's base and CC troop. CC troop must be cleared first and should be done as soon as possible. Dragons or other flying units will ruin the ground attack. Witch or valkyrie creates lots of headache. Watch out for the CC clear-up time as pekka attacks slow.
+
+##### TH8 GoWiPe
+
+1 Golem + 3 Pekka + 18 Wizards + 6 Wall Breakers + 1 Hog (CC lure) + 6 Archers + 1 Healing + 2 Rage + Poison Spell and 1 level 8 Pekka + Poison Spell in CC.
+
+With level 3 pekkas and one CC level 8 pekka, GoWiPe is pretty effective in TH8 war for middle to high level TH8 opponents. With luck, it can 3 star maxed TH8.
+
+PEKKA needs proper funneling. Outside building must be cleared up before pekka goes there, otherwise Pekka will chop the wall and go outside of the core to attack some trash building around the base.
+
+Look at the base layout and check where the majority of mortars are as they have long range and splash damage which wipes off wizards quickly. The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards which attack behind. Use rage in the first open compartment as it helps King and pekka damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures like hidden teslas are exposed at this moment, use rage one more time so to destroy town hall and teslas. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
+
+Send the king with the level 8 pekka as the main attacking troop, because rage spells work well on Pekka and king. Have one pekka with 3 to 5 wizards to destroy the outside building so inner pekkas can move forward and won't move outside. 3 to 5 wizards to clear the other outside.
+
+But for a nearly maxed out TH8, GoWiPe can get 2 stars easily, but you need luck to get 3 stars as PEKKA's attacking speed is slow, maybe the second wave will fail so PEKKAs will get destroyed by higher level defensing buildings like teslas and burst cannons after the second wave. The key is destroy the splash dealing building as soon as possible, and don't send in all the wizards at a time otherwise they will be wiped out by splash damage dealing buildings and great bombs. One PEKKA followed by 4 to 5 wizards are good enough.
+
+##### TH8 GoWiVa
+
+For attacking some low level TH9, their base is a more open with less layer as they are covered by x-bows, massive valkyries can do better as x-bows can destroy wizards very quickly.
+
+1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 1 rage spell + 2 Healing Spell + 1 earthquake and 1 Pekka + 1 Poison Spell in CC
+
+Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. But they are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings. Wizards need to clear the outside buildings to keep the valkyries inside.
+
+##### TH8 GoHo
+
+2 Golem + 16 Hogs + 6 Wall Breakers + 11 Wizards + 4 Archers + 3 Healing Spell + Poison and 5 Hogs + 1 Poison in CC.
+
+Archers and wizards are for the CC troop and clean up outside buildings.
+
+2 golems should keep away from each other to minimize the splash damage. 3 wall breakers to tear down the first layer of base so to let the golems get closer to the core.
+
+For maxed out TH8 opponent or low level TH 9 opponent, GoHo with level 4 hogs is more effective.
 
 Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
 
-Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers.
+##### TH8 GoVaHo
 
-If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA and king and the rest wizards.
+GoHo is powerful on compact bases if there are lots of compartments so 2 meat shield if needed. If the base is not that compact or some not enclosed TH8 war base, use 4 valkyries to replace 1 golem which speeds up the attack greatly.
 
-Once PEKKA is at level 3, update either Valkyrie, or hog riders, one at a time.
+1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + 1 poison, and 3 Valkyries + 1 Archer + Poison / freeze Spell in CC.
 
 #### TH 8 Farming
 
@@ -876,7 +933,9 @@ Queen is unlocked. Wall level can go up to 9 (spike) and 10 (lava stripe on top)
 
 Other new buildings:
 
-New troops baby dragon, witch and Lava Hound are unlocked.
+New troops baby dragon, witch and Lava Hound are unlocked, so new strategy lavaloonion can be used.
+
+Valkyrie can be upgraded up 2 level to level 4.
 
 Maximize the hero levels.
 
@@ -905,11 +964,15 @@ Maximize the troop levels.
 
 Queen walk / charger
 
+At this stage, queen charge is mainly used to take out x-bows or air defence to facilitate other main troops.
+
+When the healers die or separate, queen will have a hard time.
+
 - Put a balloon when to deploy the queen to trigger the seeking air mine.
 - Protect the healers. Make sure no other troops will take away the healers.
 - Use offensive spells around queen
 
-  - Rage spell to increase the queen DPS.
+  - Rage spell to increase the queen DPS also the healing speed.
 
 ### TH 10 strategies
 
@@ -920,9 +983,17 @@ Maximize the hero levels.
 - Queen lvl 40
 - King lvl 40
 
-### TH 11 strategies
+### TH11 strategies
 
 Great warden joins in the village.
+
+- Heroes maxed 50/50/20
+- Donated Wall wreckers / Stone slammer
+- Troops (260 Camp + 35 Clan Castle)
+  - CC troop 35
+  - Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
+  - Supplementary troop (healer, wall breaker...)
+- Spells
 
 Maximize the hero levels.
 
@@ -970,34 +1041,31 @@ Maximize the spells
 
 Maximize the defence
 
-- Cannon lvl 15, can gear up
-- Archer tower lvl 15
-- Mortar lvl 10, can gear up
-- Air defense lvl 10
-- Wizard tower lvl 10
-- Air sweeper lvl 7 Max
-- Hidden Tesla lvl 9
-- Bomb tower lvl 6
-- Bombs lvl 8 Max
-- Spring traps lvl 5 Max
-- Air bomb lvl 5
-- Giant bomb lvl 5 Max
-- Seeking air mine lvl 3 Max
-- Skeleton trap lvl 4 Max
-- Tornado trap lvl 2
-- X-Bows lvl 5
-- Inferno tower lvl 5
-- Eagle artillery lvl 2
+- Cannon lvl 15 x 7, can gear up, HP 1,500, DpS 118, Range 9
+- Archer tower lvl 15 x 8, HP 1,230, DpS 104, Range 10
+- Mortar lvl 10 x 4, can gear up, HP 850, DpS 150, Range 4-11
+- Air defense lvl 9 x 4, HP 1,300, DpS 360
+- Wizard tower lvl 10 x 5, HP 2,000, DpS 62, Range 7
+- Air sweeper lvl 7 x 2 Max, HP 1050
+- Hidden Tesla lvl 9 x 4, HP 900, DpS 110, Range 7
+- Bomb tower lvl 6 x 2, HP 1,200, DpS 52
+- Bombs lvl 8 x 6 Max, splash damage 92 in 3 titles
+- Spring traps lvl 5 x 6 Max, wipe off 19 capacity in 0.7 tiles
+- Air bomb lvl 5 x 5, splash damage 200 in 3 tiles
+- Giant bomb lvl 5 x 5 Max, splash damage 275 in 4 tiles
+- Seeking air mine lvl 3 x 5 Max, damage 2000 in 4 tiles
+- Skeleton trap lvl 4 x 3 Max, 5 spawned skeletons HP 30, DpS 25 each
+- Tornado trap lvl 2 x 1, 6 seconds and damage 48 in 3 tiles
+- X-Bows lvl 5 x 4, HP 3100, DpS 125, Range 14
+- Inferno tower lvl 5 x 2, HP 2700, DpS 70 in multiple, in single 175 after 1.5s, 1750 after 5.5s, Range 9
+- Eagle artillery lvl 2 x 1
 
-<https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
-
-#### Level 40+ Queen charge
-
-If attacking TH11 opponents, with 4 max healers (level 5), 1 or 2 rage spells, queen should last long enough to clear one corner of the base. But for attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings.
+- Level 11 town hall HP 6,800
+- Level 12 town hall HP 7,500
 
 #### Level 3 Bowler
 
-Bowlers can be the main attackers, or a killer squad to clear one corner with inferno and x-bows.
+Bowlers is a very useful killer squad to clear one corner with inferno and x-bows. Bowlers can be the main attackers with queen walk, it's very easy to get 2 start but hard to 3 star.
 
 Bowler killer squad
 
@@ -1007,41 +1075,76 @@ Bowler and healer
 
 This typically is comprised of around 30 bowlers and 6-8 healers.
 
-The strategy is to use your bowlers on two adjacent corners of the map with 3 or 4 healers behind each group. Take down the outer defenses and buildings with this and clear and very straight forward path into the middle of the base. You'll be using a rage, a jump and a freeze spell to ensure that this is done with relative ease. Once the corners are cleared, drop the rest of the bowlers either behind a golem or behind a few giants – also drop heroes with them. There is also the possibility to have a couple of other healers at this stage to help keep the bowlers up.
+Without wall wrecker, the strategy is to choose the entry point which can be the half point of one side or the corner the base. Start from there, the goal is to make the path to the center of the base and make sure the eagle artillery is on that path while troops are marching.
 
-The beauty of this attack is that the bowlers will move into the center and under rage grab 2 stars extremely quickly. From there, usually several or most of them will die but you're left with a whole load of healers which will then help keep your heroes awake helping you get that all important 3 star.
+Once the plan of path is made, first, funnel a little bit and deploy 6 to 8 bowlers on two adjacent corners of the base with 3 or 4 healers behind each group. Each group will take down the outer and nearby buildings, and they walk towards the entry point. Before they meet, put the jump spell over the wall and make it cover as much as it can. This creates a straight forward path into the middle of the base. Drop the heroes, giants and the rest of the bowlers. Put the rage spell 2 tiles before them. Along the way the army is marching, drop freeze spell on eagle artillery and inferno towers to ensure that the army can get to the town hall. Once town hall is destroyed, there is the possibility to have a couple of healers at this stage to help keep the bowlers up. Put another jump spell so to make sure the army can exit the center and march further. From there, usually several blowers will get separated, or most of bowlers will get wiped out by eagle artillery or other defences due to low HP. The beauty of this attack is that the bowlers can clear lots of building when enraged, and if done correctly they can move into the center and destroy the town hall. At that time, you already get 2 stars extremely quickly. Often the case you still have a bunch of healers survived which will then help keep your heroes live helping you get that important 3 star.
 
-Bowler and Witch (BOWITCH)
-
-The combination for BOWITCH includes 20 Bowlers and 10 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you have to take max golem and 1 max giant and rage spell.
-
-First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden and king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
-
-This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner.
+With wall wrecker, the attack can be even easier. Load 1 max golem and 1 max giant inside the wall wreaker and get 1 rage spell. Same as before, funnel with bowlers first, once the entry point is reached, send in the wall wrecker and followed by giants, heroes and witches. Golem and giant can be the meat shield to absorb some damages for the troops. Witch can slow down inferno tower.
 
 #### Level 5 Miner
 
-Miners strategy is solid to 2 star other middle level TH11. But against maxed TH11 with high level eagle artillery, inferno tower and x-bows, it's very risky. When facing TH12 with giga tesla, often miner strategy gets only 1 star but high percentage.
+Miners strategy is solid to 2-star other middle level TH11 or any TH10. But against maxed TH11 with high level eagle artillery, inferno tower in multiple mode and level 5 x-bows, it's very risky. When facing TH12 with giga tesla, often miner strategy can get only 1 star but high percentage as TH12 has 3 inferno towers, higher level defence with higher DpS, and giga tesla cause massive 4-target damage to miners.
 
-The rule of thumb is to narrow down the miner attack path. Miners are strong when they swarm. So for a square base layout, use heroes to clear one corner to create a L shape and some wizard to clear some trash building, so to make minor stay together while moving forward.
+To attack TH11, watch out for the eagle artillery and 2 inferno towers. Multiple targeted inferno is an headache for miners but not for heroes. Ground CC troops especially witches will cause a headache for miners but air CC troops will not as miners move fast underground.
 
-Once the queen is strong enough, use a powerful queen charge to take out eagle artillery and CC troops, then deploy miners. Send warden to the middle of the base will help out, too.
+Take out the eagle artillery first, use wall wrecker with heroes followed by to take down the eagle and CC troops.
 
-Ground CC troops especially witches will cause a headache for miners but air CC troops will not as miners move fast.
+Another key is to narrow down the miner attack path. Miners are strong when they swarm. If they get separated, they can easily get picked off by x-bows and inferno towers, even splash damage dealing buildings. So for a square base layout, use heroes to clear one corner with eagle artillery to create a L shape and some troops to clear some trash building outside, so to make minor stay together while moving forward.
 
-Health, freeze and rage spells are used in miner strategy.
+Once the queen is strong, level 45 and up, use a powerful queen charge with Warden to take out eagle artillery and CC troops, then deploy miners. Sending warden along with queen will help out miners once they reach the middle. Keep the heroes alive in the middle of the base is one of keys to 3 star. King's mission is often to clear the outside buildings as much as possible.
+
+2 Health, 3 freeze and 2 rage spells are often used in miner strategy.
+
+#### Level 7 hog rider
+
+Walls do not block hog rider and miner. Hog rider jumps overs walls, like the miner burrows under walls.
+
+Level 5 miner vs. level 7 hog rider
+
+Hog rider housing space 5 and miner is 6, so you can bring a couple more hog riders in the army.
+
+Level 5 miner HP 800, move speed 32, DpS 112 with attacking speed 1.7s.
+Level 7 hog riders HP 700, move speed 24, DpS 135 with attacking speed 1.
+
+Hog riders attack defensing structure first, miner attacks nearest building first.
+
+In TH11, they are kind of at the same level.
+
+In TH12, hog rider max level is 9 and miner max level is 6.
+
+Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
+Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
+
+So in TH12, hog rider is slightly better than miner.
+
+If the opponent's Giga tesla is maxed which deals massive damages on 4 target, and inferno is set to multiple, which damages DpS 81 on 5 troops, without healing spell, it's hard to make the miner and hog rider survive.
+
+#### Level 7 Pekka
+
+Level 7 Pekka HP 5700, attacking speed 1.8s, DpA 972, DpS 540
+Level 8 Pekka HP 6300, attacking speed 1.8s, DpA 1098, DpS 610
+
+Pekka smash is often a strong 2 star strategy.
+
+Pekka's strength is their high HP and DpS. They can break walls easily on their own and they can tank to the core. If the inferno is set to multiple, it takes inferno 70 seconds to destroy a pekka. But a single mode inferno takes 6 to 7 seconds to destroy the Pekka.
+
+One of the issue is that Pekka attacks nearest buildings even under attach from long range buildings, they may go zigzag in the base to attack trash buildings so take lots damages from x-bows.
 
 #### Level 2 electro dragon
+
+Don't use electro dragon on TH11 opponents with high air defence for 3 star.
 
 Electro dragon has 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
 TH12 with maximized camps can take 9 electro dragons and TH11 with maximized camps can take 8 electro dragons.
 
-The attack is strong when heroes are strong. Usually, heroes will launch a kind of suicide attack on the 2 sides out the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence.
+The attack is strong when heroes are strong. Usually, king and queen will launch a kind of suicide attack on the 2 sides of the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence. Grand warden will follow the dragons for his abilities support.
 
 Clone spell if is done right.
 
 Bat spell can help to take down one air defence.
+
+#### TH11 Dragon bat
 
 #### TH11 farming
 
@@ -1050,6 +1153,8 @@ Miner farming
 Miner farming with queen charge is very effective for dead bases or TH11 with medium level defensing systems.
 
 29 miners, 1 baby dragon, 5 healers, 6 archers.
+
+Baby dragon is cheap for removing the outside trash building. Keep it away from the air defence. Or If the air defence is exposed, use queen to take it out. When queen level is not high enough, watch out for the CC troop.
 
 Use queen and 5 healers to clear one side, use baby dragon, king and warden the other side to clear the buildings within range. Once the outside is a bit cleared, send in the miners and make them alive with health spell and freeze spell. King has to be a bit strong to absorb damages, and king might not survive at last. But at that time, warden come to middle to help out the minors.
 
@@ -1093,6 +1198,240 @@ A variation with queen walk
 
 <https://cocland.com/guides/bowler-attack-strategy>
 
+### TH12 war strategies
+
+Workshop is unlocked at Th12 so you have your own seige machine.
+
+Maximize the hero levels.
+
+- Queen lvl 60
+- King lvl 60
+- Great warden lvl 30.
+
+Maximize the troops
+
+- Barbarian lvl 8 Max
+- Archer lvl 8 Max
+- Giant lvl 9 Max
+- Goblin lvl 8 Max
+- Wall breakers lvl 8 Max
+- Balloon lvl 8 Max
+- Wizard lvl 9 Max
+- Healer lvl 5 Max
+- Dragon lvl 7 Max
+- PEKKA lvl 8 Max
+- Baby dragon lvl 6 Max
+- Miner lvl 6 Max
+- Electro Dragon lvl 3 Max
+- Minion lvl 8 Max
+- Hog rider lvl 9 Max
+- Valkyrie lvl 7 Max
+- Golem lvl 8 Max
+- Witch lvl 5 Max
+- Lava Hound lvl 5 Max
+- Bowler lvl 4 Max
+- Ice golem lvl 5 Max
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max
+- Clone lvl 5 Max
+- Poison lvl 5 Max
+- Earthquake lvl 4 Max
+- Haste lvl 4 Max
+- Skeleton lvl 5 Max
+- Bat lvl 5 Max
+
+Maximize the defence
+
+- Cannon lvl 17 x 7, can gear up
+- Archer tower lvl 17 x 8, can gear up if archer tower in builder hall level 6.
+- Mortar lvl 11 x 4, can gear up
+- Air defense lvl 10 x 4
+- Wizard tower lvl 11 x 5
+- Air sweeper lvl 7 x 2
+- Hidden Tesla lvl 10 x 5
+- Bomb tower lvl 7 x 2
+- Bombs lvl 8 x 6
+- Spring traps lvl 5 x 8
+- Air bomb lvl 6 x 6
+- Giant bomb lvl 5 x 6
+- Seeking air mine lvl 3 x 6
+- Skeleton trap lvl 4 x 3
+- Tornado trap lvl 3 x 1
+- X-Bows lvl 6 x 4
+- Inferno tower lvl 6 x 3
+- Eagle artillery lvl 3 x 1
+- Giga Tesla lvl 5 x 1
+
+There is no one exact strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler strategy to attack a very separated layout will be a disaster.
+
+The forces you have:
+
+- Heroes
+- Wall wreckers / Battle blimp / Stone slammer with CC troop (40 capacity)
+- Main troop 280 capacity (miner / hog rider, bowler, pekka, dragon loon, electro dragon)
+- Supplementary troop, archers, wall breakers, etc.,
+- Spells 11 capacity and 2 capacity from CC
+
+Make a plan for 2 star or 3 star as it's different. 2 star focuses on taking out town hall and some trash building as long as the town hall is destroyed and 50% destruction rate is reached. 3 star is to wipe off everything.
+
+Usually the strategy is divide and conquer. Choose the most effective way.
+
+Farming strategy is very different from war strategy. Home village usually protects resource storages, but in war base, those ones become trash building. CC troop is always in war so it adds more difficulties.
+
+Analyze the base based on your air or ground strategy. If ground, get the rough idea about the main obstacles like inferno towers, x-bows, wizard towers. If air, watch out for air sweeper and air defence. No matter what, eagle artillery has to be cleared out first.
+
+If in base layout, the opponent put town hall and all the defences in the center, it's a perfect target for bowler.
+
+Some more advance players have 3 or more main areas with inferno tower and x-bows to against 3 star, you need to plan ahead of time.
+
+No matter what, notice where is the clan castle, eagle artillery are located.
+
+#### TH12 Heros
+
+Heros usually work on some suicide missions so to clear obstacle and CC troops, or create path for main troops or protect them as meat shield.
+
+Facts about queen,
+
+Queen's attack speed 0.75s, move speed 24, range 5 tiles, search range 10 tiles.
+
+- Level 40 queen HP 1,630 DpS 419, DpA 314.25. When in ability, DpS 1,238 in 5.0s, Health Recovery 325, Summon 12 archers
+- Level 45 queen HP 1,809 DpS 474, DpA 355.5. When in ability, DpS 1,394 in 5.2s, Health Recovery 350, Summon 13 archers
+- Level 50 queen HP 2,007 DpS 536, DpA 402. When in ability, DpS 1,556 in 5.4s, Health Recovery 375, Summon 14 archers
+- Level 55 queen HP 2,274 DpS 594, DpA 445.5. When in ability, DpS 1,714 in 5.4s, Health Recovery 400, Summon 15 archers
+- Level 60 queen HP 2,575 DpS 658, DpA 493.5. When in ability, DpS 1,778 in 5.8s, Health Recovery 425, Summon 16 archers
+
+Facts about king
+
+King's attack speed 1.2s, move speed 16, range 1 tile, search range 9 tiles, ability time 10s.
+
+- Level 40 king HP 4,453 DpS 259, DpA 310.8. When in ability, DpS 673 in 10s, Health Recovery 1,692, Summon 20 barbarians
+- Level 45 king HP 5,038 DpS 299, DpA 358.8. When in ability, DpS 777 in 10s, Health Recovery 1,963, Summon 22 barbarians
+- Level 50 king HP 5,700 DpS 332, DpA 398.4. When in ability, DpS 878 in 10s, Health Recovery 2,263, Summon 24 barbarians
+- Level 55 king HP 6,452 DpS 369, DpA 442.8. When in ability, DpS 987 in 10s, Health Recovery 2,592, Summon 26 barbarians
+- Level 60 king HP 7,303 DpS 410, DpA 492.0. When in ability, DpS 1,028 in 10s, Health Recovery 2,592, Summon 28 barbarians
+
+Facts about Grand Warden
+
+Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 tiles.
+
+- Level 15 Grand Warden HP 1,350 DpS 90, DpA 162. Eternal Tome 4.5s, Life Aura 40%.
+- Level 20 Grand Warden HP 1,500 DpS 110, DpA 198. Eternal Tome 5s, Life Aura 50%.
+- Level 25 Grand Warden HP 1,658 DpS 136, DpA 244.8. Eternal Tome 5.5s, Life Aura 60%.
+- Level 30 Grand Warden HP 1,833 DpS 168, DpA 302.4. Eternal Tome 6s, Life Aura 70%.
+
+#### TH12 Queen
+
+Queen has a very high DpS but low HP.
+
+Queen's strategy depends on with or without healers.
+
+##### Queen charge
+
+Queen with 5 healers is known for queen charge. Queen charge is for facilitating other troops, air or ground, depending on opponent's base layout. If the war base does not have lots of compartments, it's a good place for queen charge, otherwise the queen may spend lots of time hitting on the walls.
+
+Level 5 healer HP has 1,500, heal speed 0.7s, healing per pulse 56, healing per second 80. So 5 healers max healing is close to 400, which enable the queen to live for a long enough time under multiple attacks. If in 2 x-bows and other cannon or archer tower, the total DpS is around 500, it takes around 20 seconds to destroy the queen. Always watch out queen's health and use rage on healers if needed.
+
+Set you expectation reasonably, don't expect the queen will clear out lots of buildings. The mission of queen charge usually is to take out eagle artillery first, and the CC troops and enemy heroes. Once the eagle artillery is destroyed, deploy wall wrecker along with other troops. Before deploying main troops like hog rider or miner, funnel the path if possible so queen can take out splash damage buildings like wizard tower, bomb tower, multiple target inferno tower. Before deploying air units, funnel the path so queen can take out air defences. If you are lucky to get queen survived, queen with healer can absorb lots of damages so to protect the main attacking troops nearby.
+
+To perform the queen charge, level up the queen to 45+ at least, ideally 60. The idea is to use queen charge to take out one corner of the base with eagle artillery better with multiple target inferno to create the L shape, so the troops can target the remaining buildings easily. If the queen made it to survive to the core at last, she can possibly absorb damages from Giga tesla so to support other troops.
+
+If attacking TH11 opponents, with 5 level 5 healers, 1 or 2 rage spells, queen should last long enough to clear one corner of the base. TH11 against TH12 using queen charge is not a good idea as queen is very fragile against high DpS structures. For example, attacking high level TH12, queen cannot survive in range of 2 level 6 X-Bows with other defensing buildings or another queen.
+
+One major issue is that queen may lost support from healers. For example, each air seeking mine x 3 is a menace to healer; air defence takes down healer very quickly; air bombs deals splash damages to healers.
+
+In queen charge, you need watch out for healers very closely. For example, make sure queen and healer are close to the air blower. If the healers are pushed back by air blower, queen will immediately die if under attack from 2 or more single unit buildings. If the healer is distracted by troops nearby when queen is under attack, queen will die very soon. Always have a plan for queen got destroyed too early.
+
+Air defence and air seeking mine can destroy healers very fast. Experts always deploy a balloon first to trigger air seeking mine. Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
+
+Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Or, you can use queen's cloak ability which makes queen disappear for 5 seconds and recover a small portion of HP. Queen's ability is better saved when massive DpS is needed.
+
+Queen's enemies also are tesla farm, single mode inferno.
+
+Keep the queen alive is one of the key. Always watching out on queen's health and danger zones. Often the case, when you were deploying other troops, from the bar, you saw queen's HP is high so let guard down. But a second later, queen got destroyed when entered a danger zone covered by multiple combinations of long range buildings.
+
+One drawback is 5 healers take up 70 housing space already. You only have 210 housing space for others.
+
+Another drawback of queen charge is it is slow to create the funnel as queen is fighting alone most of the time. Don't let the queen fight alone for too along, the attack ends in only 3 minutes.
+
+Planning for queen is another key. To move queen forward, some funneling troop like giants/wizards, hog rider, pekka can clear some building which may distract the queen. Once the queen is in the core, she will sometimes go back to clear some trash building and keep hitting walls so get the time wasted.
+
+Ideally, queen can destroy eagle artillery, take down CC troops, and one inferno tower, use other killer squads for other inferno towers, or use bowler witch clear the outside buildings, keep the remaining buildings on a narrowed path being attacked.
+
+##### Taking Eagle Artillery
+
+Usually queen's mission is to destroy eagle artillery before it's activated, and funnel for the troops.
+
+Eagle Artillery targets the area with the largest density of hitpoints. It fires a volley of three successive shots at regular 10 second intervals.
+
+- Level 2 HP 4,400, damage per hit is 350
+- Level 3 HP 4,800, damage per hit is 400
+
+Eagle Artillery will be activated after 180 - 200 housing spaces worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces.
+
+It's better to take out eagle artillery first before it's activated. Deploy more than 180 troops will activate the eagle artillery. Hero counts as 25, wall wrecker counts as 1, spell counts as 5. But when the CC troop is out, the total amount will increase dramatically. As the healers take 70 already, there is not much room left to avoid activating eagle artillery.
+
+Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
+
+Inferno tower range 9, multiple target 5
+
+- Inferno tower level 4, HP 2400, DpS 57 when set to multiple, DpS 155 when set to single after 1.5s and DpS 1,550 after 5.25s
+- Inferno tower level 5, HP 2700, DpS 70 when set to multiple, DpS 175 when set to single after 1.5s and DpS 1,750 after 5.25s
+- Inferno tower level 6, HP 3000, DpS 81 when set to multiple, DpS 200 when set to single after 1.5s and DpS 2,000 after 5.25s
+
+multiple is against miner, bowler, hog rider strategy, single is again queen charge strategy.
+
+Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 damage when destroyed.
+
+As the level 5 giga tesla targets 4 troops so it's better have queen and healers around it to absorb damages for other troops. Also giga tesla will deal 1000 damages on attacking troops around it, attack the town hall at last or use Warden's ability is Warden is nearby.
+
+Cannon range 9
+
+- Cannon level 14 HP 1,380, DpS 110
+- Cannon level 15 HP 1,500, DpS 118
+
+Archer tower range 10
+
+- Archer tower level 14, HP 1,130, DpS 92
+- Archer tower level 15, HP 1,230, DpS 104
+
+X-bows range 14
+
+- X-bows level 4 HP 2,700, DpS 95
+- X-bows level 5 HP 3,100, DpS 125
+- X-bows level 6 HP 3,500, DpS 155
+
+### Level 4 Bowler
+
+If your opponent's base is too crowded or the the defensing is very centered, bowler can deal massive damages to close buildings as the stone deals damages on the line. Witch and a couple of giants are great companions for bowler.
+
+Bowler and Witch (BoWitch) without wall wrecker
+
+The combination for BoWitch includes 20 Bowlers and 6-7 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you will take max golem and 1 max giant and rage spell.
+
+First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden, king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
+
+This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
+
+Bowler and Witch (BoWitch) with wall wrecker
+
+<https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
+
+Bowler and Queen charge
+
+### Level 6 Miner / hog rider
+
+Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
+
+### TH12 air
+
+There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences, it's a perfect target for electro dragons, drag bat strategies.
+
 ## League
 
 ![League](https://www.allclash.com/farming-elixir-strategy/star-and-league-bonus/)
@@ -1106,4 +1445,161 @@ A variation with queen walk
 [Flammy's Strategy Guides](https://clashofclans.fandom.com/wiki/Flammy%27s_Strategy_Guides)
 
 <https://www.allclash.com/>
+
+<http://www.cocland.com>
+
 <https://www.clashpedia.com/>
+
+<https://www.clashtrack.com/>
+
+<https://www.clashfordummies.com/>
+
+## Progress
+
+### superman
+
+TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
+
+Maximize the troops
+
+- Barbarian lvl 8 Max, now 7
+- Archer lvl 8 Max, now 7
+- Giant lvl 9 Max
+- Goblin lvl 8 Max, now 6
+- Wall breakers lvl 8 Max, now 6
+- Balloon lvl 8 Max
+- Wizard lvl 9 Max, now 8
+- Healer lvl 5 Max
+- Dragon lvl 7 Max
+- PEKKA lvl 8 Max
+- Baby dragon lvl 6 Max, now 4
+- Miner lvl 6 Max
+- Electro Dragon lvl 3 Max
+- Minion lvl 8 Max, now 6
+- Hog rider lvl 9 Max, now 8
+- Valkyrie lvl 7 Max
+- Golem lvl 8 Max, now 5
+- Witch lvl 5 Max, now 4
+- Lava Hound lvl 5 Max
+- Bowler lvl 4 Max
+- Ice golem lvl 5 Max, now 1
+
+Seige machine
+
+- wall wrecker 3 Max, now 1
+- Blimp 3 Max, now 2
+- stone slammer 3 Max, now 1
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max
+- Clone lvl 5 Max, now 2
+- Poison lvl 5 Max, now 2
+- Earthquake lvl 4 Max, now 2
+- Haste lvl 4 Max, now 1
+- Skeleton lvl 5 Max, now 1
+- Bat lvl 5 Max, now 3
+
+Defence
+
+wall: 1 level 9, 218 level 10, 81 level 11 as of 05/02/2019
+
+### warshong
+
+TH 12 Level 168, King 35 Queen 47 Warden 20 as of 05/02/2019
+
+Maximize the troops
+
+- Barbarian lvl 8 Max
+- Archer lvl 8 Max
+- Giant lvl 9 Max, now 8
+- Goblin lvl 8 Max, now 5
+- Wall breakers lvl 8 Max, now 7
+- Balloon lvl 8 Max, now 7
+- Wizard lvl 9 Max, now 8
+- Healer lvl 5 Max
+- Dragon lvl 7 Max, now 6
+- PEKKA lvl 8 Max, now 7
+- Baby dragon lvl 6 Max, now 3
+- Miner lvl 6 Max, now 6
+- Electro Dragon lvl 3 Max, now 2
+- Minion lvl 8 Max, now 5
+- Hog rider lvl 9 Max, now 6
+- Valkyrie lvl 7 Max, now 6
+- Golem lvl 8 Max, now 7
+- Witch lvl 5 Max, now 2
+- Lava Hound lvl 5 Max, now 4
+- Bowler lvl 4 Max
+- Ice golem lvl 5 Max, now 2
+
+Seige machine
+
+- wall wrecker 3 Max, now 3
+- Blimp 3 Max, now 1
+- stone slammer 3 Max, now 1
+
+Maximize the spells
+
+- Lighting lvl 7 Max, now 6
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max, now 5
+- Clone lvl 5 Max, now 2
+- Poison lvl 5 Max, now 4
+- Earthquake lvl 4 Max, now 3
+- Haste lvl 4 Max, now 2
+- Skeleton lvl 5 Max, now 1
+- Bat lvl 5 Max, now 1
+
+Defence
+
+wall: 163 level 10, 134 level 11, 3 level 12, as of 05/02/2019
+
+### givemepower8
+
+Queen lvl 29, King lvl 40, Great warden lvl 8 as of 05/02/2019
+
+Maximize the troops
+
+- Barbarian lvl 8 Max, now 7
+- Archer lvl 8 Max
+- Giant lvl 8
+- Goblin lvl 7 Max, now 6
+- Wall breakers lvl 7, now 5
+- Balloon lvl 7, now 6
+- Wizard lvl 8, now 7
+- Healer lvl 5 Max
+- Dragon lvl 6, now 5
+- PEKKA lvl 7
+- Baby dragon lvl 5, now 4
+- Miner lvl 5
+- Electro Dragon lvl 2, now 1
+- Minion lvl 7, now 6
+- Hog rider lvl 7, now 6
+- Valkyrie lvl 6, now 5
+- Golem lvl 7, now 5
+- Witch lvl 4, now 2
+- Lava Hound lvl 4, now 3
+- Bowler lvl 3
+- Ice golem lvl 3, now 1
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max, now 5
+- Clone lvl 5 Max, now 1
+- Poison lvl 5 Max, now 3
+- Earthquake lvl 4 Max
+- Haste lvl 4 Max, now 3
+- Skeleton lvl 4, now 2
+- Bat lvl 4, now 1
+
+wall: 211 level 10, 89 level 11, as of 05/02/2019
