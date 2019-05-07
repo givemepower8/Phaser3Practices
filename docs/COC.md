@@ -290,7 +290,7 @@ Unlocked at Unlocked at TH 8.
 
 No preferred target. Sometimes in cell base, PEKKA will get distracted easily. You need to create funnels to make best use of it.
 
-Strength: High HP and DpS, can absorb lots of damage.
+Strength: High HP and DpS, can absorb lots of damage, Level 6 rules in TH10.
 
 Weakness: Attack speed is a bit low.
 
@@ -369,7 +369,7 @@ Weakness:
 
 ### Minion
 
-Unlocked at Unlocked at TH 7.
+Unlocked at TH 7.
 
 [Minion](https://clashofclans.fandom.com/wiki/Minion) is a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion.
 
@@ -386,7 +386,7 @@ Unlocked at Unlocked at TH 7.
 
 ### Hog rider
 
-Unlocked at Unlocked at TH 7 and dark barrack level 2.
+Unlocked at TH 7 and dark barrack level 2.
 
 5 housing space, attack speed 1s, move speed: 24, range: 0.6 tile
 
@@ -573,7 +573,7 @@ Radius 2 tiles, Random Radius 3.5 tiles, Number of Strikes 6, Time Between Strik
 
 ### Healing
 
-It's vital for keeping hog riders, miners live.
+It's vital for keeping hog riders, miners live longer.
 
 One spell lasts 12 seconds.
 
@@ -591,7 +591,7 @@ Radius 5, Number of Pulses 40, Time Between Pulses 0.3s, Housing Space 2, Brewin
 
 ### Rage
 
-It's a must-have for boosting attacking. One spell lasts 18 seconds.
+It's a must-have for boosting attacking.
 
 One rage spell lasts 18 seconds.
 
@@ -1459,7 +1459,7 @@ Bowler and Queen charge
 
 Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
 
-#### TH12 level 8 PEKKA smash
+#### TH12 level 8 PEKKA
 
 King's attack speed 1.2s, move speed 16, range 1 tile, search range 9 tiles
 
@@ -1473,6 +1473,12 @@ PEKKA attack speed 1.8s, move speed 16, range 0.8 tile, housing space 25
 - Level 8 PEKKA HP 6,300 DpS 610, DpA 1098
 
 Level 7 PEKKA is kind of a level 50 king and Level 8 PEKKA is kind of a level 55 king.
+
+PEKKA smash strategy
+
+PeBoBat strategy
+
+PEKKA + Bowler + Bat spell
 
 #### TH12 Electro dragon
 
@@ -1506,7 +1512,10 @@ There are lots of ground defensing systems, but for air, there are not that much
 
 ### superman
 
-TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
+- TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
+- TH 12 Level 186, King 33 Queen 53 Warden 18 as of 05/07/2019
+
+  wall: 1 level 9, 218 level 10, 81 level 11 as of 05/02/2019
 
 Maximize the troops
 
@@ -1552,13 +1561,12 @@ Maximize the spells
 - Skeleton lvl 5 Max, now 1
 - Bat lvl 5 Max, now 3
 
-Defence
-
-wall: 1 level 9, 218 level 10, 81 level 11 as of 05/02/2019
-
 ### warshong
 
-TH 12 Level 168, King 35 Queen 47 Warden 20 as of 05/02/2019
+- TH 12 Level 168, King 35 Queen 47 Warden 20 as of 05/02/2019
+- TH 12 Level 169, King 35 Queen 48 Warden 20 as of 05/07/2019
+
+wall: 163 level 10, 134 level 11, 3 level 12, as of 05/02/2019
 
 Maximize the troops
 
@@ -1604,13 +1612,12 @@ Maximize the spells
 - Skeleton lvl 5 Max, now 1
 - Bat lvl 5 Max, now 1
 
-Defence
-
-wall: 163 level 10, 134 level 11, 3 level 12, as of 05/02/2019
-
 ### givemepower8
 
-Queen lvl 29, King lvl 40, Great warden lvl 8 as of 05/02/2019
+- TH 11 Level 150, King lvl 29, Queen lvl 40, Great warden lvl 8 as of 05/02/2019
+- TH 11 Level 151, King lvl 30, Queen lvl 40, Great warden lvl 8 as of 05/07/2019
+
+wall: 211 level 10, 89 level 11, as of 05/02/2019
 
 Maximize the troops
 
@@ -1649,5 +1656,3 @@ Maximize the spells
 - Haste lvl 4 Max, now 3
 - Skeleton lvl 4, now 2
 - Bat lvl 4, now 1
-
-wall: 211 level 10, 89 level 11, as of 05/02/2019
