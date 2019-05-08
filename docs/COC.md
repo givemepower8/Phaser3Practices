@@ -1480,6 +1480,19 @@ PeBoBat strategy
 
 PEKKA + Bowler + Bat spell
 
+4 PEKKA
+3 Wizard
+2 Archer 
+10 Bowler
+4 Healer
+10 Hog Rider
+1 Rage
+6 Bat
+1 Poison
+2 Freeze
+ Wall wrecker 1 PEKKA + 1 Ice Golem + 1 Rage
+ <https://www.youtube.com/watch?v=ukKuTDAApMw>
+
 #### TH12 Electro dragon
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences, it's a perfect target for electro dragons, drag bat strategies.
