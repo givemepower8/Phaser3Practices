@@ -1702,6 +1702,40 @@ PEKKA + Bowler + Bat spell
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences, it's a perfect target for electro dragons, drag bat strategies.
 
+If the trash buildings in the base spread out all over the map, it's not a good idea to use electro dragon as the electro dragon moves very slow.
+
+If lots of trash buildings are outside the wall and the defence buildings are condensed, it's a good target.
+
+Electro dragon strategy is quite easy:
+
+- 12 balloons, 1 baby dragon, 7 electro dragons, 3 rage spells, 5 freeze spells
+- choose attack path
+  - no air sweeper covered on the way, don't move forward against the air push unless rage or haste will be used
+  - close to eagle artillery to so take it as soon as possible
+  - any exposed air defence so the king or queen can do a suicide attack
+  - notice the possible freeze spell drop position, make sure it can cover most of the defence building
+- deploy the siege machine and a wall of balloons
+  - battle blimp or or stone hammer with 8 more CC balloons and 1 rage
+  - spread the balloons so they are not very close to each other to avoid air bomb
+  - two rage side by side when balloons enter in
+- deploy the funneling team to clean up both sides so to keep the dragons in the middle, the narrower, the better
+  - baby dragons on one side
+  - queen on the other side
+  - when baby dragon is destroyed, put king to carry on
+- deploy the 7 electro dragons in a line
+- deploy Warden in air following the dragons
+- use freeze spells timely later on
+
+The main obstacle of electro dragon is air sweeper, air defence, single target inferno.
+
+At this time, while the electro dragons are slowly marching, you need to protect them. You have 5 freeze spells. Watch out for the army marching forward, you have 5 freeze spells, use it when the army in contact with inferno, air blower, air defence in range, cover as many as you can.
+
+And you have two rage spells, don't drop them directly on the troops, focus on the target to destroy, drop it 2 tiles before the area they will enter in.
+
+If the dragon in Warden's range is locked by eagle artillery, after eagle artillery fired, use Warden's ability.
+
+Also watch out for king's and queen's hp, use abilities timely.
+
 #### TH12 Dragon Bat
 
 #### TH12 Spells
@@ -1732,6 +1766,8 @@ Clear the air defences, air bombs, wizard towers, then 6 bat spell will take ove
 
 <https://www.clashfordummies.com/>
 
+<https://www.clashfarmer.com>
+
 ## Progress
 
 ### superman
@@ -1745,24 +1781,24 @@ Maximize the troops
 
 - Barbarian lvl 8 Max, now 7
 - Archer lvl 8 Max, now 7
-- Giant lvl 9 Max
+- x Giant lvl 9 Max
 - Goblin lvl 8 Max, now 6
 - Wall breakers lvl 8 Max, now 6
-- Balloon lvl 8 Max
+- x Balloon lvl 8 Max
 - Wizard lvl 9 Max, now 8
-- Healer lvl 5 Max
-- Dragon lvl 7 Max
-- PEKKA lvl 8 Max
+- x Healer lvl 5 Max
+- x Dragon lvl 7 Max
+- x PEKKA lvl 8 Max
 - Baby dragon lvl 6 Max, now 4
-- Miner lvl 6 Max
-- Electro Dragon lvl 3 Max
+- x Miner lvl 6 Max
+- x Electro Dragon lvl 3 Max
 - Minion lvl 8 Max, now 6
 - Hog rider lvl 9 Max, now 8
-- Valkyrie lvl 7 Max
+- x Valkyrie lvl 7 Max
 - Golem lvl 8 Max, now 5
 - Witch lvl 5 Max, now 4
-- Lava Hound lvl 5 Max
-- Bowler lvl 4 Max
+- x Lava Hound lvl 5 Max
+- x Bowler lvl 4 Max
 - Ice golem lvl 5 Max, now 1
 
 Seige machine
@@ -1794,26 +1830,26 @@ wall: 163 level 10, 134 level 11, 3 level 12, as of 05/02/2019
 
 Maximize the troops
 
-- Barbarian lvl 8 Max
-- Archer lvl 8 Max
+- x Barbarian lvl 8 Max
+- x Archer lvl 8 Max
 - Giant lvl 9 Max, now 8
 - Goblin lvl 8 Max, now 5
 - Wall breakers lvl 8 Max, now 7
 - Balloon lvl 8 Max, now 7
 - Wizard lvl 9 Max, now 8
-- Healer lvl 5 Max
+- x Healer lvl 5 Max
 - Dragon lvl 7 Max, now 6
 - PEKKA lvl 8 Max, now 7
 - Baby dragon lvl 6 Max, now 3
-- Miner lvl 6 Max, now 6
-- Electro Dragon lvl 3 Max, now 2
+- x Miner lvl 6 Max
+- x Electro Dragon lvl 3 Max
 - Minion lvl 8 Max, now 5
 - Hog rider lvl 9 Max, now 6
 - Valkyrie lvl 7 Max, now 6
 - Golem lvl 8 Max, now 7
 - Witch lvl 5 Max, now 2
 - Lava Hound lvl 5 Max, now 4
-- Bowler lvl 4 Max
+- x Bowler lvl 4 Max
 - Ice golem lvl 5 Max, now 2
 
 Seige machine
@@ -1846,17 +1882,17 @@ wall: 211 level 10, 89 level 11, as of 05/02/2019
 Maximize the troops
 
 - Barbarian lvl 8 Max, now 7
-- Archer lvl 8 Max
-- Giant lvl 8
+- x Archer lvl 8 Max
+- x Giant lvl 8
 - Goblin lvl 7 Max, now 6
 - Wall breakers lvl 7, now 5
 - Balloon lvl 7, now 6
 - Wizard lvl 8, now 7
-- Healer lvl 5 Max
+- x Healer lvl 5 Max
 - Dragon lvl 6, now 5
-- PEKKA lvl 7
+- x PEKKA lvl 7
 - Baby dragon lvl 5, now 4
-- Miner lvl 5
+- x Miner lvl 5
 - Electro Dragon lvl 2, now 1
 - Minion lvl 7, now 6
 - Hog rider lvl 7, now 6
@@ -1864,19 +1900,19 @@ Maximize the troops
 - Golem lvl 7, now 5
 - Witch lvl 4, now 2
 - Lava Hound lvl 4, now 3
-- Bowler lvl 3
+- x Bowler lvl 3
 - Ice golem lvl 3, now 1
 
 Maximize the spells
 
-- Lighting lvl 7 Max
-- Healing lvl 7 Max
-- Rage lvl 5 Max
-- Jump lvl 3 Max
+- x Lighting lvl 7 Max
+- x Healing lvl 7 Max
+- x Rage lvl 5 Max
+- x Jump lvl 3 Max
 - Freeze lvl 7 Max, now 5
 - Clone lvl 5 Max, now 1
 - Poison lvl 5 Max, now 3
-- Earthquake lvl 4 Max
+- x Earthquake lvl 4 Max
 - Haste lvl 4 Max, now 3
 - Skeleton lvl 4, now 2
 - Bat lvl 4, now 1
