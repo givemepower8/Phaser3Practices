@@ -1186,6 +1186,14 @@ A variation with queen walk
 - 1 Freeze Spell
 - 1 Haze Spell
 
+Bowler and Witch (BoWitch) without wall wrecker
+
+The combination for BoWitch includes 20 Bowlers and 6-7 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you will take max golem and 1 max giant and rage spell.
+
+First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden, king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
+
+This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
+
 [farming elixir strategy](https://www.allclash.com/farming-elixir-strategy/)
 
 <https://www.allclash.com/farming-strategies-for-all-town-hall-level/>
@@ -1439,19 +1447,24 @@ Hidden Tesla x 5, range 7
 
 #### TH12 Level 4 Bowler
 
-If your opponent's base is too crowded or the the defensing is very centered, bowler can deal massive damages to close buildings as the stone deals damages on the line. Witch and a couple of giants are great companions for bowler.
+If the opponent's base is very crowded on one path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the stone deals damages on the line.
 
-Bowler and Witch (BoWitch) without wall wrecker
+Or the the defense buildings are centralized in the core, bowler strategy will work well.
 
-The combination for BoWitch includes 20 Bowlers and 6-7 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you will take max golem and 1 max giant and rage spell.
-
-First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden, king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
-
-This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
+Witch and a couple of giants are great companions for bowler.
 
 Bowler and Witch (BoWitch) with wall wrecker
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
+
+- 2 Golem
+- 10 Witch
+- 16 Bowler
+- 2 Minion
+- 7 Bat spell
+- 1 rage spell
+- 2 freeze spell
+- Wall wrecker and CC 5 Bowler + 1 Rage spell
 
 Bowler and Queen charge
 
@@ -1476,28 +1489,49 @@ Level 7 PEKKA is kind of a level 50 king and Level 8 PEKKA is kind of a level 55
 
 PEKKA smash strategy
 
+PEKKA is very strong, but one problem is that PEKKA is too slow. It's great when it's enraged. In that case, PEKKA goes well with healers and bowlers which can benefit from rage spell.
+
+- 5 PEKKA
+- 4 Wizard
+- 8 Bowler
+- 4 Healer
+- 1 Balloon
+- 1 electro dragon
+- 3 Rage spell
+- 1 Jump spell
+- 1 Healing spell
+- 1 Freeze spell
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
 PeBoBat strategy
 
 PEKKA + Bowler + Bat spell
 
-4 PEKKA
-3 Wizard
-2 Archer 
-10 Bowler
-4 Healer
-10 Hog Rider
-1 Rage
-6 Bat
-1 Poison
-2 Freeze
- Wall wrecker 1 PEKKA + 1 Ice Golem + 1 Rage
- <https://www.youtube.com/watch?v=ukKuTDAApMw>
+- 4 PEKKA
+- 3 Wizard
+- 2 Archer
+- 10 Bowler
+- 4 Healer
+- 10 Hog Rider
+- 1 Rage spell
+- 6 Bat spell
+- 1 Poison spell
+- 2 Freeze spell
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
+<https://www.youtube.com/watch?v=ukKuTDAApMw>
 
 #### TH12 Electro dragon
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences, it's a perfect target for electro dragons, drag bat strategies.
 
 #### TH12 Dragon Bat
+
+#### TH12 Spells
+
+##### Bat spell
+
+Clear the air defences, air bombs, wizard towers, then 6 bat spell will take over the rest.
 
 ## League
 
