@@ -1738,12 +1738,6 @@ Also watch out for king's and queen's hp, use abilities timely.
 
 #### TH12 Dragon Bat
 
-#### TH12 Spells
-
-##### Bat spell
-
-Clear the air defences, air bombs, wizard towers, then 6 bat spell will take over the rest.
-
 ## League
 
 ![League](https://www.allclash.com/farming-elixir-strategy/star-and-league-bonus/)
