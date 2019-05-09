@@ -1,6 +1,6 @@
 # COC
 
-Wisely dispatch troops to destroy opponent's defensing system and town hall. For a multiplayer battle, player gets one star by 50% more destruction, one star by destroying the town hall, three stars by 100% destruction. In a clan war, leader decides the size of players, each player has two attacks, the clan who gets more stars wins the clan war. If two clans get the same number of stars, the clan has more destruction rate wins the war.
+Wisely deploy troops to destroy opponent's defensing system and town hall. For a multiplayer battle, player gets one star by 50% more destruction, one star by destroying the town hall, three stars by 100% destruction. In a clan war, leader decides the size of players, each player has two attacks, the clan who gets more stars wins the clan war. If two clans get the same number of stars, the clan has more destruction rate wins the war. In the league war, 7 days straight and one attack per player.
 
 ## Resources and Structures
 
@@ -61,9 +61,9 @@ Moving speed to tiles ratio is 0.125.
 
 Most of troops have no preferred target when attacking, i.e., Barbarian, Archer, Wizard, Dragon, PEKKA, Baby Dragon, Miner, Electro Dragon, Minion, Valkyrie, Witch.
 
-When troops have no preferred target when attacking, they will simply attack the closest building. However, once they become aware of enemy Clan Castle troops, Heroes, or Skeleton Trap skeletons (either by being attacked themselves or by being near another friendly troop under attack), they will leave their previously targeted building and instead engage the enemy troops. Once all of the nearby enemy troops are defeated, the Bowlers will proceed to attack the nearest structure.
+When troops have no preferred target when attacking, they will simply attack the closest building. However, once they become aware of enemy Clan Castle troops, heroes, or skeleton trap skeletons (either by being attacked themselves or by being near another friendly troop under attack), they will leave their previously targeted building and instead engage the enemy troops. Once all of the nearby enemy troops are defeated, the Bowlers will proceed to attack the nearest structure.
 
-If the path to the target is blocked by walls, they will attack the wall to try to get through and destroy the building. Miner can burrow through the walls.
+If the path to the target is blocked by walls, they will attack the wall to try to get through and destroy the building. Miner can burrow under the walls.
 
 For troops have preferred target, they will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield. This is true even if they are under attack by enemy Clan Castle troops, heroes or Skeleton Trap skeletons. Note that like all troops that prioritize defenses, Giants do not consider the Clan Castle to be a defense regardless of whether or not it contains enemy troops, but do consider the defending Grand Warden and the level 12 Town Hall(if its Giga Tesla has been triggered) to be defensive buildings.
 
@@ -73,7 +73,7 @@ For troops have preferred target, they will bypass all other types of enemy buil
 - Balloon prioritizes defensive structures above all other targets.
 - Hog Rider prioritizes defensive structures above all other targets.
 - Golem prioritizes defensive structures above all other targets.
-- Lava Hound prioritizes Air Defenses above all other target.
+- Lava Hound prioritizes air defenses above all other target.
 - Ice Golem prioritizes defensive structures above all other targets.
 
 ### Barbarian
@@ -122,7 +122,7 @@ Weakness: low HP, vulnerable to splash damage and spells.
 
 ### Giant
 
-Unlocked at Unlocked at TH 3.
+Unlocked at TH 3.
 
 5 housing space, attack speed 2s, move speed: 12, range: 1 tile
 
@@ -132,7 +132,7 @@ Strength: higher HP so better distracting troop to protect the group.
 
 Weakness: Slow and low attack. Giant will ignore troops while any defensive structures in range so it's vulnerable to defensing heros.
 
-Giant is terrible at tearing down walls, must go with wizard as a meat shield.
+Giant is terrible at tearing down walls, must go with wizards as a meat shield for them.
 
 | Level | DpS | DpA | HP    | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | --- | ----- | ----- | ------------- | ---------- | ------------- |
@@ -162,7 +162,9 @@ Weakness: low HP, vulnerable to splash damage and spells.
 
 ### Wall breaker
 
-Unlocked at TH 4. It's on the top priority to develop.
+Unlocked at TH 4.
+
+It should be on your top priority list to develop.
 
 2 housing space, attack speed 1s, move speed: 24, range: 1 tile
 
@@ -212,7 +214,9 @@ Weakness: slowest unit. Vulnerable to air defences.
 
 ### Wizard
 
-Unlocked at Unlocked at TH 5. It's on the top priority to develop.
+Unlocked at TH 5.
+
+It should be on your top priority list to develop.
 
 4 housing space, attack speed 1.5s, move speed: 16, range: 3 tiles
 
@@ -236,7 +240,7 @@ Weakness: Fairly low HP so must go with some tanks like golem, pekka.
 
 ### Healer
 
-Unlocked at Unlocked at TH 7.
+Unlocked at TH 7.
 
 Healers will heal Heroes at a reduced rate of only 55% of her normal healing rate.
 
@@ -262,7 +266,7 @@ Weakness: no attack, vulnerable to any air defence
 
 [Dragon](https://clashofclans.fandom.com/wiki/Dragon)
 
-Unlocked at Unlocked at TH 7.
+Unlocked at TH 7.
 
 20 housing space, attack speed 1.25s, move speed: 16, range: 3 tiles
 
@@ -284,13 +288,13 @@ Weakness: If the base layout is not condensed, dragon may get distracted and cir
 
 ### PEKKA
 
-Unlocked at Unlocked at TH 8.
+Unlocked at TH 8.
 
 25 housing space, attack speed 1.8s, move speed: 16, range: 0.8 tile
 
-No preferred target. Sometimes in cell base, PEKKA will get distracted easily. You need to create funnels to make best use of it.
+No preferred target. Sometimes in cell base, PEKKA will get distracted easily when choosing closest. You need to create funnels to make best use of it.
 
-Strength: High HP and DpS, can absorb lots of damage, Level 6 rules in TH10.
+Strength: High HP and DpS, one high level pekka is like a king. It can absorb lots of damage, Level 6 rules in TH10.
 
 Weakness: Attack speed is a bit low.
 
@@ -307,9 +311,11 @@ Weakness: Attack speed is a bit low.
 
 ### Baby dragon
 
-Unlocked at Unlocked at TH 9.
+Unlocked at TH 9.
 
-[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon. It's good for creating funnels.
+[Baby dragon](https://clashofclans.fandom.com/wiki/Baby_Dragon/Home_Village) is like a mini dragon.
+
+It's good for creating funnels, cleaning up, test air bombs, etc.,.
 
 10 housing space, area splash 0.3 Tile, attack speed 1s, move speed: 16, range: 2.75 tiles.
 
@@ -328,7 +334,7 @@ Weakness: HP is not as endurable as dragon so more vulnerable to splash damage i
 
 ### Miner
 
-Unlocked at Unlocked at TH 10.
+Unlocked at TH 10.
 
 [Miner](https://clashofclans.fandom.com/wiki/Miner) is often used with hero's support.
 
@@ -336,7 +342,7 @@ Miner takes 6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
 
 Strength: Can burrow under walls.
 
-Weakness: Vulnerable to splash damage building like bomb tower, also vulnerable to giant bomb.
+Weakness: Vulnerable to splash damage building like bomb tower, also vulnerable to giant bomb. No preferred targets so miner only goes after the closest building.
 
 For TH12 opponents with maximized Giga tesla, miner strategy is a bit risky sometimes it deals with lots of destruction but gets only one star.
 
@@ -353,19 +359,19 @@ Miners' good companions are healers or meat shields around them. witches are goo
 
 ### Electro Dragon
 
-Unlocked at Unlocked at TH 11.
+Unlocked at TH 11.
 
 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
-Strength:
+Strength: High HP and DpS
 
-Weakness:
+Weakness: Slow attack speed.
 
 | Level | DpS | DpA   | Damage when destroyed | HP    | Cost   | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | --------------------- | ----- | ------ | ------------- | ---------- | ------------- |
-| 1     | 240 | 840   | 50 x6                 | 3,200 | 28,000 | N/A           | N/A        | N/A           |
-| 2     | 270 | 945   | 55 x6                 | 3,700 | 32,000 | 9,000,000     | 9          | 10 days       |
-| 3     | 300 | 1,050 | 60 x6                 | 4,200 | 36,000 | 11,000,000    | 10         | 14 days       |
+| 1     | 240 | 840   | 50 x 6                | 3,200 | 28,000 | N/A           | N/A        | N/A           |
+| 2     | 270 | 945   | 55 x 6                | 3,700 | 32,000 | 9,000,000     | 9          | 10 days       |
+| 3     | 300 | 1,050 | 60 x 6                | 4,200 | 36,000 | 11,000,000    | 10         | 14 days       |
 
 ### Minion
 
@@ -627,11 +633,40 @@ It's a must-have for taking CC troops.
 
 ### Haste
 
-For slow air attacking units.
+Haste does not increase damage but it increases more speed. Also it's housing capacity is only 1 as the rage is 2. It only lasts 10 seconds. It goes well with air troops.
 
 ### Skeleton
 
+Skeleton spells could be very effective against single target inferno towers and other single target defence buildings. The skeletons will be able to distract the defences while other troops finish it off. However, multiple target inferno towers or splash damage dealing buildings like wizard tower wipes out the skeletons very quickly.
+
+Skeleton works great in a open battle base. And it's a great add-on for hot rider as they will clear off the trash building quickly. For miners in a open fields, they can following with miners to speed up.
+
+Skeleton spells can be used to destroy unguarded defenses with dead zones like the mortar or eagle artillery.
+
+Each skeleton HP 30, move speed 24, DpS 25
+
+- Level 2, 18 skeleton, TH10, DpS 450
+- Level 3, 22 skeleton, TH10, DpS 550
+- Level 4, 26 skeleton, TH11, DpS 650
+- Level 5, 30 skeleton, TH12, DpS 750
+
 ### Bat
+
+Bat prioritize defensive structures above all other targets, and will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield.
+Bats can distract and destroy most single-target exposed defenses relatively easily.
+
+A good strategy for bat spell would be to place a lot of them down near the center of the base, along with a rage spell and a freeze spell aiming to destroy single target inferno Towers, air Defenses, and the eagle artillery at the beginning of an attack.
+
+The issue with bat is that they can easily be stopped by wizard towers, air bombs, and multi target inferno towers, air mode x-bows, cannons and archer towers. To avoid that, choose a starting point so to make the most use of it.
+
+Another strategy is use bar at the end of attack to clean up.
+
+Each bat HP 20, move speed 56, attack speed 2s, DpS 30
+
+- Level 2, 9 bat, TH10, DpS 270
+- Level 3, 11 bat, TH10, DpS 330
+- Level 4, 16 bat, TH11, DpS 480
+- Level 5, 21 bat, TH12, DpS 630
 
 ## Heroes
 
@@ -1158,11 +1193,11 @@ Baby dragon is cheap for removing the outside trash building. Keep it away from 
 
 Use queen and 5 healers to clear one side, use baby dragon, king and warden the other side to clear the buildings within range. Once the outside is a bit cleared, send in the miners and make them alive with health spell and freeze spell. King has to be a bit strong to absorb damages, and king might not survive at last. But at that time, warden come to middle to help out the minors.
 
-Lavaloonian
+Lava loonian
 
 A little bit costy but very effective.
 
-- 3 Lavahound
+- 3 Lava hound
 - 26 Balloons
 - 21 Minions
 - 4 Wall Breakers
@@ -1257,8 +1292,8 @@ Maximize the spells
 Maximize the defence
 
 - Cannon lvl 17 x 7, can gear up
-- Archer tower lvl 17 x 8, can gear up if archer tower in builder hall level 6.
-- Mortar lvl 11 x 4, can gear up
+- Archer tower lvl 17 x 8, can gear up if there is one level archer tower in builder hall level 6.
+- Mortar lvl 11 x 4, can gear up builder hall level 8.
 - Air defense lvl 10 x 4
 - Wizard tower lvl 11 x 5
 - Air sweeper lvl 7 x 2
@@ -1333,6 +1368,193 @@ Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 t
 - Level 25 Grand Warden HP 1,658 DpS 136, DpA 244.8. Eternal Tome 5.5s, Life Aura 60%.
 - Level 30 Grand Warden HP 1,833 DpS 168, DpA 302.4. Eternal Tome 6s, Life Aura 70%.
 
+#### TH12 enemy defences
+
+The first priority is to take out the eagle artillery.
+
+Eagle Artillery targets the area with the largest density of hitpoints. It fires a volley of three successive shots at regular 10 second intervals.
+
+- Level 2 HP 4,400, damage per hit is 350
+- Level 3 HP 4,800, damage per hit is 400
+
+It's better to take out eagle artillery first before it's activated.
+
+Eagle Artillery will be activated after 180 (level 2) - 200 housing spaces (level 3) worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces. Wall wrecker counts as 1, but when the CC troop is out, the total amount will add up quickly. As queen and warden take 50 already, the healers take 70 already, there is not much room left to avoid activating eagle artillery.
+
+Queen can avoid one hit by using the timely cloak ability.
+
+Warden can protect the troops covered in his range by timely ability as well.
+
+Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
+
+Inferno tower range 9, multiple target 5, TH11 has 2 and TH12 has 3.
+
+- Inferno tower level 4, HP 2400, DpS 57 when set to multiple, DpS 155 when set to single after 1.5s and DpS 1,550 after 5.25s, TH11
+- Inferno tower level 5, HP 2700, DpS 70 when set to multiple, DpS 175 when set to single after 1.5s and DpS 1,750 after 5.25s, TH11
+- Inferno tower level 6, HP 3000, DpS 81 when set to multiple, DpS 200 when set to single after 1.5s and DpS 2,000 after 5.25s, TH12
+
+Multiple target inferno is against miner, bowler, hog rider strategy.
+
+Single target inferno is against queen charge strategy, heroes, pekka, but a pack of hog riders, miners, bat spell or skeleton spell can take down one single target inferno easily.
+
+Queen charge can take down multiple target inferno easily as the DpS is fair low. If the wall is broken, Pekka and king can take down multiple target inferno easily. But for single target inferno, queen has to use cloak ability to take it down. King and Pekka do stand a chance without a timely freeze spell.
+
+X-bows x 4, range 14
+
+- X-bows level 4 HP 2,700, DpS 95, TH11
+- X-bows level 5 HP 3,100, DpS 125, TH11
+- X-bows level 6 HP 3,500, DpS 155, TH12
+
+X-bows are headaches for their long range and very high DpS. They shoot fast so they can destroy any low hp troop very quickly.
+
+Also they can set into air & ground mode to defeat the electro dragon strategy.
+
+Hidden Tesla x 5, range 7
+
+- Hidden Tesla level 9, HP 900, DpS 110, TH11
+- Hidden Tesla level 10, HP 950, DpS 120, TH12
+
+Hidden Tesla are hidden and will only expose themselves after 51% destruction, or any troops enter in 6 tiles range. Usually war base design put teslas in a farm so to sabotage the queen walk. 5 teslas DpS 600 can destroy queen or any troop nearby very quickly.
+
+Wizard tower x 5, range 7, attack speed 1.3s, splash 1 tile
+
+- Wizard tower level 9 HP 1,680, DpS 54, DpA 70.2
+- Wizard tower level 10 HP 2,000, DpS 62, DpA 80.6
+- Wizard tower level 11 HP 2,240, DpS 70, DpA 91
+
+Wizard tower causes splash damages which is the worst enemy to bat spells and skeletons spawned by witch, also barbarians and archers summoned by king and queen. Wizard can target air troops as well so they are deadly to balloons swarmed.
+
+Cannon x 7, range 9
+
+- Cannon level 14 HP 1,380, DpS 110
+- Cannon level 15 HP 1,500, DpS 118
+- Cannon level 16 HP 1,620, DpS 125
+- Cannon level 17 HP 1,740, DpS 132
+
+Archer tower x 8, range 10
+
+- Archer tower level 14, HP 1,130, DpS 92
+- Archer tower level 15, HP 1,230, DpS 104
+- Archer tower level 16, HP 1,330, DpS 116
+- Archer tower level 17, HP 1,430, DpS 122
+
+Cannon and Archer tower are single unit target defences which have fast attack speed.
+
+Geared up cannon or archer tower shoots fast but less range in burst mode.
+
+Mortar x 4, rage 4-11, attack speed 5s, splash 1.5s
+
+- Mortar level 9, HP 800, DpS 25, DpA 125, TH11
+- Mortar level 10, HP 800, DpS 30, DpA 150, TH11
+- Mortar level 11, HP 800, DpS 35, DpA 170, TH12
+
+A geared up multi mortar in home village requires a level 8 multi mortar in builder hall 8. Multi mortar has shorter range but shoots 3 at a time in burst mode.
+
+Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 damage when destroyed.
+
+As the level 5 giga tesla targets 4 troops so it's better have queen and healers around it to absorb damages for other troops. Also giga tesla will deal 1000 damages on attacking troops around it, attack the level 5 TH12 town hall at last or use Warden's ability is Warden is nearby to avoid that it wipes off all the attacking troops.
+
+Air sweeper x 2, range 1-15, attack speed 5s
+
+- Air sweeper level 6, HP 1,000, push strength 3.6 tiles
+- Air sweeper level 7, HP 1,050, push strength 4.0 tiles
+
+Air defense x 4,range 10
+
+- Air defense level 8 HP 1,200, DpS 320
+- Air defense level 9 HP 1,300, DpS 360
+- Air defense level 10 HP 1,400, DpS 400
+
+Air defense is a great menace for air troops and healers.
+
+#### TH12 Siege machine
+
+In TH12, workshop is unlocked. Level 3 workshop enables to build 3 type of siege machines.
+
+##### Wall wrecker
+
+Most war bases have the town hall centralized, wall breaker will break all the walls and obstacles between itself and the town hall. It disassembles when it arrives at the town hall and releases the CC troop. Wall wrecker is a powerful group attacking strategy as bowlers, pekkas, heros can follow along as the walls get broken. CC troop inside the wall wrecker will help the battle in the core.
+
+Some war base design leaves the town hall out at the corner so wall wreaker cannot benefit much.
+
+##### Battle blimp
+
+Like wall wreaker, battle blimp sends in the CC troop but by air.
+
+Battle blimp sends the CC troop on top of the town hall much quicker. In air troop strategy, it's often used with clone spell when battle blimps sends 8 balloons or 1 electro dragon and 1 balloon on top of town hall. Clone spell brings in more balloons or one more electro dragon to speed up the attack. With rage spell, it cause massive damage close to town hall which eases up the attacks by following air troops.
+
+Still, it the war base design has the town hall out at the edge, battle blimp is not that useful.
+
+##### Stone slammer
+
+Stone slammer does not care about where the town hall is located.
+
+#### TH12 Spells
+
+Don't use up the spells to early and don't be too conservative to use them. Timely spells can lead to victory.
+
+- Troop boosting spells, rage, haste, clone, jump
+- Enemy building destruction spells, lightening, earthquake, freeze
+- Enemy troop weakening spells, poison
+- summoning spells, skeleton, bat
+
+- Lightening lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 7 Max
+- Clone lvl 5 Max
+- Poison lvl 5 Max
+- Earthquake lvl 4 Max
+- Haste lvl 4 Max
+- Skeleton lvl 5 Max
+- Bat lvl 5 Max
+
+Lighting in TH12 is not quite useful any more as all the buildings have much higher HP.
+
+Healing is a must have for miners, hog riders, bowlers as it extends their lives for 12 seconds.
+
+Rage is a must have for queen change, bowlers, pekka, king, etc.,
+
+Freeze is a must have for attacking infernos, x-bows, giga teslas. For air troops, timely freeze on air defence is the key to win.
+
+Clone is only used in some special strategies like the electro dragon and balloon strategy.
+
+Poison is a must have in war to take down the CC troop. In raiding, usually not all your opponents have CC troop.
+
+Earthquake can get the wall breaker goes further but it's not that great.
+
+Haste does not increase damage but it increases more speed. Also it's housing capacity is only 1 as the rage is 2. It only lasts 10 seconds. It goes well with air troops.
+
+Skeleton spells could be very effective against single target inferno towers and other single target defence buildings. The skeletons will be able to distract the defences while other troops finish it off. However, multiple target inferno towers or splash damage dealing buildings like wizard tower wipes out the skeletons very quickly.
+
+Skeleton works great in a open battle base. And it's a great add-on for hot rider as they will clear off the trash building quickly. For miners in a open fields, they can following with miners to speed up.
+
+Skeleton spells can be used to destroy unguarded defenses with dead zones like the mortar or eagle artillery.
+
+Each skeleton HP 30, move speed 24, DpS 25
+
+- Level 2, 18 skeleton, TH10, DpS 450
+- Level 3, 22 skeleton, TH10, DpS 550
+- Level 4, 26 skeleton, TH11, DpS 650
+- Level 5, 30 skeleton, TH12, DpS 750
+
+Bat prioritize defensive structures above all other targets, and will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield.
+Bats can distract and destroy most single-target exposed defenses relatively easily.
+
+A good strategy for bat spell would be to place a lot of them down near the center of the base, along with a rage spell and a freeze spell aiming to destroy single target inferno Towers, air Defenses, and the eagle artillery at the beginning of an attack.
+
+The issue with bat is that they can easily be stopped by wizard towers, air bombs, and multi target inferno towers, air mode x-bows, cannons and archer towers. To avoid that, choose a starting point so to make the most use of it.
+
+Another strategy is use bar at the end of attack to clean up.
+
+Each bat HP 20, move speed 56, attack speed 2s, DpS 30
+
+- Level 2, 9 bat, TH10, DpS 270
+- Level 3, 11 bat, TH10, DpS 330
+- Level 4, 16 bat, TH11, DpS 480
+- Level 5, 21 bat, TH12, DpS 630
+
 #### TH12 Queen
 
 Queen has a very high DpS but low HP.
@@ -1395,56 +1617,6 @@ To enable the queen to move closer to the target, some funneling troop like gian
 
 Always have plan B for queen got destroyed too early.
 
-Eagle Artillery targets the area with the largest density of hitpoints. It fires a volley of three successive shots at regular 10 second intervals.
-
-- Level 2 HP 4,400, damage per hit is 350
-- Level 3 HP 4,800, damage per hit is 400
-
-It's better to take out eagle artillery first before it's activated.
-
-Eagle Artillery will be activated after 180 (level 2) - 200 housing spaces (level 3) worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces. Wall wrecker counts as 1, but when the CC troop is out, the total amount will add up quickly. As queen and warden take 50 already, the healers take 70 already, there is not much room left to avoid activating eagle artillery.
-
-Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
-
-Inferno tower range 9, multiple target 5
-
-- Inferno tower level 4, HP 2400, DpS 57 when set to multiple, DpS 155 when set to single after 1.5s and DpS 1,550 after 5.25s
-- Inferno tower level 5, HP 2700, DpS 70 when set to multiple, DpS 175 when set to single after 1.5s and DpS 1,750 after 5.25s
-- Inferno tower level 6, HP 3000, DpS 81 when set to multiple, DpS 200 when set to single after 1.5s and DpS 2,000 after 5.25s
-
-Multiple target inferno is against miner, bowler, hog rider strategy.
-
-Single target inferno is against queen charge strategy, heroes, pekka, but a pack of hog riders, miners, bat spell or skeleton spell can take down one single target inferno easily.
-
-Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 damage when destroyed.
-
-As the level 5 giga tesla targets 4 troops so it's better have queen and healers around it to absorb damages for other troops. Also giga tesla will deal 1000 damages on attacking troops around it, attack the level 5 TH12 town hall at last or use Warden's ability is Warden is nearby to avoid that it wipes off all the attacking troops.
-
-Cannon x 7, range 9
-
-- Cannon level 14 HP 1,380, DpS 110
-- Cannon level 15 HP 1,500, DpS 118
-- Cannon level 16 HP 1,620, DpS 125
-- Cannon level 17 HP 1,740, DpS 132
-
-Archer tower x 8, range 10
-
-- Archer tower level 14, HP 1,130, DpS 92
-- Archer tower level 15, HP 1,230, DpS 104
-- Archer tower level 16, HP 1,330, DpS 116
-- Archer tower level 17, HP 1,430, DpS 122
-
-X-bows x 4, range 14
-
-- X-bows level 4 HP 2,700, DpS 95
-- X-bows level 5 HP 3,100, DpS 125
-- X-bows level 6 HP 3,500, DpS 155
-
-Hidden Tesla x 5, range 7
-
-- Hidden Tesla level 9, HP 900, DpS 110
-- Hidden Tesla level 10, HP 950, DpS 120
-
 #### TH12 Level 4 Bowler
 
 If the opponent's base is very crowded on one path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the stone deals damages on the line.
@@ -1470,7 +1642,12 @@ Bowler and Queen charge
 
 #### TH12 level 6 Miner / level 9 hog rider
 
+Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
+Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
+
 Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
+
+If 5 hog riders managed to reach the inferno tower not covered by other defences, within 4 to 5 seconds they should be able to take down the inferno.
 
 #### TH12 level 8 PEKKA
 
