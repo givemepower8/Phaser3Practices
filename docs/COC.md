@@ -1817,6 +1817,7 @@ Maximize the spells
 
 ### warshong
 
+- TH 12 Level 161, King 32 Queen 39 Warden 20 as of 03/23/2019
 - TH 12 Level 168, King 35 Queen 47 Warden 20 as of 05/02/2019
 - TH 12 Level 169, King 35 Queen 48 Warden 20 as of 05/07/2019
 
@@ -1868,6 +1869,7 @@ Maximize the spells
 
 ### givemepower8
 
+- TH 11 Level 142, King lvl 25, Queen lvl 34, Great warden lvl 2 as of 03/23/2019
 - TH 11 Level 150, King lvl 29, Queen lvl 40, Great warden lvl 8 as of 05/02/2019
 - TH 11 Level 151, King lvl 30, Queen lvl 40, Great warden lvl 8 as of 05/07/2019
 
