@@ -492,11 +492,11 @@ Weakness:
 
 ### Lava Hound
 
-Unlocked at at TH 9 and dark barrack level 6.
+Unlocked at TH 9 and dark barrack level 6.
 
 30 housing space, attack speed 2s, move speed: 20, range: 1 tile
 
-Meat shield for other air troops.
+Lava hound is the air version golem. it's the meat shield for other air troops.
 
 | Level | DpS | DpA | Damage upon death | Lava pups | HP    | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | ----------------- | --------- | ----- | --------- | ------------------ | ---------- | ------------- |
@@ -900,19 +900,19 @@ With level 3 pekkas and one CC level 8 pekka, GoWiPe is pretty effective in TH8 
 
 PEKKA needs proper funneling. Outside building must be cleared up before pekka goes there, otherwise Pekka will chop the wall and go outside of the core to attack some trash building around the base.
 
-Look at the base layout and check where the majority of mortars are as they have long range and splash damage which wipes off wizards quickly. The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards which attack behind. Use rage in the first open compartment as it helps King and pekka damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures like hidden teslas are exposed at this moment, use rage one more time so to destroy town hall and teslas. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
+Look at the base layout and check where the majority of mortars are as they have long range and splash damage which wipes off wizards quickly. The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards which attack behind. Use rage in the first open compartment as it helps King and pekka deal damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures like hidden teslas are exposed at this moment, use rage one more time so to destroy town hall and teslas. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
 
 Send the king with the level 8 pekka as the main attacking troop, because rage spells work well on Pekka and king. Have one pekka with 3 to 5 wizards to destroy the outside building so inner pekkas can move forward and won't move outside. 3 to 5 wizards to clear the other outside.
 
-But for a nearly maxed out TH8, GoWiPe can get 2 stars easily, but you need luck to get 3 stars as PEKKA's attacking speed is slow, maybe the second wave will fail so PEKKAs will get destroyed by higher level defensing buildings like teslas and burst cannons after the second wave. The key is destroy the splash dealing building as soon as possible, and don't send in all the wizards at a time otherwise they will be wiped out by splash damage dealing buildings and great bombs. One PEKKA followed by 4 to 5 wizards are good enough.
+Wizards are the key for the win. For a nearly maxed out TH8, GoWiPe can get 2 stars easily, but you need luck to get 3 stars as PEKKA's attacking speed is slow without wizard's help. If wizards get hit on giant bomb or bomb, the second wave may fail as so PEKKAs will get destroyed by higher level defensing buildings like teslas and burst cannons if they are not destroyed fast. The key is destroy the splash dealing building as soon as possible as they kill wizards fast, and don't send in all the wizards at a time otherwise they will be wiped out by splash damage dealing buildings and great bombs. One PEKKA followed by 4 to 5 wizards are good enough.
 
 ##### TH8 GoWiVa
 
-For attacking some low level TH9, their base is a more open with less layer as they are covered by x-bows, massive valkyries can do better as x-bows can destroy wizards very quickly.
+GoWiVa is for attacking some low level TH9, their base is a more open with less layer as they are covered by x-bows, valkyries can do much better than wizards, as x-bows destroy wizards very quickly and wizards attack is slow.
 
 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 1 rage spell + 2 Healing Spell + 1 earthquake and 1 Pekka + 1 Poison Spell in CC
 
-Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. But they are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings. Wizards need to clear the outside buildings to keep the valkyries inside.
+Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. Once the access to x-bow is open, use valkyrie to take it down. Valkyries are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings, especially after rage. For GoWiVa, wizards' mission is to clear the outside buildings to keep the valkyries inside.
 
 ##### TH8 GoHo
 
@@ -920,11 +920,15 @@ Valkyrie attacks and moves faster than pekka, and their HP is much higher than w
 
 Archers and wizards are for the CC troop and clean up outside buildings.
 
-2 golems should keep away from each other to minimize the splash damage. 3 wall breakers to tear down the first layer of base so to let the golems get closer to the core.
+2 golems should keep away from each other to minimize the splash damage. 3 wall breakers to tear down the first layer of base so to let the golems get closer to the core and absorb more damage for the hog riders.
 
-For maxed out TH8 opponent or low level TH 9 opponent, GoHo with level 4 hogs is more effective.
+For maxed out TH8 opponent or low level TH 9 opponent, upgrade hog rider to level 4.
 
 Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
+
+The king and queen are deadly enemies for hog riders and hog riders won't attack them if they are in the middle of attacking one building. If the hog riders are attacking the town hall or high HP building, the king nearby will destroy most of them.
+
+Don't spam in all the hog riders. Spring traps, bombs, giant bombs destroy swarmed hog rider very quickly.
 
 ##### TH8 GoVaHo
 
@@ -1387,7 +1391,7 @@ Warden can protect the troops covered in his range by timely ability as well.
 
 Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
 
-Inferno tower range 9, multiple target 5, TH11 has 2 and TH12 has 3.
+Inferno tower range 9, multiple target 5, TH11 has 2 and TH12 has 3, attacking speed 0.128s
 
 - Inferno tower level 4, HP 2400, DpS 57 when set to multiple, DpS 155 when set to single after 1.5s and DpS 1,550 after 5.25s, TH11
 - Inferno tower level 5, HP 2700, DpS 70 when set to multiple, DpS 175 when set to single after 1.5s and DpS 1,750 after 5.25s, TH11
@@ -1399,11 +1403,11 @@ Single target inferno is against queen charge strategy, heroes, pekka, but a pac
 
 Queen charge can take down multiple target inferno easily as the DpS is fair low. If the wall is broken, Pekka and king can take down multiple target inferno easily. But for single target inferno, queen has to use cloak ability to take it down. King and Pekka do stand a chance without a timely freeze spell.
 
-X-bows x 4, range 14
+X-bows x 4, range 14 in ground, range 11 in air and ground, attacking speed 0.128s
 
-- X-bows level 4 HP 2,700, DpS 95, TH11
-- X-bows level 5 HP 3,100, DpS 125, TH11
-- X-bows level 6 HP 3,500, DpS 155, TH12
+- X-bows level 4 HP 2,700, DpS 95, DpA 12.16, TH11
+- X-bows level 5 HP 3,100, DpS 125, DpA 16, TH11
+- X-bows level 6 HP 3,500, DpS 155, DpA 19.84, TH12
 
 X-bows are headaches for their long range and very high DpS. They shoot fast so they can destroy any low hp troop very quickly.
 
@@ -1539,6 +1543,8 @@ Each skeleton HP 30, move speed 24, DpS 25
 - Level 4, 26 skeleton, TH11, DpS 650
 - Level 5, 30 skeleton, TH12, DpS 750
 
+##### Level 5 Bat
+
 Bat prioritize defensive structures above all other targets, and will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield.
 Bats can distract and destroy most single-target exposed defenses relatively easily.
 
@@ -1546,7 +1552,7 @@ A good strategy for bat spell would be to place a lot of them down near the cent
 
 The issue with bat is that they can easily be stopped by wizard towers, air bombs, and multi target inferno towers, air mode x-bows, cannons and archer towers. To avoid that, choose a starting point so to make the most use of it.
 
-Another strategy is use bar at the end of attack to clean up.
+Another strategy is use bat at the end of attack to clean up.
 
 Each bat HP 20, move speed 56, attack speed 2s, DpS 30
 
@@ -1554,6 +1560,24 @@ Each bat HP 20, move speed 56, attack speed 2s, DpS 30
 - Level 3, 11 bat, TH10, DpS 330
 - Level 4, 16 bat, TH11, DpS 480
 - Level 5, 21 bat, TH12, DpS 630
+
+If the air defence (HP 1200 level 8 - 1400 level 10) is not protected properly by wizard towers or x-bows, it can be taken down by one bat spell in 3 seconds.
+
+Usually 6 bat spells summons 132 bats (21 x 6), the DpS can go up to 3780 if dropped at the same spot. Level 3 eagle artillery 4800 can be destroyed in 1 to 2 seconds, and level 6 inferno HP 3000, level 10 air defense 1400.
+
+For multi mode inferno, it kills bat very fast. 7 bats per second and 5 targets, so unless the multi inferno is frozen.
+
+Inferno attacking speed 0.128s, 7 bats per second,
+
+Hidden tesla attacking speed 0.6s, 3 bats per second
+
+Giga tesla attacking speed 0.5s, 4 targets, 8 bats per second.
+
+X-bows 3.5 bats per second.
+
+- X-bows level 4 HP 2,700, DpS 95, DpA 12.16, TH11
+- X-bows level 5 HP 3,100, DpS 125, DpA 16, TH11
+- X-bows level 6 HP 3,500, DpS 155, DpA 19.84, TH12
 
 #### TH12 Queen
 
@@ -1601,9 +1625,9 @@ Set you expectation reasonably, don't expect the queen is powerful enough to cle
 
 The path planing is to choose eagle artillery side first if it is not centered, then lure out the CC troops, and one multiple target inferno tower or enemy heros if they are on the way. It's good enough once this plan is carried off. If possible, plan the path which queen can take out most of splash damage buildings like wizard tower, bomb tower, multiple target inferno tower on the way.
 
-Queen charge is slow as queen is fighting alone. Don't let the queen charge proceed for too along, one attack ends in only 3 minutes, deploy other troops sooner when partial goal is achieved.
+Queen charge is slow as queen is fighting alone. Don't let the queen charge proceed for too along, one attack ends in only 3 minutes, deploy other troops sooner when partial goal is achieved. Before doing that, make sure the queen is not in a danger zone and won't get in danger soon as your focus need to shift to other troops.
 
-Once the eagle artillery is destroyed, deploy wall wrecker along with other troops or other killer squad on other sides. Don't deploy troops on the same side so to keep the healers stay with queen. If it's the bowler witch strategy, you can deploy them on the same side as bowlers are strong with healers.
+Once the eagle artillery is destroyed and queen will be safe for a while, deploy wall wrecker along with other troops or other killer squad on other sides. Don't deploy troops on the same side so to keep the healers stay with queen. If it's the bowler witch strategy, you can deploy them on the same side as bowlers are strong with healers.
 
 Use other killer squads for other inferno towers, use wall breaker with CC troops or stone slammer for town hall, use King or other troops to clear the outside trash buildings.
 
@@ -1619,11 +1643,25 @@ Always have plan B for queen got destroyed too early.
 
 #### TH12 Level 4 Bowler
 
-If the opponent's base is very crowded on one path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the stone deals damages on the line.
+Level 4 Bowler's HP 390, DpS 90, DpA 198. Bowler is powerful yet fragile. It's highly risky but high reward.
 
-Or the the defense buildings are centralized in the core, bowler strategy will work well.
+If the opponent's base is very crowded on one path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the stone deals damages on the straight line.
 
-Witch and a couple of giants are great companions for bowler.
+Or the the defense buildings are centralized in the core, bowler strategy will work well as bowlers are able to clear up a large area.
+
+Due to the low HP, don't use bowlers as the main attacker. They won't last long against any defences. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
+
+Warden must follow and cover the majority of them so bowlers can get some extra HP. Once the group of bowlers is locked by eagle artillery, Warden must use the ability, otherwise the group of bowlers will be wiped off.
+
+Giant bombs and bombs will kill a group of bowlers very quickly. Giants must go before the bowlers to trigger the bombs and spring traps, and absorb the damages for bowlers.
+
+While looting, bowler strategy is very effective for looting dark elixir. Targeting the dark elixir usually close to town hall, send the wall wrecker followed by giants, heros, healers and bowlers. With rage spell, one healing spell and warden's ability, bowlers should be able to destroy the dark elixir storage in the long range. If the town hall is the area, it's very easy to get 50% more destruction rate and the town hall so to get 2 star. But most of the bowlers will be lost.
+
+Witch and a couple of giants are great companions for bowler. Witch's skeleton can keep defences and troops busy for a little while which extends the bowlers' life.
+
+To three star with bowler strategy, it's better to have a powerful queen charge first, queen should destroy as many defences as possible. Otherwise, bowlers are very easy to get destroyed.
+
+google "3 star bowler th12"
 
 Bowler and Witch (BoWitch) with wall wrecker
 
@@ -1637,6 +1675,8 @@ Bowler and Witch (BoWitch) with wall wrecker
 - 1 rage spell
 - 2 freeze spell
 - Wall wrecker and CC 5 Bowler + 1 Rage spell
+
+Bowler as killing squad
 
 Bowler and Queen charge
 
@@ -1700,43 +1740,66 @@ PEKKA + Bowler + Bat spell
 
 #### TH12 Electro dragon
 
-There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences, it's a perfect target for electro dragons, drag bat strategies.
+There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences or didn't put the air defences in a good place, for example, can be easily accessed by balloon or bat spell, it's a perfect target for air strategies, mainly electro dragons, drag bat, lava loonion and so on.
 
-If the trash buildings in the base spread out all over the map, it's not a good idea to use electro dragon as the electro dragon moves very slow.
+To attack a higher level TH12 with very high ground DpS dealing defences and very high level walls, miner or bowler often cannot get the town hall if heavy defence is around. If you are aiming at 3 stars just want to 2 star your enemy clan's top war rank players, electro dragon is a solid strategy. Focus on taking down the town hall and get a 50% more destruction rate with electro dragons is not that hard and easier than other ground attacking strategies.
+strategies.
 
-If lots of trash buildings are outside the wall and the defence buildings are condensed, it's a good target.
+If the war base is a distributed design with trash buildings spread out all over the map, it's not a good idea to use electro dragon as the electro dragon will try to attack every building in its range, often it will leave from the core and moves towards outside, unless you use some troops to funnel timely or in advance.
+
+If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. King can clear on side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
 
 Electro dragon strategy is quite easy:
 
 - 12 balloons, 1 baby dragon, 7 electro dragons, 3 rage spells, 5 freeze spells
 - choose attack path
-  - no air sweeper covered on the way, don't move forward against the air push unless rage or haste will be used
+  - no air sweeper covered on the way unless they can take down by balloons, dragon won't move forward against the air push unless rage/haste or freeze will be used
   - close to eagle artillery to so take it as soon as possible
   - any exposed air defence so the king or queen can do a suicide attack
   - notice the possible freeze spell drop position, make sure it can cover most of the defence building
-- deploy the siege machine and a wall of balloons
-  - battle blimp or or stone hammer with 8 more CC balloons and 1 rage
-  - spread the balloons so they are not very close to each other to avoid air bomb
-  - two rage side by side when balloons enter in
 - deploy the funneling team to clean up both sides so to keep the dragons in the middle, the narrower, the better
   - baby dragons on one side
-  - queen on the other side
+  - king on the other side
   - when baby dragon is destroyed, put king to carry on
-- deploy the 7 electro dragons in a line
-- deploy Warden in air following the dragons
+- deploy the siege machine and a wall of balloons to destroy the air defences or inferno
+  - with 8 more CC balloons and 1 rage or 1 haste and 1 freeze
+  - wall wrecker for opponents with lower level walls so it can help the queen to reach to the town hall
+  - stone hammer for opponents with very high level walls, the queen may not be able follow with the stone hammer
+  - battle blimp goes well with a clone spell to send in one more electro dragon. It should be deployed when the path to the town hall is cleared.
+  - spread the balloons so they are not very close to each other to avoid air bomb and trigger the seeking air mine
+  - two rage side by side when balloons enter in, the goal is to help the balloons move fast towards the air defence.
+  - the third rage is to get the most in the center when most of the troops get close to the center, put the third rage there so hopefully the troops can destroy the town hall
+  - the queen should go to the center with wall wrecker or stone hammer so to help inside in the core
+- deploy the 7 electro dragons 3 each close to the first two rage spell so to make best use of it
+  - deploy Warden in air mode following the dragons as Warden can extend dragon's HP in range and Warden's ability help the dragons get a few extremely important seconds in the core which could totally change the game
 - use freeze spells timely later on
+  - if needed, free air sweeper and air defence while the balloons and dragons are approaching to the center
 
 The main obstacle of electro dragon is air sweeper, air defence, single target inferno.
 
-At this time, while the electro dragons are slowly marching, you need to protect them. You have 5 freeze spells. Watch out for the army marching forward, you have 5 freeze spells, use it when the army in contact with inferno, air blower, air defence in range, cover as many as you can.
+While the electro dragons are slowly marching, you need to protect them. You have 5 freeze spells. Watch out for the army marching forward, use the freeze when the army in contact with inferno, air blower, air defence in range, cover as many as you can.
 
 And you have two rage spells, don't drop them directly on the troops, focus on the target to destroy, drop it 2 tiles before the area they will enter in.
 
-If the dragon in Warden's range is locked by eagle artillery, after eagle artillery fired, use Warden's ability.
+Use warden's ability is another key. If the electro dragons in Warden's range are locked by eagle artillery, after eagle artillery fired, use Warden's ability. Or once the hidden tesla farm or giga tesla are exposed in the center, Warden's ability can make the troop invisible for a few seconds which the dragon may be able to destroy the teslas.
 
-Also watch out for king's and queen's hp, use abilities timely.
+Also watch out for king's and queen's hp, use their abilities timely.
+
+In a nutshell, choose the better side to start with the attack, the proper funneling, the timing to deploy the balloons and dragons with Warden, seige machine and queen. The coordination between the heroes and dragons, and the timing with rage, freeze spell and Warden's ability, those are the key factors for the win.
 
 #### TH12 Dragon Bat
+
+If the opponent's war base is not properly designed for air defence, for example, no wizard tower to protect the eagle artillery, inferno tower, and you can make good use of the bat spell. Look at the wizard towers, air defences.
+
+Each bat DpS 30.
+
+Each level 5 bat spell summons 21 bats and DpS 630. If the air defence (HP 1200 - 1400) is not protected properly, it can be taken down by one bat spell in 3 seconds.
+
+Usually 6 bat spells summons 132 bats (21 x 6), the DpS can go up to 3780 if dropped at the same spot. Level 3 eagle artillery 4800 can be destroyed in 1 to 2 seconds, and level 6 inferno HP 3000, level 10 air defense 1400.
+
+Level 3 electro dragon DpS 300 DpA HP 4,200, move speed 16, housing space 30
+
+Level 7 dragon DpS 310 DpA 387.5 HP 3,600, move speed 12, housing space 20
 
 ## League
 
