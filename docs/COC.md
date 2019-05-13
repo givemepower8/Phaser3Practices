@@ -1422,7 +1422,7 @@ Wizard tower x 5, range 7, attack speed 1.3s, splash 1 tile
 - Wizard tower level 10 HP 2,000, DpS 62, DpA 80.6
 - Wizard tower level 11 HP 2,240, DpS 70, DpA 91
 
-Wizard tower causes splash damages which is the worst enemy to bat spells and skeletons spawned by witch, also barbarians and archers summoned by king and queen. Wizard can target air troops as well so they are deadly to balloons swarmed.
+Wizard tower causes splash damages which is the worst enemy to bat spells and skeletons spawned by witch, also barbarians and archers summoned by king and queen. Wizard tower can target air troops so they are deadly to balloons swarmed.
 
 Cannon x 7, range 9
 
@@ -1445,8 +1445,8 @@ Geared up cannon or archer tower shoots fast but less range in burst mode.
 Mortar x 4, rage 4-11, attack speed 5s, splash 1.5s
 
 - Mortar level 9, HP 800, DpS 25, DpA 125, TH11
-- Mortar level 10, HP 800, DpS 30, DpA 150, TH11
-- Mortar level 11, HP 800, DpS 35, DpA 170, TH12
+- Mortar level 10, HP 850, DpS 30, DpA 150, TH11
+- Mortar level 11, HP 900, DpS 35, DpA 170, TH12
 
 A geared up multi mortar in home village requires a level 8 multi mortar in builder hall 8. Multi mortar has shorter range but shoots 3 at a time in burst mode.
 
@@ -1673,7 +1673,7 @@ PEKKA is very strong, but one problem is that PEKKA is too slow. It's great when
 - 8 Bowler
 - 4 Healer
 - 1 Balloon
-- 1 electro dragon
+- 1 Electro dragon
 - 3 Rage spell
 - 1 Jump spell
 - 1 Healing spell
@@ -1766,10 +1766,19 @@ Also watch out for king's and queen's hp, use abilities timely.
 
 ### superman
 
+Progress
+
 - TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
 - TH 12 Level 186, King 33 Queen 53 Warden 18 as of 05/07/2019
+- Walls: 1 level 9, 218 level 10, 81 level 11 as of 05/02/2019
 
-  wall: 1 level 9, 218 level 10, 81 level 11 as of 05/02/2019
+Priority list
+
+- Heros
+- Bat spell to level 4 and 5
+- Wall wrecker to level 3, 6.8M
+- Witch to level 5
+- Hog rider to level 9
 
 Maximize the troops
 
