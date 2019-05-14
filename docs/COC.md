@@ -1108,29 +1108,31 @@ Bowlers is a very useful killer squad to clear one corner with inferno and x-bow
 
 Bowler killer squad
 
-With luck, support from healer or meat shield, bowler can get to the core.
+With luck, support from healers or meat shields, bowler can get to the core.
 
 Bowler and healer
 
 This typically is comprised of around 30 bowlers and 6-8 healers.
 
-Without wall wrecker, the strategy is to choose the entry point which can be the half point of one side or the corner the base. Start from there, the goal is to make the path to the center of the base and make sure the eagle artillery is on that path while troops are marching.
+Without wall wrecker, the strategy is to choose the side closest to the eagle artillery or the town hall. Make sure the path goes from eagle artillery to town hall, at least you can get most of it on the path. The entry point which can be the half point of one side or the corner the base. Once the plan of the attacking path is made, first, funnel the path to the entry point. Use one bowler or wizard to clear off the buildings if there is any on the edge to break the connection so force the bowlers deployed there will go to the entry point. Deploy 6 to 8 bowlers on those two corners with 3 or 4 healers behind each group. The goal is to make the army go toward the center of the base. Make sure the eagle artillery is on that path while troops are marching otherwise bowlers are very fragile.
 
-Once the plan of path is made, first, funnel a little bit and deploy 6 to 8 bowlers on two adjacent corners of the base with 3 or 4 healers behind each group. Each group will take down the outer and nearby buildings, and they walk towards the entry point. Before they meet, put the jump spell over the wall and make it cover as much as it can. This creates a straight forward path into the middle of the base. Drop the heroes, giants and the rest of the bowlers. Put the rage spell 2 tiles before them. Along the way the army is marching, drop freeze spell on eagle artillery and inferno towers to ensure that the army can get to the town hall. Once town hall is destroyed, there is the possibility to have a couple of healers at this stage to help keep the bowlers up. Put another jump spell so to make sure the army can exit the center and march further. From there, usually several blowers will get separated, or most of bowlers will get wiped out by eagle artillery or other defences due to low HP. The beauty of this attack is that the bowlers can clear lots of building when enraged, and if done correctly they can move into the center and destroy the town hall. At that time, you already get 2 stars extremely quickly. Often the case you still have a bunch of healers survived which will then help keep your heroes live helping you get that important 3 star.
+Each group will take down the outer and nearby buildings, and they walk towards the entry point. Before they meet, put the jump spell over the wall and make it cover as much as it can. This creates a straight forward path into the middle of the base. Drop the queen, king, giants before the bowlers. Once they meet, drop the rest of the bowlers with Warden. Put the rage spell 2 tiles before them. Along the way the army is marching, drop freeze spell on eagle artillery and inferno towers to ensure that the army can get to the town hall, drop healing spell to cover most of them. Use Warden's ability to save from one eagle artillery's shot. Once town hall is destroyed, there is the possibility to have a couple of healers at this stage to help keep the bowlers up. Put another jump spell so to make sure the army can exit the center and march further. From there, usually several blowers will get separated, or most of bowlers will get wiped out by eagle artillery or other defences due to low HP. The beauty of this attack is that the bowlers can clear lots of building when enraged, and if done correctly they can move into the center and destroy the town hall. At that time, you already get 2 stars extremely quickly. Often in the center of the case you still have a bunch of healers survived which will then help keep your heroes live helping you get that important 3 star.
 
-With wall wrecker, the attack can be even easier. Load 1 max golem and 1 max giant inside the wall wreaker and get 1 rage spell. Same as before, funnel with bowlers first, once the entry point is reached, send in the wall wrecker and followed by giants, heroes and witches. Golem and giant can be the meat shield to absorb some damages for the troops. Witch can slow down inferno tower.
+With wall wrecker, the attack can be even easier. Load 1 max level golem and 1 max level giant inside the wall wreaker and get 1 rage spell. Same as before, funnel with bowlers first, once the entry point is reached, send in the wall wrecker and followed by giants, heroes and witches. Golem and giant can be the meat shield to absorb some damages for the troops. Witch can slow down inferno tower and single target defences.
 
 #### Level 5 Miner
+
+Level 5 miner HP 800, move speed 32, DpS 112 with attacking speed 1.7s.
 
 Miners strategy is solid to 2-star other middle level TH11 or any TH10. But against maxed TH11 with high level eagle artillery, inferno tower in multiple mode and level 5 x-bows, it's very risky. When facing TH12 with giga tesla, often miner strategy can get only 1 star but high percentage as TH12 has 3 inferno towers, higher level defence with higher DpS, and giga tesla cause massive 4-target damage to miners.
 
 To attack TH11, watch out for the eagle artillery and 2 inferno towers. Multiple targeted inferno is an headache for miners but not for heroes. Ground CC troops especially witches will cause a headache for miners but air CC troops will not as miners move fast underground.
 
-Take out the eagle artillery first, use wall wrecker with heroes followed by to take down the eagle and CC troops.
+Take out the eagle artillery first, use wall wrecker with heroes to take down the eagle artillery and CC troops if possible.
 
 Another key is to narrow down the miner attack path. Miners are strong when they swarm. If they get separated, they can easily get picked off by x-bows and inferno towers, even splash damage dealing buildings. So for a square base layout, use heroes to clear one corner with eagle artillery to create a L shape and some troops to clear some trash building outside, so to make minor stay together while moving forward.
 
-Once the queen is strong, level 45 and up, use a powerful queen charge with Warden to take out eagle artillery and CC troops, then deploy miners. Sending warden along with queen will help out miners once they reach the middle. Keep the heroes alive in the middle of the base is one of keys to 3 star. King's mission is often to clear the outside buildings as much as possible.
+Once the queen is strong, level 45 and up, use a powerful queen charge to take out eagle artillery and CC troops, then deploy miners. Don't send Warden along with queen as it will make the healers target to Warden so queen will get destroyed very soon. Warden will help out miners once they reach the middle. Keep the heroes alive in the middle of the base is one of keys to 3 star. King's mission is often to clear the outside buildings as much as possible.
 
 2 Health, 3 freeze and 2 rage spells are often used in miner strategy.
 
@@ -1165,7 +1167,7 @@ Level 8 Pekka HP 6300, attacking speed 1.8s, DpA 1098, DpS 610
 
 Pekka smash is often a strong 2 star strategy.
 
-Pekka's strength is their high HP and DpS. They can break walls easily on their own and they can tank to the core. If the inferno is set to multiple, it takes inferno 70 seconds to destroy a pekka. But a single mode inferno takes 6 to 7 seconds to destroy the Pekka.
+Pekka's strength is their high HP and DpS. They can break walls easily on their own and they can tank to the core. If the inferno is set to multiple, it takes multiple target inferno 70 seconds to destroy a pekka. But a single mode inferno takes 6 to 7 seconds to destroy the Pekka.
 
 One of the issue is that Pekka attacks nearest buildings even under attach from long range buildings, they may go zigzag in the base to attack trash buildings so take lots damages from x-bows.
 
@@ -1208,13 +1210,13 @@ A little bit costy but very effective.
 - 3 Rage Spell
 - 1 Healing Spell
 - 1 Freeze Spell
-- 1 Haze Spell
+- 1 Haste Spell
 
 <https://www.youtube.com/watch?v=_IVqeAipX5g>
 
 <https://www.allclash.com/farming-with-lavaloonian/>
 
-A variation with queen walk
+Loonion variation with queen walk
 
 - 4 Healers
 - 26 Balloons
@@ -1223,15 +1225,7 @@ A variation with queen walk
 - 3 Rage Spell
 - 1 Healing Spell
 - 1 Freeze Spell
-- 1 Haze Spell
-
-Bowler and Witch (BoWitch) without wall wrecker
-
-The combination for BoWitch includes 20 Bowlers and 6-7 Witches, in spells it includes 2 Jump spells, 2 Rage spells, 1 Freeze spell and 1 Poison spell. In the clan castle you will take max golem and 1 max giant and rage spell.
-
-First drop 4 witches and 4 bowlers on the adjacent sides of the base and then in the middle, drop the first jump on the outer wall (put the jump such that it can also cover the inner wall if possible). Now drop the clan castle followed by remaining bowlers and witches and then warden, king and queen. As soon as the troops enter the base, drop the poison spell on the clan castle troops and drop the second jump spell such that troops can have an access to the core of the base. As soon as the bowlers come in contact with the first inferno, drop the freeze spell on that inferno tower and also use first rage along with freeze spell. Now when the bowlers come in contact with the second inferno, then use the Warden's Ability and use the second rage again. Now check where there are more bowlers and drop the third rage on them accordingly.
-
-This strategy will help you easily 2 star any TH11 base (sometimes even 3 stars if the bowlers don't get separated ) and this strategy should 3 star almost all th 10's if you execute the troops and spells in proper manner as they don't have eagle artillery.
+- 1 Haste Spell
 
 [farming elixir strategy](https://www.allclash.com/farming-elixir-strategy/)
 
