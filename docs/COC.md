@@ -585,15 +585,15 @@ One spell lasts 12 seconds.
 
 Radius 5, Number of Pulses 40, Time Between Pulses 0.3s, Housing Space 2, Brewing Time 6 minutes, Spell Factory Level Required 2.
 
-| Level | Total Damage | Damage per Strike | Cost   | Research Cost | Research Time | Laboratory |
-| ----- | ------------ | ----------------- | ------ | ------------- | ------------- | ---------- |
-| 1     | 600          | 15                | 15,000 | N/A           | N/A           | N/A        |
-| 2     | 800          | 20                | 16,500 | 300,000       | 1d            | 2          |
-| 3     | 1,000        | 25                | 18,000 | 600,000       | 2d            | 4          |
-| 4     | 1,200        | 30                | 19,000 | 1,200,000     | 3d            | 5          |
-| 5     | 1,400        | 35                | 21,000 | 2,000,000     | 4d            | 6          |
-| 6     | 1,600        | 40                | 23,000 | 4,000,000     | 6d            | 7          |
-| 7     | 1,800        | 45                | 25,000 | 6,000,000     | 10d           | 8          |
+| Level | Total healing | Heal per pulse | Cost   | Research Cost | Research Time | Laboratory |
+| ----- | ------------- | -------------- | ------ | ------------- | ------------- | ---------- |
+| 1     | 600           | 15             | 15,000 | N/A           | N/A           | N/A        |
+| 2     | 800           | 20             | 16,500 | 300,000       | 1d            | 2          |
+| 3     | 1,000         | 25             | 18,000 | 600,000       | 2d            | 4          |
+| 4     | 1,200         | 30             | 19,000 | 1,200,000     | 3d            | 5          |
+| 5     | 1,400         | 35             | 21,000 | 2,000,000     | 4d            | 6          |
+| 6     | 1,600         | 40             | 23,000 | 4,000,000     | 6d            | 7          |
+| 7     | 1,800         | 45             | 25,000 | 6,000,000     | 10d           | 8          |
 
 ### Rage
 
@@ -676,7 +676,7 @@ Each bat HP 20, move speed 56, attack speed 2s, DpS 30
 
 ### Barbarian King
 
-### Great Warden
+### Grand Warden
 
 ## Building
 
@@ -956,7 +956,7 @@ Loonion farming
 
 The strategy is targets players with lots of loots.
 
-Balloons and minors are better at maximized level to make the farming more effective. Lighting spell is better at level 5. 2 level 5 lightening spells deals 540 damages each so it can take down one air defense level 5 (HP 1000) or level 6 ( HP 1050).
+Balloons and minions are better at maximized level to make the farming more effective. Lighting spell is better at level 5. 2 level 5 lightening spells deals 540 damages each so it can take down one air defense level 5 (HP 1000) or level 6 ( HP 1050).
 
 Make a wall of Balloons where the air-targeting defences mostly are, and if needed, support them with either a haste spell or a rage spell.
 
@@ -1104,7 +1104,7 @@ Maximize the defence
 
 #### Level 3 Bowler
 
-Bowlers is a very useful killer squad to clear one corner with inferno and x-bows. Bowlers can be the main attackers with queen walk, it's very easy to get 2 start but hard to 3 star.
+Bowlers is a very useful killer squad to clear one corner with inferno and x-bows. Bowlers can be the main attackers with queen walk, it's very easy to get 2 stars but hard to 3 star.
 
 Bowler killer squad
 
@@ -1708,7 +1708,7 @@ PEKKA attack speed 1.8s, move speed 16, range 0.8 tile, housing space 25
 
 Level 7 PEKKA is kind of a level 50 king and Level 8 PEKKA is kind of a level 55 king.
 
-PEKKA smash strategy
+PEKKA Smash strategy
 
 PEKKA is very strong, but one problem is that PEKKA is too slow. It's great when it's enraged. In that case, PEKKA goes well with healers and bowlers which can benefit from rage spell.
 
