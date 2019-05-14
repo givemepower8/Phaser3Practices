@@ -972,7 +972,7 @@ Queen is unlocked. Wall level can go up to 9 (spike) and 10 (lava stripe on top)
 
 Other new buildings:
 
-New troops baby dragon, witch and Lava Hound are unlocked, so new strategy lavaloonion can be used.
+New troops baby dragon, witch and Lava Hound are unlocked, so new strategy lava loonion can be used.
 
 Valkyrie can be upgraded up 2 level to level 4.
 
@@ -1197,7 +1197,7 @@ Baby dragon is cheap for removing the outside trash building. Keep it away from 
 
 Use queen and 5 healers to clear one side, use baby dragon, king and warden the other side to clear the buildings within range. Once the outside is a bit cleared, send in the miners and make them alive with health spell and freeze spell. King has to be a bit strong to absorb damages, and king might not survive at last. But at that time, warden come to middle to help out the minors.
 
-Lava loonian
+Lava loonion
 
 A little bit costy but very effective.
 
@@ -1643,29 +1643,35 @@ Always have plan B for queen got destroyed too early.
 
 #### TH12 Level 4 Bowler
 
-Level 4 Bowler's HP 390, DpS 90, DpA 198. Bowler is powerful yet fragile. It's highly risky but high reward.
+Level 4 Bowler's HP 390, DpS 90, DpA 198, move speed 14. Bowler is powerful yet fragile. It's highly risky with very high rewards.
 
-If the opponent's base is very crowded on one path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the stone deals damages on the straight line.
+If the opponent's base is very crowded on one main path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the boulders deal great damages in long range.
 
-Or the the defense buildings are centralized in the core, bowler strategy will work well as bowlers are able to clear up a large area.
+Or, if the defense buildings are centralized in the core, bowler strategy will work well as bowlers are able to clear up a large area.
 
-Due to the low HP, don't use bowlers as the main attacker. They won't last long against any defences. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
+The strength of bowler is their long range boulders. The weakness is their very low HP, bowlers cannot do close combat. Never send in the bowlers first except for using a few to funnel. Use bowlers as the main attacker only they are protected by meat shields (Pekka, golem, giant). Otherwise they won't last long against any defences, each bowler can be destroyed by any defence within 4 to 5 seconds. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
+
+Giant bombs and bombs will also kill a group of bowlers very quickly. Meat shields must go before the bowlers to trigger the bombs and spring traps, and absorb the damages for bowlers. Bowlers must go after a couple of meat shields. If they are in the front of the army, they will get destroyed very soon. If the front line can absorb lots of damages, then bowlers' long range boulders can deal great damages to the around buildings. Golem and giant are options as they have high HP and prefer defence buildings, but golem and giant's move speed is 12 which is too slow. When bowler is enraged, they will go to the front line and suicide. Pekka's moving speed is 16, which moves faster than bowler but they may leave the army when enraged as they go after any building nearby.
+
+Witches are great companions for bowlers. Witch's HP is 440 level 4 to 480 level 5 which is not high enough, but Witch's skeletons summoned 12 to 14 can keep defences and troops busy for a little while which extends the bowlers' life.
+
+Healers are bowlers' good friends as well. It's often used after the queen charge, when queen cleared the path to town hall and queen is approaching to the town hall, send in the bowler army to destroy the town halls.
+
+Usually choose the path from eagle artillery to town hall. To deploy the army, funnel the outside with giants and wizards so no one inside will come out, drop one balloon to test the air seeking mines, send in the wall wrecker along with queen with healers, send in witches to help out clearing nearby buildings, if the front army is close to the eagle artillery, send in the bowlers and Warden. Use the first range two or three tiles in front of the bowlers. Prepare for the healing spell so to make bowlers alive. Always freeze eagle artillery and defences close to bowlers.
+
+Rage spell is a must have for bowler. Don't drop the spell on the target building which may send the bowlers away to other buildings, drop it 4 to 5 tiles before the bowlers reach to the target so bowlers can use long range boulder while enraged.
+
+Healing spell is better placed before the target buildings as bowlers lose lots of HP when bowlers get there.
 
 Warden must follow and cover the majority of them so bowlers can get some extra HP. Once the group of bowlers is locked by eagle artillery, Warden must use the ability, otherwise the group of bowlers will be wiped off.
-
-Giant bombs and bombs will kill a group of bowlers very quickly. Giants must go before the bowlers to trigger the bombs and spring traps, and absorb the damages for bowlers.
-
-While looting, bowler strategy is very effective for looting dark elixir. Targeting the dark elixir usually close to town hall, send the wall wrecker followed by giants, heros, healers and bowlers. With rage spell, one healing spell and warden's ability, bowlers should be able to destroy the dark elixir storage in the long range. If the town hall is the area, it's very easy to get 50% more destruction rate and the town hall so to get 2 star. But most of the bowlers will be lost.
-
-Witch and a couple of giants are great companions for bowler. Witch's skeleton can keep defences and troops busy for a little while which extends the bowlers' life.
-
-To three star with bowler strategy, it's better to have a powerful queen charge first, queen should destroy as many defences as possible. Otherwise, bowlers are very easy to get destroyed.
 
 google "3 star bowler th12"
 
 Bowler and Witch (BoWitch) with wall wrecker
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
+
+Bowler Witch and Bat
 
 - 2 Golem
 - 10 Witch
@@ -1676,9 +1682,13 @@ Bowler and Witch (BoWitch) with wall wrecker
 - 2 freeze spell
 - Wall wrecker and CC 5 Bowler + 1 Rage spell
 
-Bowler as killing squad
-
 Bowler and Queen charge
+
+To three star with bowler strategy, it's better to have a powerful queen charge first, queen should destroy as many defences as possible. Otherwise, bowlers are very easy to get destroyed.
+
+Bowler farming
+
+While looting, bowler strategy is very effective for looting dark elixir. Targeting the dark elixir usually close to town hall, send the wall wrecker followed by meat shield (giants or golems), heros, healers and bowlers. With rage spell, one healing spell and warden's ability, bowlers should be able to destroy the dark elixir storage in the long range. If the town hall is the area, it's very easy to get 50% more destruction rate and the town hall so to get 2 star. But most of the bowlers will be lost.
 
 #### TH12 level 6 Miner / level 9 hog rider
 
