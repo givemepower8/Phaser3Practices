@@ -1635,6 +1635,12 @@ To enable the queen to move closer to the target, some funneling troop like gian
 
 Always have plan B for queen got destroyed too early.
 
+##### Warden or no Warden in queen walk
+
+It's debateful that if put Warden beside queen. The pro side is Warden's long range shot, extend queen and healer's health in his coverage, ability to protect them from one eagle artillery's shot. The con side is Warden sometimes leaves the queen to attack some nearby troops or building and healers will be pulled away from the queen. If queen is in a danger zone, she will get destroyed out of the blue because of the sudden lose of healer's support.
+
+From my personal experience, it's better not to put Warden beside queen, and let Warden go with the main attack troop which adds more value.
+
 #### TH12 Level 4 Bowler
 
 Level 4 Bowler's HP 390, DpS 90, DpA 198, move speed 14. Bowler is powerful yet fragile. It's highly risky with very high rewards.
