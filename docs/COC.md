@@ -1587,11 +1587,11 @@ Queen with 5 healers is known for queen charge.
 
 The idea behind queen charge strategy is to divide and conquer. Queen charge is very effective at war bases which have multiple distributed compartments which against air strategies. As the inferno, x-bows are distributed, queen walk can destroy eagle artillery first, and one or more distributed compartments.
 
-Usually those war bases do not have lots of small inner compartments. It's a good place for queen charge, otherwise the queen may spend lots of time hitting on the walls before attacking. Lots of good war bases are designed to have lots of small empty compartments to block the path of queen walk.
+Usually those war bases do not have lots of small inner compartments. It's a good place for queen charge, otherwise the queen may spend lots of time hitting on the walls before attacking. Lots of good war bases are designed to have lots of small empty compartments to block the path of queen walk and the attack range that queen cannot reach.
 
-Queen walk is also good for raiding some home villages with two layers of walls and without many compartments in-between.
+Queen walk is also good for raiding some home villages with two layers of walls and without many compartments in-between. Once queen gets in, she can help the main attacking troop a lot.
 
-Some very centralized defence design war base is not recommended to use queen walk. For example, queen walk will fail for sure when entering a battle field is covered by multiple defence building. In that case, use bowlers or air strategy will be more effective.
+Some very centralized defence design war base is not recommended to use queen walk. For example, queen walk will fail for sure when entering a battle field is covered by multiple defence building like x-bows. In that case, use bowlers or air strategy will be more effective.
 
 ###### Queen charge healers
 
@@ -1645,17 +1645,17 @@ Or, if the defense buildings are centralized in the core, bowler strategy will w
 
 The strength of bowler is their long range boulders. The weakness is their very low HP, bowlers cannot do close combat. Never send in the bowlers first except for using a few to funnel. Use bowlers as the main attacker only they are protected by meat shields (Pekka, golem, giant). Otherwise they won't last long against any defences, each bowler can be destroyed by any defence within 4 to 5 seconds. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
 
-Giant bombs and bombs will also kill a group of bowlers very quickly. Meat shields must go before the bowlers to trigger the bombs and spring traps, and absorb the damages for bowlers. Bowlers must go after a couple of meat shields. If they are in the front of the army, they will get destroyed very soon. If the front line can absorb lots of damages, then bowlers' long range boulders can deal great damages to the around buildings. Golem and giant are options as they have high HP and prefer defence buildings, but golem and giant's move speed is 12 which is too slow. When bowler is enraged, they will go to the front line and suicide. Pekka's moving speed is 16, which moves faster than bowler but they may leave the army when enraged as they go after any building nearby.
+Giant bombs and bombs will also kill a group of bowlers very quickly. Meat shields must go before the bowlers to trigger the bombs and spring traps, and absorb the damages for bowlers. Bowlers must go after a couple of meat shields. If they are in the front of the army, they will get destroyed very soon. If the front line can absorb lots of damages, then bowlers' long range boulders can deal great damages to the around buildings. Golem and giant are meat shield options as they have high HP and prefer defence buildings, but golem and giant's move speed is 12 which is too slow. When bowler is enraged, they will go to the front line and suicide. Drop the rage spell on the troops in front of bowlers. Pekka's moving speed is 16, which moves faster than bowler but they may leave the army when enraged as they go after any building nearby.
 
 Witches are great companions for bowlers. Witch's HP is 440 level 4 to 480 level 5 which is not high enough, but Witch's skeletons summoned 12 to 14 can keep defences and troops busy for a little while which extends the bowlers' life.
 
 Healers are bowlers' good friends as well. It's often used after the queen charge, when queen cleared the path to town hall and queen is approaching to the town hall, send in the bowler army to destroy the town halls.
 
-Usually choose the path from eagle artillery to town hall. To deploy the army, funnel the outside with giants and wizards so no one inside will come out, drop one balloon to test the air seeking mines, send in the wall wrecker along with queen with healers, send in witches to help out clearing nearby buildings, if the front army is close to the eagle artillery, send in the bowlers and Warden. Use the first range two or three tiles in front of the bowlers. Prepare for the healing spell so to make bowlers alive. Always freeze eagle artillery and defences close to bowlers.
+Usually choose the path from eagle artillery to town hall. To deploy the army, funnel the outside with giants and wizards so no one inside will come out, also the funnelling should make sure bowlers will follow the wall wreaker later on. Put giant the first line close to the line, a couple of bowlers 2 tiles behind, drop one balloon to test the air seeking mines, send in the wall wrecker along with king, queen with healers, send in witches to help out clearing nearby buildings, send in the rest bowlers and Warden. Use the first range two or three tiles in front of the bowlers. Prepare for Warden's ability if eagle artillery is activated. Also drop one healing spell so to make bowlers alive. Always freeze eagle artillery and defences close to bowlers. Put ice golem, golem or giants in the wall wrecker will help out a lot.
 
-Rage spell is a must have for bowler. Don't drop the spell on the target building which may send the bowlers away to other buildings, drop it 4 to 5 tiles before the bowlers reach to the target so bowlers can use long range boulder while enraged.
+Rage spell is a must have for bowler. Don't drop the spell on the target building which may send the bowlers away to other buildings, drop it 4 to 5 tiles before the bowlers reach to the target so bowlers can use long range boulder while enraged. Don't drop the rage directly on bowlers which may trigger the bowler to leave the march army to attach buildings not on the path.
 
-Healing spell is better placed before the target buildings as bowlers lose lots of HP when bowlers get there.
+Healing spell is better placed before the target buildings as bowlers lose lots of HP when bowlers get there. Or it should be the place when is covered by multiple defence building to make sure bowlers can contribute more before they got destroyed.
 
 Warden must follow and cover the majority of them so bowlers can get some extra HP. Once the group of bowlers is locked by eagle artillery, Warden must use the ability, otherwise the group of bowlers will be wiped off.
 
