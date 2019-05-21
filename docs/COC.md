@@ -653,11 +653,12 @@ Each skeleton HP 30, move speed 24, DpS 25
 ### Bat
 
 Bat prioritize defensive structures above all other targets, and will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield.
+
 Bats can distract and destroy most single-target exposed defenses relatively easily.
 
 A good strategy for bat spell would be to place a lot of them down near the center of the base, along with a rage spell and a freeze spell aiming to destroy single target inferno Towers, air Defenses, and the eagle artillery at the beginning of an attack.
 
-The issue with bat is that they can easily be stopped by wizard towers, air bombs, and multi target inferno towers, air mode x-bows, cannons and archer towers. To avoid that, choose a starting point so to make the most use of it.
+The issue with bat is that they can easily be stopped by wizard towers, air bombs, and multi-target inferno towers, air mode x-bows, cannons and archer towers. To avoid that, choose a starting point so to make the most use of it.
 
 Another strategy is use bar at the end of attack to clean up.
 
@@ -745,7 +746,7 @@ If the base ground defence level is strong, use tank like golem to distract alon
 
 In war, enemies have clan castle troop. For example, lower level TH has dragon, witch, valkyrie in common. Higher level has ice golems to again queen. If they are not dealt ahead of time, they cause serious trouble to the attacking troops.
 
-Check to see if any troop can reach the CC range, also check for holes. Send one archer or fast troop like hog rider can reach the clan castle range so the CC troop will come out, send another archer to attack the corner so the CC troop will go after the archer. When they are close, if slow CC troop like dragon, circle around with archers and use one poison on top of them. If fast troop like valkyrie, keep deploying one archer in the center of poison area so to keep the valkyrie inside the poison.
+Check the client castle range to see if any troop can reach the CC range, also check for holes nearby. Send one archer or fast troop like hog rider can reach the clan castle range so the CC troop will come out, send another archer to attack the corner so the CC troop will go after the archer. When they are close, if slow CC troop like dragon, circle around with archers and use one poison on top of them. As dragons deal splash damage, circling around the dragon is the key. Don't spent to much time using archers, using 6 wizard to circle the dragon inside the poisoned area. If any one wizard is destroyed, drop an new one. Double poison can help to damage the dragon. If fast troop like valkyrie, keep deploying one archer in the center of poison area so to keep the valkyrie inside the poison or use Pekka and wizard to destroy them. Witch cannot spawn skeleton in the poisoned area as skeletons has low HP.
 
 Poison spell is a must-have to take down the cc troops.
 
@@ -753,21 +754,24 @@ Sometimes, the CC is right at the core of the base so it's hard to lure it out.
 
 ### Funneling
 
-Many troops have no preferred target so the actions are controlled by AI. Once a troop is dispatched, you cannot control where it goes explicitly but you can control the path by sending other troops to create the path. Otherwise, the troop will pick attacking target on their own according to their position, usually the closet building or enemy troops engaged, so they will get distracted easily.
+Many troops have no preferred target so the actions are controlled by AI. Once a troop is dispatched, they select and attack the closest building and won't change target. Once that building is destroyed, they will repeat the building selection and attacking while they are alive. You cannot control where it goes explicitly but you can control the path by sending other troops to coordinate which clean up the distracting buildings to create the path to the target like the eagle artillery and town halls. Otherwise, the troop will select closest building on their own according to their position, usually the closest building or enemy troops engaged, so they will get distracted easily.
 
-For example, without funneling, when heros and pekkas are the close to core, they will go outside of the compartment if emptied to break walls to destroy the closest non-defensing building while still under the attack of defensing building from nearby compartments.
+For example, without proper funneling, when bowlers and pekkas are the close to eagle artillery and town hall, they will get distracted if other trash building in a moat is not cleared up. Then they will get destroyed by the x-bows and inferno or eagle artillery around.
 
-Funneling is to create the path so to guild the troop to go to the expected location by breaking walls and eliminating those distractions at the right timing. For example, wall breaker creates a funnel after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy buildings massively.
+Funneling is to leave the building which leads to the target by clearing the distracting building. Timing is very important.
 
-Sometimes, heros will launch suicide attack to destroy defensing structures to create the funnels for attacking troops.
+The path to the target needs to be planned ahead of time. Wall wrecker, wall breaker and jump spell can create the path to the targeted building. For example, wall breaker creates a path after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy buildings massively.
+
+In a nutshell, funneling depends on the attacking strategy.
 
 Creating the funnel depends on the attacking strategy. For example,
 
-- clear the outside buildings
+- clear the outside buildings so to keep bowlers, pekkas inside the base
 - clear one corner with the eagle artillery
 - use wall breaker, stone slammer or jump spell so the troops can get close to the core
+- Sometimes, heros will launch suicide attack to destroy defensing structures to create the funnels for attacking troops.
 
-Baby dragons and wizards are often used to clear the outside buildings. Wizards is a bit expensive as 6 wizards takes up 24 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence.
+Baby dragons and wizards are often used to clear the outside trash buildings. Wizards is a bit expensive as 6 wizards takes up 24 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence around.
 
 Heros with queen charge can clear two outsides of base or with wall breaker they can clear one corner of the base to create the L shape so the attacking troops will be more effective to destroy the buildings.
 
@@ -806,7 +810,7 @@ Maximize the spells
 - Poison lvl 2
 - Earthquake lvl 2
 
-maximize the defence
+Maximize the defence
 
 - Cannon lvl 10 x 5, can gear up, HP 960, DpS 64, DpA 51.2, attack 0.8s, Range 9
 - Archer tower lvl 10 x 5, HP 810, DpS 63, DpA 31.5, attack 0.5s, Range 10
@@ -886,7 +890,7 @@ As the opponent's defense building level goes higher, golem is a must-have in th
 
 Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers. Wall breakers picks up walls that have building behind it.
 
-If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will not die easily from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA, king and the rest wizards.
+Golem is a must-have as they are the meat shields for the wizard or hog rider. If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will last longer from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA, king and the rest wizards.
 
 Once PEKKA is at level 3, update either valkyrie, or hog riders, but one at a time as they need lots of dark elixir. Hog riders is recommended as they dominate in TH8 war.
 
@@ -1171,17 +1175,19 @@ Pekka's strength is their high HP and DpS. They can break walls easily on their 
 
 One of the issue is that Pekka attacks nearest buildings even under attach from long range buildings, they may go zigzag in the base to attack trash buildings so take lots damages from x-bows.
 
-#### Level 2 electro dragon
-
-Don't use electro dragon on TH11 opponents with high air defence for 3 star.
+#### TH 11 Level 2 electro dragon
 
 Electro dragon has 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
-TH12 with maximized camps can take 9 electro dragons and TH11 with maximized camps can take 8 electro dragons.
+TH11 only has 240 housing capacity with maximized camps can take 8 electro dragons. As you need balloons in the army so the setup is like 12 balloons and 6 electro dragons.
 
-The attack is strong when heroes are strong. Usually, king and queen will launch a kind of suicide attack on the 2 sides of the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence. Grand warden will follow the dragons for his abilities support.
+TH12 has 280 housing capacity and the setup is usually 12 balloons and 7 electro dragons.
 
-Clone spell if is done right.
+Use level 2 electro dragon on TH11 opponents with high air defence and high level queen is hard for 3 stars but it can be a solid strategy to get 2 stars.
+
+The attack is strong when heroes are strong. Usually, king and queen will launch a kind of suicide attack on the 2 sides of the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence. Grand warden should be set to air mode and will follow the dragons for his abilities support.
+
+Clone spell can help if it is done right.
 
 Bat spell can help to take down one air defence.
 
@@ -1309,8 +1315,6 @@ Maximize the defence
 - Eagle artillery lvl 3 x 1
 - Giga Tesla lvl 5 x 1
 
-There is no one exact strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler strategy to attack a very separated layout will be a disaster.
-
 The forces you have:
 
 - Heroes
@@ -1321,9 +1325,9 @@ The forces you have:
 
 Make a plan for 2 star or 3 star as it's different. 2 star focuses on taking out town hall and some trash building as long as the town hall is destroyed and 50% destruction rate is reached. 3 star is to wipe off everything.
 
-Usually the strategy is divide and conquer. Choose the most effective way.
+There is no one versatile strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler or air strategy to attack a very separated or distributed layout will be a disaster as their strength is on the compact bases. Use queen charge and device and conquer will be more effective. Choose the most effective way by the opponent's base.
 
-Farming strategy is very different from war strategy. Home village usually protects resource storages, but in war base, those ones become trash building. CC troop is always in war so it adds more difficulties.
+CC troop is always in war so it adds more difficulties.
 
 Analyze the base based on your air or ground strategy. If ground, get the rough idea about the main obstacles like inferno towers, x-bows, wizard towers. If air, watch out for air sweeper and air defence. No matter what, eagle artillery has to be cleared out first.
 
@@ -1384,6 +1388,8 @@ Queen can avoid one hit by using the timely cloak ability.
 Warden can protect the troops covered in his range by timely ability as well.
 
 Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
+
+The opponent's high level queen can cause headache to the attacking troops.
 
 Inferno tower range 9, multiple target 5, TH11 has 2 and TH12 has 3, attacking speed 0.128s
 
@@ -1485,16 +1491,16 @@ Still, it the war base design has the town hall out at the edge, battle blimp is
 
 ##### Stone slammer
 
-Stone slammer does not care about where the town hall is located.
+Stone slammer is just a giant balloon which does not care about where the town hall is located.
 
 #### TH12 Spells
 
-Don't use up the spells to early and don't be too conservative to use them. Timely spells can lead to victory.
+Don't use up the spells to early and don't be too conservative to use them. Timely spells usage is the key to victory.
 
 - Troop boosting spells, rage, haste, clone, jump
 - Enemy building destruction spells, lightening, earthquake, freeze
 - Enemy troop weakening spells, poison
-- summoning spells, skeleton, bat
+- Summoning spells, skeleton, bat
 
 - Lightening lvl 7 Max
 - Healing lvl 7 Max
@@ -1522,7 +1528,7 @@ Poison is a must have in war to take down the CC troop. In raiding, usually not 
 
 Earthquake can get the wall breaker goes further but it's not that great.
 
-Haste does not increase damage but it increases more speed. Also it's housing capacity is only 1 as the rage is 2. It only lasts 10 seconds. It goes well with air troops.
+Haste does not increase damage but it increases more speed. Also it's housing capacity is only 1 as the rage is 2. It only lasts for 10 seconds and rage spell lasts for 18 seconds. It goes well with air troops.
 
 Skeleton spells could be very effective against single target inferno towers and other single target defence buildings. The skeletons will be able to distract the defences while other troops finish it off. However, multiple target inferno towers or splash damage dealing buildings like wizard tower wipes out the skeletons very quickly.
 
@@ -1537,9 +1543,10 @@ Each skeleton HP 30, move speed 24, DpS 25
 - Level 4, 26 skeleton, TH11, DpS 650
 - Level 5, 30 skeleton, TH12, DpS 750
 
-##### Level 5 Bat
+##### Level 5 Bat Maxed
 
 Bat prioritize defensive structures above all other targets, and will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield.
+
 Bats can distract and destroy most single-target exposed defenses relatively easily.
 
 A good strategy for bat spell would be to place a lot of them down near the center of the base, along with a rage spell and a freeze spell aiming to destroy single target inferno Towers, air Defenses, and the eagle artillery at the beginning of an attack.
@@ -1585,7 +1592,7 @@ Queen with 5 healers is known for queen charge.
 
 ###### When and when not to use queen charge
 
-The idea behind queen charge strategy is to divide and conquer. Queen charge is very effective at war bases which have multiple distributed compartments which against air strategies. As the inferno, x-bows are distributed, queen walk can destroy eagle artillery first, and one or more distributed compartments.
+The idea behind queen charge strategy is to divide and conquer. Queen charge is very effective at war bases which have multiple distributed compartments which against air strategies. As the inferno, x-bows are distributed, queen walk can destroy eagle artillery first, and one or more distributed compartments. Also, in air strategy, taking out your opponent's high level queen is the key to 3 star.
 
 Usually those war bases do not have lots of small inner compartments. It's a good place for queen charge, otherwise the queen may spend lots of time hitting on the walls before attacking. Lots of good war bases are designed to have lots of small empty compartments to block the path of queen walk and the attack range that queen cannot reach.
 
@@ -1605,9 +1612,9 @@ One major issue is that queen may lost support from healers. For example, each a
 
 Keep the queen and healers alive is one of the keys. Always watching out on queen's health and danger zones. Often the case, when you were deploying other troops or watching other battle field, you saw queen's HP is high so let guard down. But a second later, queen got destroyed when entered a danger zone covered by crossfire of long range defence buildings like x-bows within 3 to 4 seconds.
 
-Air defence and air seeking mine can destroy healers very fast. Experts always deploy a balloon or baby dragon first to trigger air seeking mine around. Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer.
+Air defence and air seeking mine can destroy healers very fast. Experts always deploy a balloon or baby dragon first to trigger air seeking mine around. Maxed air defence DpS 200, 7.5 seconds kill a healer, one seeking air mine can one shot one healer. So experts often launch a balloon first or baby dragon to test.
 
-Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Always watch out queen's health and use rage cover healers and queen if needed when queen enters into a danger zone. Or, you can use queen's cloak ability which makes queen disappear for 5 seconds and recover a small portion of HP. Queen's ability is better saved when massive DpS is needed.
+Once the queen's HP is very low, use range spell to boost up healers and queen so to speed up the healing process. Mark the queen charge danger zone on the map and get prepared when queen enters those area. Always watch out queen's health and use rage cover healers and queen if needed when queen enters into a danger zone. Or, you can use queen's cloak ability which makes queen disappear for 5 seconds and recover a small portion of HP. Queen's ability is better saved when massive DpS is needed.
 
 One drawback is that 5 healers take up 70 housing space already. You only have 210 housing space for others but it's worth it.
 
@@ -1692,8 +1699,8 @@ While looting, bowler strategy is very effective for looting dark elixir. Target
 
 #### TH12 level 6 Miner / level 9 hog rider
 
-Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
-Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
+- Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
+- Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
 
 Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
 
@@ -1716,7 +1723,9 @@ Level 7 PEKKA is kind of a level 50 king and Level 8 PEKKA is kind of a level 55
 
 PEKKA Smash strategy
 
-PEKKA is very strong, but one problem is that PEKKA is too slow. It's great when it's enraged. In that case, PEKKA goes well with healers and bowlers which can benefit from rage spell.
+The idea is to use bowlers as the killer squad to destroy the town hall adn the center where has the most defence building then pekkas can keep going as PEKKA's HP is very high.
+
+The setup:
 
 - 5 PEKKA
 - 4 Wizard
@@ -1730,7 +1739,17 @@ PEKKA is very strong, but one problem is that PEKKA is too slow. It's great when
 - 1 Freeze spell
 - Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
 
+The execution of plan:
+
+Choose the path which is from eagle artillery to town hall.
+
+Use 1 electro dragon, and 1 balloon / PEKKA with wizards to clear the trash building outside and behind the first layer of wall.
+
+Deploy wall wrecker with ice golem and golem, send in king, queen, pekkas. Let them march a bit to clear the buildings a bit. Send in the bowlers and Warden. Freeze the infernos and drop the rage 2 tiles before bowlers. Use king and queen's ability to speed up the attack. If the town hall is level 5 giga tesla, When the town hall's HP is low, use warden's ability so to avoid the 1000 damage. Once the area is about to cleared, drop the jump spell so bowlers, pekkas, heroes can still move forward. It's often 2 star quickly guaranteed but hard to get 3 star.
+
 PeBoBat strategy
+
+One problem is that PEKKA is too slow. That's why bat spell can be used for the clean up.
 
 PEKKA + Bowler + Bat spell
 
@@ -1748,16 +1767,19 @@ PEKKA + Bowler + Bat spell
 
 <https://www.youtube.com/watch?v=ukKuTDAApMw>
 
-#### TH12 Electro dragon
+The execution of plan is like above but replaced 2 rage and 1 jump spell with 6 or more bat spells. 1 poison spell is recommended for taking down the CC troop.
+
+Try to destroy as much wizard towers as possible. Usually one or two Pekka and queen will survive and use bats to clean up.
+
+#### TH12 Air strategy - Electro dragon
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences or didn't put the air defences in a good place, for example, can be easily accessed by balloon or bat spell, it's a perfect target for air strategies, mainly electro dragons, drag bat, lava loonion and so on.
 
 To attack a higher level TH12 with very high ground DpS dealing defences and very high level walls, miner or bowler often cannot get the town hall if heavy defence is around. If you are aiming at 3 stars just want to 2 star your enemy clan's top war rank players, electro dragon is a solid strategy. Focus on taking down the town hall and get a 50% more destruction rate with electro dragons is not that hard and easier than other ground attacking strategies.
-strategies.
 
 If the war base is a distributed design with trash buildings spread out all over the map, it's not a good idea to use electro dragon as the electro dragon will try to attack every building in its range, often it will leave from the core and moves towards outside, unless you use some troops to funnel timely or in advance.
 
-If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. King can clear on side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
+If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. King can clear one side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
 
 Electro dragon strategy is quite easy:
 
@@ -1797,7 +1819,7 @@ Also watch out for king's and queen's hp, use their abilities timely.
 
 In a nutshell, choose the better side to start with the attack, the proper funneling, the timing to deploy the balloons and dragons with Warden, seige machine and queen. The coordination between the heroes and dragons, and the timing with rage, freeze spell and Warden's ability, those are the key factors for the win.
 
-#### TH12 Dragon Bat
+#### TH12 Air strategy - Dragon Bat
 
 If the opponent's war base is not properly designed for air defence, for example, no wizard tower to protect the eagle artillery, inferno tower, and you can make good use of the bat spell. Look at the wizard towers, air defences.
 
@@ -1810,6 +1832,18 @@ Usually 6 bat spells summons 132 bats (21 x 6), the DpS can go up to 3780 if dro
 Level 3 electro dragon DpS 300 DpA HP 4,200, move speed 16, housing space 30
 
 Level 7 dragon DpS 310 DpA 387.5 HP 3,600, move speed 12, housing space 20
+
+Electro dragon's lighting can hit 5 building connected, dragon can have splash damage.
+
+Often 10 dragons, 10 balloons to take down air defence, one baby dragon and some minions for cleanup.
+
+## TH12 Farming
+
+Farming strategy is very different from war strategy. You are not looking for 3 stars but just for maximum profit.
+
+## TH12 Base design
+
+Home village usually protects resource storages, but in war base, those ones become trash building.
 
 ## League
 
