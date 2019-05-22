@@ -1821,21 +1821,29 @@ In a nutshell, choose the better side to start with the attack, the proper funne
 
 #### TH12 Air strategy - Dragon Bat
 
-If the opponent's war base is not properly designed for air defence, for example, no wizard tower to protect the eagle artillery, inferno tower, and you can make good use of the bat spell. Look at the wizard towers, air defences.
+Dragon Bat strategy is often using 10 dragons, 10 balloons to take down air defence, 7 bat spell and 2 freeze and 2 rage spell to launch the bats, one baby dragon and some minions for cleanup.
 
 Each bat DpS 30.
 
-Each level 5 bat spell summons 21 bats and DpS 630. If the air defence (HP 1200 - 1400) is not protected properly, it can be taken down by one bat spell in 3 seconds.
+Each level 5 bat spell summons 21 bats and DpS 630. If the air defence (HP 1200 - 1400) is not protected properly, it can be taken down by the bat wave in 3 seconds.
 
 Usually 6 bat spells summons 132 bats (21 x 6), the DpS can go up to 3780 if dropped at the same spot. Level 3 eagle artillery 4800 can be destroyed in 1 to 2 seconds, and level 6 inferno HP 3000, level 10 air defense 1400.
+
+Bats prefer defence structures, path selection is they choose the next closest defence structure.
+
+Bat spell can help at the beginning, middle and end game.
+
+If the opponent's war base is not properly designed for bats, for example, no wizard tower to protect the target and x-bows are set to ground only, then you can take advantage by making good use of the bat spell. At the beginning mark out the defence structures and choose a path which are not covered by the wizard towers. If there is one or two, freeze spells can help. If town hall giga tesla is triggered, they are considered as defence structure. Level 5 town hall can destroy the bat wave easily like the multiple inferno.
+
+For dragon bat strategy, mark out all the wizard towers and air and ground x-bows as they are the main enemies for bats. Choose the side which balloons and dragons can easily access and destroy most of them. Use heroes, and stone hammer as a killer squad to destroy some obstacles like x-bows, infernos and eagle artillery. If possible, use the queen to create a L shape and use king to clear up trash buildings outside. While dragons marching with Warden, release the bats to speed up the dragon attack and they can distract the air defences for the dragons and balloons.
+
+Sometimes you can save the bats at last while most of the defences and attacking dragons are gone, release bats before baby dragon and minion clean up.
 
 Level 3 electro dragon DpS 300 DpA HP 4,200, move speed 16, housing space 30
 
 Level 7 dragon DpS 310 DpA 387.5 HP 3,600, move speed 12, housing space 20
 
 Electro dragon's lighting can hit 5 building connected, dragon can have splash damage.
-
-Often 10 dragons, 10 balloons to take down air defence, one baby dragon and some minions for cleanup.
 
 ## TH12 Farming
 
@@ -1884,10 +1892,10 @@ Progress
 
 Priority list
 
-- Queen
+- Queen to level 60
+- Poison spell to level 3
+- Ice golem to level 3
 - Hog rider to level 9
-- Poison spell
-- Ice golem
 - Witch to level 5
 
 Maximize the troops
@@ -1997,6 +2005,14 @@ Maximize the spells
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
+
+Priority list
+
+- Queen to level 50
+- Wizard to level 8
+- Ice golem to level 3
+- Electro Dragon to level 2
+- Golem to level 6
 
 Maximize the troops
 
