@@ -57,6 +57,20 @@ Moving speed to tiles ratio is 0.125.
 - Move speed 12 is equivalent to 12 \* 0.125 = 1.5 tiles per second. Giant, Electro Dragon, Golem, Witch, Ice Golem
 - Move speed 10 is equivalent to 10 \* 0.125 = 1.25 tiles per second. Balloon
 
+### Attacking speed
+
+- Attack speed 0.7s, Witch
+- Attack speed 1s, Barbarian, Archer, Wall Breaker, Baby Dragon, Minion, Hog rider
+- Attack speed 1.25s, Dragon
+- Attack speed 1.5s, Wizard
+- Attack speed 1.7s, Miner
+- Attack speed 1.8s, Pekka, Valkyrie
+- Attack speed 2s, Giant, Lava hound
+- Attack speed 2.2s, Bowler
+- Attack speed 2.4s, Golem, Ice Golem
+- Attack speed 3s, Balloon
+- Attack speed 3.5s, Electro Dragon
+
 ### Path AI
 
 Most of troops have no preferred target when attacking, i.e., Barbarian, Archer, Wizard, Dragon, PEKKA, Baby Dragon, Miner, Electro Dragon, Minion, Valkyrie, Witch.
@@ -376,6 +390,8 @@ Weakness: Slow attack speed.
 ### Minion
 
 Unlocked at TH 7.
+
+2 housing space, attack speed 1s, move speed: 32, range: 2.75 tile
 
 [Minion](https://clashofclans.fandom.com/wiki/Minion) is a part of a very efficient farming attack strategy for town hall 7s, 8s, 9s, and even 10s, called Loonion.
 
@@ -877,7 +893,7 @@ The following strategy may vary:
 
   - DragLoon: 9 Dragons + 4 Balloons , 2 Lightning Spell, 1 Rage Spell + 5 Balloons and Earthquake Spell in CC.
 
-  DragLoon is to look at the air sweeper to decide which way to attack. You don't want to attack the area which is covered by the air sweeper which slows down the air troop. Use 2 lightning spells to take out 1 air defense which is closest to the core. Depends on the base layout, the balloons can try to get the rest 2 air defenses or try to funnel the outside buildings so the dragons stay inside. If air defence is reachable, deploy dragons to create path to the rest 2 air defenses and clear the wizard tower as they will damage the balloons. Before they can be hit by the air defence, be aware of the timing to deploy the balloons. Rage or haze the balloons to destroy the rest 2 air defences. Send in the king to clean up. Check the corner builder huts as the dragons move very slow.
+  DragLoon is to look at the air sweeper to decide which way to attack. You don't want to attack the area which is covered by the air sweeper which slows down the air troop. Use 2 lightning spells to take out 1 air defense which is closest to the core. Depends on the base layout, the balloons can try to get the rest 2 air defenses or try to funnel the outside buildings so the dragons stay inside. If air defence is reachable, deploy dragons to create path to the rest 2 air defenses and clear the wizard towers as they will damage the balloons. Before they can be hit by the air defence, be aware of the timing to deploy the balloons. Rage or haze the balloons to destroy the rest 2 air defences. Send in the king to clean up. Check the corner builder huts as the dragons move very slow.
 
 - Ground attack
 
@@ -886,15 +902,15 @@ The following strategy may vary:
   - GoHo
   - GoVaHo
 
-As the opponent's defense building level goes higher, golem is a must-have in the army to absorb damages for wizards and other high DPS dealers. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2. If possible, go get 120 medal badges in league war to get the hammer.
+As the opponent's defense building level goes higher, golem is a must-have in the army to absorb damages for wizards and other high DPS dealers. After golem is unlocked, for regular raiding, focus on upgrading PEKKA to level 3 as it's harder to farm dark elixir and you need dark elixir to maximize king's level to 10 as fast as you can. Golem level 1 is good enough as it needs 60K dark elixir to upgrade to level 2.
 
 Wall breaker is a must-have in the army, always bring 6 wall breakers. Wait till golem or giants distracted the defensing building, then deploy 2-3 wall breakers. If there is mortar in range, wait the mortar fire first because it gives you 5 seconds break, then immediately deploy the wall breakers. Wall breakers picks up walls that have building behind it.
 
 Golem is a must-have as they are the meat shields for the wizard or hog rider. If deploying 2 golems, they must be at least 8 to 10 tiles away from each other, so they will last longer from splash damage. The timing is when they are absorbing the damages, send in wall breakers to tear down the first layer of wall. 6 to 8 wizards should clear enough outside buildings and be able to enter to the wall. Leave 6 to 8 wizards handy for later clean up. Once the path is created, send in PEKKA, king and the rest wizards.
 
-Once PEKKA is at level 3, update either valkyrie, or hog riders, but one at a time as they need lots of dark elixir. Hog riders is recommended as they dominate in TH8 war.
+Once PEKKA is at level 3, update either valkyrie, or hog riders, but one at a time as they need lots of dark elixir. Hog riders is recommended as they dominate in ground attack and dragon loons dominate in air attack in TH8 war.
 
-Choosing the attacking strategy depends on the opponent's base and CC troop. CC troop must be cleared first and should be done as soon as possible. Dragons or other flying units will ruin the ground attack. Witch or valkyrie creates lots of headache. Watch out for the CC clear-up time as pekka attacks slow.
+Choosing the attacking strategy depends on the opponent's base and CC troop. For ground attacj, CC troop must be cleared first and should be done as soon as possible. Dragons or other flying units will ruin the ground attack. Witch or valkyrie creates lots of headache. Watch out for the CC clear-up time and try to make it finished as soon as possible, as pekka attacks slow.
 
 ##### TH8 GoWiPe
 
@@ -904,19 +920,19 @@ With level 3 pekkas and one CC level 8 pekka, GoWiPe is pretty effective in TH8 
 
 PEKKA needs proper funneling. Outside building must be cleared up before pekka goes there, otherwise Pekka will chop the wall and go outside of the core to attack some trash building around the base.
 
-Look at the base layout and check where the majority of mortars are as they have long range and splash damage which wipes off wizards quickly. The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards which attack behind. Use rage in the first open compartment as it helps King and pekka deal damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures like hidden teslas are exposed at this moment, use rage one more time so to destroy town hall and teslas. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
+Don't send all the wizards too soon. Look at the base layout and check where the majority of mortars are as they have long range and splash damage which wipes off wizards quickly. The strategy is to use golem as the meat shield grouped with pekkas, 3 wall breakers open the first layer once the golem distracted the defensing buildings. Sending the level 8 pekka which speeds up the attack, 2 pekkas, the king, along with 5 to 8 wizards which follow behind. Only after the outside trash building is cleared, then use rage in the first open compartment as it helps King and pekka deal damages faster. If the wizards hit bombs or great bombs so get killed, always have 4 to 5 wizards follow the pekkas so they can attack defensing buildings over the walls. Send in the rest wall breakers to open more inside walls, and send more wizards to the core, usually town hall and other defensing structures like hidden teslas are exposed at this moment, use rage one more time so to destroy town hall and teslas. Healing spell can be saved to use on rest building like remaining teslas, wizard towers when the survived troops are covered mostly.
 
 Send the king with the level 8 pekka as the main attacking troop, because rage spells work well on Pekka and king. Have one pekka with 3 to 5 wizards to destroy the outside building so inner pekkas can move forward and won't move outside. 3 to 5 wizards to clear the other outside.
 
-Wizards are the key for the win. For a nearly maxed out TH8, GoWiPe can get 2 stars easily, but you need luck to get 3 stars as PEKKA's attacking speed is slow without wizard's help. If wizards get hit on giant bomb or bomb, the second wave may fail as so PEKKAs will get destroyed by higher level defensing buildings like teslas and burst cannons if they are not destroyed fast. The key is destroy the splash dealing building as soon as possible as they kill wizards fast, and don't send in all the wizards at a time otherwise they will be wiped out by splash damage dealing buildings and great bombs. One PEKKA followed by 4 to 5 wizards are good enough.
+Wizards are the key for the win. For a nearly maxed out TH8, GoWiPe can get 2 stars easily, but you need luck to get 3 stars as PEKKA's attacking speed is slow without wizard's help. If wizards get hit on giant bomb or bomb, the second wave may fail as so PEKKAs will get destroyed by higher level defensing buildings like teslas and burst cannons if they are not destroyed in a fast manner by wizards. The key is destroy the splash dealing building as soon as possible as they kill wizards fast, and don't send in all the wizards at first otherwise they will be wiped out by splash damage dealing buildings and great bombs.
 
 ##### TH8 GoWiVa
 
-GoWiVa is for attacking some low level TH9, their base is a more open with less layer as they are covered by x-bows, valkyries can do much better than wizards, as x-bows destroy wizards very quickly and wizards attack is slow.
+GoWiVa is for attacking some low level TH9, the base is a more open with less layer as they are covered by x-bows, valkyries can do much better than wizards, as x-bows destroy wizards very quickly and wizards attack is slower than valkyries.
 
 1 Golem + 13 Valkyries + 12 Wizards + 6 Wall Breakers + 6 Archers + 1 rage spell + 2 Healing Spell + 1 earthquake and 1 Pekka + 1 Poison Spell in CC
 
-Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. Once the access to x-bow is open, use valkyrie to take it down. Valkyries are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings, especially after rage. For GoWiVa, wizards' mission is to clear the outside buildings to keep the valkyries inside.
+Valkyrie attacks and moves faster than pekka, and their HP is much higher than wizards. Once the access to x-bow is open, use valkyrie to take it down. Valkyries are harder to control when the base has lots of condensed compartments as they will leave the core and go outside to attack the outside trash buildings, especially after rage. Don't drop the rage spell on Valkyrie directly, drop to the area 2 tiles in front of the valkyries. For GoWiVa, wizards' mission is to clear the outside buildings to keep the valkyries inside.
 
 ##### TH8 GoHo
 
@@ -1028,7 +1044,7 @@ Maximize the hero levels.
 
 ### TH11 strategies
 
-Great warden joins in the village.
+Grand Warden joins in the village.
 
 - Heroes maxed 50/50/20
 - Donated Wall wreckers / Stone slammer
@@ -1042,7 +1058,7 @@ Maximize the hero levels.
 
 - Queen lvl 50
 - King lvl 50
-- Great warden lvl 20.
+- Grand Warden lvl 20.
 
 Maximize the troops
 
@@ -1149,6 +1165,7 @@ Level 5 miner vs. level 7 hog rider
 Hog rider housing space 5 and miner is 6, so you can bring a couple more hog riders in the army.
 
 Level 5 miner HP 800, move speed 32, DpS 112 with attacking speed 1.7s.
+
 Level 7 hog riders HP 700, move speed 24, DpS 135 with attacking speed 1.
 
 Hog riders attack defensing structure first, miner attacks nearest building first.
@@ -1158,6 +1175,7 @@ In TH11, they are kind of at the same level.
 In TH12, hog rider max level is 9 and miner max level is 6.
 
 Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
+
 Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
 
 So in TH12, hog rider is slightly better than miner.
@@ -1167,6 +1185,7 @@ If the opponent's Giga tesla is maxed which deals massive damages on 4 target, a
 #### Level 7 Pekka
 
 Level 7 Pekka HP 5700, attacking speed 1.8s, DpA 972, DpS 540
+
 Level 8 Pekka HP 6300, attacking speed 1.8s, DpA 1098, DpS 610
 
 Pekka smash is often a strong 2 star strategy.
@@ -1253,7 +1272,7 @@ Maximize the hero levels.
 
 - Queen lvl 60
 - King lvl 60
-- Great warden lvl 30.
+- Grand Warden lvl 30.
 
 Maximize the troops
 
@@ -1524,7 +1543,7 @@ Freeze is a must have for attacking infernos, x-bows, giga teslas. For air troop
 
 Clone is only used in some special strategies like the electro dragon and balloon strategy.
 
-Poison is a must have in war to take down the CC troop. In raiding, usually not all your opponents have CC troop.
+Poison is a must have in war to take down the CC troop. In raiding, usually not all your opponents have CC troop. Poison is very effective for electro dragon as it's attack speed is very lower.
 
 Earthquake can get the wall breaker goes further but it's not that great.
 
@@ -1775,9 +1794,11 @@ Try to destroy as much wizard towers as possible. Usually one or two Pekka and q
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences or didn't put the air defences in a good place, for example, can be easily accessed by balloon or bat spell, it's a perfect target for air strategies, mainly electro dragons, drag bat, lava loonion and so on.
 
+Electro dragon has a special attack - chain lightening, it can hit up to 5 building connected. Chain lightening damage dealt will decrease 20% for chained buildings. The buildings must be at most one tile apart. If they are two tiles apart, chain lightening will be prevented.
+
 To attack a higher level TH12 with very high ground DpS dealing defences and very high level walls, miner or bowler often cannot get the town hall if heavy defence is around. If you are aiming at 3 stars just want to 2 star your enemy clan's top war rank players, electro dragon is a solid strategy. Focus on taking down the town hall and get a 50% more destruction rate with electro dragons is not that hard and easier than other ground attacking strategies.
 
-If the war base is a distributed design with trash buildings spread out all over the map, it's not a good idea to use electro dragon as the electro dragon will try to attack every building in its range, often it will leave from the core and moves towards outside, unless you use some troops to funnel timely or in advance.
+If the war base is a distributed design with trash buildings spread out all over the map, it's not a good idea to use electro dragon as the electro dragon loses the chain lightening power and takes more time to destroy every building in its range, also sometime it will fly away from the core to attack outside trash buildings, unless you use some troops to funnel timely or in advance.
 
 If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. King can clear one side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
 
@@ -1787,6 +1808,7 @@ Electro dragon strategy is quite easy:
 - choose attack path
   - no air sweeper covered on the way unless they can take down by balloons, dragon won't move forward against the air push unless rage/haste or freeze will be used
   - close to eagle artillery to so take it as soon as possible
+  - if the enemy queen can be covered on the balloons marching path, it will be better because it will destroy the electro dragons quickly.
   - any exposed air defence so the king or queen can do a suicide attack
   - notice the possible freeze spell drop position, make sure it can cover most of the defence building
 - deploy the funneling team to clean up both sides so to keep the dragons in the middle, the narrower, the better
@@ -1813,7 +1835,7 @@ While the electro dragons are slowly marching, you need to protect them. You hav
 
 And you have two rage spells, don't drop them directly on the troops, focus on the target to destroy, drop it 2 tiles before the area they will enter in.
 
-Use warden's ability is another key. If the electro dragons in Warden's range are locked by eagle artillery, after eagle artillery fired, use Warden's ability. Or once the hidden tesla farm or giga tesla are exposed in the center, Warden's ability can make the troop invisible for a few seconds which the dragon may be able to destroy the teslas.
+Use Warden's ability is another key. The priority is to save the ability for the level 5 giga tesla town hall. When Warden is around the town hall and town hall's HP run low, use it because it deals 1000 damage to the surrounding buildings. If not level 5 giga tesla, then you can save it later. If the electro dragons in Warden's range are locked by eagle artillery, after eagle artillery fired, use Warden's ability. Or once the hidden tesla farm or giga tesla are exposed in the center, Warden's ability can make the troop invisible for a few seconds which the dragon may be able to destroy the teslas.
 
 Also watch out for king's and queen's hp, use their abilities timely.
 
@@ -1998,10 +2020,10 @@ Maximize the spells
 
 ### givemepower8
 
-- TH 11 Level 142, King lvl 25, Queen lvl 34, Great warden lvl 2 as of 03/23/2019
-- TH 11 Level 150, King lvl 29, Queen lvl 40, Great warden lvl 8 as of 05/02/2019
-- TH 11 Level 151, King lvl 30, Queen lvl 40, Great warden lvl 8 as of 05/07/2019
-- TH 11 Level 152, King lvl 30, Queen lvl 42, Great warden lvl 9 as of 05/22/2019
+- TH 11 Level 142, King lvl 25, Queen lvl 34, Grand Warden lvl 2 as of 03/23/2019
+- TH 11 Level 150, King lvl 29, Queen lvl 40, Grand Warden lvl 8 as of 05/02/2019
+- TH 11 Level 151, King lvl 30, Queen lvl 40, Grand Warden lvl 8 as of 05/07/2019
+- TH 11 Level 152, King lvl 30, Queen lvl 42, Grand Warden lvl 9 as of 05/22/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
