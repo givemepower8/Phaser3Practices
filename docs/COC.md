@@ -910,7 +910,7 @@ Golem is a must-have as they are the meat shields for the wizard or hog rider. I
 
 Once PEKKA is at level 3, update either valkyrie, or hog riders, but one at a time as they need lots of dark elixir. Hog riders is recommended as they dominate in ground attack and dragon loons dominate in air attack in TH8 war.
 
-Choosing the attacking strategy depends on the opponent's base and CC troop. For ground attacj, CC troop must be cleared first and should be done as soon as possible. Dragons or other flying units will ruin the ground attack. Witch or valkyrie creates lots of headache. Watch out for the CC clear-up time and try to make it finished as soon as possible, as pekka attacks slow.
+Choosing the attacking strategy depends on the opponent's base and CC troop. For ground attack, CC troop must be cleared first and should be done as soon as possible. Dragons or other flying units will ruin the ground attack. Witch or valkyrie creates lots of headache. Watch out for the CC clear-up time and try to make it finished as soon as possible, as pekka attacks slow.
 
 ##### TH8 GoWiPe
 
