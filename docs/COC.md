@@ -1047,7 +1047,7 @@ Maximize the hero levels.
 Grand Warden joins in the village.
 
 - Heroes maxed 50/50/20
-- Donated Wall wreckers / Stone slammer
+- CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
 - Troops (260 Camp + 35 Clan Castle)
   - CC troop 35
   - Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
@@ -1400,7 +1400,7 @@ Eagle Artillery targets the area with the largest density of hitpoints. It fires
 
 It's better to take out eagle artillery first before it's activated.
 
-Eagle Artillery will be activated after 180 (level 2) - 200 housing spaces (level 3) worth of troops. Each Hero is worth 25 troop housing spaces, and each Spell housing space is worth 5 troop housing spaces. Wall wrecker counts as 1, but when the CC troop is out, the total amount will add up quickly. As queen and warden take 50 already, the healers take 70 already, there is not much room left to avoid activating eagle artillery.
+Eagle Artillery will be activated after 180 (level 2) - 200 housing spaces (level 3) worth of troops. Each hero is worth 25 troop housing spaces, and each spell housing space is worth 5 troop housing spaces. Wall wrecker counts as 1, but when the CC troop is out, the total amount will add up quickly. As queen and warden take 50 already, the healers take 70 already, there is not much room left to avoid activating eagle artillery.
 
 Queen can avoid one hit by using the timely cloak ability.
 
@@ -1473,7 +1473,7 @@ Mortar x 4, rage 4-11, attack speed 5s, splash 1.5s
 
 A geared up multi mortar in home village requires a level 8 multi mortar in builder hall 8. Multi mortar has shorter range but shoots 3 at a time in burst mode.
 
-Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 damage when destroyed.
+Giga tesla level 5 DpS 200 deals 4 targets, and cause 1,000 splash damage when destroyed.
 
 As the level 5 giga tesla targets 4 troops so it's better have queen and healers around it to absorb damages for other troops. Also giga tesla will deal 1000 damages on attacking troops around it, attack the level 5 TH12 town hall at last or use Warden's ability is Warden is nearby to avoid that it wipes off all the attacking troops.
 
@@ -1514,7 +1514,7 @@ Stone slammer is just a giant balloon which does not care about where the town h
 
 #### TH12 Spells
 
-Don't use up the spells to early and don't be too conservative to use them. Timely spells usage is the key to victory.
+Don't use up the spells to early and don't be too conservative to use them. Well-planed timely spells usage is the key to victory.
 
 - Troop boosting spells, rage, haste, clone, jump
 - Enemy building destruction spells, lightening, earthquake, freeze
@@ -1543,7 +1543,7 @@ Freeze is a must have for attacking infernos, x-bows, giga teslas. For air troop
 
 Clone is only used in some special strategies like the electro dragon and balloon strategy.
 
-Poison is a must have in war to take down the CC troop. In raiding, usually not all your opponents have CC troop. Poison is very effective for electro dragon as it's attack speed is very lower.
+Poison is a must have in war to take down the CC troop. In raiding, usually not all your opponents have CC troop. Poison is very effective for electro dragon as it's attack speed is very low.
 
 Earthquake can get the wall breaker goes further but it's not that great.
 
@@ -1617,7 +1617,7 @@ Usually those war bases do not have lots of small inner compartments. It's a goo
 
 Queen walk is also good for raiding some home villages with two layers of walls and without many compartments in-between. Once queen gets in, she can help the main attacking troop a lot.
 
-Some very centralized defence design war base is not recommended to use queen walk. For example, queen walk will fail for sure when entering a battle field is covered by multiple defence building like x-bows. In that case, use bowlers or air strategy will be more effective.
+Some very centralized defence design war base is not recommended to use queen walk. For example, queen walk will fail for sure when entering a battle field is covered by multiple defence building like x-bows. In that case, use bowlers or air strategy will be more effective. Or deploy the queen and king with the wall wrecker so to get to the core. You have to send in other troops like minors or giants, golems to absorb the damage for the queen.
 
 ###### Queen charge healers
 
@@ -1871,6 +1871,8 @@ Electro dragon's lighting can hit 5 building connected, dragon can have splash d
 
 Farming strategy is very different from war strategy. You are not looking for 3 stars but just for maximum profit.
 
+Easy farming strategy is use electro dragons, lavaloonian, miners, pekka bowler.
+
 ## TH12 Base design
 
 Home village usually protects resource storages, but in war base, those ones become trash building.
@@ -1947,7 +1949,7 @@ Maximize the troops
 Seige machine
 
 - x Wall wrecker 3 Max
-- Blimp 3 Max, now 2
+- Battle blimp 3 Max, now 2
 - Stone slammer 3 Max, now 1
 
 Maximize the spells
@@ -2000,9 +2002,9 @@ Maximize the troops
 
 Seige machine
 
-- wall wrecker 3 Max, now 3
-- Blimp 3 Max, now 1
-- stone slammer 3 Max, now 1
+- Wall wrecker 3 Max, now 3
+- Battle blimp 3 Max, now 1
+- Stone slammer 3 Max, now 1
 
 Maximize the spells
 
