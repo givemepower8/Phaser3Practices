@@ -962,7 +962,7 @@ Upgrade the barracks to shorten the training time.
 
 Barch farming
 
-Use barbarians, archers and wall breakers. Adding some goblins may speed up the process as well. Works best in gold league trophy level 1700 to 1800, and above, lots of players have collectors left outside the base and storages are behind the outside-most wall. The strategy is aiming for the storages,overwhelming the defensing buildings with lots of barbarians and archers. And even no spell is required. You can 1 star the opponent and get lots of loots with higher ROI.
+Use barbarians, archers and wall breakers. Adding some goblins may speed up the process as well. Works best in gold league trophy level 1700 to 1800, and above, lots of players have collectors left outside the base and storages are behind the outside-most wall. The strategy is aiming for the storages, overwhelming the defensing buildings with lots of barbarians and archers. And even no spell is required. You can 1 star the opponent and get lots of loots with higher ROI.
 
 But usually dark elixir is at the core of base so barch farming is good for farming gold and elixir.
 
@@ -1025,7 +1025,7 @@ Queen walk / charger
 
 At this stage, queen charge is mainly used to take out x-bows or air defence to facilitate other main troops.
 
-When the healers die or separate, queen will have a hard time.
+When the healers die or get distracted, queen will have a hard time.
 
 - Put a balloon when to deploy the queen to trigger the seeking air mine.
 - Protect the healers. Make sure no other troops will take away the healers.
@@ -1158,6 +1158,8 @@ Once the queen is strong, level 45 and up, use a powerful queen charge to take o
 
 #### Level 7 hog rider
 
+High level walls slow down pekka smash.
+
 Walls do not block hog rider and miner. Hog rider jumps overs walls, like the miner burrows under walls.
 
 Level 5 miner vs. level 7 hog rider
@@ -1192,19 +1194,19 @@ Pekka smash is often a strong 2 star strategy.
 
 Pekka's strength is their high HP and DpS. They can break walls easily on their own and they can tank to the core. If the inferno is set to multiple, it takes multiple target inferno 70 seconds to destroy a pekka. But a single mode inferno takes 6 to 7 seconds to destroy the Pekka.
 
-One of the issue is that Pekka attacks nearest buildings even under attach from long range buildings, they may go zigzag in the base to attack trash buildings so take lots damages from x-bows.
+One of the issue is that Pekka attacks nearest buildings even under attach from long range buildings, they may go zigzag in the base to attack trash buildings so take lots damages from high DpS dealing buildings.
 
 #### TH 11 Level 2 electro dragon
 
 Electro dragon has 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
-TH11 only has 240 housing capacity with maximized camps can take 8 electro dragons. As you need balloons in the army so the setup is like 12 balloons and 6 electro dragons.
+TH11 only has 240 housing capacity with maximized camps can take 8 electro dragons. As you need balloons in the army so the setup is like 12 balloons and 6 electro dragons. In addition to the one electro dragon and one balloon in CC, at most TH11 can get up to 7 dragons and 13 balloons. 
 
-TH12 has 280 housing capacity and the setup is usually 12 balloons and 7 electro dragons.
+TH12 has 280 housing capacity and the setup is usually 14 balloons and 7 electro dragons. With 8 balloons in CC, 7 dragons and 22 balloons makes big difference.
 
-Use level 2 electro dragon on TH11 opponents with high air defence and high level queen is hard for 3 stars but it can be a solid strategy to get 2 stars.
+Use 6 level 2 electro dragon on TH11 opponents with high air defence and high level queen is hard for 3 stars but it can be a solid strategy to get 2 stars. Occasionally, if your TH12 opponent's base has town hall exposed, TH11 electro dragon can get 1 star or 2 easily but impossible for 3 star.
 
-The attack is strong when heroes are strong. Usually, king and queen will launch a kind of suicide attack on the 2 sides of the base, so to leave the path narrower so the dragons can move forward faster. Or heros can take out eager artillery and inferno tower and air defence. Grand warden should be set to air mode and will follow the dragons for his abilities support.
+The attack is strong when heroes are strong. Usually, king and queen will launch a kind of suicide attack on the 2 sides of the base, so to leave the path narrower so the dragons can move forward faster. Or heroes can take out eager artillery and inferno tower and air defence. Grand Warden should be set to air mode always and follow the dragons for his ability support.
 
 Clone spell can help if it is done right.
 
@@ -1344,7 +1346,7 @@ The forces you have:
 
 Make a plan for 2 star or 3 star as it's different. 2 star focuses on taking out town hall and some trash building as long as the town hall is destroyed and 50% destruction rate is reached. 3 star is to wipe off everything.
 
-There is no one versatile strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler or air strategy to attack a very separated or distributed layout will be a disaster as their strength is on the compact bases. Use queen charge and device and conquer will be more effective. Choose the most effective way by the opponent's base.
+There is no one versatile strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler or air strategy to attack a very separated or distributed layout will be a disaster as bowler or air strategy works better on the compact bases. Use queen charge and divide and conquer will be more effective. Choose the most effective way by taking advantage of weakness of your opponent's base.
 
 CC troop is always in war so it adds more difficulties.
 
@@ -1865,7 +1867,7 @@ Level 3 electro dragon DpS 300 DpA HP 4,200, move speed 16, housing space 30
 
 Level 7 dragon DpS 310 DpA 387.5 HP 3,600, move speed 12, housing space 20
 
-Electro dragon's lighting can hit 5 building connected, dragon can have splash damage.
+Electro dragon's lighting can hit 5 building connected, dragon can deal splash damage.
 
 ## TH12 Farming
 
@@ -1901,7 +1903,13 @@ Home village usually protects resource storages, but in war base, those ones bec
 
 <https://www.clashfarmer.com>
 
-## Progress
+## Upgrade Progress
+
+Resources (gold, elixir, and dark elixir) are required to upgrade all the buildings, defences, troops, walls and heros.
+
+Never rush the town hall level, be patient and max out all and then progress to the next level.
+
+Heroes and troops enables to 3 star in war. Defences and walls make your opponent harder to get 3 star from you.
 
 ### Lancelot
 
@@ -1917,7 +1925,6 @@ Progress
 Priority list
 
 - Queen to level 60
-- Poison spell to level 3
 - Ice golem to level 3
 - Hog rider to level 9
 - Witch to level 5
@@ -1950,7 +1957,7 @@ Seige machine
 
 - x Wall wrecker 3 Max
 - Battle blimp 3 Max, now 2
-- Stone slammer 3 Max, now 1
+- Stone slammer 3 Max, now 2
 
 Maximize the spells
 
@@ -1960,7 +1967,7 @@ Maximize the spells
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
-- Poison lvl 5 Max, now 2
+- Poison lvl 5 Max, now 3
 - Earthquake lvl 4 Max, now 2
 - Haste lvl 4 Max, now 1
 - Skeleton lvl 5 Max, now 1
@@ -2033,7 +2040,6 @@ Maximize the spells
 Priority list
 
 - Queen to level 50
-- Wizard to level 8
 - Ice golem to level 3
 - Electro Dragon to level 2
 - Golem to level 6
@@ -2046,7 +2052,7 @@ Maximize the troops
 - Goblin lvl 7 Max, now 6
 - Wall breakers lvl 7 TH11 Max, now 6
 - Balloon lvl 7 TH11 Max, now 6
-- Wizard lvl 8 TH11 Max, now 7
+- x Wizard lvl 8 TH11 Max
 - x Healer lvl 5 Max
 - Dragon lvl 6 TH11 Max, now 5
 - x PEKKA lvl 7 TH11 Max
