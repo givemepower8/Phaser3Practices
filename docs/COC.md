@@ -1512,7 +1512,7 @@ Still, it the war base design has the town hall out at the edge, battle blimp is
 
 ##### Stone slammer
 
-Stone slammer is just a giant balloon which does not care about where the town hall is located.
+Stone slammer is just a giant balloon. Its preferred target is defence building, which ignores the town halls unless giga tesla town hall is triggered.
 
 #### TH12 Spells
 
@@ -1918,16 +1918,20 @@ Progress
 - TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
 - TH 12 Level 186, King 33 Queen 53 Warden 18 as of 05/07/2019
 - TH 12 Level 188, King 35 Queen 54 Warden 20 as of 05/22/2019
+- TH 12 Level 189, King 36 Queen 54 Warden 20 as of 06/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
+- Walls: level 11 x 109, level 10 x 191 as of 06/02/2019
 
 Priority list
 
 - Queen to level 60
-- Ice golem to level 3
+- Archer to level 8
 - Hog rider to level 9
+- Ice golem to level 3
 - Witch to level 5
+- Stone slammer to level 3
 
 Maximize the troops
 
@@ -1979,9 +1983,11 @@ Maximize the spells
 - TH 12 Level 168, King 35 Queen 47 Warden 20 as of 05/02/2019
 - TH 12 Level 169, King 35 Queen 48 Warden 20 as of 05/07/2019
 - TH 12 Level 171, King 35 Queen 52 Warden 20 as of 05/22/2019
+- TH 11 Level 17?, King 3? Queen 5? Warden 2? as of 06/02/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
+- Walls: level 12 x 3, level 11 x 180, level 10 x 117 as of 06/02/2019
 
 Maximize the troops
 
@@ -2029,18 +2035,18 @@ Maximize the spells
 
 ### givemepower8
 
-- TH 11 Level 142, King lvl 25, Queen lvl 34, Grand Warden lvl 2 as of 03/23/2019
-- TH 11 Level 150, King lvl 29, Queen lvl 40, Grand Warden lvl 8 as of 05/02/2019
-- TH 11 Level 151, King lvl 30, Queen lvl 40, Grand Warden lvl 8 as of 05/07/2019
-- TH 11 Level 152, King lvl 30, Queen lvl 42, Grand Warden lvl 9 as of 05/22/2019
+- TH 11 Level 142, King 25 Queen 34 Warden 2 as of 03/23/2019
+- TH 11 Level 150, King 29 Queen 40 Warden 8 as of 05/02/2019
+- TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
+- TH 11 Level 15?, King 3? Queen 4? Warden 10 as of 06/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
+- Walls: level 11 x 105, level 10 x 195 as of 06/02/2019
 
 Priority list
 
 - Queen to level 50
-- Ice golem to level 3
 - Electro Dragon to level 2
 - Golem to level 6
 
@@ -2051,7 +2057,7 @@ Maximize the troops
 - x Giant lvl 8 TH11 Max
 - Goblin lvl 7 Max, now 6
 - Wall breakers lvl 7 TH11 Max, now 6
-- Balloon lvl 7 TH11 Max, now 6
+- x Balloon lvl 7 TH11 Max
 - x Wizard lvl 8 TH11 Max
 - x Healer lvl 5 Max
 - Dragon lvl 6 TH11 Max, now 5
@@ -2066,7 +2072,7 @@ Maximize the troops
 - x Witch lvl 4 TH11 Max
 - Lava Hound lvl 4, now 3
 - x Bowler lvl 3 TH11 Max
-- Ice golem lvl 3, now 1
+- x Ice golem lvl 3 TH11 Max
 
 Maximize the spells
 
