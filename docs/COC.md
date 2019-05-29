@@ -1200,7 +1200,7 @@ One of the issue is that Pekka attacks nearest buildings even under attach from 
 
 Electro dragon has 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
-TH11 only has 240 housing capacity with maximized camps can take 8 electro dragons. As you need balloons in the army so the setup is like 12 balloons and 6 electro dragons. In addition to the one electro dragon and one balloon in CC, at most TH11 can get up to 7 dragons and 13 balloons. 
+TH11 only has 240 housing capacity with maximized camps can take 8 electro dragons. As you need balloons in the army so the setup is like 12 balloons and 6 electro dragons. In addition to the one electro dragon and one balloon in CC, at most TH11 can get up to 7 dragons and 13 balloons.
 
 TH12 has 280 housing capacity and the setup is usually 14 balloons and 7 electro dragons. With 8 balloons in CC, 7 dragons and 22 balloons makes big difference.
 
@@ -1873,7 +1873,7 @@ Electro dragon's lighting can hit 5 building connected, dragon can deal splash d
 
 Farming strategy is very different from war strategy. You are not looking for 3 stars but just for maximum profit.
 
-Easy farming strategy is use electro dragons, lavaloonian, miners, pekka bowler.
+Easy farming strategy is use electro dragons, lavaloonion, miners, pekka bowler.
 
 ## TH12 Base design
 
