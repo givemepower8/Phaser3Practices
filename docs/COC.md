@@ -418,7 +418,7 @@ At TH8, level 4 hog rider is a very strong attacker in war.
 
 Strength: Jump over walls.
 
-Weakness: Vulnerable to splash damage, giant bomb. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 840 dark elixir already.
+Weakness: Vulnerable to splash damage, giant bomb, heros. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 840 dark elixir already.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -946,7 +946,7 @@ For maxed out TH8 opponent or low level TH 9 opponent, upgrade hog rider to leve
 
 Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
 
-The king and queen are deadly enemies for hog riders and hog riders won't attack them if they are in the middle of attacking one building. If the hog riders are attacking the town hall or high HP building, the king nearby will destroy most of them.
+The king and queen are deadly enemies for hog riders as hog riders won't attack them if they are in the middle of attacking one building. If the hog riders are attacking the town hall or high HP building, the king or queen nearby will destroy most of them.
 
 Don't spam in all the hog riders. Spring traps, bombs, giant bombs destroy swarmed hog rider very quickly.
 
@@ -986,13 +986,17 @@ However, Air Bombs can seriously ruin this attack if many balloons or minions we
 
 ### TH 9 strategies
 
-Queen is unlocked. Wall level can go up to 9 (spike) and 10 (lava stripe on top).
+Queen is unlocked.
+
+Wall level can go up to 9 (spike) and 10 (lava stripe on top). Wall rings are great to upgrade from spike to lava stripe on top.
 
 2 X-bows are unlocked.
 
+One more air seeking mine is unlocked so dragon strategy is not over powered any more as it can be easily destroyed. Instead, new strategy lava loonion can be used to replace the dragon loon strategy.
+
 Other new buildings:
 
-New troops baby dragon, witch and Lava Hound are unlocked, so new strategy lava loonion can be used.
+New troops baby dragon, witch and Lava Hound are unlocked.
 
 Valkyrie can be upgraded up 2 level to level 4.
 
@@ -1020,6 +1024,35 @@ Maximize the troop levels.
 - Golem lvl 4
 - Witch lvl 2
 - Lava Hound lvl 2
+
+Maximize the spells
+
+- Lighting lvl 6
+- Healing lvl 6
+- Rage lvl 5 Max
+- Jump lvl 2
+- Freeze lvl 1
+- Poison lvl 3
+- Earthquake lvl 3
+- Haste lvl 2
+
+Maximize the defence
+
+- Cannon lvl 11 x 5, can gear up, HP 1,060, DpS 74, Range 9
+- Archer tower lvl 11 x 6, HP 890, DpS 70, Range 10
+- Mortar lvl 7 x 4, can gear up, HP 700, DpS 15, Range 4-11
+- Air defense lvl 7 x 4, HP 1,100, DpS 280
+- Wizard tower lvl 7 x 4, HP 1,200, DpS 40, Range 7
+- Air sweeper lvl 5 x 2 Max, HP 1050
+- Hidden Tesla lvl 7 x 4, HP 810, DpS 87, Range 7
+- Bomb tower lvl 3 x 1, HP 750, DpS 32
+- Bombs lvl 6 x 6, splash damage 54 in 3 titles
+- Spring traps lvl 4 x 6 Max, wipe off 18 capacity in 0.7 tiles
+- Air bomb lvl 4 x 4, splash damage 173 in 3 tiles
+- Giant bomb lvl 3 x 4, splash damage 225 in 3.5 tiles
+- Seeking air mine lvl 2 x 4, damage 1800 in 4 tiles
+- Skeleton trap lvl 3 x 2, 4 spawned skeletons HP 30, DpS 25 each
+- X-Bows lvl 3 x 2, HP 3100, DpS 80, Range 14
 
 Queen walk / charger
 
@@ -1665,9 +1698,11 @@ Always have plan B for queen got destroyed too early.
 
 ##### Warden or no Warden in queen walk
 
-It's debateful that if put Warden beside queen. The pro side is Warden's long range shot, extend queen and healer's health in his coverage, ability to protect them from one eagle artillery's shot. The con side is Warden sometimes leaves the queen to attack some nearby troops or building and healers will be pulled away from the queen. If queen is in a danger zone, she will get destroyed out of the blue because of the sudden lose of healer's support.
+It's debateful that if put Warden beside queen. The pro side is Warden's long range shot, which extends queen and healer's health in his coverage, ability to protect them from one eagle artillery's shot. The con side is Warden sometimes leaves the queen to attack some nearby troops or building and healers will be pulled away from the queen. If queen is in a danger zone, she will get destroyed out of the blue because of the sudden lose of healer's support.
 
-From my personal experience, it's better not to put Warden beside queen, and let Warden go with the main attack troop which adds more value.
+Depends on the base layout and divide and conquer strategy, if the opponent's base has all the trash building outside and only x-bows, inferno, town halls in the center distributed in separated compartments, it's better put Warden beside queen to destroy 2 compartments.
+
+If you are using main attack troop like miner or hog riders, Warden should go with the main attack troop which adds more value.
 
 #### TH12 Level 4 Bowler
 
@@ -1766,11 +1801,13 @@ Choose the path which is from eagle artillery to town hall.
 
 Use 1 electro dragon, and 1 balloon / PEKKA with wizards to clear the trash building outside and behind the first layer of wall.
 
-Deploy wall wrecker with ice golem and golem, send in king, queen, pekkas. Let them march a bit to clear the buildings a bit. Send in the bowlers and Warden. Freeze the infernos and drop the rage 2 tiles before bowlers. Use king and queen's ability to speed up the attack. If the town hall is level 5 giga tesla, When the town hall's HP is low, use warden's ability so to avoid the 1000 damage. Once the area is about to cleared, drop the jump spell so bowlers, pekkas, heroes can still move forward. It's often 2 star quickly guaranteed but hard to get 3 star.
+Clean up the trash buildings outside so troops won't get out, use Electro dragon on one side and a little bit queen charge on the other side.
+
+Once queen close to the break through entry point, deploy wall wrecker with ice golem and golem, send in king, pekkas so queen and healers will merge into the troop. Let them march a bit further to clear the buildings a bit and if there is CC troop wait for the queen to clear up the CC. Send in the bowlers and Warden. Freeze the infernos and drop the rage 2 tiles before bowlers. Watch out for king and queen's health and use king and queen's ability if necessary. If the town hall is level 5 giga tesla, when the town hall's HP is low, use warden's ability so to avoid the 1000 damage. Once the area is about to cleared, drop the jump spell so bowlers, pekkas, heroes can still move forward. It's often 2 star quickly guaranteed but hard to get 3 star.
 
 PeBoBat strategy
 
-One problem is that PEKKA is too slow. That's why bat spell can be used for the clean up.
+One problem is the above PEKKA smash is too slow and often runs out of time. That's why bat spell can be used for the clean up.
 
 PEKKA + Bowler + Bat spell
 
