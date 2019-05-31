@@ -982,21 +982,31 @@ Make a wall of Balloons where the air-targeting defences mostly are, and if need
 
 Then, deploy the minions to clean up behind once the first layer of defenses are taken down and send in the King.
 
-However, Air Bombs can seriously ruin this attack if many balloons or minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the balloons from being destroyed.
+However, air Bombs can seriously ruin this attack if many balloons or minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the balloons from being destroyed.
 
 ### TH 9 strategies
 
+Upgrade priority: x-bows, air defence
+
 Queen is unlocked.
 
-Wall level can go up to 9 (spike) and 10 (lava stripe on top). Wall rings are great to upgrade from spike to lava stripe on top.
+With upgraded camps, troop housing capacity is 220.
 
-2 X-bows are unlocked.
+With upgraded clan castle, the CC troop housing capacity is 30 and 1 spell.
 
-One more air seeking mine is unlocked so dragon strategy is not over powered any more as it can be easily destroyed. Instead, new strategy lava loonion can be used to replace the dragon loon strategy.
+Wall level can go up to 9 (spike) and 10 (lava stripe on top). Wall rings are great to upgrade from spike to lava stripe on top as it has the max value.
 
-Other new buildings:
+One more air seeking mine and air defence are unlocked to add difficulty for dragon strategy.
 
-New troops baby dragon, witch and Lava Hound are unlocked.
+Instead, new strategy lava loonion can be used to replace the dragon loon strategy.
+
+Balloons level 5 to 6 upgrade has a significant boost on DpS and HP.
+
+Other new buildings: 2 X-bows, 1 more archer tower, wizard tower, hidden tesla, and 25 walls. 1 more gold collector and storage, 1 more elixir collector and storage.
+
+New troops baby dragon, witch, and lava hound are unlocked.
+
+Haste spell, freeze spell and jump spell are unlocked.
 
 Valkyrie can be upgraded up 2 level to level 4.
 
@@ -1043,16 +1053,16 @@ Maximize the defence
 - Mortar lvl 7 x 4, can gear up, HP 700, DpS 15, Range 4-11
 - Air defense lvl 7 x 4, HP 1,100, DpS 280
 - Wizard tower lvl 7 x 4, HP 1,200, DpS 40, Range 7
-- Air sweeper lvl 5 x 2 Max, HP 1050
+- Air sweeper lvl 5 x 2 Max, HP 1,050
 - Hidden Tesla lvl 7 x 4, HP 810, DpS 87, Range 7
 - Bomb tower lvl 3 x 1, HP 750, DpS 32
 - Bombs lvl 6 x 6, splash damage 54 in 3 titles
 - Spring traps lvl 4 x 6 Max, wipe off 18 capacity in 0.7 tiles
 - Air bomb lvl 4 x 4, splash damage 173 in 3 tiles
 - Giant bomb lvl 3 x 4, splash damage 225 in 3.5 tiles
-- Seeking air mine lvl 2 x 4, damage 1800 in 4 tiles
+- Seeking air mine lvl 2 x 4, damage 1,800 in 4 tiles
 - Skeleton trap lvl 3 x 2, 4 spawned skeletons HP 30, DpS 25 each
-- X-Bows lvl 3 x 2, HP 3100, DpS 80, Range 14
+- X-Bows lvl 3 x 2, HP 3,100, DpS 80, Range 14
 
 Queen walk / charger
 
@@ -1070,6 +1080,10 @@ When the healers die or get distracted, queen will have a hard time.
 
 Inferno tower.
 
+CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
+
+With upgraded clan castle, the CC troop housing capacity is 35 and 1 spell.
+
 Maximize the hero levels.
 
 - Queen lvl 40
@@ -1082,7 +1096,7 @@ Grand Warden joins in the village.
 - Heroes maxed 50/50/20
 - CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
 - Troops (260 Camp + 35 Clan Castle)
-  - CC troop 35
+  - CC troop 35 and 2 more spells
   - Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
   - Supplementary troop (healer, wall breaker...)
 - Spells
