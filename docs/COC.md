@@ -1080,6 +1080,8 @@ When the healers die or get distracted, queen will have a hard time.
 
 Inferno tower.
 
+New troops: miner and bowler.
+
 CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
 
 With upgraded clan castle, the CC troop housing capacity is 35 and 1 spell.
@@ -1991,9 +1993,11 @@ Progress
 Priority list
 
 - Queen to level 60
-- Archer to level 8
-- Hog rider to level 9
-- Witch to level 5
+- Archer to level 8 - ongoing
+- Wall breakers to level 7
+- Barbarian to level 8
+- Hog rider to level 9 - use badge later
+- Witch to level 5 - use badge later
 - Stone slammer to level 3
 - Ice golem to level 3
 
@@ -2051,7 +2055,7 @@ Maximize the spells
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
-- Walls: level 12 x 3, level 11 x 198, level 10 x 199 as of 06/02/2019
+- Walls: level 12 x 3, level 11 x 198, level 10 x 99 as of 06/02/2019
 
 Maximize the troops
 
@@ -2111,7 +2115,10 @@ Maximize the spells
 Priority list
 
 - Queen to level 50
-- Electro Dragon to level 2
+- Poison to level 4 - ongoing
+- Lava Hound to level 5 - use badge later
+- Minion to level 7
+- Wall breakers to level 7
 - Golem to level 6
 
 Maximize the troops
@@ -2128,7 +2135,7 @@ Maximize the troops
 - x PEKKA lvl 7 TH11 Max
 - Baby dragon lvl 5 TH11 Max, now 4
 - x Miner lvl 5 Max
-- Electro Dragon lvl 2 TH11 Max, now 1
+- x Electro Dragon lvl 2 TH11 Max
 - Minion lvl 7 TH11 Max, now 6
 - Hog rider lvl 7 TH11 Max, now 6
 - Valkyrie lvl 6 TH11 Max, now 5
