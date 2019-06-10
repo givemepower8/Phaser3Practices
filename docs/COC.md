@@ -1365,9 +1365,9 @@ Maximize the spells
 
 Maximize the defence
 
-- Cannon lvl 17 x 7, can gear up
-- Archer tower lvl 17 x 8, can gear up if there is one level archer tower in builder hall level 6.
-- Mortar lvl 11 x 4, can gear up builder hall level 8.
+- Cannon lvl 17 x 7, can gear up one in burst mode
+- Archer tower lvl 17 x 8, can gear up one if there is one level archer tower in builder hall level 6.
+- Mortar lvl 11 x 4, can gear up in multi-mortar when mortar in builder hall reaches level 8.
 - Air defense lvl 10 x 4
 - Wizard tower lvl 11 x 5
 - Air sweeper lvl 7 x 2
@@ -1614,6 +1614,8 @@ Each skeleton HP 30, move speed 24, DpS 25
 - Level 5, 30 skeleton, TH12, DpS 750
 
 ##### Level 5 Bat Maxed
+
+Bat spell has 1 housing capacity.
 
 Bat prioritize defensive structures above all other targets, and will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield.
 
@@ -1982,9 +1984,9 @@ Heroes and troops enables to 3 star in war. Defences and walls make your opponen
 Progress
 
 - TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
-- TH 12 Level 186, King 33 Queen 53 Warden 18 as of 05/07/2019
 - TH 12 Level 188, King 35 Queen 54 Warden 20 as of 05/22/2019
 - TH 12 Level 190, King 36 Queen 55 Warden 20 as of 06/02/2019
+- TH 12 Level 191, King 36 Queen 57 Warden 20 as of 06/15/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -1993,18 +1995,18 @@ Progress
 Priority list
 
 - Queen to level 60
-- Archer to level 8 - ongoing
+- Stone slammer to level 3 - ongoing
 - Wall breakers to level 7
 - Barbarian to level 8
-- Hog rider to level 9 - use badge later
-- Witch to level 5 - use badge later
-- Stone slammer to level 3
+- Hog rider to level 9 - use badge later?
+- Witch to level 5 - use badge later?
+
 - Ice golem to level 3
 
 Maximize the troops
 
 - Barbarian lvl 8 Max, now 7
-- Archer lvl 8 Max, now 7
+- x Archer lvl 8 Max
 - x Giant lvl 9 Max
 - Goblin lvl 8 Max, now 6
 - Wall breakers lvl 8 Max, now 6
@@ -2048,10 +2050,10 @@ Maximize the spells
 ### warshong
 
 - TH 12 Level 161, King 32 Queen 39 Warden 20 as of 03/23/2019
-
 - TH 12 Level 169, King 35 Queen 48 Warden 20 as of 05/07/2019
 - TH 12 Level 171, King 35 Queen 52 Warden 20 as of 05/22/2019
 - TH 12 Level 172, King 35 Queen 54 Warden 20 as of 06/02/2019
+- TH 12 Level 172, King 35 Queen 57 Warden 20 as of 06/15/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
@@ -2107,6 +2109,7 @@ Maximize the spells
 - TH 11 Level 150, King 29 Queen 40 Warden 8 as of 05/02/2019
 - TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
+- TH 11 Level 155, King 30 Queen 47 Warden 11 as of 06/15/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2115,10 +2118,10 @@ Maximize the spells
 Priority list
 
 - Queen to level 50
-- Poison to level 4 - ongoing
-- Lava Hound to level 5 - use badge later
-- Minion to level 7
+- Poison to level 5
 - Wall breakers to level 7
+- Lava Hound to level 5 - use badge later ?
+- Minion to level 7
 - Golem to level 6
 
 Maximize the troops
@@ -2153,7 +2156,7 @@ Maximize the spells
 - x Jump lvl 3 Max
 - x Freeze lvl 6 TH11 Max
 - Clone lvl 5 Max, now 1
-- Poison lvl 5 Max, now 3
+- Poison lvl 5 Max, now 4
 - x Earthquake lvl 4 Max
 - Haste lvl 4 Max, now 3
 - Skeleton lvl 4, now 2
