@@ -635,11 +635,27 @@ The Barbarian King's Iron Fist ability does not stack with the Rage Spell, nor d
 
 ### Jump
 
-In higher town halls, as the wall level gets much higher, it's harder to break through the wall. Jump spell can brings troops to the core. It can be used on the wall intersections.
+In higher town halls, as the wall level gets much higher, it's harder to break through the wall. Jump spell can brings troops to the core. It's often used with bowlers, witches and PEKKA smash strategy.
+
+It works great on the wall intersections.
 
 ### Freeze
 
+Radius 3.5 tiles, housing space 1
+
+| Level | Freeze Time | Cost | Research Cost | Research Time | Laboratory |
+| ----- | ------------| ---- | ------------- | ------------- | ---------- |
+| 1     |2.5 seconds  |6,000 |N/A            |N/A            | 7        |
+| 2     |3.0 seconds  |7,000 |3,000,000      |3d             | 8         |
+| 3     |3.5 seconds  |8,000 |4,000,000      |4d 12h         | 8 |
+| 4     |4.0 seconds  |9,000 |5,000,000      |6d 12h         | 8 |
+| 5     |4.5 seconds  |10,000|7,000,000      |8d             | 8 |
+| 6     |5.0 seconds  |11,000|9,500,000      |9d             | 9 |
+| 7     |5.5 seconds  |12,000|11,000,000     |11d 12h        | 10 |
+
 ### Clone
+
+Radius 3.5 tiles, housing space 3
 
 ### Poison
 
@@ -954,7 +970,7 @@ Don't spam in all the hog riders. Spring traps, bombs, giant bombs destroy swarm
 
 GoHo is powerful on compact bases if there are lots of compartments so 2 meat shield if needed. If the base is not that compact or some not enclosed TH8 war base, use 4 valkyries to replace 1 golem which speeds up the attack greatly.
 
-1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + 1 poison, and 3 Valkyries + 1 Archer + Poison / freeze Spell in CC.
+1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + 1 poison, and 3 Valkyries + 2 Archer + Poison / freeze Spell in CC.
 
 #### TH 8 Farming
 
@@ -986,7 +1002,7 @@ However, air Bombs can seriously ruin this attack if many balloons or minions we
 
 ### TH 9 strategies
 
-Upgrade priority: x-bows, air defence
+Upgrade priority: x-bows, air defence, air seeking mine, air bombs, giant bombs, bombs and traps.
 
 Queen is unlocked.
 
@@ -996,7 +1012,7 @@ With upgraded clan castle, the CC troop housing capacity is 30 and 1 spell.
 
 Wall level can go up to 9 (spike) and 10 (lava stripe on top). Wall rings are great to upgrade from spike to lava stripe on top as it has the max value.
 
-One more air seeking mine and air defence are unlocked to add difficulty for dragon strategy.
+With x-bows in air & ground mode, one more air seeking mine and air defence, it adds more difficulty for dragon strategy.
 
 Instead, new strategy lava loonion can be used to replace the dragon loon strategy.
 
@@ -1006,9 +1022,11 @@ Other new buildings: 2 X-bows, 1 more archer tower, wizard tower, hidden tesla, 
 
 New troops baby dragon, witch, and lava hound are unlocked.
 
-Haste spell, freeze spell and jump spell are unlocked.
+Haste spell, freeze spell and jump spell are unlocked. But freeze spell is up to level 1 so it's basically useless.
 
-Valkyrie can be upgraded up 2 level to level 4.
+Valkyrie and golem can be upgraded up 2 level to level 4.
+
+Level 2 witch is valuable for many strategies.
 
 Maximize the hero levels.
 
@@ -1991,6 +2009,7 @@ Progress
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
 - Walls: level 11 x 127, level 10 x 173 as of 06/02/2019
+- Walls: level 11 x 148, level 10 x 152 as of 06/15/2019
 
 Priority list
 
