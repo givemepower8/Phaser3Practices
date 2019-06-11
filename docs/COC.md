@@ -645,13 +645,13 @@ Radius 3.5 tiles, housing space 1
 
 | Level | Freeze Time | Cost | Research Cost | Research Time | Laboratory |
 | ----- | ------------| ---- | ------------- | ------------- | ---------- |
-| 1     |2.5 seconds  |6,000 |N/A            |N/A            | 7        |
-| 2     |3.0 seconds  |7,000 |3,000,000      |3d             | 8         |
-| 3     |3.5 seconds  |8,000 |4,000,000      |4d 12h         | 8 |
-| 4     |4.0 seconds  |9,000 |5,000,000      |6d 12h         | 8 |
-| 5     |4.5 seconds  |10,000|7,000,000      |8d             | 8 |
-| 6     |5.0 seconds  |11,000|9,500,000      |9d             | 9 |
-| 7     |5.5 seconds  |12,000|11,000,000     |11d 12h        | 10 |
+| 1     |2.5 seconds  |6,000 |N/A            |N/A            | 7          |
+| 2     |3.0 seconds  |7,000 |3,000,000      |3d             | 8          |
+| 3     |3.5 seconds  |8,000 |4,000,000      |4d 12h         | 8          |
+| 4     |4.0 seconds  |9,000 |5,000,000      |6d 12h         | 8          |
+| 5     |4.5 seconds  |10,000|7,000,000      |8d             | 8          |
+| 6     |5.0 seconds  |11,000|9,500,000      |9d             | 9          |
+| 7     |5.5 seconds  |12,000|11,000,000     |11d 12h        | 10         |
 
 ### Clone
 
@@ -659,7 +659,17 @@ Radius 3.5 tiles, housing space 3
 
 ### Poison
 
+Radius 4 tiles, housing space 1
+
 It's a must-have for taking CC troops.
+
+| Level | Maximum Damage per Second |Speed Decrease|Attack Rate Decrease | Cost |Research Cost | Research Time | Laboratory |
+| ----- | ------------------------- | ------------ | ------------------- | ---- | ------------ | ------------- | ---------- |
+| 1     |90                         |26%           |35%                  |95    |N/A           |N/A            | N/A        |
+| 2     |115                        |30%           |40%                  |110   |25,000        |2d 12h         | 6          |
+| 3     |145                        |34%           |45%                  |125   |50,000        |4d             | 7          |
+| 4     |180                        |38%           |50%                  |140   |75,000        |6d 12h         | 8          |
+| 5     |220                        |40%           |55%                  |155   |150,000       |9d 12h         | 9          |
 
 ### Earthquake
 
