@@ -1012,6 +1012,8 @@ However, air Bombs can seriously ruin this attack if many balloons or minions we
 
 ### TH 9 strategies
 
+TH9 enables new buildings: 2 X-bows, 1 more archer tower, wizard tower, hidden tesla, and 25 walls. 1 more gold collector and storage, 1 more elixir collector and storage.
+
 Upgrade priority: x-bows, air defence, air seeking mine, air bombs, giant bombs, bombs and traps.
 
 Queen is unlocked.
@@ -1022,21 +1024,19 @@ With upgraded clan castle, the CC troop housing capacity is 30 and 1 spell.
 
 Wall level can go up to 9 (spike) and 10 (lava stripe on top). Wall rings are great to upgrade from spike to lava stripe on top as it has the max value.
 
-With x-bows in air & ground mode, one more air seeking mine and air defence, it adds more difficulty for dragon strategy.
-
-Instead, new strategy lava loonion can be used to replace the dragon loon strategy.
-
-Balloons level 5 to 6 upgrade has a significant boost on DpS and HP.
-
-Other new buildings: 2 X-bows, 1 more archer tower, wizard tower, hidden tesla, and 25 walls. 1 more gold collector and storage, 1 more elixir collector and storage.
+Once queen and king level up to 30, queen walk is very powerful with 4 level 4 healers. Then based on the opponent's weakness, queen walks works great to help lavaloonion air attack, hog riders or witch ground attack.
 
 New troops baby dragon, witch, and lava hound are unlocked.
+
+For air attack, with x-bows in air & ground mode, one more air seeking mine and air defence, it adds more difficulty for dragon strategy. Dragons are not over powered anymore in TH9. Instead, new strategy lava loonion can be used to replace the dragon loon strategy as balloon level 5 to 6 upgrade has a significant boost on DpS and HP.
+
+Baby dragon is not the main attacker, but it's a great for funneling and cleaning up.
+
+Level 2 witch is valuable for many strategies.
 
 Haste spell, freeze spell and jump spell are unlocked. But freeze spell is up to level 1 so it's basically useless.
 
 Valkyrie and golem can be upgraded up 2 level to level 4.
-
-Level 2 witch is valuable for many strategies.
 
 Maximize the hero levels.
 
@@ -1112,7 +1112,7 @@ New troops: miner and bowler.
 
 CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
 
-With upgraded clan castle, the CC troop housing capacity is 35 and 1 spell.
+With upgraded clan castle, the CC troop housing capacity is 35 and 1 spell housing space.
 
 Maximize the hero levels.
 
@@ -1126,7 +1126,7 @@ Grand Warden joins in the village.
 - Heroes maxed 50/50/20
 - CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
 - Troops (260 Camp + 35 Clan Castle)
-  - CC troop 35 and 2 more spells
+  - CC troop 35 and 2 spell housing space
   - Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
   - Supplementary troop (healer, wall breaker...)
 - Spells
@@ -1444,10 +1444,10 @@ Facts about queen,
 Queen's attack speed 0.75s, move speed 24, range 5 tiles, search range 10 tiles.
 
 - Level 40 queen HP 1,630 DpS 419, DpA 314.25. When in ability, DpS 1,238 in 5.0s, Health Recovery 325, Summon 12 archers
-- Level 45 queen HP 1,809 DpS 474, DpA 355.5. When in ability, DpS 1,394 in 5.2s, Health Recovery 350, Summon 13 archers
-- Level 50 queen HP 2,007 DpS 536, DpA 402. When in ability, DpS 1,556 in 5.4s, Health Recovery 375, Summon 14 archers
-- Level 55 queen HP 2,274 DpS 594, DpA 445.5. When in ability, DpS 1,714 in 5.4s, Health Recovery 400, Summon 15 archers
-- Level 60 queen HP 2,575 DpS 658, DpA 493.5. When in ability, DpS 1,778 in 5.8s, Health Recovery 425, Summon 16 archers
+- Level 45 queen HP 1,809 DpS 474, DpA 355.50. When in ability, DpS 1,394 in 5.2s, Health Recovery 350, Summon 13 archers
+- Level 50 queen HP 2,007 DpS 536, DpA 402.00. When in ability, DpS 1,556 in 5.4s, Health Recovery 375, Summon 14 archers
+- Level 55 queen HP 2,274 DpS 594, DpA 445.50. When in ability, DpS 1,714 in 5.4s, Health Recovery 400, Summon 15 archers
+- Level 60 queen HP 2,575 DpS 658, DpA 493.50. When in ability, DpS 1,778 in 5.8s, Health Recovery 425, Summon 16 archers
 
 Facts about king
 
