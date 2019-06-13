@@ -49,6 +49,15 @@
             //  Whenever the 'gold' property is updated we call this function BEFORE the value changes:
             gem.on('changedata', function (gameObject, key, value, resetValue) {
 
+                console.log("changedata" + " key: " + key + " value: " + value);
+
+                text.setText([
+                    'Name: ' + gem.data.get('name'),
+                    'Level: ' + gem.data.get('level'),
+                    'Value: ' + gem.data.get('gold') + ' gold',
+                    'Owner: ' + gem.data.get('owner')
+                ]);
+
                 if (key === 'gold' && value > 500) {
                     //  Calling this will set the value to be 500 and never get as far as the `setdata` event
                     resetValue(500);
@@ -58,6 +67,8 @@
 
             //  Whenever the 'gold' property is updated we call this function AFTER the change has happened:
             gem.on('setdata', function (gameObject, key, value) {
+
+                console.log("setdata");
 
                 text.setText([
                     'Name: ' + gem.data.get('name'),
@@ -75,10 +86,13 @@
 
             this.input.on('pointerdown', function () {
 
+                // console.log("pointerdown");
                 var gold = gem.data.get('gold');
 
                 //  Set the value, this will call the 'after' callback
                 gem.data.set('gold', gold + 100);
+
+                //gem.data.values.gold += 50;
 
             });
         }

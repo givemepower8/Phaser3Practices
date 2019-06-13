@@ -46,7 +46,7 @@
 
             //  Whenever a data value is updated we call this function:
             gem.on('setdata', function (gameObject, key, value) {
-
+                console.log('setdata');
                 text.setText([
                     'Name: ' + gem.getData('name'),
                     'Level: ' + gem.getData('level'),

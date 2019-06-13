@@ -4,6 +4,8 @@ Phaser 3 Practices
 
 `npm run dev` which lists the directory in web-pack-server
 
+open `http://localhost:8080/examples/` in chrome
+
 ## Installation
 
 [download](https://phaser.io/download/stable)
