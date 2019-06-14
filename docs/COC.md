@@ -1101,8 +1101,27 @@ When the healers die or get distracted, queen will have a hard time.
 - Put a balloon when to deploy the queen to trigger the seeking air mine.
 - Protect the healers. Make sure no other troops will take away the healers.
 - Use offensive spells around queen
+- Rage spell to increase the queen DPS also the healing speed.
 
-  - Rage spell to increase the queen DPS also the healing speed.
+#### TH9 farming strategies
+
+GoWiPe
+
+- 4 archers
+- 7 wall breakers
+- 1 golem
+- 4 pekka
+- 18 wizards
+- 2 rage spell
+- 2 healing spell
+- 1 poison spell
+- CC can be electro dragon and 1 freeze spell
+
+Lavaloonion
+
+- 2 lava hounds
+- 2? balloons
+- 2? minions
 
 ### TH 10 strategies
 
