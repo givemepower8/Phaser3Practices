@@ -2019,7 +2019,7 @@ Progress
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
 - Walls: level 11 x 127, level 10 x 173 as of 06/02/2019
-- Walls: level 11 x 148, level 10 x 152 as of 06/15/2019
+- Walls: level 11 x 156, level 10 x 144 as of 06/15/2019
 
 Priority list
 
@@ -2082,11 +2082,11 @@ Maximize the spells
 - TH 12 Level 169, King 35 Queen 48 Warden 20 as of 05/07/2019
 - TH 12 Level 171, King 35 Queen 52 Warden 20 as of 05/22/2019
 - TH 12 Level 172, King 35 Queen 54 Warden 20 as of 06/02/2019
-- TH 12 Level 172, King 35 Queen 57 Warden 20 as of 06/15/2019
+- TH 12 Level 173, King 35 Queen 56 Warden 20 as of 06/15/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
-- Walls: level 12 x 3, level 11 x 198, level 10 x 99 as of 06/02/2019
+- Walls: level 12 x 3, level 11 x 223, level 10 x 74 as of 06/15/2019
 
 Maximize the troops
 
@@ -2138,11 +2138,11 @@ Maximize the spells
 - TH 11 Level 150, King 29 Queen 40 Warden 8 as of 05/02/2019
 - TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
-- TH 11 Level 155, King 30 Queen 47 Warden 11 as of 06/15/2019
+- TH 11 Level 156, King 30 Queen 47 Warden 11 as of 06/15/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
-- Walls: level 11 x 118, level 10 x 182 as of 06/02/2019
+- Walls: level 11 x 120, level 10 x 180 as of 06/02/2019
 
 Priority list
 

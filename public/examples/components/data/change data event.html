@@ -51,6 +51,8 @@
 
                 console.log("changedata" + " key: " + key + " value: " + value);
 
+                console.log(resetValue);
+
                 text.setText([
                     'Name: ' + gem.data.get('name'),
                     'Level: ' + gem.data.get('level'),
@@ -60,7 +62,9 @@
 
                 if (key === 'gold' && value > 500) {
                     //  Calling this will set the value to be 500 and never get as far as the `setdata` event
-                    resetValue(500);
+                    //resetValue(500);
+                    // the following is bad code, don't set data to `changedata` event as it may trigger infinite loop
+                    //gem.data.set('gold', resetValue);
                 }
 
             });
