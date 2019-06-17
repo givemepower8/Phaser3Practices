@@ -2010,6 +2010,8 @@ Home village usually protects resource storages, but in war base, those ones bec
 
 <http://www.cocland.com>
 
+<http://www.cosbases.com>
+
 <https://www.clashpedia.com/>
 
 <https://www.clashtrack.com/>
@@ -2046,7 +2048,6 @@ Priority list
 - Barbarian to level 8 - ongoing
 - Wall breakers to level 7
 - Witch to level 5 - use badge later?
-
 - Ice golem to level 3
 
 Maximize the troops
