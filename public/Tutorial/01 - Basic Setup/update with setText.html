@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>title</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.7/dist/phaser.min.js"></script>
+</head>
+
+<body>
+    <div id="phaser-example"></div>
+    <script>
+        // minimum setup for one scene game
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            scene: {
+                create: create,
+                update: update
+            }
+        };
+
+        // initialize the game with the config
+        var game = new Phaser.Game(config);
+
+        var displayTime;
+        var displayTicks;
+
+        function create() {
+
+            displayTime = this.add.text(10, 10, (new Date()).toString(), {
+                font: '16px Courier',
+                fill: '#00ff00'
+            });
+
+            console.log(displayTime);
+
+            displayTicks = this.add.text(10, 30, Date.now(), {
+                font: '16px Courier',
+                fill: '#ff0000'
+            });
+        }
+
+        function update() {
+
+            // update is often used to render graphics
+            // don't put game related logic in update as it runs 60 times per second
+            displayTime.setText((new Date()).toString());
+
+            displayTicks.setText(Date.now());
+        }
+    </script>
+</body>
+
+</html>
