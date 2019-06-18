@@ -418,7 +418,7 @@ At TH8, level 4 hog rider is a very strong attacker in war.
 
 Strength: Jump over walls.
 
-Weakness: Vulnerable to splash damage, giant bomb. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 840 dark elixir already.
+Weakness: Vulnerable to splash damage, giant bomb, heros. Relatively expensive, it's not for looting. 20 level 4 hogs will cost 840 dark elixir already.
 
 | Level | DpS | HP  | Cost (DE) | Research Cost (DE) | Laboratory | Research Time |
 | ----- | --- | --- | --------- | ------------------ | ---------- | ------------- |
@@ -635,15 +635,41 @@ The Barbarian King's Iron Fist ability does not stack with the Rage Spell, nor d
 
 ### Jump
 
-In higher town halls, as the wall level gets much higher, it's harder to break through the wall. Jump spell can brings troops to the core. It can be used on the wall intersections.
+In higher town halls, as the wall level gets much higher, it's harder to break through the wall. Jump spell can brings troops to the core. It's often used with bowlers, witches and PEKKA smash strategy.
+
+It works great on the wall intersections.
 
 ### Freeze
 
+Radius 3.5 tiles, housing space 1
+
+| Level | Freeze Time | Cost | Research Cost | Research Time | Laboratory |
+| ----- | ------------| ---- | ------------- | ------------- | ---------- |
+| 1     |2.5 seconds  |6,000 |N/A            |N/A            | 7          |
+| 2     |3.0 seconds  |7,000 |3,000,000      |3d             | 8          |
+| 3     |3.5 seconds  |8,000 |4,000,000      |4d 12h         | 8          |
+| 4     |4.0 seconds  |9,000 |5,000,000      |6d 12h         | 8          |
+| 5     |4.5 seconds  |10,000|7,000,000      |8d             | 8          |
+| 6     |5.0 seconds  |11,000|9,500,000      |9d             | 9          |
+| 7     |5.5 seconds  |12,000|11,000,000     |11d 12h        | 10         |
+
 ### Clone
+
+Radius 3.5 tiles, housing space 3
 
 ### Poison
 
+Radius 4 tiles, housing space 1
+
 It's a must-have for taking CC troops.
+
+| Level | Maximum Damage per Second |Speed Decrease|Attack Rate Decrease | Cost |Research Cost | Research Time | Laboratory |
+| ----- | ------------------------- | ------------ | ------------------- | ---- | ------------ | ------------- | ---------- |
+| 1     |90                         |26%           |35%                  |95    |N/A           |N/A            | N/A        |
+| 2     |115                        |30%           |40%                  |110   |25,000        |2d 12h         | 6          |
+| 3     |145                        |34%           |45%                  |125   |50,000        |4d             | 7          |
+| 4     |180                        |38%           |50%                  |140   |75,000        |6d 12h         | 8          |
+| 5     |220                        |40%           |55%                  |155   |150,000       |9d 12h         | 9          |
 
 ### Earthquake
 
@@ -946,7 +972,7 @@ For maxed out TH8 opponent or low level TH 9 opponent, upgrade hog rider to leve
 
 Pick the side where most splash damage dealing building located because splash damage dealing buildings are very annoying in late battle.
 
-The king and queen are deadly enemies for hog riders and hog riders won't attack them if they are in the middle of attacking one building. If the hog riders are attacking the town hall or high HP building, the king nearby will destroy most of them.
+The king and queen are deadly enemies for hog riders as hog riders won't attack them if they are in the middle of attacking one building. If the hog riders are attacking the town hall or high HP building, the king or queen nearby will destroy most of them.
 
 Don't spam in all the hog riders. Spring traps, bombs, giant bombs destroy swarmed hog rider very quickly.
 
@@ -954,7 +980,7 @@ Don't spam in all the hog riders. Spring traps, bombs, giant bombs destroy swarm
 
 GoHo is powerful on compact bases if there are lots of compartments so 2 meat shield if needed. If the base is not that compact or some not enclosed TH8 war base, use 4 valkyries to replace 1 golem which speeds up the attack greatly.
 
-1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + 1 poison, and 3 Valkyries + 1 Archer + Poison / freeze Spell in CC.
+1 Golem + 4 Valkyries + 10 Wizards + 18 Hogs + 4 Wall Breakers + 3 Healing Spell + 1 poison, and 3 Valkyries + 2 Archer + Poison / freeze Spell in CC.
 
 #### TH 8 Farming
 
@@ -982,19 +1008,35 @@ Make a wall of Balloons where the air-targeting defences mostly are, and if need
 
 Then, deploy the minions to clean up behind once the first layer of defenses are taken down and send in the King.
 
-However, Air Bombs can seriously ruin this attack if many balloons or minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the balloons from being destroyed.
+However, air Bombs can seriously ruin this attack if many balloons or minions were clumped up because Air Bombs can fully take out minions and leave Balloons damaged, or even destroyed completely unless a well-timed healing spell is dropped to prevent the balloons from being destroyed.
 
 ### TH 9 strategies
 
-Queen is unlocked. Wall level can go up to 9 (spike) and 10 (lava stripe on top).
+TH9 enables new buildings: 2 X-bows, 1 more archer tower, wizard tower, hidden tesla, and 25 walls. 1 more gold collector and storage, 1 more elixir collector and storage.
 
-2 X-bows are unlocked.
+Upgrade priority: x-bows, air defence, air seeking mine, air bombs, giant bombs, bombs and traps.
 
-Other new buildings:
+Queen is unlocked.
 
-New troops baby dragon, witch and Lava Hound are unlocked, so new strategy lava loonion can be used.
+With upgraded camps, troop housing capacity is 220.
 
-Valkyrie can be upgraded up 2 level to level 4.
+With upgraded clan castle, the CC troop housing capacity is 30 and 1 spell.
+
+Wall level can go up to 9 (spike) and 10 (lava stripe on top). Wall rings are great to upgrade from spike to lava stripe on top as it has the max value.
+
+Once queen and king level up to 30, queen walk is very powerful with 4 level 4 healers. Then based on the opponent's weakness, queen walks works great to help lavaloonion air attack, hog riders or witch ground attack.
+
+New troops baby dragon, witch, and lava hound are unlocked.
+
+For air attack, with x-bows in air & ground mode, one more air seeking mine and air defence, it adds more difficulty for dragon strategy. Dragons are not over powered anymore in TH9. Instead, new strategy lava loonion can be used to replace the dragon loon strategy as balloon level 5 to 6 upgrade has a significant boost on DpS and HP.
+
+Baby dragon is not the main attacker, but it's a great for funneling and cleaning up.
+
+Level 2 witch is valuable for many strategies.
+
+Haste spell, freeze spell and jump spell are unlocked. But freeze spell is up to level 1 so it's basically useless.
+
+Valkyrie and golem can be upgraded up 2 level to level 4.
 
 Maximize the hero levels.
 
@@ -1021,6 +1063,35 @@ Maximize the troop levels.
 - Witch lvl 2
 - Lava Hound lvl 2
 
+Maximize the spells
+
+- Lighting lvl 6
+- Healing lvl 6
+- Rage lvl 5 Max
+- Jump lvl 2
+- Freeze lvl 1
+- Poison lvl 3
+- Earthquake lvl 3
+- Haste lvl 2
+
+Maximize the defence
+
+- Cannon lvl 11 x 5, can gear up, HP 1,060, DpS 74, Range 9
+- Archer tower lvl 11 x 6, HP 890, DpS 70, Range 10
+- Mortar lvl 7 x 4, can gear up, HP 700, DpS 15, Range 4-11
+- Air defense lvl 7 x 4, HP 1,100, DpS 280
+- Wizard tower lvl 7 x 4, HP 1,200, DpS 40, Range 7
+- Air sweeper lvl 5 x 2 Max, HP 1,050
+- Hidden Tesla lvl 7 x 4, HP 810, DpS 87, Range 7
+- Bomb tower lvl 3 x 1, HP 750, DpS 32
+- Bombs lvl 6 x 6, splash damage 54 in 3 titles
+- Spring traps lvl 4 x 6 Max, wipe off 18 capacity in 0.7 tiles
+- Air bomb lvl 4 x 4, splash damage 173 in 3 tiles
+- Giant bomb lvl 3 x 4, splash damage 225 in 3.5 tiles
+- Seeking air mine lvl 2 x 4, damage 1,800 in 4 tiles
+- Skeleton trap lvl 3 x 2, 4 spawned skeletons HP 30, DpS 25 each
+- X-Bows lvl 3 x 2, HP 3,100, DpS 80, Range 14
+
 Queen walk / charger
 
 At this stage, queen charge is mainly used to take out x-bows or air defence to facilitate other main troops.
@@ -1030,12 +1101,37 @@ When the healers die or get distracted, queen will have a hard time.
 - Put a balloon when to deploy the queen to trigger the seeking air mine.
 - Protect the healers. Make sure no other troops will take away the healers.
 - Use offensive spells around queen
+- Rage spell to increase the queen DPS also the healing speed.
 
-  - Rage spell to increase the queen DPS also the healing speed.
+#### TH9 farming strategies
+
+GoWiPe
+
+- 4 archers
+- 7 wall breakers
+- 1 golem
+- 4 pekka
+- 18 wizards
+- 2 rage spell
+- 2 healing spell
+- 1 poison spell
+- CC can be electro dragon and 1 freeze spell
+
+Lavaloonion
+
+- 2 lava hounds
+- 2? balloons
+- 2? minions
 
 ### TH 10 strategies
 
 Inferno tower.
+
+New troops: miner and bowler.
+
+CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
+
+With upgraded clan castle, the CC troop housing capacity is 35 and 1 spell housing space.
 
 Maximize the hero levels.
 
@@ -1049,7 +1145,7 @@ Grand Warden joins in the village.
 - Heroes maxed 50/50/20
 - CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
 - Troops (260 Camp + 35 Clan Castle)
-  - CC troop 35
+  - CC troop 35 and 2 spell housing space
   - Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
   - Supplementary troop (healer, wall breaker...)
 - Spells
@@ -1200,7 +1296,7 @@ One of the issue is that Pekka attacks nearest buildings even under attach from 
 
 Electro dragon has 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
-TH11 only has 240 housing capacity with maximized camps can take 8 electro dragons. As you need balloons in the army so the setup is like 12 balloons and 6 electro dragons. In addition to the one electro dragon and one balloon in CC, at most TH11 can get up to 7 dragons and 13 balloons. 
+TH11 only has 240 housing capacity with maximized camps can take 8 electro dragons. As you need balloons in the army so the setup is like 12 balloons and 6 electro dragons. In addition to the one electro dragon and one balloon in CC, at most TH11 can get up to 7 dragons and 13 balloons.
 
 TH12 has 280 housing capacity and the setup is usually 14 balloons and 7 electro dragons. With 8 balloons in CC, 7 dragons and 22 balloons makes big difference.
 
@@ -1316,9 +1412,9 @@ Maximize the spells
 
 Maximize the defence
 
-- Cannon lvl 17 x 7, can gear up
-- Archer tower lvl 17 x 8, can gear up if there is one level archer tower in builder hall level 6.
-- Mortar lvl 11 x 4, can gear up builder hall level 8.
+- Cannon lvl 17 x 7, can gear up one in burst mode
+- Archer tower lvl 17 x 8, can gear up one if there is one level archer tower in builder hall level 6.
+- Mortar lvl 11 x 4, can gear up in multi-mortar when mortar in builder hall reaches level 8.
 - Air defense lvl 10 x 4
 - Wizard tower lvl 11 x 5
 - Air sweeper lvl 7 x 2
@@ -1367,10 +1463,10 @@ Facts about queen,
 Queen's attack speed 0.75s, move speed 24, range 5 tiles, search range 10 tiles.
 
 - Level 40 queen HP 1,630 DpS 419, DpA 314.25. When in ability, DpS 1,238 in 5.0s, Health Recovery 325, Summon 12 archers
-- Level 45 queen HP 1,809 DpS 474, DpA 355.5. When in ability, DpS 1,394 in 5.2s, Health Recovery 350, Summon 13 archers
-- Level 50 queen HP 2,007 DpS 536, DpA 402. When in ability, DpS 1,556 in 5.4s, Health Recovery 375, Summon 14 archers
-- Level 55 queen HP 2,274 DpS 594, DpA 445.5. When in ability, DpS 1,714 in 5.4s, Health Recovery 400, Summon 15 archers
-- Level 60 queen HP 2,575 DpS 658, DpA 493.5. When in ability, DpS 1,778 in 5.8s, Health Recovery 425, Summon 16 archers
+- Level 45 queen HP 1,809 DpS 474, DpA 355.50. When in ability, DpS 1,394 in 5.2s, Health Recovery 350, Summon 13 archers
+- Level 50 queen HP 2,007 DpS 536, DpA 402.00. When in ability, DpS 1,556 in 5.4s, Health Recovery 375, Summon 14 archers
+- Level 55 queen HP 2,274 DpS 594, DpA 445.50. When in ability, DpS 1,714 in 5.4s, Health Recovery 400, Summon 15 archers
+- Level 60 queen HP 2,575 DpS 658, DpA 493.50. When in ability, DpS 1,778 in 5.8s, Health Recovery 425, Summon 16 archers
 
 Facts about king
 
@@ -1512,7 +1608,7 @@ Still, it the war base design has the town hall out at the edge, battle blimp is
 
 ##### Stone slammer
 
-Stone slammer is just a giant balloon which does not care about where the town hall is located.
+Stone slammer is just a giant balloon. Its preferred target is defence building, which ignores the town halls unless giga tesla town hall is triggered.
 
 #### TH12 Spells
 
@@ -1565,6 +1661,8 @@ Each skeleton HP 30, move speed 24, DpS 25
 - Level 5, 30 skeleton, TH12, DpS 750
 
 ##### Level 5 Bat Maxed
+
+Bat spell has 1 housing capacity.
 
 Bat prioritize defensive structures above all other targets, and will bypass all other types of enemy buildings and troops while any defenses remain on the battlefield.
 
@@ -1665,9 +1763,11 @@ Always have plan B for queen got destroyed too early.
 
 ##### Warden or no Warden in queen walk
 
-It's debateful that if put Warden beside queen. The pro side is Warden's long range shot, extend queen and healer's health in his coverage, ability to protect them from one eagle artillery's shot. The con side is Warden sometimes leaves the queen to attack some nearby troops or building and healers will be pulled away from the queen. If queen is in a danger zone, she will get destroyed out of the blue because of the sudden lose of healer's support.
+It's debateful that if put Warden beside queen. The pro side is Warden's long range shot, which extends queen and healer's health in his coverage, ability to protect them from one eagle artillery's shot. The con side is Warden sometimes leaves the queen to attack some nearby troops or building and healers will be pulled away from the queen. If queen is in a danger zone, she will get destroyed out of the blue because of the sudden lose of healer's support.
 
-From my personal experience, it's better not to put Warden beside queen, and let Warden go with the main attack troop which adds more value.
+Depends on the base layout and divide and conquer strategy, if the opponent's base has all the trash building outside and only x-bows, inferno, town halls in the center distributed in separated compartments, it's better put Warden beside queen to destroy 2 compartments.
+
+If you are using main attack troop like miner or hog riders, Warden should go with the main attack troop which adds more value.
 
 #### TH12 Level 4 Bowler
 
@@ -1766,23 +1866,38 @@ Choose the path which is from eagle artillery to town hall.
 
 Use 1 electro dragon, and 1 balloon / PEKKA with wizards to clear the trash building outside and behind the first layer of wall.
 
-Deploy wall wrecker with ice golem and golem, send in king, queen, pekkas. Let them march a bit to clear the buildings a bit. Send in the bowlers and Warden. Freeze the infernos and drop the rage 2 tiles before bowlers. Use king and queen's ability to speed up the attack. If the town hall is level 5 giga tesla, When the town hall's HP is low, use warden's ability so to avoid the 1000 damage. Once the area is about to cleared, drop the jump spell so bowlers, pekkas, heroes can still move forward. It's often 2 star quickly guaranteed but hard to get 3 star.
+Clean up the trash buildings outside so troops won't get out, use Electro dragon on one side and a little bit queen charge on the other side.
+
+Once queen close to the break through entry point, deploy wall wrecker with ice golem and golem, send in king, pekkas so queen and healers will merge into the troop. Let them march a bit further to clear the buildings a bit and if there is CC troop wait for the queen to clear up the CC. Send in the bowlers and Warden. Freeze the infernos and drop the rage 2 tiles before bowlers. Watch out for king and queen's health and use king and queen's ability if necessary. If the town hall is level 5 giga tesla, when the town hall's HP is low, use warden's ability so to avoid the 1000 damage. Once the area is about to cleared, drop the jump spell so bowlers, pekkas, heroes can still move forward. It's often 2 star quickly guaranteed but hard to get 3 star.
 
 PeBoBat strategy
 
-One problem is that PEKKA is too slow. That's why bat spell can be used for the clean up.
+One problem is the above PEKKA smash is too slow and often runs out of time. That's why bat spell can be used for the clean up.
 
 PEKKA + Bowler + Bat spell
 
 - 4 PEKKA
 - 3 Wizard
-- 2 Archer
 - 10 Bowler
+- 2 Archer
 - 4 Healer
 - 10 Hog Rider
 - 1 Rage spell
 - 6 Bat spell
 - 1 Poison spell
+- 2 Freeze spell
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
+- 4 PEKKA
+- 3 Wizard
+- 8 Bowler
+- 1 electro dragon
+- 5 Healer
+- 1 Giant
+- 3 Balloons
+- 1 Rage spell
+- 1 Jump spell
+- 5 Bat spell
 - 2 Freeze spell
 - Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
 
@@ -1873,7 +1988,7 @@ Electro dragon's lighting can hit 5 building connected, dragon can deal splash d
 
 Farming strategy is very different from war strategy. You are not looking for 3 stars but just for maximum profit.
 
-Easy farming strategy is use electro dragons, lavaloonian, miners, pekka bowler.
+Easy farming strategy is use electro dragons, lavaloonion, miners, pekka bowler.
 
 ## TH12 Base design
 
@@ -1894,6 +2009,8 @@ Home village usually protects resource storages, but in war base, those ones bec
 <https://www.allclash.com/>
 
 <http://www.cocland.com>
+
+<http://www.cosbases.com>
 
 <https://www.clashpedia.com/>
 
@@ -1916,28 +2033,32 @@ Heroes and troops enables to 3 star in war. Defences and walls make your opponen
 Progress
 
 - TH 12 Level 186, King 32 Queen 53 Warden 18 as of 05/02/2019
-- TH 12 Level 186, King 33 Queen 53 Warden 18 as of 05/07/2019
 - TH 12 Level 188, King 35 Queen 54 Warden 20 as of 05/22/2019
+- TH 12 Level 190, King 36 Queen 55 Warden 20 as of 06/02/2019
+- TH 12 Level 191, King 36 Queen 58 Warden 20 as of 06/16/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
+- Walls: level 11 x 127, level 10 x 173 as of 06/02/2019
+- Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
 
 Priority list
 
 - Queen to level 60
+- Barbarian to level 8 - ongoing
+- Wall breakers to level 7
+- Witch to level 5 - use badge later?
 - Ice golem to level 3
-- Hog rider to level 9
-- Witch to level 5
 
 Maximize the troops
 
 - Barbarian lvl 8 Max, now 7
-- Archer lvl 8 Max, now 7
+- x Archer lvl 8 Max
 - x Giant lvl 9 Max
 - Goblin lvl 8 Max, now 6
 - Wall breakers lvl 8 Max, now 6
 - x Balloon lvl 8 Max
-- Wizard lvl 9 Max, now 8
+- x Wizard lvl 9 Max
 - x Healer lvl 5 Max
 - x Dragon lvl 7 Max
 - x PEKKA lvl 8 Max
@@ -1945,19 +2066,19 @@ Maximize the troops
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
 - Minion lvl 8 Max, now 6
-- Hog rider lvl 9 Max, now 8
+- x Hog rider lvl 9 Max
 - x Valkyrie lvl 7 Max
 - Golem lvl 8 Max, now 5
 - Witch lvl 5 Max, now 4
 - x Lava Hound lvl 5 Max
 - x Bowler lvl 4 Max
-- Ice golem lvl 5 Max, now 1
+- Ice golem lvl 5 Max, now 2
 
 Seige machine
 
 - x Wall wrecker 3 Max
 - Battle blimp 3 Max, now 2
-- Stone slammer 3 Max, now 2
+- x Stone slammer 3 Max
 
 Maximize the spells
 
@@ -1967,7 +2088,7 @@ Maximize the spells
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
-- Poison lvl 5 Max, now 3
+- x Poison lvl 5 Max
 - Earthquake lvl 4 Max, now 2
 - Haste lvl 4 Max, now 1
 - Skeleton lvl 5 Max, now 1
@@ -1976,12 +2097,14 @@ Maximize the spells
 ### warshong
 
 - TH 12 Level 161, King 32 Queen 39 Warden 20 as of 03/23/2019
-- TH 12 Level 168, King 35 Queen 47 Warden 20 as of 05/02/2019
 - TH 12 Level 169, King 35 Queen 48 Warden 20 as of 05/07/2019
 - TH 12 Level 171, King 35 Queen 52 Warden 20 as of 05/22/2019
+- TH 12 Level 172, King 35 Queen 54 Warden 20 as of 06/02/2019
+- TH 12 Level 173, King 35 Queen 56 Warden 20 as of 06/16/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
+- Walls: level 12 x 3, level 11 x 235, level 10 x 62 as of 06/16/2019
 
 Maximize the troops
 
@@ -2009,17 +2132,17 @@ Maximize the troops
 
 Seige machine
 
-- Wall wrecker 3 Max, now 3
+- x Wall wrecker 3 Max, now 3
 - Battle blimp 3 Max, now 1
-- Stone slammer 3 Max, now 1
+- Stone slammer 3 Max, now 2
 
 Maximize the spells
 
 - Lighting lvl 7 Max, now 6
-- Healing lvl 7 Max
-- Rage lvl 5 Max
-- Jump lvl 3 Max
-- Freeze lvl 7 Max, now 5
+- x Healing lvl 7 Max
+- x Rage lvl 5 Max
+- x Jump lvl 3 Max
+- x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
 - Poison lvl 5 Max, now 4
 - Earthquake lvl 4 Max, now 3
@@ -2029,44 +2152,49 @@ Maximize the spells
 
 ### givemepower8
 
-- TH 11 Level 142, King lvl 25, Queen lvl 34, Grand Warden lvl 2 as of 03/23/2019
-- TH 11 Level 150, King lvl 29, Queen lvl 40, Grand Warden lvl 8 as of 05/02/2019
-- TH 11 Level 151, King lvl 30, Queen lvl 40, Grand Warden lvl 8 as of 05/07/2019
-- TH 11 Level 152, King lvl 30, Queen lvl 42, Grand Warden lvl 9 as of 05/22/2019
+- TH 11 Level 142, King 25 Queen 34 Warden 2 as of 03/23/2019
+- TH 11 Level 150, King 29 Queen 40 Warden 8 as of 05/02/2019
+- TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
+- TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
+- TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
+- Walls: level 11 x 120, level 10 x 180 as of 06/02/2019
+- Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
 
 Priority list
 
 - Queen to level 50
-- Ice golem to level 3
-- Electro Dragon to level 2
+- Minion to level 7 - ongoing
+- Haste to level 4
+- Poison to level 5
+- Wall breakers to level 7
 - Golem to level 6
 
 Maximize the troops
 
-- Barbarian lvl 8 Max, now 7
+- x Barbarian lvl 8 Max
 - x Archer lvl 8 Max
 - x Giant lvl 8 TH11 Max
 - Goblin lvl 7 Max, now 6
 - Wall breakers lvl 7 TH11 Max, now 6
-- Balloon lvl 7 TH11 Max, now 6
+- x Balloon lvl 7 TH11 Max
 - x Wizard lvl 8 TH11 Max
 - x Healer lvl 5 Max
 - Dragon lvl 6 TH11 Max, now 5
 - x PEKKA lvl 7 TH11 Max
 - Baby dragon lvl 5 TH11 Max, now 4
 - x Miner lvl 5 Max
-- Electro Dragon lvl 2 TH11 Max, now 1
+- x Electro Dragon lvl 2 TH11 Max
 - Minion lvl 7 TH11 Max, now 6
 - Hog rider lvl 7 TH11 Max, now 6
 - Valkyrie lvl 6 TH11 Max, now 5
 - Golem lvl 7 TH11 Max, now 5
 - x Witch lvl 4 TH11 Max
-- Lava Hound lvl 4, now 3
+- x Lava Hound lvl 4
 - x Bowler lvl 3 TH11 Max
-- Ice golem lvl 3, now 1
+- x Ice golem lvl 3 TH11 Max
 
 Maximize the spells
 
@@ -2076,7 +2204,7 @@ Maximize the spells
 - x Jump lvl 3 Max
 - x Freeze lvl 6 TH11 Max
 - Clone lvl 5 Max, now 1
-- Poison lvl 5 Max, now 3
+- Poison lvl 5 Max, now 4
 - x Earthquake lvl 4 Max
 - Haste lvl 4 Max, now 3
 - Skeleton lvl 4, now 2
