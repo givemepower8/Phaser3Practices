@@ -479,10 +479,11 @@ Weakness: Very low DpS and very slow speed.
 | 2     | 42  | 100.8 | 400               | 5,400 | 250       | 60,000             | 6          | 4 days        |
 | 3     | 46  | 110.4 | 450               | 5,700 | 300       | 70,000             | 7          | 5d 12h        |
 | 4     | 50  | 120   | 500               | 6,000 | 350       | 80,000             | 7          | 6d 12h        |
-| 5     | 54  | 129.6 | 530               | 6,300 | 425       | 90,000             | 8          | 8 days        |
-| 6     | 58  | 139.2 | 530               | 6,600 | 500       | 150,000            | 9          | 9d 12h        |
-| 7     | 62  | 148.8 | 530               | 6,900 | 600       | 200,000            | 9          | 11d 12h       |
-| 8     | 66  | 158.4 | 530               | 7,200 | 700       | 200,000            | 10         | 14 days       |
+| 5     | 54  | 129.6 | 550               | 6,300 | 425       | 90,000             | 8          | 8 days        |
+| 6     | 58  | 139.2 | 600               | 6,600 | 500       | 150,000            | 9          | 9d 12h        |
+| 7     | 62  | 148.8 | 650               | 6,900 | 600       | 200,000            | 9          | 11d 12h       |
+| 8     | 66  | 158.4 | 700               | 7,200 | 700       | 200,000            | 10         | 14 days       |
+| 9     | 70  | 168   | 750               | 7,500 | 800       | 220,000            | 14         | 14 days       |
 
 ### Witch
 
@@ -1390,7 +1391,7 @@ Maximize the troops
 - Minion lvl 8 Max
 - Hog rider lvl 9 Max
 - Valkyrie lvl 7 Max
-- Golem lvl 8 Max
+- Golem lvl 9 Max
 - Witch lvl 5 Max
 - Lava Hound lvl 5 Max
 - Bowler lvl 4 Max
@@ -1414,7 +1415,7 @@ Maximize the defence
 
 - Cannon lvl 17 x 7, can gear up one in burst mode
 - Archer tower lvl 17 x 8, can gear up one if there is one level archer tower in builder hall level 6.
-- Mortar lvl 11 x 4, can gear up in multi-mortar when mortar in builder hall reaches level 8.
+- Mortar lvl 12 x 4, can gear up in multi-mortar when mortar in builder hall reaches level 8.
 - Air defense lvl 10 x 4
 - Wizard tower lvl 11 x 5
 - Air sweeper lvl 7 x 2
@@ -1467,6 +1468,7 @@ Queen's attack speed 0.75s, move speed 24, range 5 tiles, search range 10 tiles.
 - Level 50 queen HP 2,007 DpS 536, DpA 402.00. When in ability, DpS 1,556 in 5.4s, Health Recovery 375, Summon 14 archers
 - Level 55 queen HP 2,274 DpS 594, DpA 445.50. When in ability, DpS 1,714 in 5.4s, Health Recovery 400, Summon 15 archers
 - Level 60 queen HP 2,575 DpS 658, DpA 493.50. When in ability, DpS 1,778 in 5.8s, Health Recovery 425, Summon 16 archers
+- Level 65 queen HP 2,913 DpS 726, DpA 544.50. When in ability, DpS 1,946 in 6.0s, Health Recovery 450, Summon 17 archers
 
 Facts about king
 
@@ -1477,6 +1479,7 @@ King's attack speed 1.2s, move speed 16, range 1 tile, search range 9 tiles, abi
 - Level 50 king HP 5,700 DpS 332, DpA 398.4. When in ability, DpS 878 in 10s, Health Recovery 2,263, Summon 24 barbarians
 - Level 55 king HP 6,452 DpS 369, DpA 442.8. When in ability, DpS 987 in 10s, Health Recovery 2,592, Summon 26 barbarians
 - Level 60 king HP 7,303 DpS 410, DpA 492.0. When in ability, DpS 1,028 in 10s, Health Recovery 2,592, Summon 28 barbarians
+- Level 65 king HP 8,264 DpS 453, DpA 543.6. When in ability, DpS 1,147 in 10s, Health Recovery 2,980, Summon 30 barbarians
 
 Facts about Grand Warden
 
@@ -1486,6 +1489,8 @@ Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 t
 - Level 20 Grand Warden HP 1,500 DpS 110, DpA 198. Eternal Tome 5s, Life Aura 50%.
 - Level 25 Grand Warden HP 1,658 DpS 136, DpA 244.8. Eternal Tome 5.5s, Life Aura 60%.
 - Level 30 Grand Warden HP 1,833 DpS 168, DpA 302.4. Eternal Tome 6s, Life Aura 70%.
+- Level 35 Grand Warden HP 2,026 DpS 206, DpA 370.8. Eternal Tome 6.5s, Life Aura 80%.
+- Level 40 Grand Warden HP 2,240 DpS 253, DpA 455.4. Eternal Tome 7s, Life Aura 90%.
 
 #### TH12 enemy defences
 
@@ -1621,14 +1626,14 @@ Don't use up the spells to early and don't be too conservative to use them. Well
 
 - Lightening lvl 7 Max
 - Healing lvl 7 Max
-- Rage lvl 5 Max
+- Rage lvl 6 Max
 - Jump lvl 3 Max
 - Freeze lvl 7 Max
 - Clone lvl 5 Max
-- Poison lvl 5 Max
-- Earthquake lvl 4 Max
-- Haste lvl 4 Max
-- Skeleton lvl 5 Max
+- Poison lvl 6 Max
+- Earthquake lvl 5 Max
+- Haste lvl 5 Max
+- Skeleton lvl 6 Max
 - Bat lvl 5 Max
 
 Lighting in TH12 is not quite useful any more as all the buildings have much higher HP.
@@ -2068,7 +2073,7 @@ Maximize the troops
 - Minion lvl 8 Max, now 6
 - x Hog rider lvl 9 Max
 - x Valkyrie lvl 7 Max
-- Golem lvl 8 Max, now 5
+- Golem lvl 9 Max, now 5
 - Witch lvl 5 Max, now 4
 - x Lava Hound lvl 5 Max
 - x Bowler lvl 4 Max
@@ -2084,14 +2089,14 @@ Maximize the spells
 
 - x Lighting lvl 7 Max
 - x Healing lvl 7 Max
-- x Rage lvl 5 Max
+- Rage lvl 6 Max, now 5
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
-- x Poison lvl 5 Max
-- Earthquake lvl 4 Max, now 2
-- Haste lvl 4 Max, now 1
-- Skeleton lvl 5 Max, now 1
+- Poison lvl 6 Max, now 5
+- Earthquake lvl 5 Max, now 2
+- Haste lvl 5 Max, now 1
+- Skeleton lvl 6 Max, now 1
 - x Bat lvl 5 Max
 
 ### warshong
@@ -2140,14 +2145,14 @@ Maximize the spells
 
 - Lighting lvl 7 Max, now 6
 - x Healing lvl 7 Max
-- x Rage lvl 5 Max
+- Rage lvl 6 Max, now 5
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
-- Poison lvl 5 Max, now 4
-- Earthquake lvl 4 Max, now 3
-- Haste lvl 4 Max, now 2
-- Skeleton lvl 5 Max, now 1
+- Poison lvl 6 Max, now 4
+- Earthquake lvl 5 Max, now 3
+- Haste lvl 5 Max, now 4
+- Skeleton lvl 6 Max, now 1
 - Bat lvl 5 Max, now 1
 
 ### givemepower8
@@ -2157,6 +2162,7 @@ Maximize the spells
 - TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
 - TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
+- TH 11 Level 156, King 32 Queen 48 Warden 11 as of 07/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2200,12 +2206,12 @@ Maximize the spells
 
 - x Lighting lvl 7 Max
 - x Healing lvl 7 Max
-- x Rage lvl 5 Max
+- x Rage lvl 5 TH11 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 6 TH11 Max
 - Clone lvl 5 Max, now 1
-- Poison lvl 5 Max, now 4
-- x Earthquake lvl 4 Max
-- Haste lvl 4 Max, now 3
-- Skeleton lvl 4, now 2
-- Bat lvl 4, now 1
+- Poison lvl 5 TH11 Max, now 4
+- Earthquake lvl 5 Max, now 4
+- Haste lvl 5 Max, now 3
+- Skeleton lvl 4 TH11 Max, now 2
+- Bat lvl 4 TH11 Max, now 1
