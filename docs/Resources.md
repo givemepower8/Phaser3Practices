@@ -1,6 +1,12 @@
 # Resources
 
-<https://github.com/rexrainbow/phaser3-rex-notes/> is very good to start.
+<https://rexrainbow.github.io/phaser3-rex-notes/docs/site/> is a very good place to start.
+
+<https://devdocs.io/phaser/>
+
+<https://photonstorm.github.io/phaser-ce/index.html>
+
+<https://github.com/rexrainbow/phaser3-rex-notes/>
 
 Official
 

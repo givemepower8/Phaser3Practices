@@ -2,6 +2,10 @@
 
 The Game Object Factory is a Scene plugin that allows you to quickly create many common types of Game Objects and have them automatically registered with the Scene. Game Objects directly register themselves with the Factory and inject their own creation methods into the class.
 
+Technically, game object is a base class which encapsulates many re
+
+## Game Object Factory
+
 ## Phaser.Actions
 
 By default, all the objects on the screen are static. Phaser Actions methods are useful shortcut methods to make object or group of objects move or act, for example, move on circle, move by coordinate, or along the line, path, rotate, align, ...
