@@ -6,6 +6,43 @@ Technically, game object is a base class which encapsulates many re
 
 ## Game Object Factory
 
+## Sprite
+
+On the scene, there are the character or object controlled by player which interact with many other game objects.
+
+Sprite can have physics or just a static object.
+
+## Sprite Class
+
+## Static sprite
+
+in scene create()
+`this.make.sprite(config1);`
+
+## Dynamic sprite
+
+`player = this.physics.add.sprite(100, 450, "dude");`
+
+## Group
+
+## Group
+
+```js
+function create() {
+  var group = this.add.group();
+
+  var image1 = this.add.image(0, 0, 'img1');
+
+  group.add(image1);
+
+  var image2 = this.add.image(0, 100, 'img2');
+
+  group.add(image2);
+
+  Phaser.Actions.SetXY(group.getChildren(), 400, 300);
+}
+```
+
 ## Phaser.Actions
 
 By default, all the objects on the screen are static. Phaser Actions methods are useful shortcut methods to make object or group of objects move or act, for example, move on circle, move by coordinate, or along the line, path, rotate, align, ...
@@ -87,3 +124,7 @@ function create() {
 ## Resources
 
 [game object source code](https://github.com/photonstorm/phaser/tree/v3.17.0/src/gameobjects)
+
+## Data manager
+
+<https://rexrainbow.github.io/phaser3-rex-notes/docs/site/datamanager/>

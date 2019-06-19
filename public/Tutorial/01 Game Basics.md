@@ -18,7 +18,7 @@ By default, after 'new Phaser.Game(config);' the Phaser.Game instance will be lo
 
 [Game source code](https://github.com/photonstorm/phaser/blob/v3.16.2/src/core/Game.js)
 
-see the minimum setup.html example
+see the `minimum game setup.html` example
 
 - minimum game just has one scene `initialize`
 - game has pre-defined properties, some important ones like config which you can access the device, game width and height
@@ -61,13 +61,17 @@ var game = new Phaser.Game(config);
 
 The above game only has one scene. Ideally, scene should be an array of scenes which are taken care of by SceneManager.
 
-## update with setText
+### Text
 
-- an variable / instance of text needs to be declared
+For the text, please see the `update with setText.html` example
+
+- to set the text, you need an variable and instance of the text
 - the text instance has its own properties
 - the text instance has lots of set methods to change text, font size...
 
-## load image
+### load image
+
+For the image, please see the `load image.html` example
 
 - absolute and relate url `this.load.image('apple', '/assets/sprites/apple.png');`
 - the image instance has its own properties
@@ -78,3 +82,82 @@ The above game only has one scene. Ideally, scene should be an array of scenes w
 atlas
 
 spritesheet
+
+## Scene
+
+### preload()
+
+It doesn't matter which way to create the scenes, each way has preload(), create() and update().
+
+The preload phase is used to load in any asset (whether it be audio, textual, graphical, or a specialized type) into the game before the game runs.
+
+This ensures the assets will be ready for use in the game and not suddenly appear only once the game play has begun.
+
+#### load shortcut method
+
+##### image
+
+```js
+function preload() {
+  this.load.setBaseURL('http://labs.phaser.io');
+  this.load.image('sky', 'assets/sky.png');
+  this.load.image('ground', 'assets/platform.png');
+  this.load.image('star', 'assets/star.png');
+  this.load.image('bomb', 'assets/bomb.png');
+  this.load.spritesheet('dude', 'assets/dude.png', {
+    frameWidth: 32,
+    frameHeight: 48
+  });
+}
+```
+
+##### sound
+
+##### spritesheet
+
+### create()
+
+Create is used for generating game objects so to get the game completely set up and ready to run. This means creating the objects that will first appear in the game, setting up user interface elements, and generally getting anything out of the way that doesn't need an update timer but does need to be in the game.
+
+### add shortcut method
+
+"add" is the shortcut method to add content like text, image onto the scene.
+
+```js
+var config = {
+  title: 'Awesome',
+  scene: {
+    preload: preload,
+    create: create,
+    update: update
+  }
+};
+
+var game = new Phaser.Game(config);
+
+function create() {
+  this.add.image(400, 300, 'sky');
+
+  var text = this.add.text(80, 550, '', {
+    font: '16px Courier',
+    fill: '#ffffff'
+  });
+
+  text.setText(['Game Title: ' + game.config.gameTitle]);
+}
+```
+
+#### make shortcut method
+
+"make" is the shortcut method to add game object from other format like a json file, etc.,
+
+### update()
+
+Game engines are built upon "game loop". The loop is the place where positions are changed, collisions are checked, input is taken, AI is
+calculated, and any other miscellaneous tasks are completed. In Phaser, the game loop method is the update method.
+
+Update method is called during the core game loop after debug, physics, plugins and the Stage have had their preUpdate methods called. It is used for user input polling and game object collisions and detection. This method is often used to capture game events, such as key presses, button clicks, mouse movement etc, and to then update the game scene variables as a result of those inputs.
+
+It is called on every frame. The engine attempts to execute, at best efforts, 60 frames per second, but that is not guaranteed. It is called BEFORE Stage, Tweens, Sounds, Input, Physics, Particles, and Plugins have had their postUpdate methods called.
+
+[Frame rate](https://en.wikipedia.org/wiki/Frame_rate) (expressed in frames per second or fps) is the frequency (rate) at which consecutive images called frames appear on a display. The term applies equally to film and video cameras, computer graphics, and motion capture systems. Frame rate may also be called the frame frequency, and be expressed in hertz.
