@@ -161,3 +161,35 @@ Update method is called during the core game loop after debug, physics, plugins 
 It is called on every frame. The engine attempts to execute, at best efforts, 60 frames per second, but that is not guaranteed. It is called BEFORE Stage, Tweens, Sounds, Input, Physics, Particles, and Plugins have had their postUpdate methods called.
 
 [Frame rate](https://en.wikipedia.org/wiki/Frame_rate) (expressed in frames per second or fps) is the frequency (rate) at which consecutive images called frames appear on a display. The term applies equally to film and video cameras, computer graphics, and motion capture systems. Frame rate may also be called the frame frequency, and be expressed in hertz.
+
+## To create a scene
+
+```js
+class Demo extends Phaser.Scene {
+  constructor() {
+    super({
+      key: 'examples'
+    });
+  }
+
+  preload() {}
+
+  create() {}
+
+  update() {}
+}
+
+var config = {
+  type: Phaser.AUTO,
+  parent: 'phaser-example',
+  width: 800,
+  height: 600,
+  scale: {
+    mode: Phaser.Scale.FIT,
+    autoCenter: Phaser.Scale.CENTER_BOTH
+  },
+  scene: Demo
+};
+
+var game = new Phaser.Game(config);
+```

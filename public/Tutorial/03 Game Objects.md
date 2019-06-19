@@ -25,8 +25,6 @@ in scene create()
 
 ## Group
 
-## Group
-
 ```js
 function create() {
   var group = this.add.group();
