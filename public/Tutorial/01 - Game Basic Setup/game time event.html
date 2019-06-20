@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>game time event</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.7/dist/phaser.min.js"></script>
+</head>
+
+<body>
+    <div id="phaser-example"></div>
+    <script>
+        // minimum setup for one scene game
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            scene: {
+                create: create
+            }
+        };
+
+        // initialize the game with the config
+        var game = new Phaser.Game(config);
+
+        var displayTime;
+        var everyTwoSecondsEvent;
+
+        //console.log(game);
+
+        function create() {
+
+            displayTime = this.add.text(10, 10, (new Date()).toString(), {
+                font: '16px Courier',
+                fill: '#00ff00'
+            });
+
+            //  notify change every 2 seconds
+            everyTwoSecondsEvent = this.time.addEvent({
+                delay: 2000,
+                callback: onEveryTwoSecondsEvent,
+                callbackScope: this,
+                loop: true
+            });
+        }
+
+        function onEveryTwoSecondsEvent() {
+            displayTime.setText((new Date()).toString());
+        }
+    </script>
+</body>
+
+</html>
