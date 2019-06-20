@@ -29,7 +29,9 @@
         }
 
         function create() {
+
             appleSprite = this.add.sprite(400, 300, 'apple');
+
             this.input.on('pointerup', function (pointer) {
 
                 console.log(pointer);
@@ -46,7 +48,7 @@
 
             }, this);
 
-            console.log(appleSprite);
+            //console.log(appleSprite);
         }
     </script>
 </body>
