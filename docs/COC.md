@@ -2041,11 +2041,13 @@ Progress
 - TH 12 Level 188, King 35 Queen 54 Warden 20 as of 05/22/2019
 - TH 12 Level 190, King 36 Queen 55 Warden 20 as of 06/02/2019
 - TH 12 Level 191, King 36 Queen 58 Warden 20 as of 06/16/2019
+- TH 12 Level 191, King 37 Queen 58 Warden 20 as of 07/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
 - Walls: level 11 x 127, level 10 x 173 as of 06/02/2019
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
+- Walls: level 11 x 155, level 10 x 145 as of 07/02/2019
 
 Priority list
 

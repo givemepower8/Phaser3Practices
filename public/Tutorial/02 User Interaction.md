@@ -24,7 +24,7 @@ function create() {
 
 key up or key down
 
-If you press the key for a while, it triggers multiple keydown event but only one keyup event.
+If you press the key for a while, it triggers multiple `keydown` event but only one `keyup` event.
 
 To make the game more robust, use the built-in properties.
 
