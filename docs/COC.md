@@ -2015,7 +2015,7 @@ Home village usually protects resource storages, but in war base, those ones bec
 
 <http://www.cocland.com>
 
-<http://www.cosbases.com>
+<https://www.cosbases.com>
 
 <https://www.clashpedia.com/>
 
