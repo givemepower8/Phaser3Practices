@@ -1095,7 +1095,7 @@ Maximize the defence
 
 Queen walk / charger
 
-At this stage, queen charge is mainly used to take out x-bows or air defence to facilitate other main troops.
+At this stage, queen charge is mainly used to take out x-bows, CC or air defence to facilitate other main troops like balloons and hog riders.
 
 When the healers die or get distracted, queen will have a hard time.
 
@@ -1118,11 +1118,20 @@ GoWiPe
 - 1 poison spell
 - CC can be electro dragon and 1 freeze spell
 
-Lavaloonion
+Queen charge lavaloonion
 
+- 5 healers
 - 2 lava hounds
-- 2? balloons
+- 1? balloons
 - 2? minions
+
+Use queen charge to destroy CC, enemy queen, possibly one air defence.
+
+Queen charge Hog rider
+
+- 5 healers (70)
+- 20 hog riders (100)
+- cleaning up troop - witch / valkyrie / wizard
 
 ### TH 10 strategies
 
@@ -1301,7 +1310,7 @@ TH11 only has 240 housing capacity with maximized camps can take 8 electro drago
 
 TH12 has 280 housing capacity and the setup is usually 14 balloons and 7 electro dragons. With 8 balloons in CC, 7 dragons and 22 balloons makes big difference.
 
-Use 6 level 2 electro dragon on TH11 opponents with high air defence and high level queen is hard for 3 stars but it can be a solid strategy to get 2 stars. Occasionally, if your TH12 opponent's base has town hall exposed, TH11 electro dragon can get 1 star or 2 easily but impossible for 3 star.
+Use 6 level 2 electro dragon on TH11 opponents with high air defence and high level queen is hard for 3 stars but it can be a solid strategy to get 2 stars even against Th12. Occasionally, if your TH12 opponent's base has town hall exposed, TH11 electro dragon can get 1 star or 2 easily but usually impossible for 3 star.
 
 The attack is strong when heroes are strong. Usually, king and queen will launch a kind of suicide attack on the 2 sides of the base, so to leave the path narrower so the dragons can move forward faster. Or heroes can take out eager artillery and inferno tower and air defence. Grand Warden should be set to air mode always and follow the dragons for his ability support.
 
@@ -1369,16 +1378,16 @@ Workshop is unlocked at Th12 so you have your own seige machine.
 
 Maximize the hero levels.
 
-- Queen lvl 60
-- King lvl 60
-- Grand Warden lvl 30.
+- Queen lvl 65
+- King lvl 65
+- Grand Warden lvl 40.
 
 Maximize the troops
 
 - Barbarian lvl 8 Max
 - Archer lvl 8 Max
 - Giant lvl 9 Max
-- Goblin lvl 8 Max
+- Goblin lvl 7 Max
 - Wall breakers lvl 8 Max
 - Balloon lvl 8 Max
 - Wizard lvl 9 Max
@@ -1401,14 +1410,14 @@ Maximize the spells
 
 - Lighting lvl 7 Max
 - Healing lvl 7 Max
-- Rage lvl 5 Max
+- Rage lvl 6 Max
 - Jump lvl 3 Max
 - Freeze lvl 7 Max
 - Clone lvl 5 Max
-- Poison lvl 5 Max
-- Earthquake lvl 4 Max
+- Poison lvl 6 Max
+- Earthquake lvl 5 Max
 - Haste lvl 4 Max
-- Skeleton lvl 5 Max
+- Skeleton lvl 6 Max
 - Bat lvl 5 Max
 
 Maximize the defence
@@ -2052,17 +2061,17 @@ Progress
 Priority list
 
 - Queen to level 60
-- Barbarian to level 8 - ongoing
+- Haste to level 2 - ongoing
 - Wall breakers to level 7
 - Witch to level 5 - use badge later?
 - Ice golem to level 3
 
 Maximize the troops
 
-- Barbarian lvl 8 Max, now 7
+- x Barbarian lvl 8 Max
 - x Archer lvl 8 Max
 - x Giant lvl 9 Max
-- Goblin lvl 8 Max, now 6
+- Goblin lvl 7 Max, now 6
 - Wall breakers lvl 8 Max, now 6
 - x Balloon lvl 8 Max
 - x Wizard lvl 9 Max
@@ -2118,7 +2127,7 @@ Maximize the troops
 - x Barbarian lvl 8 Max
 - x Archer lvl 8 Max
 - Giant lvl 9 Max, now 8
-- Goblin lvl 8 Max, now 5
+- Goblin lvl 7 Max, now 5
 - Wall breakers lvl 8 Max, now 7
 - x Balloon lvl 8 Max
 - Wizard lvl 9 Max, now 8
@@ -2164,7 +2173,7 @@ Maximize the spells
 - TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
 - TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
-- TH 11 Level 156, King 32 Queen 48 Warden 11 as of 07/02/2019
+- TH 11 Level 156, King 33 Queen 48 Warden 11 as of 07/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2214,6 +2223,6 @@ Maximize the spells
 - Clone lvl 5 Max, now 1
 - Poison lvl 5 TH11 Max, now 4
 - Earthquake lvl 5 Max, now 4
-- Haste lvl 5 Max, now 3
+- Haste lvl 4 TH11 Max, now 3
 - Skeleton lvl 4 TH11 Max, now 2
 - Bat lvl 4 TH11 Max, now 1
