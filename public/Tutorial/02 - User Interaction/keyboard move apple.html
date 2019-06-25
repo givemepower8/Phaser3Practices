@@ -41,7 +41,7 @@
 
       cursors = this.input.keyboard.createCursorKeys();
 
-      this.sys.events.on('newPosition', handler, this);
+      this.sys.events.on('newPosition', catchAppleHandler, this);
     }
 
     function update() {
@@ -66,7 +66,8 @@
       }
     }
 
-    function handler(x, y) {
+    function catchAppleHandler(x, y) {
+      console.log(this);
       console.log("newPosition x: " + x + " y: " + y);
 
       // move to the player
