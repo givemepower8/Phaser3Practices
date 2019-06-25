@@ -98,9 +98,13 @@ SceneManage has an array of scenes. Each Scene has a unique key to identify it.
 - [Scene Doc](https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html)
 - [Scene source code](https://github.com/photonstorm/phaser/blob/v3.16.2/src/scene/Scene.js)
 
-### preload()
+### init()
 
-It doesn't matter which way to create the scenes, each way has preload(), create() and update().
+The scene has a life cycle init(), preload(), create() and update().
+
+When a scene starts, the init method is called. This is where you can setup parameters for your scene or game.
+
+### preload()
 
 The preload phase is used to load in any asset (whether it be audio, textual, graphical, or a specialized type) into the game before the game runs.
 
@@ -182,6 +186,7 @@ Scene can be a JSON object.
 The most important properties are:
 
 - key
+- init()
 - preload()
 - create()
 - update()

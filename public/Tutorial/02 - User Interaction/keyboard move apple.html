@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>load image</title>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.7/dist/phaser.min.js"></script>
+</head>
+
+<body>
+  <div id="phaser-example"></div>
+  <script>
+    // minimum setup for one scene game
+    var config = {
+      type: Phaser.AUTO,
+      parent: 'phaser-example',
+      scene: {
+        preload: preload,
+        create: create,
+        update: update
+      }
+    };
+
+    // initialize the game with the config
+    var game = new Phaser.Game(config);
+
+    var appleSprite, mineSprite;
+
+    var cursors;
+
+    var playerPositionEvent;
+
+    function preload() {
+      this.load.image('apple', '/assets/sprites/apple.png');
+      this.load.image('mine', '/assets/sprites/mine.png');
+    }
+
+    function create() {
+      appleSprite = this.add.sprite(400, 300, 'apple');
+
+      mineSprite = this.add.sprite(800, 600, 'mine');
+
+      cursors = this.input.keyboard.createCursorKeys();
+
+      this.sys.events.on('newPosition', handler, this);
+    }
+
+    function update() {
+      if (cursors.left.isDown) {
+        appleSprite.x -= 5;
+        this.sys.events.emit('newPosition', appleSprite.x, appleSprite.y);
+      }
+
+      if (cursors.right.isDown) {
+        appleSprite.x += 5;
+        this.sys.events.emit('newPosition', appleSprite.x, appleSprite.y);
+      }
+
+      if (cursors.up.isDown) {
+        appleSprite.y -= 5;
+        this.sys.events.emit('newPosition', appleSprite.x, appleSprite.y);
+      }
+
+      if (cursors.down.isDown) {
+        appleSprite.y += 5;
+        this.sys.events.emit('newPosition', appleSprite.x, appleSprite.y);
+      }
+    }
+
+    function handler(x, y) {
+      console.log("newPosition x: " + x + " y: " + y);
+
+      // move to the player
+      this.tweens.add({
+        targets: mineSprite,
+        x: x,
+        y: y,
+        duration: 2000
+      });
+    }
+  </script>
+</body>
+
+</html>

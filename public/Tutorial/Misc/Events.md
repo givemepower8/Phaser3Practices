@@ -4,30 +4,36 @@ Events is used for handling further property changes like user clicked a button,
 
 ## EventEmitter
 
-Event is a publisher subscriber design pattern. Event takes handler which is an action has a fixed signature, the publisher emits the stage changes and subscribers observes the changes and acts accordingly.
+Event is a publisher subscriber design pattern. Event takes handler which is an action has a fixed signature, the publisher emits the property changes and subscribers observes the changes and acts accordingly.
+
+For example, you are designing a simple game some enemies on the stage try to catch the player. Then every time if the player's position changes, it's emit / publish a event with argument for new x ,y.
 
 Create an EventEmitter instance, use `on` to register event with key and handler, later on use emit to trigger the handler.
 
 ```js
-function preload() {
-  this.load.image('plush', '/assets/pics/profil-sad-plush.png');
-}
+//  the publisher creates the EventEmitter instance
+var playerPositionEvent = new Phaser.Events.EventEmitter();
 
 function create() {
-  //  Create our own EventEmitter instance
-  var emitter = new Phaser.Events.EventEmitter();
-
-  //  Set-up an event handler
-  emitter.on('addImage', handler, this);
-
-  //  Emit it a few times with varying arguments
-  emitter.emit('addImage', 200, 300);
-  emitter.emit('addImage', 400, 300);
-  emitter.emit('addImage', 600, 300);
+  //  The publisher emits new arguments
+  playerPositionEvent.emit('newPosition', 200, 300);
+  playerPositionEvent.emit('newPosition', 400, 300);
+  playerPositionEvent.emit('newPosition', 600, 300);
 }
 
+// the subscriber decides what to do
+// Set-up an event handler in the subscriber
+// this is the
+playerPositionEvent.on('newPosition', handler, this);
+
 function handler(x, y) {
-  this.add.image(x, y, 'plush');
+  // move to the player
+  this.tweens.add({
+    targets: playerSprite,
+    x: x,
+    y: y,
+    duration: 1000
+  });
 }
 ```
 

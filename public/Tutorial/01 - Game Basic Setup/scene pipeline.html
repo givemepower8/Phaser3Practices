@@ -14,6 +14,8 @@
             type: Phaser.AUTO,
             parent: 'phaser-example',
             scene: {
+                init: init,
+                preload: preload,
                 create: create,
                 update: update
             }
@@ -24,8 +26,15 @@
 
         console.log(game);
 
-        function create() {
+        function init() {
+            console.log("init");
+        }
 
+        function preload() {
+            console.log("preload");
+        }
+
+        function create() {
             console.log("create");
             this.add.text(10, 10, 'phaserJS', {
                 font: '16px Courier',
