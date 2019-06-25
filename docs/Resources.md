@@ -6,6 +6,8 @@
 
 <https://photonstorm.github.io/phaser-ce/index.html>
 
+<https://photonstorm.github.io/phaser3-docs/index.html>
+
 <https://github.com/rexrainbow/phaser3-rex-notes/>
 
 Official
@@ -23,6 +25,9 @@ Books
 - [An Introduction to HTML5 Game Development with Phaser.js](https://github.com/meanderingleaf/PhaserBookExamples)
 
 Tutorials
+<https://phasergames.com/>
+
+<https://gamedevacademy.org/html5-phaser-tutorial-spacehipster-a-space-exploration-game/>
 
 - [phaser.io tutorials](http://phaser.io/news/category/tutorial)
 - [2D breakout game Phaser](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser)
@@ -46,6 +51,7 @@ Community tutorials
 
 https://sprite-storm.com/tutorial/phaser-tutorial/drawing-graphics-phaser/
 
+<http://www.html5gamedevs.com/forum/33-phaser-3/>
 Developers
 
 Richard Davey, Creator

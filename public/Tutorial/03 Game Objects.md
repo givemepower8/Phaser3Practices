@@ -23,6 +23,17 @@ in scene create()
 
 `player = this.physics.add.sprite(100, 450, "dude");`
 
+## sprite animations
+
+```js
+//create player
+this.player = this.game.add.sprite(
+  this.game.world.centerX,
+  this.game.world.centerY,
+  'playership'
+);
+```
+
 ## Group
 
 ```js

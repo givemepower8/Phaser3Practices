@@ -394,3 +394,5 @@ for (var i = 1; i < 10; i++) {
 ### scene transition
 
 transition() method can add effects to transition the scenes.
+
+## world
