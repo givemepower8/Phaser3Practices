@@ -102,6 +102,8 @@ An Arcade Physics Sprite is a Sprite with an Arcade Physics body and related com
 
 The main difference between an Arcade Sprite and an Arcade Image is that you cannot animate an Arcade Image. If you do not require animation then you can safely use Arcade Images instead of Arcade Sprites.
 
+### enable a sprite
+
 ### overlap
 
 ```js
