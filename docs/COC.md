@@ -2065,18 +2065,19 @@ Progress
 - TH 12 Level 188, King 35 Queen 54 Warden 20 as of 05/22/2019
 - TH 12 Level 190, King 36 Queen 55 Warden 20 as of 06/02/2019
 - TH 12 Level 191, King 36 Queen 58 Warden 20 as of 06/16/2019
-- TH 12 Level 191, King 37 Queen 58 Warden 20 as of 07/02/2019
+- TH 12 Level 193, King 38 Queen 59 Warden 21 as of 07/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
 - Walls: level 11 x 127, level 10 x 173 as of 06/02/2019
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
-- Walls: level 11 x 155, level 10 x 145 as of 07/02/2019
+- Walls: level 11 x 166, level 10 x 134 as of 07/02/2019
 
 Priority list
 
 - Queen to level 60
-- Haste to level 2 - ongoing
+- Poison to level 6 - ongoing
+- Haste to level 2
 - Wall breakers to level 7
 - Witch to level 5 - use badge later?
 - Ice golem to level 3
@@ -2115,13 +2116,13 @@ Maximize the spells
 
 - x Lighting lvl 7 Max
 - x Healing lvl 7 Max
-- Rage lvl 6 Max, now 5
+- x Rage lvl 6 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
 - Poison lvl 6 Max, now 5
 - Earthquake lvl 5 Max, now 2
-- Haste lvl 5 Max, now 1
+- Haste lvl 5 Max, now 2
 - Skeleton lvl 6 Max, now 1
 - x Bat lvl 5 Max
 
@@ -2145,7 +2146,7 @@ Maximize the troops
 - Goblin lvl 7 Max, now 5
 - Wall breakers lvl 8 Max, now 7
 - x Balloon lvl 8 Max
-- Wizard lvl 9 Max, now 8
+- x Wizard lvl 9 Max
 - x Healer lvl 5 Max
 - Dragon lvl 7 Max, now 6
 - PEKKA lvl 8 Max, now 7
@@ -2194,14 +2195,14 @@ Maximize the spells
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
 - Walls: level 11 x 120, level 10 x 180 as of 06/02/2019
 - Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
+- Walls: level 11 x 125, level 10 x 175 as of 07/02/2019
 
 Priority list
 
 - Queen to level 50
-- Minion to level 7 - ongoing
 - Haste to level 4
 - Poison to level 5
-- Wall breakers to level 7
+- Wall breakers to level 7 - ongoing
 - Golem to level 6
 
 Maximize the troops
@@ -2219,7 +2220,7 @@ Maximize the troops
 - Baby dragon lvl 5 TH11 Max, now 4
 - x Miner lvl 5 Max
 - x Electro Dragon lvl 2 TH11 Max
-- Minion lvl 7 TH11 Max, now 6
+- x Minion lvl 7 TH11 Max
 - Hog rider lvl 7 TH11 Max, now 6
 - Valkyrie lvl 6 TH11 Max, now 5
 - Golem lvl 7 TH11 Max, now 5
