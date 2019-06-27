@@ -1931,40 +1931,55 @@ To attack a higher level TH12 with very high ground DpS dealing defences and ver
 
 If the war base is a distributed design with trash buildings spread out all over the map, it's not a good idea to use electro dragon as the electro dragon loses the chain lightening power and takes more time to destroy every building in its range, also sometime it will fly away from the core to attack outside trash buildings, unless you use some troops to funnel timely or in advance.
 
-If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. King can clear one side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
+If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. High level king can clear one side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
 
-Electro dragon strategy is quite easy:
+Electro dragon strategy is as following:
 
-- 12 balloons, 1 baby dragon, 7 electro dragons, 3 rage spells, 5 freeze spells
-- choose attack path
-  - no air sweeper covered on the way unless they can take down by balloons, dragon won't move forward against the air push unless rage/haste or freeze will be used
-  - close to eagle artillery to so take it as soon as possible
-  - if the enemy queen can be covered on the balloons marching path, it will be better because it will destroy the electro dragons quickly.
-  - any exposed air defence so the king or queen can do a suicide attack
-  - notice the possible freeze spell drop position, make sure it can cover most of the defence building
-- deploy the funneling team to clean up both sides so to keep the dragons in the middle, the narrower, the better
-  - baby dragons on one side
-  - king on the other side
-  - when baby dragon is destroyed, put king to carry on
-- deploy the siege machine and a wall of balloons to destroy the air defences or inferno
+- troops
+  - 12 balloons first wave attack, 1 baby dragon to clean up, 7 electro dragons, 3 rage spells, 5 freeze spells
   - with 8 more CC balloons and 1 rage or 1 haste and 1 freeze
-  - wall wrecker for opponents with lower level walls so it can help the queen to reach to the town hall
-  - stone hammer for opponents with very high level walls, the queen may not be able follow with the stone hammer
-  - battle blimp goes well with a clone spell to send in one more electro dragon. It should be deployed when the path to the town hall is cleared.
-  - spread the balloons so they are not very close to each other to avoid air bomb and trigger the seeking air mine
-  - two rage side by side when balloons enter in, the goal is to help the balloons move fast towards the air defence.
-  - the third rage is to get the most in the center when most of the troops get close to the center, put the third rage there so hopefully the troops can destroy the town hall
-  - the queen should go to the center with wall wrecker or stone hammer so to help inside in the core
-- deploy the 7 electro dragons 3 each close to the first two rage spell so to make best use of it
+- base analyze
+  - with low level heroes, aiming at 2 star with high percentage. Most bases put the defence focus on right and bottom.
+  - some anti 3-star base design has the town hall exposed or at the corner, king and queen might be able to take it down on their own
+  - notice the possible freeze and poison spell drop positions, make sure it can cover most of the defence building
+    - air sweeper is the most annoying enemy to electro dragon
+    - eagle artillery can be annoying
+  - locate the air sweepers, usually it's close to town hall or eagle artillery, get the freeze spell plan. Electro dragons won't move forward against the air push unless rage/haste or freeze spell is used
+  - locate the clan castle as you need to get the poison spell well planned
+  - locate the enemy queen as you need to get the poison spell well planned, enemy queen destroys the electro dragons quickly.
+  - it's better to have eagle artillery on the path
+  - avoid the air defences at the beginning  
+    - if the air defence is located at the middle of inner layer, funnel from conner
+    - if the air defence is located at the corner of inner layer, funnel from the middle
+    - any exposed air defence so the king or queen can do a suicide attack
+  - multi-target inferno doesn't damage electro dragon much but single inferno needs to be reset and it takes 10 seconds to kill anything.
+- funnelling to choose the side or corner
+  - the goal is to make the attacking path narrower so the e dragon will not go astray
+- siege machine selection
+  - wall wrecker doesn't require funnelling as it goes straight to town hall. It has to have some balloons protected, otherwise it cannot reach far. King and queen should follow with wall wrecker to take out some CC and enemy queen. If the wall level is too high, it may cause issue to the wall wrecker.
+  - stone slammer prefers defence buildings. It is for funneling or cleaning up.
+    - use it only the proper funneling is done.
+  - battle blimp goes well with maxed clone spell to send in one more balloons. It should be deployed when the path to the town hall is cleared.
+- attack process
+  - coconut loon to test seeking air mine where the funneling electro dragon will be deployed
+  - use king or electro dragon for funneling, be patient
+  - deploy the first wall of balloons and electro dragons, not to close to each other to avoid air bomb and trigger as many seeking air mines as it can.
+  - deploy the electro dragons, keep 2-3 tiles away from each other
   - deploy Warden in air mode following the dragons as Warden can extend dragon's HP in range and Warden's ability help the dragons get a few extremely important seconds in the core which could totally change the game
-- use freeze spells timely later on
-  - if needed, free air sweeper and air defence while the balloons and dragons are approaching to the center
+  - deploy the siege machine behind the air troop
+  - deploy the queen and king to follow with the wall wrecker if needed
+- Spells is the key to win
+  - patient, calm, don't panic
+  - two rage side by side when balloons enter in, the goal is to help the balloons move fast towards the air defence.
+  - the third rage is to get the most in the center when most of the troops get close to the center, put the third rage there so hopefully the troops can destroy the town hall, only 2 -3 tiles ahead of the target.
+  - poison is for enemy queen and CC
+  - free air sweeper, air defence and eagle artillery while the balloons and dragons are approaching to the center
 
 The main obstacle of electro dragon is air sweeper, air defence, single target inferno.
 
 While the electro dragons are slowly marching, you need to protect them. You have 5 freeze spells. Watch out for the army marching forward, use the freeze when the army in contact with inferno, air blower, air defence in range, cover as many as you can.
 
-And you have two rage spells, don't drop them directly on the troops, focus on the target to destroy, drop it 2 tiles before the area they will enter in.
+And you have two rage spells, never drop them directly on the troops which will scatter them away, focus on the target to destroy, drop it 2 tiles before the area they will enter in.
 
 Use Warden's ability is another key. The priority is to save the ability for the level 5 giga tesla town hall. When Warden is around the town hall and town hall's HP run low, use it because it deals 1000 damage to the surrounding buildings. If not level 5 giga tesla, then you can save it later. If the electro dragons in Warden's range are locked by eagle artillery, after eagle artillery fired, use Warden's ability. Or once the hidden tesla farm or giga tesla are exposed in the center, Warden's ability can make the troop invisible for a few seconds which the dragon may be able to destroy the teslas.
 
