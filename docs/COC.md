@@ -1921,6 +1921,23 @@ The execution of plan is like above but replaced 2 rage and 1 jump spell with 6 
 
 Try to destroy as much wizard towers as possible. Usually one or two Pekka and queen will survive and use bats to clean up.
 
+#### TH12 war strategy - Bowler Witch Bat
+
+- 1 Balloon
+- 1 electro dragon
+- 2 Ice Golems
+- 12 witches
+- 6 bowlers
+- 1 pekka
+- 2 wizard
+- 2 archer
+
+1 poison
+3 freeze
+7 bat
+
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
 #### TH12 Air strategy - Electro dragon
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences or didn't put the air defences in a good place, for example, can be easily accessed by balloon or bat spell, it's a perfect target for air strategies, mainly electro dragons, drag bat, lava loonion and so on.
@@ -1954,15 +1971,15 @@ Electro dragon strategy is as following:
     - any exposed air defence so the king or queen can do a suicide attack
   - multi-target inferno doesn't damage electro dragon much but single inferno needs to be reset and it takes 10 seconds to kill anything.
 - funnelling to choose the side or corner
-  - the goal is to make the attacking path narrower so the e dragon will not go astray
+  - the goal is to make the attacking path narrower so the e dragon will not go astray. Once the attack path is defined, if starts from conner, clear the adjacent sides middle. If starts from the middle of the side, clear the adjacent two corners.
 - siege machine selection
   - wall wrecker doesn't require funnelling as it goes straight to town hall. It has to have some balloons protected, otherwise it cannot reach far. King and queen should follow with wall wrecker to take out some CC and enemy queen. If the wall level is too high, it may cause issue to the wall wrecker.
   - stone slammer prefers defence buildings. It is for funneling or cleaning up.
     - use it only the proper funneling is done.
   - battle blimp goes well with maxed clone spell to send in one more balloons. It should be deployed when the path to the town hall is cleared.
 - attack process
-  - coconut loon to test seeking air mine where the funneling electro dragon will be deployed
-  - use king or electro dragon for funneling, be patient
+  - funneling with coconut loon first to test seeking air mine where the funneling electro dragon will be deployed
+  - use king or electro dragon for funneling, be patient for the disconnected building
   - deploy the first wall of balloons and electro dragons, not to close to each other to avoid air bomb and trigger as many seeking air mines as it can.
   - deploy the electro dragons, keep 2-3 tiles away from each other
   - deploy Warden in air mode following the dragons as Warden can extend dragon's HP in range and Warden's ability help the dragons get a few extremely important seconds in the core which could totally change the game
@@ -1970,7 +1987,7 @@ Electro dragon strategy is as following:
   - deploy the queen and king to follow with the wall wrecker if needed
 - Spells is the key to win
   - patient, calm, don't panic
-  - two rage side by side when balloons enter in, the goal is to help the balloons move fast towards the air defence.
+  - if board side, two rage side by side when balloons enter in. If conner, in tandem. The goal is to help the balloons move fast towards the air defence.
   - the third rage is to get the most in the center when most of the troops get close to the center, put the third rage there so hopefully the troops can destroy the town hall, only 2 -3 tiles ahead of the target.
   - poison is for enemy queen and CC
   - free air sweeper, air defence and eagle artillery while the balloons and dragons are approaching to the center
@@ -2065,7 +2082,7 @@ Progress
 - TH 12 Level 188, King 35 Queen 54 Warden 20 as of 05/22/2019
 - TH 12 Level 190, King 36 Queen 55 Warden 20 as of 06/02/2019
 - TH 12 Level 191, King 36 Queen 58 Warden 20 as of 06/16/2019
-- TH 12 Level 193, King 38 Queen 59 Warden 21 as of 07/02/2019
+- TH 12 Level 193, King 38 Queen 60 Warden 21 as of 07/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2077,9 +2094,9 @@ Priority list
 
 - Queen to level 60
 - Poison to level 6 - ongoing
+- Witch to level 5 - use book once poison is finished
 - Haste to level 2
 - Wall breakers to level 7
-- Witch to level 5 - use badge later?
 - Ice golem to level 3
 
 Maximize the troops
@@ -2133,6 +2150,7 @@ Maximize the spells
 - TH 12 Level 171, King 35 Queen 52 Warden 20 as of 05/22/2019
 - TH 12 Level 172, King 35 Queen 54 Warden 20 as of 06/02/2019
 - TH 12 Level 173, King 35 Queen 56 Warden 20 as of 06/16/2019
+- TH 12 Level 173, King 35 Queen 60 Warden 20 as of 07/02/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
@@ -2189,7 +2207,7 @@ Maximize the spells
 - TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
 - TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
-- TH 11 Level 156, King 33 Queen 48 Warden 11 as of 07/02/2019
+- TH 11 Level 156, King 33 Queen 49 Warden 11 as of 07/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2200,9 +2218,9 @@ Maximize the spells
 Priority list
 
 - Queen to level 50
+- Wall breakers to level 7 - ongoing
 - Haste to level 4
 - Poison to level 5
-- Wall breakers to level 7 - ongoing
 - Golem to level 6
 
 Maximize the troops
@@ -2211,7 +2229,7 @@ Maximize the troops
 - x Archer lvl 8 Max
 - x Giant lvl 8 TH11 Max
 - Goblin lvl 7 Max, now 6
-- Wall breakers lvl 7 TH11 Max, now 6
+- Wall breakers lvl 7 TH11 Max, now 6 - ongoing
 - x Balloon lvl 7 TH11 Max
 - x Wizard lvl 8 TH11 Max
 - x Healer lvl 5 Max
