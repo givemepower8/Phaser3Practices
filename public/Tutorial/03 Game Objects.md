@@ -36,6 +36,8 @@ If you just want to temporarily disable an object then look at using the Game Ob
 
 ## Common game object properties
 
+Phaser.GameObjects. Components
+
 Position
 
 ```js
