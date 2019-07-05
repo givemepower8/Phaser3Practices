@@ -1785,19 +1785,26 @@ If you are using main attack troop like miner or hog riders, Warden should go wi
 
 #### TH12 Level 4 Bowler
 
-Level 4 Bowler's HP 390, DpS 90, DpA 198, move speed 14. Bowler is powerful yet fragile. It's highly risky with very high rewards.
+Level 4 Bowler's HP 390, DpS 90, DpA 198, move speed 14.
 
+Bowlers is used for a killer squad to clear a large condensed area. The strength of bowler is their long range boulders. 
 If the opponent's base is very crowded on one main path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the boulders deal great damages in long range.
 
 Or, if the defense buildings are centralized in the core, bowler strategy will work well as bowlers are able to clear up a large area.
 
-The strength of bowler is their long range boulders. The weakness is their very low HP, bowlers cannot do close combat. Never send in the bowlers first except for using a few to funnel. Use bowlers as the main attacker only they are protected by meat shields (Pekka, golem, giant). Otherwise they won't last long against any defences, each bowler can be destroyed by any defence within 4 to 5 seconds. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
+The weakness is their very low HP, so bowler is powerful yet fragile. Bowlers cannot do close combat without meat shields. Never send in the bowlers first except for using a few to funnel. Use bowlers as the main attacker only they are protected by meat shields (Pekka, golem, giant). Otherwise they won't last long against any defences, each bowler can be destroyed by any defence within 4 to 5 seconds. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
 
 Giant bombs and bombs will also kill a group of bowlers very quickly. Meat shields must go before the bowlers to trigger the bombs and spring traps, and absorb the damages for bowlers. Bowlers must go after a couple of meat shields. If they are in the front of the army, they will get destroyed very soon. If the front line can absorb lots of damages, then bowlers' long range boulders can deal great damages to the around buildings. Golem and giant are meat shield options as they have high HP and prefer defence buildings, but golem and giant's move speed is 12 which is too slow. When bowler is enraged, they will go to the front line and suicide. Drop the rage spell on the troops in front of bowlers. Pekka's moving speed is 16, which moves faster than bowler but they may leave the army when enraged as they go after any building nearby.
+
+If lots of compartments in the base, it is against bowlers.
+
+It's highly risky with very high rewards.
 
 Witches are great companions for bowlers. Witch's HP is 440 level 4 to 480 level 5 which is not high enough, but Witch's skeletons summoned 12 to 14 can keep defences and troops busy for a little while which extends the bowlers' life.
 
 Healers are bowlers' good friends as well. It's often used after the queen charge, when queen cleared the path to town hall and queen is approaching to the town hall, send in the bowler army to destroy the town halls.
+
+Proper funneling must be done for bowlers so to keep bowlers together and keep the same march direction.
 
 Usually choose the path from eagle artillery to town hall. To deploy the army, funnel the outside with giants and wizards so no one inside will come out, also the funnelling should make sure bowlers will follow the wall wreaker later on. Put giant the first line close to the line, a couple of bowlers 2 tiles behind, drop one balloon to test the air seeking mines, send in the wall wrecker along with king, queen with healers, send in witches to help out clearing nearby buildings, send in the rest bowlers and Warden. Use the first range two or three tiles in front of the bowlers. Prepare for Warden's ability if eagle artillery is activated. Also drop one healing spell so to make bowlers alive. Always freeze eagle artillery and defences close to bowlers. Put ice golem, golem or giants in the wall wrecker will help out a lot.
 
@@ -1807,39 +1814,58 @@ Healing spell is better placed before the target buildings as bowlers lose lots 
 
 Warden must follow and cover the majority of them so bowlers can get some extra HP. Once the group of bowlers is locked by eagle artillery, Warden must use the ability, otherwise the group of bowlers will be wiped off.
 
-google "3 star bowler th12"
-
 Bowler and Witch (BoWitch) with wall wrecker
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
+Bowler Witch and Healer
+
+With healers, you can do a powerful queen charge first or just mix the healers with bowler and witch.
+
+Or you can have a powerful queen charge first, queen should destroy as many defences as possible. Otherwise, bowlers are very easy to get destroyed.
+
+- 5 Healer
+- 17 Bowler
+- 8 Witch
+- 4 Wall breaker
+- 4 Archer
+- 3 Rage spell
+- 1 Jump spell
+- 1 Poison spell
+- 2 Freeze spell
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
+Bowler Witch Bat
+
+- 1 Balloon
+- 1 Electro dragon
+- 2 Ice Golems
+- 12 witches
+- 6 Bowlers
+- 1 Pekka
+- 2 Wizard
+- 2 Archer
+- 7 Bat spell
+- 1 Poison
+- 3 Freeze
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
 Bowler Witch and Bat
 
-- 2 Golem
+- 2 Golem or Ice golems or equivalent giants
 - 10 Witch
 - 16 Bowler
 - 2 Minion
 - 7 Bat spell
-- 1 rage spell
-- 2 freeze spell
+- 1 Rage spell
+- 2 Freeze spell
 - Wall wrecker and CC 5 Bowler + 1 Rage spell
 
-Bowler and Queen charge
+Bowler Pekka farming
 
-To three star with bowler strategy, it's better to have a powerful queen charge first, queen should destroy as many defences as possible. Otherwise, bowlers are very easy to get destroyed.
-
-Bowler farming
+See the Pekka smash strategy bellow
 
 While looting, bowler strategy is very effective for looting dark elixir. Targeting the dark elixir usually close to town hall, send the wall wrecker followed by meat shield (giants or golems), heros, healers and bowlers. With rage spell, one healing spell and warden's ability, bowlers should be able to destroy the dark elixir storage in the long range. If the town hall is the area, it's very easy to get 50% more destruction rate and the town hall so to get 2 star. But most of the bowlers will be lost.
-
-#### TH12 level 6 Miner / level 9 hog rider
-
-- Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
-- Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
-
-Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
-
-If 5 hog riders managed to reach the inferno tower not covered by other defences, within 4 to 5 seconds they should be able to take down the inferno.
 
 #### TH12 level 8 PEKKA
 
@@ -1888,7 +1914,7 @@ PeBoBat strategy
 
 One problem is the above PEKKA smash is too slow and often runs out of time. That's why bat spell can be used for the clean up.
 
-PEKKA + Bowler + Bat spell
+PEKKA + Bowler + Bat spell variations
 
 - 4 PEKKA
 - 3 Wizard
@@ -1921,22 +1947,14 @@ The execution of plan is like above but replaced 2 rage and 1 jump spell with 6 
 
 Try to destroy as much wizard towers as possible. Usually one or two Pekka and queen will survive and use bats to clean up.
 
-#### TH12 war strategy - Bowler Witch Bat
+#### TH12 level 6 Miner / level 9 hog rider
 
-- 1 Balloon
-- 1 electro dragon
-- 2 Ice Golems
-- 12 witches
-- 6 bowlers
-- 1 pekka
-- 2 wizard
-- 2 archer
+- Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
+- Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
 
-1 poison
-3 freeze
-7 bat
+Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
 
-- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+If 5 hog riders managed to reach the inferno tower not covered by other defences, within 4 to 5 seconds they should be able to take down the inferno.
 
 #### TH12 Air strategy - Electro dragon
 
@@ -2183,7 +2201,7 @@ Seige machine
 
 - x Wall wrecker 3 Max, now 3
 - Battle blimp 3 Max, now 1
-- Stone slammer 3 Max, now 2
+- x Stone slammer 3 Max
 
 Maximize the spells
 
@@ -2216,7 +2234,7 @@ Maximize the spells
 
 Priority list
 
-- Queen to level 50
+- Heroes
 - Poison to level 5 - ongoing
 - Haste to level 5
 - Baby dragon to level 6
