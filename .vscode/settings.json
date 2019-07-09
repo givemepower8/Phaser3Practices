@@ -10,6 +10,9 @@
         "lavaloonion",
         "preload",
         "spritesheet",
+        "tilemap",
+        "tilemaps",
+        "tilesets",
         "tweens",
         "warshong"
     ]
