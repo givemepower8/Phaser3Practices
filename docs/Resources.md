@@ -10,6 +10,8 @@
 
 <https://github.com/rexrainbow/phaser3-rex-notes/>
 
+<http://www.html5gamedevs.com/forum/33-phaser-3/>
+
 Official
 
 - [API docs](https://photonstorm.github.io/phaser3-docs/)

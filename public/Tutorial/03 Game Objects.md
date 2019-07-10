@@ -256,3 +256,6 @@ function create() {
   Phaser.Actions.SetXY(group.getChildren(), 400, 300);
 }
 ```
+
+make and game object creator
+<https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html>
