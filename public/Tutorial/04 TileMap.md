@@ -65,6 +65,8 @@ Tile map is the collection of tiles.
 
 <https://photonstorm.github.io/phaser3-docs/Phaser.Tilemaps.Tile.html>
 
+map.removeTileAt(x,y)
+
 ## MapData
 
 In phaser, we create a map instance which has the map data, and on top of it we create a layer.
