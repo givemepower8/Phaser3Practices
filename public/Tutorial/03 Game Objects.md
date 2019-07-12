@@ -1,6 +1,6 @@
 # Game objects
 
-The Game Object Factory is a Scene plugin that allows you to quickly create many common types of Game Objects and have them automatically registered with the Scene. Game Objects directly register themselves with the Factory and inject their own creation methods into the class.
+One game object lives on one scene at one time.
 
 Technically, game object is a base class which encapsulates many reusable properties, methods and events.
 
@@ -8,35 +8,9 @@ Technically, game object is a base class which encapsulates many reusable proper
 
 [GameObject source code](https://github.com/photonstorm/phaser/blob/v3.18.0/src/gameobjects/GameObject.js)
 
-## life cycle
-
-GameObjects extends Phaser.Events.EventEmitter
-
-### creation
-
-<https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html>
-
-### Game Object Factory
-
-### destroy
-
-destroy(fromScene)
-
-`fromScene` is this Game Object being destroyed as the result of a Scene shutdown
-
-Destroys this Game Object removing it from the Display List and Update List and severing all ties to parent resources.
-
-Also removes itself from the Input Manager and Physics Manager if previously enabled.
-
-Use this to remove a Game Object from your game if you don't ever plan to use it again.
-
-As long as no reference to it exists within your own code it should become free for garbage collection by the browser.
-
-If you just want to temporarily disable an object then look at using the Game Object Pool instead of destroying it, as destroyed objects cannot be resurrected.
-
 ## Common game object properties
 
-Phaser.GameObjects. Components
+Phaser.GameObjects.Components
 
 Position
 
@@ -84,6 +58,36 @@ Alpha
 
 ```js
 ```
+
+## life cycle
+
+### Create the game object
+
+GameObjects extends Phaser.Events.EventEmitter
+
+### Game Object Factory
+
+Creating an game object and register it on the scene requires some work.
+
+<https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html>
+
+The Game Object Factory is a Scene plugin that allows you to quickly create many common types of Game Objects and have them automatically registered with the Scene. Game Objects directly register themselves with the Factory and inject their own creation methods into the class.
+
+### destroy
+
+destroy(fromScene)
+
+`fromScene` is this Game Object being destroyed as the result of a Scene shutdown
+
+Destroys this Game Object removing it from the Display List and Update List and severing all ties to parent resources.
+
+Also removes itself from the Input Manager and Physics Manager if previously enabled.
+
+Use this to remove a Game Object from your game if you don't ever plan to use it again.
+
+As long as no reference to it exists within your own code it should become free for garbage collection by the browser.
+
+If you just want to temporarily disable an object then look at using the Game Object Pool instead of destroying it, as destroyed objects cannot be resurrected.
 
 ## State
 
