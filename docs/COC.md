@@ -1374,7 +1374,13 @@ Loonion variation with queen walk
 
 ### TH12 war strategies
 
-Workshop is unlocked at Th12 so you have your own seige machine.
+Rules of thumb
+
+- Don't be greedy. Don't go for holes, some fishy weak points usually have traps.
+- Don't panic. If you made some mistakes and fall in a trap, keep calm.
+- Timing the spellings. Don't use up at the beginning or stringent.
+- Don't attack from the strongest side unless you want to take risk.
+- For air attack, as air stoops are powerful yet slow, don't attack against air sweeper.
 
 Maximize the hero levels.
 
@@ -1445,8 +1451,9 @@ Maximize the defence
 The forces you have:
 
 - Heroes
-- Wall wreckers / Battle blimp / Stone slammer with CC troop (40 capacity)
+- Workshop is unlocked to build seige machines Wall wreckers / Battle blimp / Stone slammer or you can request CC seige machine.
 - Main troop 280 capacity (miner / hog rider, bowler, pekka, dragon loon, electro dragon)
+- CC troop (40 capacity)
 - Supplementary troop, archers, wall breakers, etc.,
 - Spells 11 capacity and 2 capacity from CC
 
@@ -1619,6 +1626,8 @@ Like wall wreaker, battle blimp sends in the CC troop but by air.
 Battle blimp sends the CC troop on top of the town hall much quicker. In air troop strategy, it's often used with clone spell when battle blimps sends 8 balloons or 1 electro dragon and 1 balloon on top of town hall. Clone spell brings in more balloons or one more electro dragon to speed up the attack. With rage spell, it cause massive damage close to town hall which eases up the attacks by following air troops.
 
 Still, it the war base design has the town hall out at the edge, battle blimp is not that useful.
+
+If the opponent put the air sweeper in wrong position, blimp and clone spell can cause massive damage in the town hall area.
 
 ##### Stone slammer
 
@@ -2108,7 +2117,7 @@ Progress
 - Walls: level 11 x 127, level 10 x 173 as of 06/02/2019
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
-- Walls: level 11 x 215, level 10 x 85 as of 07/15/2019
+- Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 
 Priority list
 
