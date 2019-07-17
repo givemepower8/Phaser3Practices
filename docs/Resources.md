@@ -31,6 +31,8 @@ Tutorials
 
 <https://gamedevacademy.org/html5-phaser-tutorial-spacehipster-a-space-exploration-game/>
 
+<https://gamedevacademy.org/how-to-make-tower-defense-game-with-phaser-3/>
+
 - [phaser.io tutorials](http://phaser.io/news/category/tutorial)
 - [2D breakout game Phaser](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser)
 - [How to create sprite sheets for Phaser 3 with TexturePacker](https://www.codeandweb.com/texturepacker/tutorials/how-to-create-sprite-sheets-for-phaser3)

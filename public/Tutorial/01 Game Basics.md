@@ -138,7 +138,11 @@ Create is used for generating game objects so to get the game completely set up 
 
 ### add shortcut method
 
-"add" is the shortcut method to add content like text, image onto the scene.
+`add` provides many shortcut methods of [GameObjectFactory](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectFactory.html)
+
+The Game Object Factory is a Scene plugin that allows you to quickly create many common types of Game Objects and have them automatically registered with the Scene.
+
+`add` can add content like text, image onto the scene quickly.
 
 ```js
 var config = {
@@ -164,9 +168,19 @@ function create() {
 }
 ```
 
+- arc( [x][, y] [, radius][, startangle] [, endAngle][, anticlockwise] [, fillColor][, fillalpha])
+- bitmapText(x, y, font [, text][, size] [, align])
+- blitter(x, y, key [, frame])
+- circle( [x][, y] [, radius][, fillcolor] [, fillAlpha])
+- container(x, y [, children])
+- curve( [x][, y] [, curve][, fillcolor] [, fillAlpha])
+- dom(x, y [, element][, style] [, innerText])
+
 #### make shortcut method
 
 "make" is the shortcut method to add game object from other format like a json file, etc.,
+
+[make and game object creator](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html)
 
 ### update()
 
