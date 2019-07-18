@@ -175,6 +175,7 @@ function create() {
 - container(x, y [, children])
 - curve( [x][, y] [, curve][, fillcolor] [, fillAlpha])
 - dom(x, y [, element][, style] [, innerText])
+- dynamicBitmapText(x, y, font [, text][, size])
 
 #### make shortcut method
 
