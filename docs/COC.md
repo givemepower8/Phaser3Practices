@@ -801,11 +801,17 @@ Many troops have no preferred target so the actions are controlled by AI. Once a
 
 For example, without proper funneling, when bowlers and pekkas are the close to eagle artillery and town hall, they will get distracted if other trash building in a moat is not cleared up. Then they will get destroyed by the x-bows and inferno or eagle artillery around.
 
-Funneling is to leave the building which leads to the target by clearing the distracting building. Timing is very important.
+In a nutshell, funneling is to clear the outside distracting building of the target like town hall and eagle artillery so the main attacking can move towards the target and destroy it.
 
-The path to the target needs to be planned ahead of time. Wall wrecker, wall breaker and jump spell can create the path to the targeted building. For example, wall breaker creates a path after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy buildings massively.
+#### Funneling troop
 
-In a nutshell, funneling depends on the attacking strategy.
+The path to the target needs to be planned ahead of time.
+
+Wall wrecker
+
+, wall breaker and jump spell can create the path to the targeted building. For example, wall breaker creates a path after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy condensed buildings massively.
+
+Funneling depends on the attacking strategy and opponent's base. Timing is very important.
 
 Creating the funnel depends on the attacking strategy. For example,
 
@@ -814,9 +820,19 @@ Creating the funnel depends on the attacking strategy. For example,
 - use wall breaker, stone slammer or jump spell so the troops can get close to the core
 - Sometimes, heros will launch suicide attack to destroy defensing structures to create the funnels for attacking troops.
 
-Baby dragons and wizards are often used to clear the outside trash buildings. Wizards is a bit expensive as 6 wizards takes up 24 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence around.
+Baby dragons and wizards are often used to clear the outside trash buildings. Wizards is a bit expensive as 1 wizard takes up 4 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence around.
 
 Heros with queen charge can clear two outsides of base or with wall breaker they can clear one corner of the base to create the L shape so the attacking troops will be more effective to destroy the buildings.
+
+#### Anti funneling
+
+Anti wall wrecker - cannons and x-bows
+
+Build the walls properly to against the queen and bowlers. Queen's attacking range is 5 and bowler's is 3. Surround your town hall and eagle with a layer of walls.
+
+More compartments.
+
+One of hidden tesla's function is to lead the troop out.
 
 ### TH 8 Strategies
 
