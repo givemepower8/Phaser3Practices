@@ -10,6 +10,8 @@
 
 <https://github.com/rexrainbow/phaser3-rex-notes/>
 
+<http://www.html5gamedevs.com/forum/33-phaser-3/>
+
 Official
 
 - [API docs](https://photonstorm.github.io/phaser3-docs/)
@@ -28,6 +30,8 @@ Tutorials
 <https://phasergames.com/>
 
 <https://gamedevacademy.org/html5-phaser-tutorial-spacehipster-a-space-exploration-game/>
+
+<https://gamedevacademy.org/how-to-make-tower-defense-game-with-phaser-3/>
 
 - [phaser.io tutorials](http://phaser.io/news/category/tutorial)
 - [2D breakout game Phaser](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser)

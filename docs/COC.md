@@ -1374,7 +1374,13 @@ Loonion variation with queen walk
 
 ### TH12 war strategies
 
-Workshop is unlocked at Th12 so you have your own seige machine.
+Rules of thumb
+
+- Don't be greedy. Don't go for holes, some fishy weak points usually have traps.
+- Don't panic. If you made some mistakes and fall in a trap, keep calm.
+- Timing the spellings. Don't use up at the beginning or stringent.
+- Don't attack from the strongest side unless you want to take risk.
+- For air attack, as air stoops are powerful yet slow, don't attack against air sweeper.
 
 Maximize the hero levels.
 
@@ -1445,8 +1451,9 @@ Maximize the defence
 The forces you have:
 
 - Heroes
-- Wall wreckers / Battle blimp / Stone slammer with CC troop (40 capacity)
+- Workshop is unlocked to build seige machines Wall wreckers / Battle blimp / Stone slammer or you can request CC seige machine.
 - Main troop 280 capacity (miner / hog rider, bowler, pekka, dragon loon, electro dragon)
+- CC troop (40 capacity)
 - Supplementary troop, archers, wall breakers, etc.,
 - Spells 11 capacity and 2 capacity from CC
 
@@ -1620,6 +1627,8 @@ Battle blimp sends the CC troop on top of the town hall much quicker. In air tro
 
 Still, it the war base design has the town hall out at the edge, battle blimp is not that useful.
 
+If the opponent put the air sweeper in wrong position, blimp and clone spell can cause massive damage in the town hall area.
+
 ##### Stone slammer
 
 Stone slammer is just a giant balloon. Its preferred target is defence building, which ignores the town halls unless giga tesla town hall is triggered.
@@ -1785,19 +1794,26 @@ If you are using main attack troop like miner or hog riders, Warden should go wi
 
 #### TH12 Level 4 Bowler
 
-Level 4 Bowler's HP 390, DpS 90, DpA 198, move speed 14. Bowler is powerful yet fragile. It's highly risky with very high rewards.
+Level 4 Bowler's HP 390, DpS 90, DpA 198, move speed 14.
 
+Bowlers is used for a killer squad to clear a large condensed area. The strength of bowler is their long range boulders. 
 If the opponent's base is very crowded on one main path, for example, several intersected squares, so main defence buildings can be reached from one end to the another, bowler can deal massive damages to close buildings as the boulders deal great damages in long range.
 
 Or, if the defense buildings are centralized in the core, bowler strategy will work well as bowlers are able to clear up a large area.
 
-The strength of bowler is their long range boulders. The weakness is their very low HP, bowlers cannot do close combat. Never send in the bowlers first except for using a few to funnel. Use bowlers as the main attacker only they are protected by meat shields (Pekka, golem, giant). Otherwise they won't last long against any defences, each bowler can be destroyed by any defence within 4 to 5 seconds. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
+The weakness is their very low HP, so bowler is powerful yet fragile. Bowlers cannot do close combat without meat shields. Never send in the bowlers first except for using a few to funnel. Use bowlers as the main attacker only they are protected by meat shields (Pekka, golem, giant). Otherwise they won't last long against any defences, each bowler can be destroyed by any defence within 4 to 5 seconds. Also level 3 eagle artillery will wipe out them very quickly just in one shot. If there are CC troops, bowlers will be destroyed very soon.
 
 Giant bombs and bombs will also kill a group of bowlers very quickly. Meat shields must go before the bowlers to trigger the bombs and spring traps, and absorb the damages for bowlers. Bowlers must go after a couple of meat shields. If they are in the front of the army, they will get destroyed very soon. If the front line can absorb lots of damages, then bowlers' long range boulders can deal great damages to the around buildings. Golem and giant are meat shield options as they have high HP and prefer defence buildings, but golem and giant's move speed is 12 which is too slow. When bowler is enraged, they will go to the front line and suicide. Drop the rage spell on the troops in front of bowlers. Pekka's moving speed is 16, which moves faster than bowler but they may leave the army when enraged as they go after any building nearby.
+
+If lots of compartments in the base, it is against bowlers.
+
+It's highly risky with very high rewards.
 
 Witches are great companions for bowlers. Witch's HP is 440 level 4 to 480 level 5 which is not high enough, but Witch's skeletons summoned 12 to 14 can keep defences and troops busy for a little while which extends the bowlers' life.
 
 Healers are bowlers' good friends as well. It's often used after the queen charge, when queen cleared the path to town hall and queen is approaching to the town hall, send in the bowler army to destroy the town halls.
+
+Proper funneling must be done for bowlers so to keep bowlers together and keep the same march direction.
 
 Usually choose the path from eagle artillery to town hall. To deploy the army, funnel the outside with giants and wizards so no one inside will come out, also the funnelling should make sure bowlers will follow the wall wreaker later on. Put giant the first line close to the line, a couple of bowlers 2 tiles behind, drop one balloon to test the air seeking mines, send in the wall wrecker along with king, queen with healers, send in witches to help out clearing nearby buildings, send in the rest bowlers and Warden. Use the first range two or three tiles in front of the bowlers. Prepare for Warden's ability if eagle artillery is activated. Also drop one healing spell so to make bowlers alive. Always freeze eagle artillery and defences close to bowlers. Put ice golem, golem or giants in the wall wrecker will help out a lot.
 
@@ -1807,39 +1823,58 @@ Healing spell is better placed before the target buildings as bowlers lose lots 
 
 Warden must follow and cover the majority of them so bowlers can get some extra HP. Once the group of bowlers is locked by eagle artillery, Warden must use the ability, otherwise the group of bowlers will be wiped off.
 
-google "3 star bowler th12"
-
 Bowler and Witch (BoWitch) with wall wrecker
 
 <https://www.clashtrack.com/en/v/9_K9levlTzM/top-tips-for-bowitch-attack-strategy-explained-clash-of-clans>
 
+Bowler Witch and Healer
+
+With healers, you can do a powerful queen charge first or just mix the healers with bowler and witch.
+
+Or you can have a powerful queen charge first, queen should destroy as many defences as possible. Otherwise, bowlers are very easy to get destroyed.
+
+- 5 Healer
+- 17 Bowler
+- 8 Witch
+- 4 Wall breaker
+- 4 Archer
+- 3 Rage spell
+- 1 Jump spell
+- 1 Poison spell
+- 2 Freeze spell
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
+Bowler Witch Bat
+
+- 1 Balloon
+- 1 Electro dragon
+- 2 Ice Golems
+- 12 witches
+- 6 Bowlers
+- 1 Pekka
+- 2 Wizard
+- 2 Archer
+- 7 Bat spell
+- 1 Poison
+- 3 Freeze
+- Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
+
 Bowler Witch and Bat
 
-- 2 Golem
+- 2 Golem or Ice golems or equivalent giants
 - 10 Witch
 - 16 Bowler
 - 2 Minion
 - 7 Bat spell
-- 1 rage spell
-- 2 freeze spell
+- 1 Rage spell
+- 2 Freeze spell
 - Wall wrecker and CC 5 Bowler + 1 Rage spell
 
-Bowler and Queen charge
+Bowler Pekka farming
 
-To three star with bowler strategy, it's better to have a powerful queen charge first, queen should destroy as many defences as possible. Otherwise, bowlers are very easy to get destroyed.
-
-Bowler farming
+See the Pekka smash strategy bellow
 
 While looting, bowler strategy is very effective for looting dark elixir. Targeting the dark elixir usually close to town hall, send the wall wrecker followed by meat shield (giants or golems), heros, healers and bowlers. With rage spell, one healing spell and warden's ability, bowlers should be able to destroy the dark elixir storage in the long range. If the town hall is the area, it's very easy to get 50% more destruction rate and the town hall so to get 2 star. But most of the bowlers will be lost.
-
-#### TH12 level 6 Miner / level 9 hog rider
-
-- Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
-- Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
-
-Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
-
-If 5 hog riders managed to reach the inferno tower not covered by other defences, within 4 to 5 seconds they should be able to take down the inferno.
 
 #### TH12 level 8 PEKKA
 
@@ -1888,7 +1923,7 @@ PeBoBat strategy
 
 One problem is the above PEKKA smash is too slow and often runs out of time. That's why bat spell can be used for the clean up.
 
-PEKKA + Bowler + Bat spell
+PEKKA + Bowler + Bat spell variations
 
 - 4 PEKKA
 - 3 Wizard
@@ -1921,6 +1956,15 @@ The execution of plan is like above but replaced 2 rage and 1 jump spell with 6 
 
 Try to destroy as much wizard towers as possible. Usually one or two Pekka and queen will survive and use bats to clean up.
 
+#### TH12 level 6 Miner / level 9 hog rider
+
+- Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
+- Level 9 hog riders HP 920, move speed 24, DpS 161 with attacking speed 1.
+
+Usually at this stage, you are facing TH12 level 5 with Giga tesla and multiple inferno tower which will destroy the miners or hog riders extremely quickly.
+
+If 5 hog riders managed to reach the inferno tower not covered by other defences, within 4 to 5 seconds they should be able to take down the inferno.
+
 #### TH12 Air strategy - Electro dragon
 
 There are lots of ground defensing systems, but for air, there are not that much. If your opponent has not upgraded the air defences or didn't put the air defences in a good place, for example, can be easily accessed by balloon or bat spell, it's a perfect target for air strategies, mainly electro dragons, drag bat, lava loonion and so on.
@@ -1931,40 +1975,55 @@ To attack a higher level TH12 with very high ground DpS dealing defences and ver
 
 If the war base is a distributed design with trash buildings spread out all over the map, it's not a good idea to use electro dragon as the electro dragon loses the chain lightening power and takes more time to destroy every building in its range, also sometime it will fly away from the core to attack outside trash buildings, unless you use some troops to funnel timely or in advance.
 
-If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. King can clear one side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
+If lots of trash buildings are outside the wall and the defence buildings are condensed in the center, it's a good target as funneling can be properly done by king and one electro dragon. High level king can clear one side, and one electro dragon can clear the other. Once both sides are cleared a bit so no trashing building will distract the electro dragons, the rest air troops can move forward faster towards the center with rage or haste spell and destroy the center very fast.
 
-Electro dragon strategy is quite easy:
+Electro dragon strategy is as following:
 
-- 12 balloons, 1 baby dragon, 7 electro dragons, 3 rage spells, 5 freeze spells
-- choose attack path
-  - no air sweeper covered on the way unless they can take down by balloons, dragon won't move forward against the air push unless rage/haste or freeze will be used
-  - close to eagle artillery to so take it as soon as possible
-  - if the enemy queen can be covered on the balloons marching path, it will be better because it will destroy the electro dragons quickly.
-  - any exposed air defence so the king or queen can do a suicide attack
-  - notice the possible freeze spell drop position, make sure it can cover most of the defence building
-- deploy the funneling team to clean up both sides so to keep the dragons in the middle, the narrower, the better
-  - baby dragons on one side
-  - king on the other side
-  - when baby dragon is destroyed, put king to carry on
-- deploy the siege machine and a wall of balloons to destroy the air defences or inferno
+- troops
+  - 12 balloons first wave attack, 1 baby dragon to clean up, 7 electro dragons, 3 rage spells, 5 freeze spells
   - with 8 more CC balloons and 1 rage or 1 haste and 1 freeze
-  - wall wrecker for opponents with lower level walls so it can help the queen to reach to the town hall
-  - stone hammer for opponents with very high level walls, the queen may not be able follow with the stone hammer
-  - battle blimp goes well with a clone spell to send in one more electro dragon. It should be deployed when the path to the town hall is cleared.
-  - spread the balloons so they are not very close to each other to avoid air bomb and trigger the seeking air mine
-  - two rage side by side when balloons enter in, the goal is to help the balloons move fast towards the air defence.
-  - the third rage is to get the most in the center when most of the troops get close to the center, put the third rage there so hopefully the troops can destroy the town hall
-  - the queen should go to the center with wall wrecker or stone hammer so to help inside in the core
-- deploy the 7 electro dragons 3 each close to the first two rage spell so to make best use of it
+- base analyze
+  - with low level heroes, aiming at 2 star with high percentage. Most bases put the defence focus on right and bottom.
+  - some anti 3-star base design has the town hall exposed or at the corner, king and queen might be able to take it down on their own
+  - notice the possible freeze and poison spell drop positions, make sure it can cover most of the defence building
+    - air sweeper is the most annoying enemy to electro dragon
+    - eagle artillery can be annoying
+  - locate the air sweepers, usually it's close to town hall or eagle artillery, get the freeze spell plan. Electro dragons won't move forward against the air push unless rage/haste or freeze spell is used
+  - locate the clan castle as you need to get the poison spell well planned
+  - locate the enemy queen as you need to get the poison spell well planned, enemy queen destroys the electro dragons quickly.
+  - it's better to have eagle artillery on the path
+  - avoid the air defences at the beginning  
+    - if the air defence is located at the middle of inner layer, funnel from conner
+    - if the air defence is located at the corner of inner layer, funnel from the middle
+    - any exposed air defence so the king or queen can do a suicide attack
+  - multi-target inferno doesn't damage electro dragon much but single inferno needs to be reset and it takes 10 seconds to kill anything.
+- funnelling to choose the side or corner
+  - the goal is to make the attacking path narrower so the e dragon will not go astray. Once the attack path is defined, if starts from conner, clear the adjacent sides middle. If starts from the middle of the side, clear the adjacent two corners.
+- siege machine selection
+  - wall wrecker doesn't require funnelling as it goes straight to town hall. It has to have some balloons protected, otherwise it cannot reach far. King and queen should follow with wall wrecker to take out some CC and enemy queen. If the wall level is too high, it may cause issue to the wall wrecker.
+  - stone slammer prefers defence buildings. It is for funneling or cleaning up.
+    - use it only the proper funneling is done.
+  - battle blimp goes well with maxed clone spell to send in one more balloons. It should be deployed when the path to the town hall is cleared.
+- attack process
+  - funneling with coconut loon first to test seeking air mine where the funneling electro dragon will be deployed
+  - use king or electro dragon for funneling, be patient for the disconnected building
+  - deploy the first wall of balloons and electro dragons, not to close to each other to avoid air bomb and trigger as many seeking air mines as it can.
+  - deploy the electro dragons, keep 2-3 tiles away from each other
   - deploy Warden in air mode following the dragons as Warden can extend dragon's HP in range and Warden's ability help the dragons get a few extremely important seconds in the core which could totally change the game
-- use freeze spells timely later on
-  - if needed, free air sweeper and air defence while the balloons and dragons are approaching to the center
+  - deploy the siege machine behind the air troop
+  - deploy the queen and king to follow with the wall wrecker if needed
+- Spells is the key to win
+  - patient, calm, don't panic
+  - if board side, two rage side by side when balloons enter in. If conner, in tandem. The goal is to help the balloons move fast towards the air defence.
+  - the third rage is to get the most in the center when most of the troops get close to the center, put the third rage there so hopefully the troops can destroy the town hall, only 2 -3 tiles ahead of the target.
+  - poison is for enemy queen and CC
+  - free air sweeper, air defence and eagle artillery while the balloons and dragons are approaching to the center
 
 The main obstacle of electro dragon is air sweeper, air defence, single target inferno.
 
 While the electro dragons are slowly marching, you need to protect them. You have 5 freeze spells. Watch out for the army marching forward, use the freeze when the army in contact with inferno, air blower, air defence in range, cover as many as you can.
 
-And you have two rage spells, don't drop them directly on the troops, focus on the target to destroy, drop it 2 tiles before the area they will enter in.
+And you have two rage spells, never drop them directly on the troops which will scatter them away, focus on the target to destroy, drop it 2 tiles before the area they will enter in.
 
 Use Warden's ability is another key. The priority is to save the ability for the level 5 giga tesla town hall. When Warden is around the town hall and town hall's HP run low, use it because it deals 1000 damage to the surrounding buildings. If not level 5 giga tesla, then you can save it later. If the electro dragons in Warden's range are locked by eagle artillery, after eagle artillery fired, use Warden's ability. Or once the hidden tesla farm or giga tesla are exposed in the center, Warden's ability can make the troop invisible for a few seconds which the dragon may be able to destroy the teslas.
 
@@ -2050,21 +2109,22 @@ Progress
 - TH 12 Level 188, King 35 Queen 54 Warden 20 as of 05/22/2019
 - TH 12 Level 190, King 36 Queen 55 Warden 20 as of 06/02/2019
 - TH 12 Level 191, King 36 Queen 58 Warden 20 as of 06/16/2019
-- TH 12 Level 191, King 37 Queen 58 Warden 20 as of 07/02/2019
+- TH 12 Level 194, King 38 Queen 60 Warden 23 as of 07/02/2019
+- TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
 - Walls: level 11 x 127, level 10 x 173 as of 06/02/2019
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
-- Walls: level 11 x 155, level 10 x 145 as of 07/02/2019
+- Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
+- Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 
 Priority list
 
-- Queen to level 60
-- Haste to level 2 - ongoing
+- Hero level up
+- Haste to level 4
 - Wall breakers to level 7
-- Witch to level 5 - use badge later?
-- Ice golem to level 3
+- Ice golem to level 4 - ongoing
 
 Maximize the troops
 
@@ -2085,10 +2145,10 @@ Maximize the troops
 - x Hog rider lvl 9 Max
 - x Valkyrie lvl 7 Max
 - Golem lvl 9 Max, now 5
-- Witch lvl 5 Max, now 4
+- x Witch lvl 5 Max
 - x Lava Hound lvl 5 Max
 - x Bowler lvl 4 Max
-- Ice golem lvl 5 Max, now 2
+- Ice golem lvl 5 Max, now 3
 
 Seige machine
 
@@ -2100,13 +2160,13 @@ Maximize the spells
 
 - x Lighting lvl 7 Max
 - x Healing lvl 7 Max
-- Rage lvl 6 Max, now 5
+- x Rage lvl 6 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
-- Poison lvl 6 Max, now 5
+- x Poison lvl 6 Max
 - Earthquake lvl 5 Max, now 2
-- Haste lvl 5 Max, now 1
+- Haste lvl 5 Max, now 3
 - Skeleton lvl 6 Max, now 1
 - x Bat lvl 5 Max
 
@@ -2117,10 +2177,12 @@ Maximize the spells
 - TH 12 Level 171, King 35 Queen 52 Warden 20 as of 05/22/2019
 - TH 12 Level 172, King 35 Queen 54 Warden 20 as of 06/02/2019
 - TH 12 Level 173, King 35 Queen 56 Warden 20 as of 06/16/2019
+- TH 12 Level 175, King 36 Queen 60 Warden 20 as of 07/02/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
 - Walls: level 12 x 3, level 11 x 235, level 10 x 62 as of 06/16/2019
+- Walls: level 12 x 3, level 11 x 278, level 10 x 19 as of 07/02/2019
 
 Maximize the troops
 
@@ -2130,7 +2192,7 @@ Maximize the troops
 - Goblin lvl 7 Max, now 5
 - Wall breakers lvl 8 Max, now 7
 - x Balloon lvl 8 Max
-- Wizard lvl 9 Max, now 8
+- x Wizard lvl 9 Max
 - x Healer lvl 5 Max
 - Dragon lvl 7 Max, now 6
 - PEKKA lvl 8 Max, now 7
@@ -2150,7 +2212,7 @@ Seige machine
 
 - x Wall wrecker 3 Max, now 3
 - Battle blimp 3 Max, now 1
-- Stone slammer 3 Max, now 2
+- x Stone slammer 3 Max
 
 Maximize the spells
 
@@ -2173,21 +2235,20 @@ Maximize the spells
 - TH 11 Level 152, King 30 Queen 42 Warden 9 as of 05/22/2019
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
 - TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
-- TH 11 Level 156, King 33 Queen 48 Warden 11 as of 07/02/2019
+- TH 11 Level 159, King 33 Queen 49 Warden 11 as of 07/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
 - Walls: level 11 x 120, level 10 x 180 as of 06/02/2019
 - Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
+- Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
 
 Priority list
 
-- Queen to level 50
-- Minion to level 7 - ongoing
-- Haste to level 4
-- Poison to level 5
-- Wall breakers to level 7
-- Golem to level 6
+- Heroes
+- Poison to level 5 - ongoing
+- Haste to level 5
+- Baby dragon to level 6
 
 Maximize the troops
 
@@ -2195,7 +2256,7 @@ Maximize the troops
 - x Archer lvl 8 Max
 - x Giant lvl 8 TH11 Max
 - Goblin lvl 7 Max, now 6
-- Wall breakers lvl 7 TH11 Max, now 6
+- x Wall breakers lvl 7 TH11 Max
 - x Balloon lvl 7 TH11 Max
 - x Wizard lvl 8 TH11 Max
 - x Healer lvl 5 Max
@@ -2204,7 +2265,7 @@ Maximize the troops
 - Baby dragon lvl 5 TH11 Max, now 4
 - x Miner lvl 5 Max
 - x Electro Dragon lvl 2 TH11 Max
-- Minion lvl 7 TH11 Max, now 6
+- x Minion lvl 7 TH11 Max
 - Hog rider lvl 7 TH11 Max, now 6
 - Valkyrie lvl 6 TH11 Max, now 5
 - Golem lvl 7 TH11 Max, now 5
@@ -2223,6 +2284,6 @@ Maximize the spells
 - Clone lvl 5 Max, now 1
 - Poison lvl 5 TH11 Max, now 4
 - Earthquake lvl 5 Max, now 4
-- Haste lvl 4 TH11 Max, now 3
+- Haste lvl 4 TH11 Max, now 4
 - Skeleton lvl 4 TH11 Max, now 2
 - Bat lvl 4 TH11 Max, now 1

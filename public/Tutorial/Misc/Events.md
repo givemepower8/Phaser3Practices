@@ -41,11 +41,15 @@ off
 
 once
 
+### customize event
+
 ## scene.event
 
 [scene event](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/timer/)
 
-time.addEvent
+## game object events
+
+## time.addEvent
 
 ```js
 create: function () {

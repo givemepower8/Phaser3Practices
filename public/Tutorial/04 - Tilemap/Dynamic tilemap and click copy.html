@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>title</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.7/dist/phaser.min.js"></script>
+</head>
+
+<body>
+    <div id="phaser-example"></div>
+    <script>
+        // minimum setup for one scene game
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            scene: {
+                preload: preload,
+                create: create,
+                update: update
+            }
+        };
+
+        // initialize the game with the config
+        var game = new Phaser.Game(config);
+
+        var map;
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('tiles', 'assets/tilemaps/tiles/drawtiles-spaced.png');
+        }
+
+        function create() {
+
+            // Load a map from a 2D array of tile indices
+            var grid = [
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+                [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+            ]
+
+            // When loading from an array, make sure to specify the tileWidth and tileHeight
+            map = this.make.tilemap({
+                data: grid,
+                tileWidth: 32,
+                tileHeight: 32
+            });
+
+            var tileset = map.addTilesetImage('tiles', null, 32, 32, 0, 2);
+
+            var layer = map.createDynamicLayer(0, tileset, 0, 0);
+
+            // this.input.on('pointerup', function (pointer) {
+
+            //     //console.log(pointer.x + " " + pointer.y);
+
+            //     tile = layer.getTileAtWorldXY(pointer.x, pointer.y, true);
+            //     tile.setVisible(!tile.visible);
+            //     console.log(tile);
+
+            // }, this);
+
+        }
+
+        function update(time, delta) {
+
+            if (this.input.manager.activePointer.isDown) {
+                var worldPoint = this.input.activePointer.positionToCamera(this.cameras.main);
+                var tile = map.getTileAtWorldXY(worldPoint.x, worldPoint.y);
+                //tile.setVisible(!tile.visible);
+                //console.log(tile);
+                //console.log(map);
+                // This will replace all instances of the selected tile with a plant (tile id = 38).
+                if (tile && tile.x && tile.y) {
+                    map.removeTileAt(tile.x, tile.y);
+                }
+
+                // You can also replace within a specific region (tileX, tileY, width, height):
+                // map.replaceByIndex(tile.index, 38, 5, 5, 15, 15);
+            }
+
+        }
+    </script>
+</body>
+
+</html>

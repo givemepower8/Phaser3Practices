@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>title</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.7/dist/phaser.min.js"></script>
+</head>
+
+<body>
+    <div id="phaser-example"></div>
+    <script>
+        // minimum setup for one scene game
+        var config = {
+            type: Phaser.AUTO,
+            parent: 'phaser-example',
+            scene: {
+                preload: preload,
+                create: create
+            }
+        };
+
+        // initialize the game with the config
+        var game = new Phaser.Game(config);
+
+        function preload() {
+            this.load.setBaseURL('http://labs.phaser.io');
+            this.load.image('tiles', 'assets/tilemaps/tiles/drawtiles-spaced.png');
+            this.load.tilemapCSV('map', 'assets/tilemaps/csv/grid.csv');
+        }
+
+        function create() {
+
+            var map = this.make.tilemap({
+                key: 'map',
+                tileWidth: 32,
+                tileHeight: 32
+            });
+            var tileset = map.addTilesetImage('tiles', null, 32, 32, 0, 2);
+
+            var layer = map.createStaticLayer(0, tileset, 0, 0);
+
+        }
+    </script>
+</body>
+
+</html>

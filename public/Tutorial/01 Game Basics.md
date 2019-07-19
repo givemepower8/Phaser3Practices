@@ -138,7 +138,11 @@ Create is used for generating game objects so to get the game completely set up 
 
 ### add shortcut method
 
-"add" is the shortcut method to add content like text, image onto the scene.
+`add` provides many shortcut methods of [GameObjectFactory](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectFactory.html)
+
+The Game Object Factory is a Scene plugin that allows you to quickly create many common types of Game Objects and have them automatically registered with the Scene.
+
+`add` can add content like text, image onto the scene quickly.
 
 ```js
 var config = {
@@ -164,20 +168,33 @@ function create() {
 }
 ```
 
+- arc( [x][, y] [, radius][, startangle] [, endAngle][, anticlockwise] [, fillColor][, fillalpha])
+- bitmapText(x, y, font [, text][, size] [, align])
+- blitter(x, y, key [, frame])
+- circle( [x][, y] [, radius][, fillcolor] [, fillAlpha])
+- container(x, y [, children])
+- curve( [x][, y] [, curve][, fillcolor] [, fillAlpha])
+- dom(x, y [, element][, style] [, innerText])
+- dynamicBitmapText(x, y, font [, text][, size])
+
 #### make shortcut method
 
 "make" is the shortcut method to add game object from other format like a json file, etc.,
+
+[make and game object creator](https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObjectCreator.html)
 
 ### update()
 
 Game engines are built upon "game loop". The loop is the place where positions are changed, collisions are checked, input is taken, AI is
 calculated, and any other miscellaneous tasks are completed. In Phaser, the game loop method is the update method.
 
-Update method is called during the core game loop after debug, physics, plugins and the Stage have had their preUpdate methods called. It is used for user input polling and game object collisions and detection. This method is often used to capture game events, such as key presses, button clicks, mouse movement etc, and to then update the game scene variables as a result of those inputs.
-
-It is called on every frame. The engine attempts to execute, at best efforts, 60 frames per second, but that is not guaranteed. It is called BEFORE Stage, Tweens, Sounds, Input, Physics, Particles, and Plugins have had their postUpdate methods called.
+Update method is called during the core game loop after debug, physics, plugins and the Stage have had their preUpdate methods called. It is used for user input polling and game object collisions and detection, and animations. This method is often used to capture game events, such as key presses, button clicks, mouse movement etc, and to then update the game scene variables as a result of those inputs.
 
 [Frame rate](https://en.wikipedia.org/wiki/Frame_rate) (expressed in frames per second or fps) is the frequency (rate) at which consecutive images called frames appear on a display. The term applies equally to film and video cameras, computer graphics, and motion capture systems. Frame rate may also be called the frame frequency, and be expressed in hertz.
+
+Update method is called on every frame. The engine attempts to execute, at best efforts, 60 frames per second, but that is not guaranteed. It is called BEFORE Stage, Tweens, Sounds, Input, Physics, Particles, and Plugins have had their postUpdate methods called.
+
+Usually there are many game objects on the scene, and game objects can have an extended / overridden update method.
 
 ## To create a scene
 
