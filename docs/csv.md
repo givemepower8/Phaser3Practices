@@ -1,5 +1,7 @@
 # CSV
 
+<https://mybot.run/forums/index.php?/topic/13503-guide-how-use-and-make-csv-attack-script-files/>
+
 These scripted attack plans are located in the bot folder under the \CSV\Attack folder. You can add/edit these files with any text editor (notepad works, but we recommend NotePad++). Bot will automatically update the GUI ATTACK Deploy box with your available CSV attack plans when it starts (must select scripted attack). Can also manually refresh the attack plan list with green "reload" button.
 
 ## How-to
@@ -66,9 +68,10 @@ MAKE  |A          |FRONT-LEFT |10         |1          |INT-EXT    |0          |5
 
 - VECTOR is the name of the drop calculation. One VECTOR is basically a list of where troops can be dropped. You can have multiple vectors, up to one for each letter of the alphabet. If you need more than 26 vectors, you can reuse them. You can MAKE a vector with same letter more than once, and the DROP commands after that MAKE will use new locations.
 - SIDE tells the bot which side to attack from. It uses the main side made by the SIDE command to determine which side is which. In the images below, you will see which main side was calculated by the SIDE command, and where the troops would be dropped if you put a different side in the MAKE command.
-- DROP_POINTS is how many different places troops should be dropped.
+- DROP_POINTS is how many different places troops should be dropped. From 1 to 10, as you can see in the image, each of the 8 sections has 10 numbered drop points(circles). These are where your troops will be dropped.
   - If it is 1, then all troops will be dropped on one spot.
-  - If it is 2, troops will be dropped on two spots. As you can see in the image, each of the 8 sections has 10 numbered drop points(circles). These are where your troops will be dropped.
+  - If it is 2, troops will be dropped on two spots.
+  - For dropping troops, use 10 for DROP_POINTS so INDEX from 1 to 10 can refer to those points.
 - ADDTILES is the distance from the red line. In the picture, the red circles are the drop points with a ADDTILES of 1. The green circles have an ADDTILES of 2. If you want to drop spells inside the base, then you will have to make a vector with a negative number for ADDTILES.
 - VERSUS is the direction of troop drop.
   - INT-EXT means that the bot will start dropping troops from the middle of the edges to the corners of the map.
@@ -136,7 +139,7 @@ DROP  |A-B        |2          |1          |giant      |0          |0          |8
 - VECTOR: use one of the vector letters you have created with a MAKE command here. Note that you can drop on multiple vectors at the same time by separating the vector numbers with a "-". In the example above, the DROP command would drop troops on vectors A and B at the same time.
 - INDEX: Which "drop points" to use. If you created 10 drop points with the MAKE command and put 5-10 in the INDEX column, then the bot will only drop troops on points 5 through 10.
 - QTY_X_VECT: How many troops to drop. If you specify a range here, the bot will choose a random value between the two numbers you set. The number of troops that will be dropped at each point will be QTY_X_VECT/# of INDEX values.
-- TROOPNAME: Which troop to drop in this wave. Here is how to figure out the name of the troop: For elixir and dark elixir troops, the word to put under TROOPNAME is the first four letters of the full troop name(exception: if you want to deploy giants, put giant under TROOPNAME) eg. Dragon -> drag, Lava Hound -> lava, Giant -> giant For spells, put the first letter of the spell name, then the word "SPELL"(exception: for haste spell, put HaSpell because heal spell is HSpell) eg. Lightning Spell -> LSpell, Heal Spell -> HSpell, Poison Spell -> PSpell There are a few special units: Barbarian King, Archer Queen, Warden -> King, Queen, Warden Clan Castle -> Castle
+- TROOPNAME: Which troop to drop in this wave. Here is how to figure out the name of the troop: For elixir and dark elixir troops, the word to put under TROOPNAME is the first four letters of the full troop name(exception: if you want to deploy giants, put giant under TROOPNAME) eg. Dragon -> drag, Lava Hound -> lava, Giant -> giant For spells, put the first letter of the spell name, then the word "SPELL"(exception: for haste spell, put HaSpell because heal spell is HSpell) eg. Lightning Spell -> LSpell, Heal Spell -> HSpell, Poison Spell -> PSpell There are a few special units: Barbarian King, Archer Queen, Warden -> King, Queen, Warden Clan Castle -> Castle. "REMAIN" refers to the remaining troops.
 
 If text is too complicated, Here is list of names:
 
