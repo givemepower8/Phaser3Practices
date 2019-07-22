@@ -2140,7 +2140,7 @@ Priority list
 - Hero level up
 - Haste to level 4
 - Wall breakers to level 7
-- Ice golem to level 4 - ongoing
+- Baby dragon - ongoing
 
 Maximize the troops
 
@@ -2164,7 +2164,7 @@ Maximize the troops
 - x Witch lvl 5 Max
 - x Lava Hound lvl 5 Max
 - x Bowler lvl 4 Max
-- Ice golem lvl 5 Max, now 3
+- x Ice golem lvl 5 Max
 
 Seige machine
 
@@ -2252,12 +2252,14 @@ Maximize the spells
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
 - TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
 - TH 11 Level 159, King 33 Queen 49 Warden 11 as of 07/02/2019
+- TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
 - Walls: level 11 x 120, level 10 x 180 as of 06/02/2019
 - Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
+- Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 
 Priority list
 
