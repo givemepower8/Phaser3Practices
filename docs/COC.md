@@ -1192,8 +1192,8 @@ Maximize the spells
 - Healing lvl 7 Max
 - Rage lvl 5 Max
 - Jump lvl 3 Max
-- Freeze lvl 5 Max
-- Clone lvl 3 Max
+- Freeze lvl 5
+- Clone lvl 3
 - Poison lvl 4
 - Earthquake lvl 4
 - Haste lvl 4
@@ -1201,21 +1201,26 @@ Maximize the spells
 
 Maximize the defence
 
-- Cannon lvl 11 x 5, can gear up, HP 1,060, DpS 74, Range 9
-- Archer tower lvl 11 x 6, HP 890, DpS 70, Range 10
-- Mortar lvl 7 x 4, can gear up, HP 700, DpS 15, Range 4-11
-- Air defense lvl 7 x 4, HP 1,100, DpS 280
-- Wizard tower lvl 7 x 4, HP 1,200, DpS 40, Range 7
-- Air sweeper lvl 5 x 2 Max, HP 1,050
-- Hidden Tesla lvl 7 x 4, HP 810, DpS 87, Range 7
-- Bomb tower lvl 3 x 1, HP 750, DpS 32
-- Bombs lvl 6 x 6, splash damage 54 in 3 titles
-- Spring traps lvl 4 x 6 Max, wipe off 18 capacity in 0.7 tiles
-- Air bomb lvl 4 x 4, splash damage 173 in 3 tiles
-- Giant bomb lvl 3 x 4, splash damage 225 in 3.5 tiles
-- Seeking air mine lvl 2 x 4, damage 1,800 in 4 tiles
-- Skeleton trap lvl 3 x 2, 4 spawned skeletons HP 30, DpS 25 each
-- X-Bows lvl 3 x 2, HP 3,100, DpS 80, Range 14
+- Cannon lvl 13 x 6, can gear up, HP 1,260, DpS 80, Range 9
+- Archer tower lvl 13 x 7, HP 1050, DpS 80, Range 10
+- Mortar lvl 8 x 4, can gear up, HP 750, DpS 20, Range 4-11
+- Air defense lvl 8 x 4, HP 1,200, DpS 320
+- Wizard tower lvl 9 x 4, HP 1,680, DpS 54, Range 7
+- Air sweeper lvl 6 x 2, HP 950
+- Hidden Tesla lvl 8 x 4, HP 850, DpS 99, Range 7
+- Bomb tower lvl 4 x 2, HP 850, DpS 40
+- Bombs lvl 7 x 6, splash damage 72 in 3 titles
+- Spring traps lvl 5 x 6 Max, wipe off 19 capacity in 0.7 tiles
+- Air bomb lvl 4 x 5, splash damage 173 in 3 tiles
+- Giant bomb lvl 4 x 5, splash damage 250 in 3.5 tiles
+- Seeking air mine lvl 3 x 5, damage 2100 in 4 tiles
+- Skeleton trap lvl 4 x 3, 5 spawned skeletons HP 30, DpS 25 each
+- X-Bows lvl 4 x 3, HP 3,100, DpS 95, Range 14
+- Inferno lvl 3 x 2, HP 2100, DPS 45, Range 9
+
+#### TH10 Minor
+
+#### TH10 Bowler
 
 ### TH11 strategies
 
