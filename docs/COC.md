@@ -2198,7 +2198,7 @@ Priority list
 - Hero level up
 - Haste to level 4
 - Wall breakers to level 7
-- Baby dragon - ongoing
+- Minion - ongoing
 
 Maximize the troops
 
@@ -2212,7 +2212,7 @@ Maximize the troops
 - x Healer lvl 5 Max
 - x Dragon lvl 7 Max
 - x PEKKA lvl 8 Max
-- Baby dragon lvl 6 Max, now 4
+- Baby dragon lvl 6 Max, now 5
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
 - Minion lvl 8 Max, now 6
@@ -2240,7 +2240,7 @@ Maximize the spells
 - Clone lvl 5 Max, now 2
 - x Poison lvl 6 Max
 - Earthquake lvl 5 Max, now 2
-- Haste lvl 5 Max, now 3
+- Haste lvl 5 Max, now 4
 - Skeleton lvl 6 Max, now 1
 - x Bat lvl 5 Max
 
@@ -2322,7 +2322,7 @@ Maximize the spells
 Priority list
 
 - Heroes
-- Baby dragon to level 6
+- Baby dragon to level 5
 
 Maximize the troops
 
@@ -2340,7 +2340,7 @@ Maximize the troops
 - x Miner lvl 5 Max
 - x Electro Dragon lvl 2 TH11 Max
 - x Minion lvl 7 TH11 Max
-- Hog rider lvl 7 TH11 Max, now 6
+- x Hog rider lvl 7 TH11 Max
 - Valkyrie lvl 6 TH11 Max, now 5
 - Golem lvl 7 TH11 Max, now 5
 - x Witch lvl 4 TH11 Max
