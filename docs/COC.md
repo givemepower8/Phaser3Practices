@@ -1164,6 +1164,59 @@ Maximize the hero levels.
 - Queen lvl 40
 - King lvl 40
 
+Maximize the troop levels.
+
+- Barbarian lvl 7
+- Archer lvl 7
+- Giant lvl 7
+- Goblin lvl 7 Max
+- Wall breakers lvl 6
+- Balloon lvl 6
+- Wizard lvl 7
+- Healer lvl 4
+- Dragon lvl 5
+- PEKKA lvl 6
+- Baby dragon lvl 4
+- Miner lvl 3
+- Minion lvl 6
+- Hog rider lvl 6
+- Valkyrie lvl 5
+- Golem lvl 5
+- Witch lvl 3
+- Lava Hound lvl 3
+- Bowler lvl 2
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 5 Max
+- Clone lvl 3 Max
+- Poison lvl 4
+- Earthquake lvl 4
+- Haste lvl 4
+- Skeleton lvl 3
+
+Maximize the defence
+
+- Cannon lvl 11 x 5, can gear up, HP 1,060, DpS 74, Range 9
+- Archer tower lvl 11 x 6, HP 890, DpS 70, Range 10
+- Mortar lvl 7 x 4, can gear up, HP 700, DpS 15, Range 4-11
+- Air defense lvl 7 x 4, HP 1,100, DpS 280
+- Wizard tower lvl 7 x 4, HP 1,200, DpS 40, Range 7
+- Air sweeper lvl 5 x 2 Max, HP 1,050
+- Hidden Tesla lvl 7 x 4, HP 810, DpS 87, Range 7
+- Bomb tower lvl 3 x 1, HP 750, DpS 32
+- Bombs lvl 6 x 6, splash damage 54 in 3 titles
+- Spring traps lvl 4 x 6 Max, wipe off 18 capacity in 0.7 tiles
+- Air bomb lvl 4 x 4, splash damage 173 in 3 tiles
+- Giant bomb lvl 3 x 4, splash damage 225 in 3.5 tiles
+- Seeking air mine lvl 2 x 4, damage 1,800 in 4 tiles
+- Skeleton trap lvl 3 x 2, 4 spawned skeletons HP 30, DpS 25 each
+- X-Bows lvl 3 x 2, HP 3,100, DpS 80, Range 14
+
 ### TH11 strategies
 
 Grand Warden joins in the village.
@@ -2215,7 +2268,7 @@ Maximize the troops
 - Baby dragon lvl 6 Max, now 3
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
-- Minion lvl 8 Max, now 5
+- x Minion lvl 8 Max
 - Hog rider lvl 9 Max, now 6
 - Valkyrie lvl 7 Max, now 6
 - Golem lvl 8 Max, now 7
@@ -2234,13 +2287,13 @@ Maximize the spells
 
 - Lighting lvl 7 Max, now 6
 - x Healing lvl 7 Max
-- Rage lvl 6 Max, now 5
+- x Rage lvl 6 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
-- Poison lvl 6 Max, now 4
+- x Poison lvl 6 Max
 - Earthquake lvl 5 Max, now 3
-- Haste lvl 5 Max, now 4
+- x Haste lvl 5 Max
 - Skeleton lvl 6 Max, now 1
 - Bat lvl 5 Max, now 1
 
@@ -2264,8 +2317,6 @@ Maximize the spells
 Priority list
 
 - Heroes
-- Poison to level 5 - ongoing
-- Haste to level 5
 - Baby dragon to level 6
 
 Maximize the troops
@@ -2299,9 +2350,9 @@ Maximize the spells
 - x Rage lvl 5 TH11 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 6 TH11 Max
-- Clone lvl 5 Max, now 1
-- Poison lvl 5 TH11 Max, now 4
-- Earthquake lvl 5 Max, now 4
-- Haste lvl 4 TH11 Max, now 4
+- Clone lvl 5 Max, now 2
+- x Poison lvl 5 TH11 Max
+- x Earthquake lvl 5 Max
+- x Haste lvl 5 TH11 Max
 - Skeleton lvl 4 TH11 Max, now 2
 - Bat lvl 4 TH11 Max, now 1
