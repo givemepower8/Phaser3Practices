@@ -1918,6 +1918,19 @@ Or you can have a powerful queen charge first, queen should destroy as many defe
 - 2 Freeze spell
 - Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
 
+- 8 giants
+- 1 balloon, 1 wizard, 1 archer, 1 baby drag
+- 5 healer
+- 4 Witch
+- 17 Bowler
+- 2 healing
+- 2 Rage spell
+- 2 Freeze spell
+- 1 poison spell
+- Wall wrecker and CC 5 Bowler + 1 Rage spell
+
+The attack is queen charge first with warden, when close to the entry point, use giants and witches and king to clear the further buildings. Deploy the wall wrecker, the bowlers will follow it and merge with the queen and healers.
+
 Bowler Witch Bat
 
 - 1 Balloon
@@ -2192,6 +2205,7 @@ Progress
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
+- Walls: level 11 x 245, level 10 x 55 as of 08/02/2019
 
 Priority list
 
