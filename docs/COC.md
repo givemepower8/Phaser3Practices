@@ -2144,6 +2144,17 @@ Level 7 dragon DpS 310 DpA 387.5 HP 3,600, move speed 12, housing space 20
 
 Electro dragon's lighting can hit 5 building connected, dragon can deal splash damage.
 
+#### TH12 Air strategy - Hero and lava loons
+
+Heros can use the suicide hero strategy or queen charge.
+
+- Queen walk with healers and wall breakers to take out eagle artillery, CC troop, and possibly enemy queen, town hall.
+- King clear out the trash buildings outside
+- Stone slammer
+- 2 Lava hound to take down the air defence
+- Warden with massive balloons 3 finger
+- 3 rage and 4 haze and 1 poison
+
 ## TH12 Farming
 
 Farming strategy is very different from war strategy. You are not looking for 3 stars but just for maximum profit.
@@ -2198,6 +2209,7 @@ Progress
 - TH 12 Level 191, King 36 Queen 58 Warden 20 as of 06/16/2019
 - TH 12 Level 194, King 38 Queen 60 Warden 23 as of 07/02/2019
 - TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
+- TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2205,7 +2217,7 @@ Progress
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
-- Walls: level 11 x 245, level 10 x 55 as of 08/02/2019
+- Walls: level 11 x 255, level 10 x 45 as of 08/02/2019
 
 Priority list
 
@@ -2325,6 +2337,7 @@ Maximize the spells
 - TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
 - TH 11 Level 159, King 33 Queen 49 Warden 11 as of 07/02/2019
 - TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
+- TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2332,11 +2345,12 @@ Maximize the spells
 - Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
+- Walls: level 11 x 240, level 10 x 60 as of 08/02/2019
 
 Priority list
 
 - Heroes
-- Baby dragon to level 5
+- Dragon to level 6
 
 Maximize the troops
 
