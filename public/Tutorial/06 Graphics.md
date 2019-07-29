@@ -17,6 +17,8 @@ A Graphics object is a way to draw primitives to your game. Primitives include f
 Circles and Polygons. They also include lines, arcs and curves. When you initially create a Graphics object it will
 be empty. To 'draw' or 'stroke' to it you first specify a lineStyle or fillStyle (or both), and then draw a shape. For example:
 
+<https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Graphics.html>
+
 To draw a line
 
 ```js
@@ -24,10 +26,13 @@ var line = new Phaser.Geom.Line(100, 100, 200, 100); // x1,y1,x2,y2
 graphics.strokeLineShape(line);
 ```
 
+To draw a rectangle or fill a rectangle
+
 ```js
-graphics.beginFill(0xff0000);
-graphics.drawCircle(50, 50, 100);
-graphics.endFill();
+graphics.lineStyle(5, 0xff00ff, 1.0);
+graphics.fillStyle(0xffffff, 1.0);
+graphics.fillRect(50, 50, 400, 200);
+graphics.strokeRect(50, 50, 400, 200);
 ```
 
 or you the create the graphics object first, then can pass the graphics as the argument to add them onto the graphics.
@@ -37,6 +42,25 @@ var line = new Phaser.Curves.Line([100, 100, 100, 200]);
 line.draw(graphics);
 ```
 
+## draw or fill
+
+Phaser GameObjects Graphics has the following methods to stroke a shape
+
+- stroke and strokePath()
+- strokeLineShape(line)
+- strokeCircle(x, y, radius)
+- strokeCircleShape(circle)
+- strokeEllipse(x,y,width,height [,smoothness])
+- strokeEllipseShape(ellipse [,smoothness])
+- strokeRect(x,y,width,height)
+- strokeRectShape(rect)
+- strokeRoundedRect(x,y,width,height [,radius])
+- strokeTriangle(x0, y0, x1, y1, x2, y2)
+- strokeTriangleShape(triangle)
+- strokePoints(points [, closeShape][, closepath] [, endIndex]) points is an array of <https://photonstorm.github.io/phaser3-docs/Phaser.Geom.Point.html>
+
+Phaser GameObjects Graphics has the following methods to fill a shape
+
 ## Dynamic or static
 
 The graphics is on the scene. It's created in the create method.
@@ -45,21 +69,31 @@ If it's not maintained in the update method, it's static.
 
 If it's not maintained in the update method, the graphic gets updated around every 16ms so you can use it to create animations and alike.
 
-<https://phaser.io/docs/2.6.2/Phaser.Graphics.html>
+## Geom
 
-<https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.Graphics.html>
+<https://photonstorm.github.io/phaser3-docs/Phaser.Geom.html>
 
-## Line
+### Line
 
-## Add shape
+[straight line](https://photonstorm.github.io/phaser3-docs/Phaser.Geom.Line)
 
-Triangle
+[curve line](https://photonstorm.github.io/phaser3-docs/Phaser.Curves.Line)
 
-Rectangle
+### Triangle
 
-Circle
+### Rectangle
+
+### Circle
+
+## Add shortcut method
+
+this.add.circle
 
 ## Path
+
+## Scale
+
+## Rotation
 
 ## Tweens
 

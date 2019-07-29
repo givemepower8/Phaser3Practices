@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>circles</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+</head>
+
+<body>
+
+    <div id="phaser-example"></div>
+    <script>
+        var config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            backgroundColor: '#2d2d2d',
+            parent: 'phaser-example',
+            scene: {
+                create: create,
+                update: update
+            }
+        };
+
+        var path;
+        var graphics;
+
+        var game = new Phaser.Game(config);
+
+        function create() {
+            graphics = this.add.graphics();
+
+            var fillColor = 0xffff00;
+            var alpha = 0.5;
+            graphics.fillStyle(fillColor, alpha);
+
+            var lineColor = 0xff00ff;
+            var thickness = 10;
+            var lineAlpha = 1;
+            graphics.lineStyle(thickness, lineColor, lineAlpha);
+
+            var a = new Phaser.Geom.Point(400, 300);
+            var radius = 128;
+
+            // graphics.strokeCircle to draw the circle
+            graphics.strokeCircle(a.x, a.y, radius);
+
+            // graphics.fillCircle fill the circle
+            graphics.fillCircle(500, 500, 50); // x, y, radius
+
+            // https://photonstorm.github.io/phaser3-docs/Phaser.Geom.Circle.html   
+            var circle = new Phaser.Geom.Circle(200, 200, 50);
+            graphics.fillCircleShape(circle);
+
+            // more readings
+            // https://rexrainbow.github.io/phaser3-rex-notes/docs/site/geom-circle/
+
+        }
+
+        function update() {}
+    </script>
+
+</body>
+
+</html>
