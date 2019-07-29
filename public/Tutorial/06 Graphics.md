@@ -73,6 +73,14 @@ If it's not maintained in the update method, the graphic gets updated around eve
 
 <https://photonstorm.github.io/phaser3-docs/Phaser.Geom.html>
 
+`var line = new Phaser.Geom.Line(200, 200, 500, 400);`
+
+`var circle = new Phaser.Geom.Circle(400, 300, 230);`
+
+`var ellipse = new Phaser.Geom.Ellipse(400, 300, 100, 200);`
+
+`var triangle = new Phaser.Geom.Triangle.BuildRight(200, 400, 300, 200);`
+
 ### Line
 
 [straight line](https://photonstorm.github.io/phaser3-docs/Phaser.Geom.Line)
