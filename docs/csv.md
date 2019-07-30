@@ -206,23 +206,27 @@ DROP  |Same       |Any < 5    | Same      | Same      | Same      |  Same     | 
 
 Wait is a very simple instruction, works like this:
 
-``csv
-WAIT |100-300 | INDEX | | | | | | |
+```csv
+WAIT |100-300 | INDEX |     |     |     |     |     |     |
 
-````
+```
+
 This tells the bot to wait between 100 and 300 ms. During this time, the bot will also check for some certain end battle conditions if you have them enabled(certain amount of stars reached/0 resources left).
 
 Can now have conditions set, when to break the wait early, TH, SIEGE and TH+SIEGE
+
 - When INDEX = TH; breaks early, when enemy townhall is destroyed
-- When INDEX = SIEGE;  breaks early, when siegemaschine got destroyed and releases troops
+- When INDEX = SIEGE; breaks early, when siegemaschine got destroyed and releases troops
 - When INDEX = TH+SIEGE; breaks early, when both townhall AND siegemaschine got destroyed
 - When INDEX = TH,SIEGE; breaks early, when townhall OR siegemaschine got destroyed
 
 when no siegemaschine is deployed before the conditional wait
+
 - When INDEX = SIEGE; returns immediately
 - When INDEX = TH+SIEGE; demotes to TH, so only waits for TH destruction
 
 Can now have additional conditions 50%, AQ, BK, GW as well as AQ+BK or BK+AQ
+
 - When INDEX = 50%; breaks early, when 50% damage reached
 - When INDEX = AQ; breaks early, when Archer Queen gets activated
 - When INDEX = BK; breaks early, when Barbarian King gets activated
@@ -230,10 +234,11 @@ Can now have additional conditions 50%, AQ, BK, GW as well as AQ+BK or BK+AQ
 - When INDEX = AQ+BK; breaks early, when both Queen AND King got activated is demoted to INDEX = AQ, when only Queen was deployed is demoted to INDEX = BK, when only King was deployed as before, you can combine different conditions comma separated
 
 If conditions are set, but none fits, WAIT will return immediately, like for instance, when INDEX = AQ, but Queen is not yet dropped, or already activated
+
 ```csv
 WAIT  |60000      |TH,SIEGE   |           |           |           |           |           |          |
 WAIT  |60000      |TH+SIEGE   |           |           |           |           |           |          |
-````
+```
 
 Example to trigger both Queen and King at the same time:
 
@@ -280,8 +285,10 @@ NOTE  |Make these Troops and spells : 2 Golem, 8 wall breaker, 17 Wizards, 3 pek
 
       |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|
 SIDE  |0          |0          |0          |0          |5          |5          |5          |           |
+
       |EAGLE      |INFERNO    |XBOW       |WIZTOWER   |MORTAR     |AIRDEFENSE |GEMBOX     |GEMBOX     |,
 SIDEB |0          |0          |5          |0          |0          |0          |           |           |,
+
       |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|___________|
 MAKE  |A          |RIGHT-BACK |10         |1          |INT-EXT    |0          |0          |           |vector for Golem and wall breaker right back
 MAKE  |B          |RIGHT-FRONT|10         |1          |INT-EXT    |0          |0          |           |vector for Golem and wall breaker left back
@@ -332,6 +339,7 @@ NOTE  | SCRIPT WORK IN EXTERNAL EDGES
 
       |EXTR. GOLD |EXTR.ELIXIR|EXTR. DARK |DEPO. GOLD |DEPO.ELIXIR|DEPO. DARK |TOWNHALL   |FORCED SIDE|
 SIDE  |0          |0          |0          |0          |0          |0          |10         |           |
+
       |EAGLE      |GEMBOX     |GEMBOX     |GEMBOX     |GEMBOX     |GEMBOX     |GEMBOX     |GEMBOX     |
 SIDEB |5          |0          |0          |0          |0          |           |           |           |
 
@@ -453,3 +461,27 @@ DROP  |X          |1          |1          |RSpell     |0          |0          |0
       |           |           |           |           |           |           |           |           |
 DROP  |B          |1          |1          |Remain     |75-90      |27-50      |90-100     |           |
 ```
+
+## TH12 air CSV
+
+Max the lightening spell which cause damage 660, find the air defence level <= 9 which max HP is 1300, drop 2 lightening on each of the two air defences.
+
+```csv
+      |VECTOR_____|SIDE_______|DROP_POINTS|ADDTILES___|VERSUS_____|RANDOMX_PX_|RANDOMY_PX_|BUILDING_____|
+MAKE  |X          |FRONT-LEFT |1          |0          |IGNORE     |           |           |AIRDEFENSE   |
+```
+
+the above should list the 4 air defences' location
+
+```csv
+      |VECTOR_____|INDEX______|QTY_X_VECT_|TROOPNAME__|DELAY_DROP_|DELAYCHANGE|SLEEPAFTER_|___________|
+DROP  |X          |1-2        |2          |LSpell     |50-100     |0          |50-70      |           |
+```
+
+Make the rest 3 haze spells.
+
+Or if CC can have one more lightening to destroy 3 air defences.
+
+## TH12 ground csv
+
+4 earthquake spell to take down external walls for bowlers.

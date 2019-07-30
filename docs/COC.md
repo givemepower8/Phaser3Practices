@@ -2217,12 +2217,12 @@ Progress
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
-- Walls: level 11 x 255, level 10 x 45 as of 08/02/2019
+- Walls: level 11 x 276, level 10 x 24 as of 08/02/2019
 
 Priority list
 
 - Hero level up
-- Haste to level 4
+- Haste to level 5
 - Wall breakers to level 7
 - Minion - ongoing
 
@@ -2345,7 +2345,7 @@ Maximize the spells
 - Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
-- Walls: level 11 x 240, level 10 x 60 as of 08/02/2019
+- Walls: level 11 x 243, level 10 x 57 as of 08/02/2019
 
 Priority list
 
