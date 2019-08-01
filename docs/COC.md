@@ -2217,7 +2217,7 @@ Progress
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
-- Walls: level 11 x 298, level 10 x 2 as of 08/02/2019
+- Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
 
 Priority list
 
@@ -2346,11 +2346,12 @@ Maximize the spells
 - Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
-- Walls: level 11 x 272, level 10 x 28 as of 08/02/2019
+- Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
 
 Priority list
 
 - Heroes
+- now Valkyrie to level 6
 - Dragon to level 6
 
 Maximize the troops
@@ -2365,7 +2366,7 @@ Maximize the troops
 - x Healer lvl 5 Max
 - Dragon lvl 6 TH11 Max, now 5
 - x PEKKA lvl 7 TH11 Max
-- Baby dragon lvl 5 TH11 Max, now 4
+- x Baby dragon lvl 5 TH11 Max
 - x Miner lvl 5 Max
 - x Electro Dragon lvl 2 TH11 Max
 - x Minion lvl 7 TH11 Max
