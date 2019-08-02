@@ -2242,7 +2242,7 @@ Maximize the troops
 - Baby dragon lvl 6 Max, now 5
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
-- Minion lvl 8 Max, now 6
+- Minion lvl 8 Max, now 7
 - x Hog rider lvl 9 Max
 - x Valkyrie lvl 7 Max
 - Golem lvl 9 Max, now 5
