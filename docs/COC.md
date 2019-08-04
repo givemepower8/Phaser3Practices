@@ -2181,15 +2181,13 @@ Home village usually protects resource storages, but in war base, those ones bec
 
 <http://www.cocland.com>
 
-<https://www.cosbases.com>
+<https://cocbases.com/>
 
 <https://www.clashpedia.com/>
 
 <https://www.clashtrack.com/>
 
 <https://www.clashfordummies.com/>
-
-<https://www.clashfarmer.com>
 
 ## Upgrade Progress
 
@@ -2218,7 +2216,7 @@ Progress
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
-- Walls: level 12 x 17, level 11 x 283 as of 08/15/2019
+- Walls: level 12 x 23, level 11 x 277 as of 08/15/2019
 
 Priority list
 
@@ -2348,7 +2346,7 @@ Maximize the spells
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
-- Walls: level 12 x 4, level 11 x 296 as of 08/15/2019
+- Walls: level 12 x 10, level 11 x 290 as of 08/15/2019
 
 Priority list
 
