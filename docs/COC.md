@@ -2216,7 +2216,11 @@ Progress
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
+<<<<<<< HEAD
 - Walls: level 12 x 52, level 11 x 248 as of 08/15/2019
+=======
+- Walls: level 12 x 45, level 11 x 255 as of 08/15/2019
+>>>>>>> c6ffb9316011ef4d3e4d9f5c3175007fea6956b9
 
 Priority list
 
@@ -2346,7 +2350,7 @@ Maximize the spells
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
-- Walls: level 12 x 25, level 11 x 275 as of 08/15/2019
+- Walls: level 12 x 30, level 11 x 270 as of 08/15/2019
 
 Priority list
 
