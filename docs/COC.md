@@ -2208,6 +2208,7 @@ Progress
 - TH 12 Level 194, King 38 Queen 60 Warden 23 as of 07/02/2019
 - TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
 - TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
+- TH 12 Level 198, King 42 Queen 64 Warden 30 as of 08/15/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2216,7 +2217,7 @@ Progress
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
-- Walls: level 12 x 52, level 11 x 248 as of 08/15/2019
+- Walls: level 12 x 62, level 11 x 238 as of 08/15/2019
 
 Priority list
 
@@ -2277,6 +2278,7 @@ Maximize the spells
 - TH 12 Level 172, King 35 Queen 54 Warden 20 as of 06/02/2019
 - TH 12 Level 173, King 35 Queen 56 Warden 20 as of 06/16/2019
 - TH 12 Level 175, King 36 Queen 60 Warden 20 as of 07/02/2019
+- TH 12 Level 179, King 36 Queen 63 Warden 22 as of 08/09/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
@@ -2303,7 +2305,7 @@ Maximize the troops
 - Hog rider lvl 9 Max, now 6
 - Valkyrie lvl 7 Max, now 6
 - Golem lvl 8 Max, now 7
-- Witch lvl 5 Max, now 2
+- Witch lvl 5 Max, now 3
 - Lava Hound lvl 5 Max, now 4
 - x Bowler lvl 4 Max
 - Ice golem lvl 5 Max, now 2
@@ -2346,12 +2348,11 @@ Maximize the spells
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
-- Walls: level 12 x 30, level 11 x 270 as of 08/15/2019
+- Walls: level 12 x 42, level 11 x 258 as of 08/15/2019
 
 Priority list
 
 - Heroes
-- now Valkyrie to level 6
 - Dragon to level 6
 
 Maximize the troops
@@ -2371,8 +2372,8 @@ Maximize the troops
 - x Electro Dragon lvl 2 TH11 Max
 - x Minion lvl 7 TH11 Max
 - x Hog rider lvl 7 TH11 Max
-- Valkyrie lvl 6 TH11 Max, now 5
-- Golem lvl 7 TH11 Max, now 5
+- x Valkyrie lvl 6 TH11 Max
+- Golem lvl 7 TH11 Max, now 6
 - x Witch lvl 4 TH11 Max
 - x Lava Hound lvl 4
 - x Bowler lvl 3 TH11 Max
