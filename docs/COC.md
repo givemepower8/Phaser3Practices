@@ -2208,7 +2208,7 @@ Progress
 - TH 12 Level 194, King 38 Queen 60 Warden 23 as of 07/02/2019
 - TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
 - TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
-- TH 12 Level 198, King 43 Queen 65 Warden 30 as of 08/15/2019
+- TH 12 Level 199, King 43 Queen 65 Warden 30 as of 08/15/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2222,9 +2222,8 @@ Progress
 Priority list
 
 - Hero level up
-- Haste to level 5 - ongoing
 - Wall breakers to level 7
-- Minion to level 8
+- Earthquake spell
 
 Maximize the troops
 
@@ -2241,7 +2240,7 @@ Maximize the troops
 - Baby dragon lvl 6 Max, now 5
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
-- Minion lvl 8 Max, now 7
+- x Minion lvl 8 Max
 - x Hog rider lvl 9 Max
 - x Valkyrie lvl 7 Max
 - Golem lvl 9 Max, now 5
@@ -2266,7 +2265,7 @@ Maximize the spells
 - Clone lvl 5 Max, now 2
 - x Poison lvl 6 Max
 - Earthquake lvl 5 Max, now 2
-- Haste lvl 5 Max, now 4
+- x Haste lvl 5 Max
 - Skeleton lvl 6 Max, now 1
 - x Bat lvl 5 Max
 
@@ -2353,6 +2352,7 @@ Maximize the spells
 Priority list
 
 - Heroes
+- Skeleton to level 3 - ongoing
 - Dragon to level 6
 
 Maximize the troops
