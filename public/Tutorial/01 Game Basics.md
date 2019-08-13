@@ -413,3 +413,11 @@ for (var i = 1; i < 10; i++) {
 transition() method can add effects to transition the scenes.
 
 ## world
+
+## Resources
+
+[Apple GameplayKit](https://developer.apple.com/documentation/gameplaykit)
+
+<https://leanpub.com/gtmjigsawpuzzles>
+
+Game-play is an encompassing concept which is the sum of the following individual components game mechanics (aka rules, policies, game logic) player’s learning-curve compared to game challenges, the pacing of “rewards and achievements” to the risk of associated obstacles. 42 elements of the “Fun-factor” from Jon Radoff’s book “Game On”. A book describing “how to make games fun”. The 16 human motivations as defined by Dr. Steven Reiss in Jon Radoff’s book. Download my interpretation chart

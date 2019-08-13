@@ -8,6 +8,8 @@ Technically, game object is a base class which encapsulates many reusable proper
 
 [GameObject source code](https://github.com/photonstorm/phaser/blob/v3.18.0/src/gameobjects/GameObject.js)
 
+<https://phaser.io/phaser3/contributing/part6>
+
 ## Common game object properties
 
 Phaser.GameObjects.Components
