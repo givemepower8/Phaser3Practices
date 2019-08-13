@@ -801,11 +801,17 @@ Many troops have no preferred target so the actions are controlled by AI. Once a
 
 For example, without proper funneling, when bowlers and pekkas are the close to eagle artillery and town hall, they will get distracted if other trash building in a moat is not cleared up. Then they will get destroyed by the x-bows and inferno or eagle artillery around.
 
-Funneling is to leave the building which leads to the target by clearing the distracting building. Timing is very important.
+In a nutshell, funneling is to clear the outside distracting building of the target like town hall and eagle artillery so the main attacking can move towards the target and destroy it.
 
-The path to the target needs to be planned ahead of time. Wall wrecker, wall breaker and jump spell can create the path to the targeted building. For example, wall breaker creates a path after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy buildings massively.
+#### Funneling troop
 
-In a nutshell, funneling depends on the attacking strategy.
+The path to the target needs to be planned ahead of time.
+
+Wall wrecker
+
+, wall breaker and jump spell can create the path to the targeted building. For example, wall breaker creates a path after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy condensed buildings massively.
+
+Funneling depends on the attacking strategy and opponent's base. Timing is very important.
 
 Creating the funnel depends on the attacking strategy. For example,
 
@@ -814,9 +820,19 @@ Creating the funnel depends on the attacking strategy. For example,
 - use wall breaker, stone slammer or jump spell so the troops can get close to the core
 - Sometimes, heros will launch suicide attack to destroy defensing structures to create the funnels for attacking troops.
 
-Baby dragons and wizards are often used to clear the outside trash buildings. Wizards is a bit expensive as 6 wizards takes up 24 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence around.
+Baby dragons and wizards are often used to clear the outside trash buildings. Wizards is a bit expensive as 1 wizard takes up 4 housing capacity but one baby dragon only takes 10 housing capacity which usually can take a few building without air defence around.
 
 Heros with queen charge can clear two outsides of base or with wall breaker they can clear one corner of the base to create the L shape so the attacking troops will be more effective to destroy the buildings.
+
+#### Anti funneling
+
+Anti wall wrecker - cannons and x-bows
+
+Build the walls properly to against the queen and bowlers. Queen's attacking range is 5 and bowler's is 3. Surround your town hall and eagle with a layer of walls.
+
+More compartments.
+
+One of hidden tesla's function is to lead the troop out.
 
 ### TH 8 Strategies
 
@@ -1147,6 +1163,64 @@ Maximize the hero levels.
 
 - Queen lvl 40
 - King lvl 40
+
+Maximize the troop levels.
+
+- Barbarian lvl 7
+- Archer lvl 7
+- Giant lvl 7
+- Goblin lvl 7 Max
+- Wall breakers lvl 6
+- Balloon lvl 6
+- Wizard lvl 7
+- Healer lvl 4
+- Dragon lvl 5
+- PEKKA lvl 6
+- Baby dragon lvl 4
+- Miner lvl 3
+- Minion lvl 6
+- Hog rider lvl 6
+- Valkyrie lvl 5
+- Golem lvl 5
+- Witch lvl 3
+- Lava Hound lvl 3
+- Bowler lvl 2
+
+Maximize the spells
+
+- Lighting lvl 7 Max
+- Healing lvl 7 Max
+- Rage lvl 5 Max
+- Jump lvl 3 Max
+- Freeze lvl 5
+- Clone lvl 3
+- Poison lvl 4
+- Earthquake lvl 4
+- Haste lvl 4
+- Skeleton lvl 3
+
+Maximize the defence
+
+- Cannon lvl 13 x 6, can gear up, HP 1,260, DpS 80, Range 9
+- Archer tower lvl 13 x 7, HP 1050, DpS 80, Range 10
+- Mortar lvl 8 x 4, can gear up, HP 750, DpS 20, Range 4-11
+- Air defense lvl 8 x 4, HP 1,200, DpS 320
+- Wizard tower lvl 9 x 4, HP 1,680, DpS 54, Range 7
+- Air sweeper lvl 6 x 2, HP 950
+- Hidden Tesla lvl 8 x 4, HP 850, DpS 99, Range 7
+- Bomb tower lvl 4 x 2, HP 850, DpS 40
+- Bombs lvl 7 x 6, splash damage 72 in 3 titles
+- Spring traps lvl 5 x 6 Max, wipe off 19 capacity in 0.7 tiles
+- Air bomb lvl 4 x 5, splash damage 173 in 3 tiles
+- Giant bomb lvl 4 x 5, splash damage 250 in 3.5 tiles
+- Seeking air mine lvl 3 x 5, damage 2100 in 4 tiles
+- Skeleton trap lvl 4 x 3, 5 spawned skeletons HP 30, DpS 25 each
+- X-Bows lvl 4 x 3, HP 3,100, DpS 95, Range 14
+- Inferno lvl 3 x 2, HP 2100, DPS 45, Range 9
+
+#### TH10 Minor
+
+#### TH10 Bowler
 
 ### TH11 strategies
 
@@ -1844,6 +1918,19 @@ Or you can have a powerful queen charge first, queen should destroy as many defe
 - 2 Freeze spell
 - Wall wrecker and CC 1 PEKKA + 1 Ice Golem + 1 Rage spell
 
+- 8 giants
+- 1 balloon, 1 wizard, 1 archer, 1 baby drag
+- 5 healer
+- 4 Witch
+- 17 Bowler
+- 2 healing
+- 2 Rage spell
+- 2 Freeze spell
+- 1 poison spell
+- Wall wrecker and CC 5 Bowler + 1 Rage spell
+
+The attack is queen charge first with warden, when close to the entry point, use giants and witches and king to clear the further buildings. Deploy the wall wrecker, the bowlers will follow it and merge with the queen and healers.
+
 Bowler Witch Bat
 
 - 1 Balloon
@@ -2057,6 +2144,17 @@ Level 7 dragon DpS 310 DpA 387.5 HP 3,600, move speed 12, housing space 20
 
 Electro dragon's lighting can hit 5 building connected, dragon can deal splash damage.
 
+#### TH12 Air strategy - Hero and lava loons
+
+Heros can use the suicide hero strategy or queen charge.
+
+- Queen walk with healers and wall breakers to take out eagle artillery, CC troop, and possibly enemy queen, town hall.
+- King clear out the trash buildings outside
+- Stone slammer
+- 2 Lava hound to take down the air defence
+- Warden with massive balloons 3 finger
+- 3 rage and 4 haze and 1 poison
+
 ## TH12 Farming
 
 Farming strategy is very different from war strategy. You are not looking for 3 stars but just for maximum profit.
@@ -2083,15 +2181,13 @@ Home village usually protects resource storages, but in war base, those ones bec
 
 <http://www.cocland.com>
 
-<https://www.cosbases.com>
+<https://cocbases.com/>
 
 <https://www.clashpedia.com/>
 
 <https://www.clashtrack.com/>
 
 <https://www.clashfordummies.com/>
-
-<https://www.clashfarmer.com>
 
 ## Upgrade Progress
 
@@ -2111,6 +2207,8 @@ Progress
 - TH 12 Level 191, King 36 Queen 58 Warden 20 as of 06/16/2019
 - TH 12 Level 194, King 38 Queen 60 Warden 23 as of 07/02/2019
 - TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
+- TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
+- TH 12 Level 199, King 43 Queen 65 Warden 30 as of 08/15/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2118,13 +2216,14 @@ Progress
 - Walls: level 11 x 148, level 10 x 152 as of 06/16/2019
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
+- Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
+- Walls: level 13 x 7, level 12 x 60, level 11 x 233 as of 08/15/2019
 
 Priority list
 
 - Hero level up
-- Haste to level 4
 - Wall breakers to level 7
-- Ice golem to level 4 - ongoing
+- Earthquake spell
 
 Maximize the troops
 
@@ -2138,17 +2237,17 @@ Maximize the troops
 - x Healer lvl 5 Max
 - x Dragon lvl 7 Max
 - x PEKKA lvl 8 Max
-- Baby dragon lvl 6 Max, now 4
+- Baby dragon lvl 6 Max, now 5
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
-- Minion lvl 8 Max, now 6
+- x Minion lvl 8 Max
 - x Hog rider lvl 9 Max
 - x Valkyrie lvl 7 Max
 - Golem lvl 9 Max, now 5
 - x Witch lvl 5 Max
 - x Lava Hound lvl 5 Max
 - x Bowler lvl 4 Max
-- Ice golem lvl 5 Max, now 3
+- x Ice golem lvl 5 Max
 
 Seige machine
 
@@ -2166,7 +2265,7 @@ Maximize the spells
 - Clone lvl 5 Max, now 2
 - x Poison lvl 6 Max
 - Earthquake lvl 5 Max, now 2
-- Haste lvl 5 Max, now 3
+- x Haste lvl 5 Max
 - Skeleton lvl 6 Max, now 1
 - x Bat lvl 5 Max
 
@@ -2178,11 +2277,13 @@ Maximize the spells
 - TH 12 Level 172, King 35 Queen 54 Warden 20 as of 06/02/2019
 - TH 12 Level 173, King 35 Queen 56 Warden 20 as of 06/16/2019
 - TH 12 Level 175, King 36 Queen 60 Warden 20 as of 07/02/2019
+- TH 12 Level 179, King 36 Queen 63 Warden 22 as of 08/09/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
 - Walls: level 12 x 3, level 11 x 235, level 10 x 62 as of 06/16/2019
 - Walls: level 12 x 3, level 11 x 278, level 10 x 19 as of 07/02/2019
+- Walls: level 12 x 53, level 11 x 247 as of 08/02/2019
 
 Maximize the troops
 
@@ -2199,11 +2300,11 @@ Maximize the troops
 - Baby dragon lvl 6 Max, now 3
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
-- Minion lvl 8 Max, now 5
+- x Minion lvl 8 Max
 - Hog rider lvl 9 Max, now 6
 - Valkyrie lvl 7 Max, now 6
 - Golem lvl 8 Max, now 7
-- Witch lvl 5 Max, now 2
+- Witch lvl 5 Max, now 3
 - Lava Hound lvl 5 Max, now 4
 - x Bowler lvl 4 Max
 - Ice golem lvl 5 Max, now 2
@@ -2218,13 +2319,13 @@ Maximize the spells
 
 - Lighting lvl 7 Max, now 6
 - x Healing lvl 7 Max
-- Rage lvl 6 Max, now 5
+- x Rage lvl 6 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
-- Poison lvl 6 Max, now 4
+- x Poison lvl 6 Max
 - Earthquake lvl 5 Max, now 3
-- Haste lvl 5 Max, now 4
+- x Haste lvl 5 Max
 - Skeleton lvl 6 Max, now 1
 - Bat lvl 5 Max, now 1
 
@@ -2236,19 +2337,23 @@ Maximize the spells
 - TH 11 Level 154, King 30 Queen 46 Warden 11 as of 06/02/2019
 - TH 11 Level 156, King 31 Queen 47 Warden 11 as of 06/16/2019
 - TH 11 Level 159, King 33 Queen 49 Warden 11 as of 07/02/2019
+- TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
+- TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
 - Walls: level 11 x 120, level 10 x 180 as of 06/02/2019
 - Walls: level 11 x 125, level 10 x 175 as of 06/16/2019
 - Walls: level 11 x 148, level 10 x 152 as of 07/02/2019
+- Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
+- Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
+- Walls: level 12 x 60, level 11 x 240 as of 08/15/2019
 
 Priority list
 
 - Heroes
-- Poison to level 5 - ongoing
-- Haste to level 5
-- Baby dragon to level 6
+- Skeleton to level 3 - ongoing
+- Dragon to level 6
 
 Maximize the troops
 
@@ -2262,13 +2367,13 @@ Maximize the troops
 - x Healer lvl 5 Max
 - Dragon lvl 6 TH11 Max, now 5
 - x PEKKA lvl 7 TH11 Max
-- Baby dragon lvl 5 TH11 Max, now 4
+- x Baby dragon lvl 5 TH11 Max
 - x Miner lvl 5 Max
 - x Electro Dragon lvl 2 TH11 Max
 - x Minion lvl 7 TH11 Max
-- Hog rider lvl 7 TH11 Max, now 6
-- Valkyrie lvl 6 TH11 Max, now 5
-- Golem lvl 7 TH11 Max, now 5
+- x Hog rider lvl 7 TH11 Max
+- x Valkyrie lvl 6 TH11 Max
+- Golem lvl 7 TH11 Max, now 6
 - x Witch lvl 4 TH11 Max
 - x Lava Hound lvl 4
 - x Bowler lvl 3 TH11 Max
@@ -2281,9 +2386,9 @@ Maximize the spells
 - x Rage lvl 5 TH11 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 6 TH11 Max
-- Clone lvl 5 Max, now 1
-- Poison lvl 5 TH11 Max, now 4
-- Earthquake lvl 5 Max, now 4
-- Haste lvl 4 TH11 Max, now 4
+- Clone lvl 5 Max, now 2
+- x Poison lvl 5 TH11 Max
+- x Earthquake lvl 5 Max
+- x Haste lvl 5 TH11 Max
 - Skeleton lvl 4 TH11 Max, now 2
 - Bat lvl 4 TH11 Max, now 1

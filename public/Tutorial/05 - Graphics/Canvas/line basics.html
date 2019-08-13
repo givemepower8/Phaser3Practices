@@ -35,10 +35,12 @@
 
             graphics.lineStyle(1, 0x00ffff, 1);
 
+            // different ways to draw the line
+            // use graphics.strokeLineShape
             var line1 = new Phaser.Geom.Line(100, 100, 200, 100); // x1,y1,x2,y2
             graphics.strokeLineShape(line1);
 
-            //var line1 = new Phaser.Curves.Line([100, 100, 200, 100]); // x1,y1,x2,y2
+            // or use game objects instance.draw(graphics)
             var line2 = new Phaser.Curves.Line([200, 100, 200, 200]); // x1,y1,x2,y2
             var line3 = new Phaser.Curves.Line([100, 200, 200, 200]);
             var line4 = new Phaser.Curves.Line([100, 100, 100, 200]);
@@ -46,9 +48,14 @@
             line2.draw(graphics);
             line3.draw(graphics);
             line4.draw(graphics);
+
+            // more readings
+            // https://rexrainbow.github.io/phaser3-rex-notes/docs/site/geom-line/
         }
 
-        function update() {}
+        function update() {
+
+        }
     </script>
 
 </body>
