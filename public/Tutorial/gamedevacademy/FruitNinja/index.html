@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<title>Learn Game Development at ZENVA.com</title>
+        
+		<style>
+		  body {
+		    padding: 0px;
+		    margin: 0px;
+		    background-color: black;
+		  }
+          @font-face {
+		  	font-family: 'Shojumaru';
+		  	src: url('assets/fonts/shojumaru.ttf');
+		  }
+            
+          .fontPreload {
+		  	font-family: Shojumaru;
+		  	position:absolute;
+		  	left:-100px;
+		   }
+		  </style>
+        
+        
+	</head>
+
+	<body>
+        <div class="fontPreload">.</div>
+        
+        <script type="text/javascript" src="js/phaser.js"></script>
+        
+        <script src="js/states/BootState.js"></script>
+        <script src="js/states/LoadingState.js"></script>
+        <script src="js/states/JSONLevelState.js"></script>
+        <script src="js/states/TitleState.js"></script>
+        <script src="js/states/LevelState.js"></script>
+        <script src="js/states/ClassicState.js"></script>
+        <script src="js/states/TimeAttackState.js"></script>
+        
+        <script src="js/prefabs/Prefab.js"></script>
+        <script src="js/prefabs/TextPrefab.js"></script>
+        
+        <script src="js/prefabs/Spawners/Spawner.js"></script>
+        <script src="js/prefabs/Spawners/FruitSpawner.js"></script>
+        <script src="js/prefabs/Spawners/BombSpawner.js"></script>
+        <script src="js/prefabs/Spawners/SpecialFruitSpawner.js"></script>
+        <script src="js/prefabs/Spawners/TimeBombSpawner.js"></script>
+        <script src="js/prefabs/Spawners/ClockSpawner.js"></script>
+        
+        <script src="js/prefabs/Cuttables/Cuttable.js"></script>
+        <script src="js/prefabs/Cuttables/Fruit.js"></script>
+        <script src="js/prefabs/Cuttables/Bomb.js"></script>
+        <script src="js/prefabs/Cuttables/SpecialFruit.js"></script>
+        <script src="js/prefabs/Cuttables/TimeBomb.js"></script>
+        <script src="js/prefabs/Cuttables/Clock.js"></script>
+        <script src="js/prefabs/Cuttables/Cut.js"></script>
+        
+        <script src="js/prefabs/HUD/Score.js"></script>
+        <script src="js/prefabs/HUD/Lives.js"></script>
+        <script src="js/prefabs/HUD/RemainingTime.js"></script>
+        <script src="js/prefabs/HUD/GameOverPanel.js"></script>
+        <script src="js/prefabs/HUD/Menu.js"></script>
+        <script src="js/prefabs/HUD/MenuItem.js"></script>
+        <script src="js/prefabs/HUD/StartGameItem.js"></script>
+        
+        <script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
