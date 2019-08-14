@@ -10,3 +10,9 @@ Physical folders
 - src (all the source code)
 
 npm config files
+
+## resources
+
+- <https://phasertutorials.com/creating-a-phaser-3-template-part-1/>
+- <https://phasertutorials.com/creating-a-phaser-3-template-part-2/>
+- <https://phasertutorials.com/creating-a-phaser-3-template-part-3/>
