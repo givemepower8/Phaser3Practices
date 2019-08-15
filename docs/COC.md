@@ -2217,12 +2217,12 @@ Progress
 - Walls: level 11 x 174, level 10 x 126 as of 07/02/2019
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
-- Walls: level 13 x 7, level 12 x 60, level 11 x 233 as of 08/15/2019
+- Walls: level 13 x 9, level 12 x 58, level 11 x 233 as of 08/15/2019
 
 Priority list
 
 - Hero level up
-- Wall breakers to level 7
+- Wall breakers to level 7 - ongoing
 - Earthquake spell
 
 Maximize the troops
@@ -2339,6 +2339,7 @@ Maximize the spells
 - TH 11 Level 159, King 33 Queen 49 Warden 11 as of 07/02/2019
 - TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
 - TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
+- TH 11 Level 164, King 38 Queen 50 Warden 16 as of 08/15/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
