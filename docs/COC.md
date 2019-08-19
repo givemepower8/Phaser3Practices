@@ -2209,6 +2209,7 @@ Progress
 - TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
 - TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
 - TH 12 Level 199, King 43 Queen 65 Warden 30 as of 08/15/2019
+- TH 12 Level 200, King 46 Queen 65 Warden 32 as of 09/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2223,8 +2224,8 @@ Progress
 Priority list
 
 - Hero level up
-- Wall breakers to level 7 - ongoing
-- Earthquake spell
+- Wall breakers to level 8
+- Earthquake spell to level 4 - ongoing
 
 Maximize the troops
 
@@ -2232,13 +2233,13 @@ Maximize the troops
 - x Archer lvl 8 Max
 - x Giant lvl 9 Max
 - Goblin lvl 7 Max, now 6
-- Wall breakers lvl 8 Max, now 6
+- Wall breakers lvl 8 Max, now 7
 - x Balloon lvl 8 Max
 - x Wizard lvl 9 Max
 - x Healer lvl 5 Max
 - x Dragon lvl 7 Max
 - x PEKKA lvl 8 Max
-- Baby dragon lvl 6 Max, now 5
+- x Baby dragon lvl 6 Max
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
 - x Minion lvl 8 Max
@@ -2265,7 +2266,7 @@ Maximize the spells
 - x Freeze lvl 7 Max
 - Clone lvl 5 Max, now 2
 - x Poison lvl 6 Max
-- Earthquake lvl 5 Max, now 2
+- Earthquake lvl 5 Max, now 3
 - x Haste lvl 5 Max
 - Skeleton lvl 6 Max, now 1
 - x Bat lvl 5 Max
@@ -2343,6 +2344,7 @@ Maximize the spells
 - TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
 - TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
 - TH 11 Level 164, King 38 Queen 50 Warden 16 as of 08/15/2019
+- TH 11 Level 165, King 41 Queen 50 Warden 17 as of 09/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2357,7 +2359,8 @@ Maximize the spells
 Priority list
 
 - Heroes
-- Skeleton to level 3 - ongoing
+- Golem to level 7 - ongoing
+- Skeleton to level 4
 - Dragon to level 6
 
 Maximize the troops
@@ -2395,5 +2398,5 @@ Maximize the spells
 - x Poison lvl 5 TH11 Max
 - x Earthquake lvl 5 Max
 - x Haste lvl 5 TH11 Max
-- Skeleton lvl 4 TH11 Max, now 2
+- Skeleton lvl 4 TH11 Max, now 3
 - Bat lvl 4 TH11 Max, now 1
