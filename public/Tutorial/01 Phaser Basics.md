@@ -1,10 +1,10 @@
-# Game Basics
+# Phaser Game Basics
 
 Phaser game has one or more scenes, game objects, utility methods, etc.,.
 
-Game has a main branch from start to end. While the progress unfolds, game can have many sub-branches.
+Game has a main story line from start to end. While the progress unfolds, game can have many sub quests.
 
-Each scene has preload, create, update pipeline.
+Each scene has `preload`, `create`, `update` pipeline.
 
 Game objects are on the scene. Game objects interact with users by keyboard or mouse or touch. They can hold their own data and behaves while the data change. And they interact with other game objects by custom events.
 
