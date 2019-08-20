@@ -11,12 +11,25 @@
 
   - socket.io
 
-- Dev tools
+- understand the game design
+
+  - player satisfaction
+    - overcome challenges
+  - social activity
+    - competition
+    - corporation
+
+- Phaser Dev tools
 
   - visual studio code / nodejs / npm
   - IsoGenicEngine
   - Tiled
   - [phaser editor](https://phasereditor2d.com/)
+
+- Phaser Dev process
+
+  - name space, prototype in JavaScript
+  - organize the game state and assets boot -> preload
 
 - Books to read
   - HTML5 Games Novice to Ninja - SitePoint book covers lots of basic terms of HTML5 games like canvas, physics, ...
