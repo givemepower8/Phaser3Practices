@@ -61,28 +61,6 @@ var game = new Phaser.Game(config);
 
 The above game only has one scene. Ideally, scene should be an array of scenes which are taken care of by SceneManager.
 
-### Text
-
-For the text, please see the `update with setText.html` example
-
-- to set the text, you need an variable and instance of the text
-- the text instance has its own properties
-- the text instance has lots of set methods to change text, font size...
-
-### load image
-
-For the image, please see the `load image.html` example
-
-- absolute and relate url `this.load.image('apple', '/assets/sprites/apple.png');`
-- the image instance has its own properties
-- the image instance has lots of set methods to change alpha, blend mode...
-
-### Animation
-
-atlas
-
-spritesheet
-
 ## Scene
 
 Game happens on one or more scenes.
