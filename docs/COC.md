@@ -2344,7 +2344,7 @@ Maximize the spells
 - TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
 - TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
 - TH 11 Level 164, King 38 Queen 50 Warden 16 as of 08/15/2019
-- TH 11 Level 165, King 42 Queen 50 Warden 17 as of 09/02/2019
+- TH 12 Level 165, King 42 Queen 50 Warden 17 as of 09/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2354,7 +2354,7 @@ Maximize the spells
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
 - Walls: level 12 x 60, level 11 x 240 as of 08/15/2019
-- Walls: level 12 x 134, level 11 x 166 as of 09/02/2019
+- Walls: level 12 x 140, level 11 x 160 as of 09/02/2019
 
 Priority list
 
