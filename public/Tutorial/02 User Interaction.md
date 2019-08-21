@@ -68,7 +68,3 @@ In Chrome console, type in the following: `Phaser.Input.Keyboard.KeyCodes`
 `Phaser.Input.Keyboard.KeyCodes.Q`
 
 ## mouse
-
-## Camera
-
-If the game world is now bigger than the window looking into it, there needs to be some way for Phaser to know from what position of the world it should currently be rendering objects. This object is called a camera. Phasers camera has x and y positions in world space that can be moved manually to look about the graphics in the world.
