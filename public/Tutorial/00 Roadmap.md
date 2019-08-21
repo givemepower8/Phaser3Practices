@@ -41,3 +41,17 @@
 ## More resources
 
 <https://phaser.io/learn/community-tutorials>
+
+## Boilerplate
+
+### Boot.js
+
+We enter the Boot-phase from the initial "Landing Page".
+
+Inside Boot.js, we use the reserved Phaser methods to initiate, upload, and create the Boot-phase; also, we load game assets and a loading screen (just a simple progression indicator), and further layout other game-level configurations. The Boot.js will initially scale, center and test the current device orientation. The Boot-phase script will then change to the "Preload.js" file content and Preloader-phase.
+
+Create the namespace in Boot.js
+
+```js
+var GAMEAPP = GAMEAPP || {};
+```
