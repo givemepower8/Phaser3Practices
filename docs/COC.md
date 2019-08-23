@@ -2287,7 +2287,7 @@ Maximize the spells
 - Walls: level 12 x 3, level 11 x 278, level 10 x 19 as of 07/02/2019
 - Walls: level 12 x 53, level 11 x 247 as of 08/02/2019
 - Walls: level 12 x 75, level 11 x 225 as of 08/15/2019
-- Walls: level 12 x 104, level 11 x 196 as of 09/02/2019
+- Walls: level 12 x 107, level 11 x 193 as of 09/02/2019
 
 Maximize the troops
 
