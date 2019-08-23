@@ -19,6 +19,13 @@
     - competition
     - corporation
 
+- Phaser coding
+
+  - use ES6 which has great:
+    - modules support, i.e., import and export, ...
+    - tooling support
+  - use TypeScript for more compiling support
+
 - Phaser Dev tools
 
   - visual studio code / nodejs / npm
@@ -41,6 +48,8 @@
 ## More resources
 
 <https://phaser.io/learn/community-tutorials>
+
+<http://phaser.io/phaser3/devlog/85>
 
 ## Boilerplate
 

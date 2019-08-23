@@ -8,7 +8,7 @@ Technically, game object is a base class which encapsulates many reusable proper
 
 [GameObject source code](https://github.com/photonstorm/phaser/blob/v3.18.0/src/gameobjects/GameObject.js)
 
-<https://phaser.io/phaser3/contributing/part6>
+[How Game Objects Work](https://phaser.io/phaser3/contributing/part6)
 
 ## Common game object properties
 
@@ -100,30 +100,6 @@ The state value should typically be an integer (ideally mapped to a constant in 
 If you need to store complex data about your Game Object, look at using the Data Component instead.
 
 state is the getter and setState(value) is the setter.
-
-## Interaction / Input manager
-
-`setInteractive(shape, callback, dropZone)`
-
-Pass this Game Object to the Input Manager to enable it for Input.
-
-Input works by using hit areas, these are nearly always geometric shapes, such as rectangles or circles, that act as the hit area for the Game Object. However, you can provide your own hit area shape and callback, should you wish to handle some more advanced input detection.
-
-If no arguments are provided it will try and create a rectangle hit area based on the texture frame the Game Object is using. If this isn't a texture-bound object, such as a Graphics or BitmapText object, this will fail, and you'll need to provide a specific shape for it to use.
-
-`disableInteractive()`
-
-If this Game Object has previously been enabled for input, this will queue it for removal, causing it to no longer be interactive. The removal happens on the next game step, it is not immediate.
-
-The Interactive Object that was assigned to this Game Object will be destroyed, removed from the Input Manager and cleared from this Game Object.
-
-If you wish to re-enable this Game Object at a later date you will need to re-create its InteractiveObject by calling `setInteractive` again.
-
-If you wish to only temporarily stop an object from receiving input then use `disableInteractive` instead, as that toggles the interactive state, where-as this erases it completely.
-
-If you wish to resize a hit area, don't remove and then set it as being interactive. Instead, access the hitarea object directly and resize the shape being used. I.e.: `sprite.input.hitArea.setSize(width, height)` (assuming the shape is a Rectangle, which it is by default.)
-
-`removeInteractive()`
 
 ## Debugging
 

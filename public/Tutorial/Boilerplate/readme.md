@@ -16,3 +16,7 @@ npm config files
 - <https://phasertutorials.com/creating-a-phaser-3-template-part-1/>
 - <https://phasertutorials.com/creating-a-phaser-3-template-part-2/>
 - <https://phasertutorials.com/creating-a-phaser-3-template-part-3/>
+
+code
+
+<https://phasertutorials.com/wp-content/uploads/2019/01/creating-a-phaser-3-template-part-1.zip>
