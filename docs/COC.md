@@ -2219,7 +2219,7 @@ Progress
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
 - Walls: level 13 x 10, level 12 x 60, level 11 x 230 as of 08/15/2019
-- Walls: level 13 x 10, level 12 x 131, level 11 x 159 as of 09/02/2019
+- Walls: level 13 x 10, level 12 x 140, level 11 x 150 as of 09/02/2019
 
 Priority list
 
@@ -2287,7 +2287,7 @@ Maximize the spells
 - Walls: level 12 x 3, level 11 x 278, level 10 x 19 as of 07/02/2019
 - Walls: level 12 x 53, level 11 x 247 as of 08/02/2019
 - Walls: level 12 x 75, level 11 x 225 as of 08/15/2019
-- Walls: level 12 x 107, level 11 x 193 as of 09/02/2019
+- Walls: level 12 x 113, level 11 x 187 as of 09/02/2019
 
 Maximize the troops
 
@@ -2307,11 +2307,11 @@ Maximize the troops
 - x Minion lvl 8 Max
 - Hog rider lvl 9 Max, now 6
 - Valkyrie lvl 7 Max, now 6
-- Golem lvl 8 Max, now 7
+- Golem lvl 9 Max, now 7
 - Witch lvl 5 Max, now 3
 - Lava Hound lvl 5 Max, now 4
 - x Bowler lvl 4 Max
-- Ice golem lvl 5 Max, now 2
+- Ice golem lvl 5 Max, now 4
 
 Seige machine
 
@@ -2354,7 +2354,7 @@ Maximize the spells
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
 - Walls: level 12 x 60, level 11 x 240 as of 08/15/2019
-- Walls: level 12 x 155, level 11 x 145 as of 09/02/2019
+- Walls: level 12 x 164, level 11 x 136 as of 09/02/2019
 
 Priority list
 
@@ -2381,7 +2381,7 @@ Maximize the troops
 - x Minion lvl 7 TH11 Max
 - x Hog rider lvl 7 TH11 Max
 - x Valkyrie lvl 6 TH11 Max
-- Golem lvl 7 TH11 Max, now 6
+- x Golem lvl 7 TH11 Max
 - x Witch lvl 4 TH11 Max
 - x Lava Hound lvl 4
 - x Bowler lvl 3 TH11 Max
@@ -2398,5 +2398,5 @@ Maximize the spells
 - x Poison lvl 5 TH11 Max
 - x Earthquake lvl 5 Max
 - x Haste lvl 5 TH11 Max
-- Skeleton lvl 4 TH11 Max, now 3
+- x Skeleton lvl 4 TH11 Max
 - Bat lvl 4 TH11 Max, now 1
