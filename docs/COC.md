@@ -2209,7 +2209,7 @@ Progress
 - TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
 - TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
 - TH 12 Level 199, King 43 Queen 65 Warden 30 as of 08/15/2019
-- TH 12 Level 200, King 46 Queen 65 Warden 32 as of 09/02/2019
+- TH 12 Level 201, King 47 Queen 65 Warden 32 as of 09/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2287,7 +2287,7 @@ Maximize the spells
 - Walls: level 12 x 3, level 11 x 278, level 10 x 19 as of 07/02/2019
 - Walls: level 12 x 53, level 11 x 247 as of 08/02/2019
 - Walls: level 12 x 75, level 11 x 225 as of 08/15/2019
-- Walls: level 12 x 113, level 11 x 187 as of 09/02/2019
+- Walls: level 12 x 121, level 11 x 179 as of 09/02/2019
 
 Maximize the troops
 
@@ -2344,7 +2344,7 @@ Maximize the spells
 - TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
 - TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
 - TH 11 Level 164, King 38 Queen 50 Warden 16 as of 08/15/2019
-- TH 12 Level 165, King 42 Queen 50 Warden 17 as of 09/02/2019
+- TH 12 Level 166, King 42 Queen 50 Warden 18 as of 09/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2354,14 +2354,13 @@ Maximize the spells
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
 - Walls: level 12 x 60, level 11 x 240 as of 08/15/2019
-- Walls: level 12 x 164, level 11 x 136 as of 09/02/2019
+- Walls: level 12 x 186, level 11 x 114 as of 09/02/2019
 
 Priority list
 
 - Heroes
-- Golem to level 7 - ongoing
-- Skeleton to level 4
-- Dragon to level 6
+- Bat to level 2 - ongoing
+- Dragon to level 7
 
 Maximize the troops
 
