@@ -2315,7 +2315,7 @@ Maximize the troops
 
 Seige machine
 
-- x Wall wrecker 3 Max, now 3
+- x Wall wrecker 3 Max
 - Battle blimp 3 Max, now 1
 - x Stone slammer 3 Max
 
@@ -2390,7 +2390,7 @@ Maximize the spells
 
 - x Lighting lvl 7 Max
 - x Healing lvl 7 Max
-- Rage lvl 6 Max, now 5
+- x Rage lvl 6 Max
 - x Jump lvl 3 Max
 - Freeze lvl 7 Max, now 6
 - Clone lvl 5 Max, now 2
