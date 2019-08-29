@@ -2219,7 +2219,7 @@ Progress
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
 - Walls: level 13 x 10, level 12 x 60, level 11 x 230 as of 08/15/2019
-- Walls: level 13 x 10, level 12 x 140, level 11 x 150 as of 09/02/2019
+- Walls: level 13 x 10, level 12 x 160, level 11 x 130 as of 09/02/2019
 
 Priority list
 
