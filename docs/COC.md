@@ -2308,14 +2308,14 @@ Maximize the troops
 - Hog rider lvl 9 Max, now 6
 - Valkyrie lvl 7 Max, now 6
 - Golem lvl 9 Max, now 7
-- Witch lvl 5 Max, now 3
+- x Witch lvl 5 Max
 - Lava Hound lvl 5 Max, now 4
 - x Bowler lvl 4 Max
 - Ice golem lvl 5 Max, now 4
 
 Seige machine
 
-- x Wall wrecker 3 Max, now 3
+- x Wall wrecker 3 Max
 - Battle blimp 3 Max, now 1
 - x Stone slammer 3 Max
 
@@ -2344,7 +2344,7 @@ Maximize the spells
 - TH 11 Level 161, King 35 Queen 50 Warden 14 as of 07/22/2019
 - TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
 - TH 11 Level 164, King 38 Queen 50 Warden 16 as of 08/15/2019
-- TH 12 Level 166, King 42 Queen 50 Warden 18 as of 09/02/2019
+- TH 12 Level 166, King 43 Queen 50 Warden 19 as of 09/02/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2359,43 +2359,43 @@ Maximize the spells
 Priority list
 
 - Heroes
-- Bat to level 2 - ongoing
-- Dragon to level 7
+- Balloon to level 8
+- Miner to level 6
 
 Maximize the troops
 
 - x Barbarian lvl 8 Max
 - x Archer lvl 8 Max
-- x Giant lvl 8 TH11 Max
+- Giant lvl 9 Max, now 8
 - Goblin lvl 7 Max, now 6
-- x Wall breakers lvl 7 TH11 Max
-- x Balloon lvl 7 TH11 Max
-- x Wizard lvl 8 TH11 Max
+- Wall breakers lvl 8 Max, now 7
+- Balloon lvl 8 Max, now 7
+- Wizard lvl 9 Max, now 8
 - x Healer lvl 5 Max
-- Dragon lvl 6 TH11 Max, now 5
-- x PEKKA lvl 7 TH11 Max
-- x Baby dragon lvl 5 TH11 Max
-- x Miner lvl 5 Max
-- x Electro Dragon lvl 2 TH11 Max
-- x Minion lvl 7 TH11 Max
-- x Hog rider lvl 7 TH11 Max
-- x Valkyrie lvl 6 TH11 Max
-- x Golem lvl 7 TH11 Max
-- x Witch lvl 4 TH11 Max
-- x Lava Hound lvl 4
-- x Bowler lvl 3 TH11 Max
-- x Ice golem lvl 3 TH11 Max
+- Dragon lvl 7 Max, now 6
+- PEKKA lvl 8 Max, now 7
+- Baby dragon lvl 6 Max, now 5
+- Miner lvl 6 Max, now 5
+- x Electro Dragon lvl 3 Max
+- Minion lvl 8 Max, now 7
+- Hog rider lvl 9 Max, now 7
+- Valkyrie lvl 7 Max, now 6
+- Golem lvl 9 Max, now 7
+- Witch lvl 5 Max, now 4
+- Lava Hound lvl 5 Max, now 4
+- Bowler lvl 4 Max, now 3
+- Ice golem lvl 5 Max, now 3
 
 Maximize the spells
 
 - x Lighting lvl 7 Max
 - x Healing lvl 7 Max
-- x Rage lvl 5 TH11 Max
+- x Rage lvl 6 Max
 - x Jump lvl 3 Max
-- x Freeze lvl 6 TH11 Max
+- Freeze lvl 7 Max, now 6
 - Clone lvl 5 Max, now 2
-- x Poison lvl 5 TH11 Max
+- x Poison lvl 6 Max
 - x Earthquake lvl 5 Max
-- x Haste lvl 5 TH11 Max
-- x Skeleton lvl 4 TH11 Max
-- Bat lvl 4 TH11 Max, now 1
+- x Haste lvl 5 Max
+- Skeleton lvl 6 Max, now 4
+- Bat lvl 5 Max, now 2
