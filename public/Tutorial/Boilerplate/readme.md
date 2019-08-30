@@ -11,6 +11,10 @@ Physical folders
 
 npm config files
 
+## template
+
+`git clone https://github.com/photonstorm/phaser3-project-template.git`
+
 ## resources
 
 - <https://phasertutorials.com/creating-a-phaser-3-template-part-1/>
