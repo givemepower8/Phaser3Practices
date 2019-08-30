@@ -2209,7 +2209,7 @@ Progress
 - TH 12 Level 195, King 39 Queen 62 Warden 26 as of 07/15/2019
 - TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
 - TH 12 Level 199, King 43 Queen 65 Warden 30 as of 08/15/2019
-- TH 12 Level 201, King 47 Queen 65 Warden 32 as of 09/02/2019
+- TH 12 Level 201, King 47 Queen 65 Warden 34 as of 09/02/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2219,7 +2219,7 @@ Progress
 - Walls: level 11 x 221, level 10 x 79 as of 07/15/2019
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
 - Walls: level 13 x 10, level 12 x 60, level 11 x 230 as of 08/15/2019
-- Walls: level 13 x 10, level 12 x 160, level 11 x 130 as of 09/02/2019
+- Walls: level 13 x 10, level 12 x 166, level 11 x 124 as of 09/02/2019
 
 Priority list
 
@@ -2280,6 +2280,7 @@ Maximize the spells
 - TH 12 Level 173, King 35 Queen 56 Warden 20 as of 06/16/2019
 - TH 12 Level 175, King 36 Queen 60 Warden 20 as of 07/02/2019
 - TH 12 Level 179, King 36 Queen 63 Warden 22 as of 08/09/2019
+- TH 12 Level 181, King 40 Queen 65 Warden 28 as of 09/02/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
@@ -2287,7 +2288,7 @@ Maximize the spells
 - Walls: level 12 x 3, level 11 x 278, level 10 x 19 as of 07/02/2019
 - Walls: level 12 x 53, level 11 x 247 as of 08/02/2019
 - Walls: level 12 x 75, level 11 x 225 as of 08/15/2019
-- Walls: level 12 x 134, level 11 x 166 as of 09/02/2019
+- Walls: level 12 x 136, level 11 x 164 as of 09/02/2019
 
 Maximize the troops
 
@@ -2354,13 +2355,14 @@ Maximize the spells
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
 - Walls: level 12 x 60, level 11 x 240 as of 08/15/2019
-- Walls: level 12 x 211, level 11 x 89 as of 09/02/2019
+- Walls: level 12 x 213, level 11 x 87 as of 09/02/2019
 
 Priority list
 
 - Heroes
 - Miner to level 6
-- Bowler - ongoing
+- Bowler to level 4 - ongoing
+- Freeze to level 7
 
 Maximize the troops
 
