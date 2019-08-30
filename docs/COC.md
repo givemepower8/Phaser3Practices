@@ -2287,7 +2287,7 @@ Maximize the spells
 - Walls: level 12 x 3, level 11 x 278, level 10 x 19 as of 07/02/2019
 - Walls: level 12 x 53, level 11 x 247 as of 08/02/2019
 - Walls: level 12 x 75, level 11 x 225 as of 08/15/2019
-- Walls: level 12 x 121, level 11 x 179 as of 09/02/2019
+- Walls: level 12 x 134, level 11 x 166 as of 09/02/2019
 
 Maximize the troops
 
@@ -2354,13 +2354,13 @@ Maximize the spells
 - Walls: level 11 x 189, level 10 x 111 as of 07/22/2019
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
 - Walls: level 12 x 60, level 11 x 240 as of 08/15/2019
-- Walls: level 12 x 186, level 11 x 114 as of 09/02/2019
+- Walls: level 12 x 211, level 11 x 89 as of 09/02/2019
 
 Priority list
 
 - Heroes
-- Balloon to level 8
 - Miner to level 6
+- Bowler - ongoing
 
 Maximize the troops
 
@@ -2369,7 +2369,7 @@ Maximize the troops
 - Giant lvl 9 Max, now 8
 - Goblin lvl 7 Max, now 6
 - Wall breakers lvl 8 Max, now 7
-- Balloon lvl 8 Max, now 7
+- x Balloon lvl 8 Max
 - Wizard lvl 9 Max, now 8
 - x Healer lvl 5 Max
 - Dragon lvl 7 Max, now 6
