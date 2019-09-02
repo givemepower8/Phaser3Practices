@@ -2210,6 +2210,7 @@ Progress
 - TH 12 Level 197, King 42 Queen 64 Warden 29 as of 08/02/2019
 - TH 12 Level 199, King 43 Queen 65 Warden 30 as of 08/15/2019
 - TH 12 Level 201, King 47 Queen 65 Warden 34 as of 09/02/2019
+- TH 12 Level 201, King 47 Queen 65 Warden 34 as of 09/15/2019
 
 - Walls: level 11 x 81, level 10 x 218, level 9 x 1, as of 05/02/2019
 - Walls: level 11 x 95, level 10 x 205 as of 05/22/2019
@@ -2220,6 +2221,7 @@ Progress
 - Walls: level 12 x 14, level 11 x 286 as of 08/02/2019
 - Walls: level 13 x 10, level 12 x 60, level 11 x 230 as of 08/15/2019
 - Walls: level 13 x 10, level 12 x 190, level 11 x 100 as of 09/02/2019
+- Walls: level 13 x 10, level 12 x 201, level 11 x 89 as of 09/15/2019
 
 Priority list
 
@@ -2281,6 +2283,7 @@ Maximize the spells
 - TH 12 Level 175, King 36 Queen 60 Warden 20 as of 07/02/2019
 - TH 12 Level 179, King 36 Queen 63 Warden 22 as of 08/09/2019
 - TH 12 Level 181, King 40 Queen 65 Warden 28 as of 09/02/2019
+- TH 12 Level 181, King 40 Queen 65 Warden 28 as of 09/15/2019
 
 - Walls: level 12 x 3, level 11 x 134, level 10 x 163 as of 05/02/2019
 - Walls: level 12 x 3, level 11 x 165, level 10 x 132 as of 05/22/2019
@@ -2289,6 +2292,7 @@ Maximize the spells
 - Walls: level 12 x 53, level 11 x 247 as of 08/02/2019
 - Walls: level 12 x 75, level 11 x 225 as of 08/15/2019
 - Walls: level 12 x 147, level 11 x 153 as of 09/02/2019
+- Walls: level 12 x 173, level 11 x 123 as of 09/15/2019
 
 Maximize the troops
 
@@ -2346,6 +2350,7 @@ Maximize the spells
 - TH 11 Level 162, King 36 Queen 50 Warden 15 as of 08/02/2019
 - TH 11 Level 164, King 38 Queen 50 Warden 16 as of 08/15/2019
 - TH 12 Level 166, King 43 Queen 50 Warden 19 as of 09/02/2019
+- TH 12 Level 166, King 43 Queen 50 Warden 19 as of 09/15/2019
 
 - Walls: level 11 x 89, level 10 x 211 as of 05/02/2019
 - Walls: level 11 x 100, level 10 x 200 as of 05/22/2019
@@ -2356,6 +2361,7 @@ Maximize the spells
 - Walls: level 11 x 296, level 10 x 4 as of 08/02/2019
 - Walls: level 12 x 60, level 11 x 240 as of 08/15/2019
 - Walls: level 12 x 233, level 11 x 67 as of 09/02/2019
+- Walls: level 12 x 244, level 11 x 56 as of 09/15/2019
 
 Priority list
 
