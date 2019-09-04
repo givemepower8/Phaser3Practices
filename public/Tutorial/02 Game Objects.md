@@ -79,7 +79,7 @@ The Game Object Factory is a Scene plugin that allows you to quickly create many
 
 destroy(fromScene)
 
-`fromScene` is this Game Object being destroyed as the result of a Scene shutdown
+`fromScene` is optional boolean type, default is false, is this Game Object being destroyed as the result of a Scene shutdown
 
 Destroys this Game Object removing it from the Display List and Update List and severing all ties to parent resources.
 
