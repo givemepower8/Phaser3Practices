@@ -68,3 +68,5 @@ The above game only has one scene. Ideally, scene should be an array of scenes w
 <https://leanpub.com/gtmjigsawpuzzles>
 
 Game-play is an encompassing concept which is the sum of the following individual components game mechanics (aka rules, policies, game logic) player’s learning-curve compared to game challenges, the pacing of “rewards and achievements” to the risk of associated obstacles. 42 elements of the “Fun-factor” from Jon Radoff’s book “Game On”. A book describing “how to make games fun”. The 16 human motivations as defined by Dr. Steven Reiss in Jon Radoff’s book. Download my interpretation chart
+
+<https://developer.amazon.com/blogs/post/Tx3AT4I2ENBOI6R/Intro-to-Phaser-Part-3:-Obstacles,-Collision,-Score,-Sound-and-Publishing>
