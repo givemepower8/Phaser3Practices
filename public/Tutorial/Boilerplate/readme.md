@@ -50,25 +50,25 @@ package.json for npm
 webpack.config.js
 
 ```js
-"use strict";
+'use strict';
 
-const webpack = require("webpack");
-const path = require("path");
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: './src/index.js',
 
   output: {
-    path: path.resolve(__dirname, "build"),
-    publicPath: "/build/",
-    filename: "project.bundle.js"
+    path: path.resolve(__dirname, 'build'),
+    publicPath: '/build/',
+    filename: 'project.bundle.js'
   },
 
   module: {
     rules: [
       {
         test: [/\.vert$/, /\.frag$/],
-        use: "raw-loader"
+        use: 'raw-loader'
       }
     ]
   },
@@ -114,6 +114,8 @@ npm config files
 - <https://phasertutorials.com/creating-a-phaser-3-template-part-1/>
 - <https://phasertutorials.com/creating-a-phaser-3-template-part-2/>
 - <https://phasertutorials.com/creating-a-phaser-3-template-part-3/>
+
+- <https://github.com/nkholski/phaser3-es6-webpack>
 
 code
 
