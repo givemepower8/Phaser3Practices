@@ -105,6 +105,15 @@ Physical folders
 
 npm config files
 
+## Common steps
+
+1. Create folder, right click and open with VS Code
+2. Ctrl + \` to open TERMINAL, `npm init` which creates the initial package.json file
+3. install related packages
+   - `npm install --save-dev phaser`
+   - `npm install --save-dev webpack`
+   - `npm install --save-dev webpack-dev-server`
+
 ## template
 
 `git clone https://github.com/photonstorm/phaser3-project-template.git`
