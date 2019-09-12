@@ -2058,7 +2058,7 @@ There are lots of ground defensing systems, but for air, there are not that much
 
 Electro dragon has a special attack - chain lightening, it can hit up to 5 building connected. Chain lightening damage dealt will decrease 20% for chained buildings. The buildings must be at most one tile apart. If they are two tiles apart, chain lightening will be prevented.
 
-To attack a higher level TH12 with very high ground DpS dealing defences and very high level walls, miner or bowler often cannot get the town hall if heavy defence is around. If you are aiming at 3 stars just want to 2 star your enemy clan's top war rank players, electro dragon is a solid strategy. Focus on taking down the town hall and get a 50% more destruction rate with electro dragons is not that hard and easier than other ground attacking strategies.
+To attack a higher level TH12 with very high ground DpS dealing defences and very high level walls, miner or bowler often cannot get the town hall if heavy defence is around. If you are not aiming at 3 stars just want to 2 star your enemy clan's top war rank players, electro dragon is a solid strategy. Focus on taking down the town hall and get a 50% more destruction rate with electro dragons is not that hard and easier than other ground attacking strategies.
 
 If the war base is a distributed design with trash buildings spread out all over the map, it's not a good idea to use electro dragon as the electro dragon loses the chain lightening power and takes more time to destroy every building in its range, also sometime it will fly away from the core to attack outside trash buildings, unless you use some troops to funnel timely or in advance.
 
