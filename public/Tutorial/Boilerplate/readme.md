@@ -98,21 +98,38 @@ The index.html is just the skeleton of the js files.
 
 Physical folders
 
-- public (the files deployed which can publicly accessed)
-  - assets (all the images, sound files, JSON data, xml, etc.,)
-  - dist (all the package, minimized)
+The folders may vary, it depends on the deployment.
+
+The common structure for source code control:
+
+- assets (all the images, sound files, JSON data, xml, etc.,)
 - src (all the source code)
+- test (the test scenarios)
+- config files for npm, .gitignore, lint, babel, webpack, or other tools
+
+The common structure for building source code into deployable packages:
+
+- build or dist folder
+  - one project.bundel.js which includes all the minified JavaScript files
+  - phase3 library minified js
+  - index.html which includes the js files, css files
+- css folder
+- image folder
+
+all the above files will be accessed by public
 
 npm config files
 
 ## Common steps
 
-1. Create folder, right click and open with VS Code
+1. Create the root folder, right click and open with VS Code
 2. Ctrl + \` to open TERMINAL, `npm init` which creates the initial package.json file
 3. install related packages
    - `npm install --save-dev phaser`
-   - `npm install --save-dev webpack`
+   - `npm install --save-dev webpack` and config the webpack.config.js
    - `npm install --save-dev webpack-dev-server`
+4. EcmaScript 6 is recommended, and EcmaScript module (import / export) is recommended
+5. if VS code is used as the editor, config the .editorconfig, settings.json etc., config the .eslintrc.json, .babelrc etc
 
 ## template
 
