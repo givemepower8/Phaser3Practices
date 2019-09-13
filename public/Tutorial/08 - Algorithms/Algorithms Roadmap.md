@@ -2,6 +2,8 @@
 
 - array
 
+<https://yangshun.github.io/tech-interview-handbook/algorithms/array/>
+
 - matrix
 
 - list
