@@ -1,5 +1,9 @@
 # Algorithms road map
 
+## API
+
+<https://devdocs.io/javascript-array/>
+
 ## Random
 
 Get the random number.
