@@ -7,6 +7,11 @@
   - user controls
   - algorithms
 
+- EcmaScript
+
+  - Array
+  - Functions, arrow functions
+
 - multiplayer
 
   - socket.io
