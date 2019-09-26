@@ -7,10 +7,27 @@
   - user controls
   - algorithms
 
-- EcmaScript
+- understand the basics of Web
+
+  - JavaScript and ECMAScript
+  - HTML (DOM) and Browsers (BOM)
+  - CSS and presentation
+  - HTTP (Request and Response)
+
+- Be a good ECMAScript developer
 
   - Array
   - Functions, arrow functions
+  - Modules
+
+- Tooling
+
+  - VS Code
+  - NodeJS and NPM
+  - Git and version control
+  - GitHub and collaboration
+  - Code Linting (coding guideline)
+  - Test Automation
 
 - multiplayer
 
