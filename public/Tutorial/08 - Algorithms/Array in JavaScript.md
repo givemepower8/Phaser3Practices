@@ -32,6 +32,32 @@ function getRndInteger(min, max) {
 
 [Python arrays](https://knaidu.gitbooks.io/problem-solving/arrays/)
 
+### copy
+
+slice returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
+
+```js
+var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2));
+// expected output: Array ["camel", "duck", "elephant"]
+
+console.log(animals.slice(2, 4));
+// expected output: Array ["camel", "duck"]
+
+console.log(animals.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"]
+
+console.log(animals.slice(-1));
+//["elephant"]
+
+console.log(animals.slice(-3));
+//["camel", "duck", "elephant"]
+
+console.log(animals.slice(-3, -1));
+//["camel", "duck"]
+```
+
 ### Search
 
 Find the max value inside the array, input an array of integers, output is the index of first max value. i.e., for an array [7,4,3,9,1,8,0,2,5,6], should return 4 as a[4]=9
