@@ -2245,7 +2245,7 @@ Maximize the troops
 - x Minion lvl 8 Max
 - x Hog rider lvl 9 Max
 - x Valkyrie lvl 7 Max
-- Golem lvl 9 Max, now 6
+- Golem lvl 9 Max, now 7
 - x Witch lvl 5 Max
 - x Lava Hound lvl 5 Max
 - x Bowler lvl 4 Max
@@ -2254,7 +2254,7 @@ Maximize the troops
 Seige machine
 
 - x Wall wrecker 3 Max
-- Battle blimp 3 Max, now 2
+- x Battle blimp 3 Max
 - x Stone slammer 3 Max
 
 Maximize the spells
@@ -2264,11 +2264,11 @@ Maximize the spells
 - x Rage lvl 6 Max
 - x Jump lvl 3 Max
 - x Freeze lvl 7 Max
-- Clone lvl 5 Max, now 2
+- Clone lvl 5 Max, now 3
 - x Poison lvl 6 Max
 - x Earthquake lvl 5 Max
 - x Haste lvl 5 Max
-- Skeleton lvl 6 Max, now 4
+- X Skeleton lvl 6 Max
 - x Bat lvl 5 Max
 
 ### warshong
@@ -2308,7 +2308,7 @@ Maximize the troops
 - x Miner lvl 6 Max
 - x Electro Dragon lvl 3 Max
 - x Minion lvl 8 Max
-- Hog rider lvl 9 Max, now 8
+- x Hog rider lvl 9 Max
 - Valkyrie lvl 7 Max, now 6
 - Golem lvl 9 Max, now 7
 - x Witch lvl 5 Max
