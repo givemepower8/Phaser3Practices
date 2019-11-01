@@ -201,6 +201,9 @@ Weakness: low HP, vulnerable to splash damage and spells
 | 7     | 78     | 3,120 | 82  | 1,800 | 9,000,000     | 9          | 8 days        |
 | 8     | 100    | 4,000 | 92  | 2,000 | 12,000,000    | 10         | 14 days       |
 
+Yellow wall HP 8500, take 3 level 7 or 8 wall breakers.
+Blue wall HP 10000, takes 4 level 7 and 3 level 8 wall breakers.
+
 ### Balloon
 
 Unlocked at TH 4.
