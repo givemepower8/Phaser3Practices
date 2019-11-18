@@ -1,6 +1,12 @@
 # COC
 
-Wisely deploy troops to destroy opponent's defensing system and town hall. For a multiplayer battle, player gets one star by 50% more destruction, one star by destroying the town hall, three stars by 100% destruction. In a clan war, leader decides the size of players, each player has two attacks, the clan who gets more stars wins the clan war. If two clans get the same number of stars, the clan has more destruction rate wins the war. In the league war, 7 days straight and one attack per player.
+The goal of the game is to wisely and timly deploy troops to destroy opponent's defensing system and town hall.
+
+For a multiplayer battle, player gets one star by 50% more destruction, one star by destroying the town hall, three stars by 100% destruction. 
+
+In a clan war, leader decides the size of warm, 5/15/...players to attend the 2 days war. Each player has two attacks in the day, the clan who gets more stars wins the clan war. If two clans get the same number of stars, the clan has more destruction rate wins the war. It's a draw if both happened to be same. 
+
+In the league war, 8 clans have war with each other, usually 15 vs. 15 or 30 vs. 30. 7 days straight and one attack per player.
 
 ## Resources and Structures
 
@@ -44,6 +50,9 @@ From level 9, elixir can be used for the upgrade.
 ## Troops
 
 Troops are the attacking units.
+
+- Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
+- Supplementary troop (healer, wall breaker...)
 
 ### Moving speed
 
@@ -142,9 +151,9 @@ Unlocked at TH 3.
 
 Prefer defensive structures.
 
-Strength: higher HP so better distracting troop to protect the group.
+Strength: meat shield, high HP so better distracting troop to protect the attacking troop like wizards, witches and bowlers.
 
-Weakness: Slow and low attack. Giant will ignore troops while any defensive structures in range so it's vulnerable to defensing heros.
+Weakness: Slow and low DPS. Giant will ignore troops while any defensive structures in range so it's vulnerable to defensing heros.
 
 Giant is terrible at tearing down walls, must go with wizards as a meat shield for them.
 
@@ -178,7 +187,7 @@ Weakness: low HP, vulnerable to splash damage and spells.
 
 Unlocked at TH 4.
 
-It should be on your top priority list to develop.
+It should be on your top priority list to develop and it's a must have for queen charge.
 
 2 housing space, attack speed 1s, move speed: 24, range: 1 tile
 
@@ -241,7 +250,7 @@ No preferred target.
 
 Strength: Splash damage radius 0.3, over wall attack.
 
-Weakness: Fairly low HP so must go with some tanks like golem, pekka.
+Weakness: Fairly low HP so must go with some meat shield like giant, golem, or pekka.
 
 | Level | DpS | DpA   | HP  | Cost  | Research Cost | Laboratory | Research Time |
 | ----- | --- | ----- | --- | ----- | ------------- | ---------- | ------------- |
@@ -259,11 +268,9 @@ Weakness: Fairly low HP so must go with some tanks like golem, pekka.
 
 Unlocked at TH 7.
 
-Healers will heal Heroes at a reduced rate of only 55% of her normal healing rate.
-
-Healer is often used for supporting Queen.
-
 14 housing space, heal speed 0.7s, move speed: 16, range: 5 tiles
+
+Healer is often used for supporting Queen. Healers will heal Heroes at a reduced rate of only 55% of her normal healing rate.
 
 Prefer radius 2 ground troop.
 
@@ -357,7 +364,7 @@ Unlocked at TH 10.
 
 Miner takes 6 housing space, attack speed 1.7s, move speed: 32, range: 0.5 tile
 
-Strength: Can burrow under walls.
+Strength: Can burrow under walls. Moves very fast.
 
 Weakness: Vulnerable to splash damage building like bomb tower, also vulnerable to giant bomb. No preferred targets so miner only goes after the closest building.
 
@@ -380,7 +387,7 @@ Unlocked at TH 11.
 
 30 housing space, attack speed 3.5s, move speed: 12, range: 3 tiles
 
-Strength: High HP and DpS
+Strength: High HP and DpS, Chain lighting attack can hit 5 connected builds.
 
 Weakness: Slow attack speed.
 
@@ -810,9 +817,7 @@ In a nutshell, funneling is to clear the outside distracting building of the tar
 
 The path to the target needs to be planned ahead of time.
 
-Wall wrecker
-
-, wall breaker and jump spell can create the path to the targeted building. For example, wall breaker creates a path after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy condensed buildings massively.
+Wall wrecker, wall breaker and jump spell can create the path to the targeted building. For example, wall breaker creates a path after breaking the first layer of the base. Bowlers, air troops can create funnels as they can destroy condensed buildings massively.
 
 Funneling depends on the attacking strategy and opponent's base. Timing is very important.
 
@@ -1118,9 +1123,9 @@ At this stage, queen charge is mainly used to take out x-bows, CC or air defence
 
 When the healers die or get distracted, queen will have a hard time.
 
-- Put a balloon when to deploy the queen to trigger the seeking air mine.
+- Put a balloon (cocoloon) when to deploy the queen to trigger the seeking air mine.
 - Protect the healers. Make sure no other troops will take away the healers.
-- Use offensive spells around queen
+- Use offensive spells around queen, freeze, rage
 - Rage spell to increase the queen DPS also the healing speed.
 
 #### TH9 farming strategies
@@ -1154,7 +1159,7 @@ Queen charge Hog rider
 
 ### TH 10 strategies
 
-Inferno tower.
+New building: Inferno tower.
 
 New troops: miner and bowler.
 
@@ -1221,11 +1226,15 @@ Maximize the defence
 - X-Bows lvl 4 x 3, HP 3,100, DpS 95, Range 14
 - Inferno lvl 3 x 2, HP 2100, DPS 45, Range 9
 
-#### TH10 Minor
+#### TH10 Miner
+
+Miner is dominant against other TH10.
 
 #### TH10 Bowler
 
 ### TH11 strategies
+
+260 trops in total.
 
 Grand Warden joins in the village.
 
@@ -1233,9 +1242,7 @@ Grand Warden joins in the village.
 - CC castle can have donated siege machine (wall wrecker / stone slammer / battle blimp)
 - Troops (260 Camp + 35 Clan Castle)
   - CC troop 35 and 2 spell housing space
-  - Primary troop (miner, bowler, pekka, dragon loon, electro dragon ...)
-  - Supplementary troop (healer, wall breaker...)
-- Spells
+- New Spells: Bat
 
 Maximize the hero levels.
 
@@ -1395,7 +1402,13 @@ Clone spell can help if it is done right.
 
 Bat spell can help to take down one air defence.
 
+#### TH11 Witch
+
+Witch adds great support for other troops as the skeletop can absorb lots of damages for them.
+
 #### TH11 Dragon bat
+
+If the base is
 
 #### TH11 farming
 
@@ -1534,20 +1547,6 @@ The forces you have:
 - Supplementary troop, archers, wall breakers, etc.,
 - Spells 11 capacity and 2 capacity from CC
 
-Make a plan for 2 star or 3 star as it's different. 2 star focuses on taking out town hall and some trash building as long as the town hall is destroyed and 50% destruction rate is reached. 3 star is to wipe off everything.
-
-There is no one versatile strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler or air strategy to attack a very separated or distributed layout will be a disaster as bowler or air strategy works better on the compact bases. Use queen charge and divide and conquer will be more effective. Choose the most effective way by taking advantage of weakness of your opponent's base.
-
-CC troop is always in war so it adds more difficulties.
-
-Analyze the base based on your air or ground strategy. If ground, get the rough idea about the main obstacles like inferno towers, x-bows, wizard towers. If air, watch out for air sweeper and air defence. No matter what, eagle artillery has to be cleared out first.
-
-If in base layout, the opponent put town hall and all the defences in the center, it's a perfect target for bowler.
-
-Some more advance players have 3 or more main areas with inferno tower and x-bows to against 3 star, you need to plan ahead of time.
-
-No matter what, notice where is the clan castle, eagle artillery are located.
-
 #### TH12 Heros
 
 Heros usually work on some suicide missions so to clear obstacle and CC troops, or create path for main troops or protect them as meat shield.
@@ -1585,6 +1584,26 @@ Grand Warden's attack speed 1.8s, move speed 16, range 7 tile, search range 10 t
 - Level 35 Grand Warden HP 2,026 DpS 206, DpA 370.8. Eternal Tome 6.5s, Life Aura 80%.
 - Level 40 Grand Warden HP 2,240 DpS 253, DpA 455.4. Eternal Tome 7s, Life Aura 90%.
 
+#### Base analyse
+
+Make a plan for 2 star or 3 star as it's different. 2 star focuses on taking out town hall and some trash building as long as the town hall is destroyed and 50% destruction rate is reached. 3 star is to destroy everything.
+
+There is no one versatile strategy can 3 star any base. It's based on your opponent's base then choose the most effective strategy accordingly aiming for the weakness of the base. For example, use bowler or air strategy to attack a very separated or distributed layout will be a disaster as bowler or air strategy works better on the compact bases. Use queen charge and divide and conquer will be more effective. Choose the most effective way by taking advantage of weakness of your opponent's base.
+
+CC troop is always in war so it adds more difficulties.
+
+Analyze the base based on your air or ground strategy. If ground, get the rough idea about the main obstacles like inferno towers, x-bows, wizard towers. If air, watch out for air sweeper and air defence. No matter what, eagle artillery has to be cleared out first.
+
+If in base layout, the opponent put town hall and all the defences in the center, it's a perfect target for bowler.
+
+If the battle field is open, like those ring base, queen charge and ground attacked like pekkas will be great.
+
+If there are lots of small empty compartments which prevent the queen charge, use air attacks or use miner, hog riders.
+
+Some more advance players have 3 or more main areas with inferno tower and x-bows to against 3 star, you need to plan ahead of time.
+
+No matter what, notice where is the clan castle, eagle artillery are located.
+
 #### TH12 enemy defences
 
 The first priority is to take out the eagle artillery.
@@ -1602,9 +1621,11 @@ Queen can avoid one hit by using the timely cloak ability.
 
 Warden can protect the troops covered in his range by timely ability as well.
 
-Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
+The opponent's high level queen can cause headache to the attacking troops. Also high level king can kill lots of hog riders.
 
-The opponent's high level queen can cause headache to the attacking troops.
+To take down the enemy queen, you would a poison spell and a skeleton spell if there is no defensive building around her.
+
+Once eagle artillery is taken down, try to destroy multiple target inferno and x-bows as they deals with great damages to minor, hog riders, etc.
 
 Inferno tower range 9, multiple target 5, TH11 has 2 and TH12 has 3, attacking speed 0.128s
 
@@ -1612,7 +1633,7 @@ Inferno tower range 9, multiple target 5, TH11 has 2 and TH12 has 3, attacking s
 - Inferno tower level 5, HP 2700, DpS 70 when set to multiple, DpS 175 when set to single after 1.5s and DpS 1,750 after 5.25s, TH11
 - Inferno tower level 6, HP 3000, DpS 81 when set to multiple, DpS 200 when set to single after 1.5s and DpS 2,000 after 5.25s, TH12
 
-Multiple target inferno is against miner, bowler, hog rider strategy.
+Most players set inferno to muliple mode. Multiple target inferno is against miner, bowler, hog rider strategy.
 
 Single target inferno is against queen charge strategy, heroes, pekka, but a pack of hog riders, miners, bat spell or skeleton spell can take down one single target inferno easily.
 
@@ -1624,9 +1645,9 @@ X-bows x 4, range 14 in ground, range 11 in air and ground, attacking speed 0.12
 - X-bows level 5 HP 3,100, DpS 125, DpA 16, TH11
 - X-bows level 6 HP 3,500, DpS 155, DpA 19.84, TH12
 
-X-bows are headaches for their long range and very high DpS. They shoot fast so they can destroy any low hp troop very quickly.
+X-bows in ground mode are headaches for their long range and very high DpS. They shoot fast so they can destroy any low HP troop very quickly.
 
-Also they can set into air & ground mode to defeat the electro dragon strategy.
+Most players set to air & ground mode to defeat the electro dragon and other air troops.
 
 Hidden Tesla x 5, range 7
 
@@ -2046,6 +2067,7 @@ The execution of plan is like above but replaced 2 rage and 1 jump spell with 6 
 
 Try to destroy as much wizard towers as possible. Usually one or two Pekka and queen will survive and use bats to clean up.
 
+
 #### TH12 level 6 Miner / level 9 hog rider
 
 - Level 6 miner HP 870, move speed 32, DpS 120 with attacking speed 1.7s.
@@ -2147,7 +2169,7 @@ Level 7 dragon DpS 310 DpA 387.5 HP 3,600, move speed 12, housing space 20
 
 Electro dragon's lighting can hit 5 building connected, dragon can deal splash damage.
 
-#### TH12 Air strategy - Hero and lava loons
+#### TH12 Air strategy - Suicide Hero and lava loons
 
 Heros can use the suicide hero strategy or queen charge.
 
@@ -2175,6 +2197,21 @@ Home village usually protects resource storages, but in war base, those ones bec
 ## Wars
 
 <https://www.allclash.com/ultimate-clan-wars-army-setup/>
+
+5 healers and 6 wb
+3 pekka
+3 witch
+8 bowler
+1 baby dragon and 4 loons
+2 minior 1 wizard 1 archer
+3 rage 1 jump 2 freeze 1 poison
+
+5 healers
+4 pekka
+1 baby dragon and 6 loons
+7 bowler
+7 wizards
+1 rage 5 bats 3 freeze 1 poison
 
 ## Readings
 
