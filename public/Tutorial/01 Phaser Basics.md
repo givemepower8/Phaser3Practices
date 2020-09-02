@@ -37,12 +37,12 @@ var config = {
   type: Phaser.AUTO,
   width: 800,
   height: 600,
-  backgroundColor: '#2d2d2d',
+  backgroundColor: "#2d2d2d",
   scene: {
     preload: preload,
     create: create,
-    update: update
-  }
+    update: update,
+  },
 };
 
 function preload() {
@@ -60,6 +60,8 @@ var game = new Phaser.Game(config);
 ```
 
 The above game only has one scene. Ideally, scene should be an array of scenes which are taken care of by SceneManager.
+
+## Game Boot
 
 ## Resources
 
