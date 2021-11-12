@@ -73,6 +73,8 @@
 
 <http://phaser.io/phaser3/devlog/85>
 
+<https://examples.ourcade.co/phaser3-typescript>
+
 ## Boilerplate
 
 ### Boot.js

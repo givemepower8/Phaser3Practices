@@ -44,14 +44,14 @@ var grid = [
   [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
   [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
   [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-  [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
 ];
 
 // When loading from an array, make sure to specify the tileWidth and tileHeight
 var map = this.make.tilemap({
   data: grid,
   tileWidth: 32,
-  tileHeight: 32
+  tileHeight: 32,
 });
 ```
 
@@ -94,3 +94,5 @@ In phaser, we create a map instance which has the map data, and on top of it we 
 <https://www.joshmorony.com/create-a-running-platformer-game-in-phaser-with-tilemaps/>
 
 [weltmeister map](https://impactjs.com/documentation/weltmeister)
+
+<https://www.mapeditor.org/>
