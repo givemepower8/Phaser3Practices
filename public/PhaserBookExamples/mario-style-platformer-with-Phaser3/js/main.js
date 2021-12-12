@@ -80,7 +80,7 @@ function create() {
         frameRate: 10,
         repeat: -1
     });
-    // idle with only one frame, so repeat is not neaded
+    // idle with only one frame, so repeat is not needed
     this.anims.create({
         key: 'idle',
         frames: [{key: 'player', frame: 'p1_stand'}],
