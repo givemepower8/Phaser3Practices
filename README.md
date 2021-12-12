@@ -14,7 +14,7 @@ Phaser is on the jsDelivr CDN. Include the js in the html:
 
 ```html
 <head>
-  <script src="//cdn.jsdelivr.net/npm/phaser@3.17/dist/phaser.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
 </head>
 ```
 
