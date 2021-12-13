@@ -18,6 +18,8 @@ Any game objects not enabled by physics can still be controlled in events, updat
 
 [body source code](https://photonstorm.github.io/phaser3-docs/Phaser.Physics.Arcade.Body.html)
 
+## world
+
 The game has a `physics.world`, the world is responsible for creating, managing, colliding and updating all of the objects within it.
 
 In order for physics systems to work, it needs to have objects inside of the physics "world" that can collide against each other. These objects are termed "bodies." A body is something that has a certain shape like a box, circle, or complex shape made up of points and lines and exists in the world. These bodies are not visual elements and are only used by the physics system to calculate things like change in position and collisions. Since they are not visible objects, they are often associated with a visible element that will reflect the position and rotation of the physics body in a visible way on screen.
@@ -44,14 +46,14 @@ First, config the game config.
 var config = {
   // ...
   physics: {
-    default: 'arcade',
+    default: "arcade",
     arcade: {
       gravity: {
-        y: 100
+        y: 100,
       },
-      debug: true
-    }
-  }
+      debug: true,
+    },
+  },
   // ...
 };
 ```
