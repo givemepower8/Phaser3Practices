@@ -21,3 +21,9 @@ Phaser is on the jsDelivr CDN. Include the js in the html:
 ## Dev Environment
 
 It's better to have a static web development environment setup. Here webpack-web-server is used.
+
+## Resources
+
+[Official](https://phaser.io/)
+
+[Official docs](https://photonstorm.github.io/phaser3-docs/)
