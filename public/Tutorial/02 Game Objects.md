@@ -6,6 +6,8 @@ It controls the state, display and visibility, data, events, interaction / input
 
 Technically, a game object is a base class which encapsulates many reusable properties, methods and events. Sprite extends GameObject with more animation and other features.
 
+Game objects are on the scene. Game objects interact with users by keyboard or mouse or touch. They can hold their own data and behaves while the data change. And they interact with other game objects by custom events.
+
 <https://photonstorm.github.io/phaser3-docs/Phaser.GameObjects.GameObject.html>
 
 [GameObject source code](https://github.com/photonstorm/phaser/blob/v3.18.0/src/gameobjects/GameObject.js)
@@ -67,6 +69,7 @@ gameObject.setVisible(visible);
 Alpha
 
 ```js
+
 ```
 
 ## life cycle
@@ -113,7 +116,7 @@ As long as no reference to it exists within your own code it should become free 
 destroy() is computationally expensive, if you just want to temporarily disable an object then look at using the Game Object Pool instead of destroying it, as destroyed objects cannot be resurrected. use `setActive(false)` and `setVisible(false)`
 
 ```js
-const sprite = this.physics.add.sprite(x, y, 'theSprite');
+const sprite = this.physics.add.sprite(x, y, "theSprite");
 
 // Turn on wall collision checking for your sprite
 sprite.setCollideWorldBounds(true);
@@ -123,8 +126,8 @@ sprite.body.onWorldBounds = true;
 
 // 'worldbounds' event listener
 sprite.body.world.on(
-  'worldbounds',
-  function(body) {
+  "worldbounds",
+  function (body) {
     // Check if the body's game object is the sprite you are listening for
     if (body.gameObject === this) {
       // Stop physics and render updates for this object
@@ -162,11 +165,11 @@ addListener
 function create() {
   var group = this.add.group();
 
-  var image1 = this.add.image(0, 0, 'img1');
+  var image1 = this.add.image(0, 0, "img1");
 
   group.add(image1);
 
-  var image2 = this.add.image(0, 100, 'img2');
+  var image2 = this.add.image(0, 100, "img2");
 
   group.add(image2);
 
