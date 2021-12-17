@@ -1,56 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>load image</title>
     <script src="//cdn.jsdelivr.net/npm/phaser@3.7/dist/phaser.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="phaser-example"></div>
     <script>
-        // minimum setup for one scene game
-        var config = {
-            type: Phaser.AUTO,
-            parent: 'phaser-example',
-            scene: {
-                preload: preload,
-                create: create
-            }
-        };
-
-        // initialize the game with the config
-        var game = new Phaser.Game(config);
-
-        var appleSprite;
-
-        function preload() {
-            this.load.image('apple', '/assets/sprites/apple.png');
+      // minimum setup for one scene game
+      var config = {
+        type: Phaser.AUTO,
+        parent: "phaser-example",
+        scene: {
+          preload: preload,
+          create: create
         }
+      };
 
-        function create() {
+      // initialize the game with the config
+      var game = new Phaser.Game(config);
 
-            appleSprite = this.add.sprite(400, 300, 'apple');
+      var appleSprite;
 
-            this.input.on('pointerup', function (pointer) {
+      function preload() {
+        this.load.setBaseURL("http://labs.phaser.io");
+        this.load.image("apple", "/assets/sprites/apple.png");
+      }
 
-                console.log(pointer);
+      function create() {
+        appleSprite = this.add.sprite(400, 300, "apple");
 
-                this.tweens.add({
-                    targets: appleSprite,
-                    x: pointer.upX,
-                    y: pointer.upY,
-                    duration: 1000
-                });
+        this.input.on(
+          "pointerup",
+          function (pointer) {
+            console.log(pointer);
 
-                //appleSprite.x = pointer.upX;
-                //appleSprite.y = pointer.upY;
+            this.tweens.add({
+              targets: appleSprite,
+              x: pointer.upX,
+              y: pointer.upY,
+              duration: 1000
+            });
 
-            }, this);
+            //appleSprite.x = pointer.upX;
+            //appleSprite.y = pointer.upY;
+          },
+          this
+        );
 
-            //console.log(appleSprite);
-        }
+        //console.log(appleSprite);
+      }
     </script>
-</body>
-
+  </body>
 </html>
