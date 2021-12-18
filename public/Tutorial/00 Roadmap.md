@@ -75,6 +75,8 @@
 
 <https://examples.ourcade.co/phaser3-typescript>
 
+<https://rexrainbow.github.io/phaser3-rex-notes/docs/site/>
+
 ## Boilerplate
 
 ### Boot.js
