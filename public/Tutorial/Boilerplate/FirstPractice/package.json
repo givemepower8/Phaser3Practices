@@ -12,8 +12,8 @@
   "author": "Wei",
   "license": "ISC",
   "devDependencies": {
-    "phaser": "^3.19.0",
-    "webpack": "^4.39.3",
+    "phaser": "^3.55.2",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^3.8.0"
   }
 }
